@@ -1,0 +1,367 @@
+file,line,column,pattern,original_snippet,replacement_snippet
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/DEPRECATED_ERROR_SHELDON_PLACEMENT.md,112,16,TBD,y in canon) |\n| **Members** | TBD — need to create profiles |\n|,MISSING:to_be_determined
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,417,9,DOUBLE_BRACKETS,kdown\n## Rea Masaki\n\nRea is a [[Character: Artificial Human]] from [[Location: Geminar]] wh,MISSING:Character_Artificial_Human
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,417,46,DOUBLE_BRACKETS,cter: Artificial Human]] from [[Location: Geminar]] who was \nadopted by [[Charact,MISSING:Location_Geminar
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,418,11,DOUBLE_BRACKETS,Geminar]] who was \nadopted by [[Character: Kiyone Masaki]] around [[Event: 1984-1985]]. ,MISSING:Character_Kiyone_Masaki
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,418,47,DOUBLE_BRACKETS,acter: Kiyone Masaki]] around [[Event: 1984-1985]]. She now \nlives at [[Location,MISSING:Event_1984-1985
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,419,9,DOUBLE_BRACKETS,984-1985]]. She now \nlives at [[Location: Masaki Shrine]] where she helps [[Character: ,MISSING:Location_Masaki_Shrine
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,419,53,DOUBLE_BRACKETS,saki Shrine]] where she helps [[Character: Katsuhito]] \nraise [[Character: Tenchi Ma,MISSING:Character_Katsuhito
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,420,6,DOUBLE_BRACKETS,Character: Katsuhito]] \nraise [[Character: Tenchi Masaki]].\n\nHer cooking style is virtua,MISSING:Character_Tenchi_Masaki
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,422,44,DOUBLE_BRACKETS,yle is virtually identical to [[Character: Kiyone Masaki]]'s \nbecause Kiyone taught her.,MISSING:Character_Kiyone_Masaki
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,423,44,DOUBLE_BRACKETS, taught her. She has a secret [[Mission: Geminar Offspring]] \nthat [[Character: Kiyone Mas,MISSING:Mission_Geminar_Offspring
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,424,5,DOUBLE_BRACKETS,on: Geminar Offspring]] \nthat [[Character: Kiyone Masaki]] never told anyone about.\n```\n,MISSING:Character_Kiyone_Masaki
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,143,55,ANGLE, >= 14 and Rea.age_april_1989 <= 17\nassert Nobuyuki.true_age >= 100  # Juraian slow aging\nas,"<= 17
+assert Nobuyuki.true_age >"
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,145,59,ANGLE,= 10 and Sheldon.apparent_age <= 12\n\n# DEATH DATE TESTS\nassert Kiyone.death_year >= 1986 and Kiyone.death_year <,"<= 12
+
+# DEATH DATE TESTS
+assert Kiyone.death_year >"
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/AI_OPTIMIZED_BIBLE_ARCHITECTURE.md,148,55,ANGLE,">= 1986 and Kiyone.death_year <= 1987\nassert Kiyone.death_year != 1988  # COMMON ERROR\n\n# KNOWLEDGE TESTS\nassert Tenchi.knows_heritage == False\nassert Tenchi.knows_tennyo_exists == False\nassert Sheldon.meta_knowledge == False  # CRITICAL\nassert Rea.knows_heritage == True\nassert Rea.geminar_origin_known_by_others == False\n\n# HOUSEHOLD COMPOSITION\nassert len(shrine_permanent_residents) == 4  # K, T, R, S after Day 1\nassert ""Rea"" in shrine_permanent_residents  # CRITICAL - often missed\n\n# SCENE VALIDATION\ndef validate_meal_scene(scene):\n    assert ""Rea"" in scene.characters_present or scene.rea_absence_justified\n    assert scene.who_cooks == ""Rea"" or scene.cooking_exception_noted\n    return True\n```\n\n## Forbidden Word Assertions (Sheldon POV)\n\n```python\nFORBIDDEN_IN_SHELDON_POV = [\n    ""Cosmos"", ""Sailor"", ""Ryoko"", ""Washu"", ""Tsunami"", \n    ""Kagato"", ""Ayeka"", ""Sasami"", ""Jurai"", ""Royal Tree"",\n    ""Galaxy Police"", ""Phase I"", ""Phase II"", ""Phase III"",\n    ""remade"", ""Lambda""\n]\n\ndef audit_sheldon_scene(text):\n    for word in FORBIDDEN_IN_SHELDON_POV:\n        if word.lower() in text.lower():\n            raise ContinuityError(f""FORBIDDEN: '{word}' in Sheldon POV"")\n    return True\n```\n\n---\n\n# SECTION 4: RAG-STYLE QUERY TEMPLATES\n\n## The ""Evidence-Based"" Query\n\n**When searching for facts:**\n\n```\nQUERY: [Did Rea and Tenchi interact before Sheldon arrived?]\n\nFORMAT: \n- List every scene mention\n- The day/scene number\n- The specific action or dialogue\n- Verification status (Canon / Story / Inferred)\n\nOUTPUT: Table showing Scene | Context | Verification Status\n```\n\n## The Conflict Audit\n\n**When checking new content against canon:**\n\n```\nINPUT: [Paste new scene] + [Paste relevant Bible section]\n\nTASK: Audit for ""System Violations""\n- Character presence errors (is Rea missing?)\n- Knowledge boundary violations (does Sheldon know something he shouldn't?)\n- Timeline inconsistencies (is the date/time correct?)\n- Household composition errors (wrong number of people?)\n\nOUTPUT: Pass/Fail with specific violations listed\n```\n\n## The Character Voice Consistency Test\n\n```\nINPUT: [Paste 3 sample dialogues from existing scenes] + [Paste new dialogue]\n\nANALYSIS:\n- Sentence length comparison\n- Vocabulary level match\n- Age-appropriate speech (Tenchi is 4, speaks simply)\n- Honorific usage (Japanese formality)\n\nGRADE: 1-10 consistency score with specific notes\n```\n\n---\n\n# SECTION 5: RIPPLE EFFECT TEMPLATES\n\n## The Cascade Tracker\n\nWhen ANY fact changes, trace the ripple:\n\n```\nCHANGE: Kiyone's death date moved from 1988 to 1986-1987\n\nRIPPLE ANALYSIS:\n\n1. IMMEDIATE EFFECTS:\n   - Tennyo left Earth 1-2 years earlier\n   - Tenchi's grief period is longer\n   - Rea has been helping raise Tenchi longer\n   \n2. DOCUMENT UPDATES REQUIRED:\n   - Tenchi_Masaki.md (death date reference)\n   - Nobuyuki_Masaki.md (death date reference)\n   - Rea_Masaki.md (timeline)\n   - Complete_Family_Trees.md (death date)\n   - Year_By_Year_Complete.md (context)\n   - All Day files (grief references)\n   \n3. EMOTIONAL CONSEQUENCES:\n   - Tenchi (age 4) has dimmer memories of mother\n   - Nobuyuki has had longer to process grief\n   - Household routines more established\n   \n4. VERIFICATION:\n   - Check all documents in DEPENDENCY_MATRIX\n   - Run V1 pass on updated docs\n   - Confirm no contradictions remain\n```\n\n## The ""Bad Faith Reader"" Stress Test\n\n```\nPROMPT: Act as a hostile reader trying to break continuity.\n\nTARGET: [Day 1 dinner scene]\n\nATTACKS:\n1. ""Why is there no teenage girl at dinner if Rea lives here?""\n2. ""Who cooked? You say Katsuhito but Rea is the cook.""\n3. ""3 people eating but you said 4 live here?""\n4. ""Where's Nobuyuki? Oh right, weekday. Did you establish that?""\n\nDEFENSE REQUIRED: Answer each attack with canon/story justification\n```\n\n---\n\n# SECTION 6: ENTITY RELATIONSHIP MAP\n\n## Core Entities (UID System)\n\n```\nCHARACTERS:\n  CHAR-KATSUHITO-001: Katsuhito Masaki (Yosho)\n  CHAR-TENCHI-001: Tenchi Masaki\n  CHAR-REA-001: Rea Masaki\n  CHAR-SHELDON-001: Sheldon Tsukino\n  CHAR-NOBUYUKI-001: Nobuyuki Masaki\n  CHAR-TENNYO-001: Tennyo Masaki\n  CHAR-KIYONE-001: Kiyone Masaki (DECEASED)\n  CHAR-SEINA-001: Seina Yamada\n  CHAR-KAI-001: Kai Masaki\n  CHAR-KIRIKO-001: Kiriko Masaki\n\nLOCATIONS:\n  LOC-SHRINE-001: Masaki Shrine Complex\n  LOC-TSUKINO-001: Tsukino House\n  LOC-VILLAGE-001: Masaki Village\n  LOC-KURASHIKI-001: Nobuyuki's City Residence\n  LOC-CAVE-001: Ryoko's Sealed Cave\n\nEVENTS:\n  EVT-ARRIVAL-001: Sheldon's Manifestation (Day 1)\n  EVT-BIRTHDAY-001: Tenchi's 5th Birthday (Day 22)\n  EVT-RELEASE-001: Ryoko's Release (Year 13)\n```\n\n## Relationship Notation\n\n```\nCHAR-TENCHI-001 --[grandson_of]--> CHAR-KATSUHITO-001\nCHAR-TENCH","<= 1987
+assert Kiyone.death_year != 1988  # COMMON ERROR
+
+# KNOWLEDGE TESTS
+assert Tenchi.knows_heritage == False
+assert Tenchi.knows_tennyo_exists == False
+assert Sheldon.meta_knowledge == False  # CRITICAL
+assert Rea.knows_heritage == True
+assert Rea.geminar_origin_known_by_others == False
+
+# HOUSEHOLD COMPOSITION
+assert len(shrine_permanent_residents) == 4  # K, T, R, S after Day 1
+assert ""Rea"" in shrine_permanent_residents  # CRITICAL - often missed
+
+# SCENE VALIDATION
+def validate_meal_scene(scene):
+    assert ""Rea"" in scene.characters_present or scene.rea_absence_justified
+    assert scene.who_cooks == ""Rea"" or scene.cooking_exception_noted
+    return True
+```
+
+## Forbidden Word Assertions (Sheldon POV)
+
+```python
+FORBIDDEN_IN_SHELDON_POV = [
+    ""Cosmos"", ""Sailor"", ""Ryoko"", ""Washu"", ""Tsunami"", 
+    ""Kagato"", ""Ayeka"", ""Sasami"", ""Jurai"", ""Royal Tree"",
+    ""Galaxy Police"", ""Phase I"", ""Phase II"", ""Phase III"",
+    ""remade"", ""Lambda""
+]
+
+def audit_sheldon_scene(text):
+    for word in FORBIDDEN_IN_SHELDON_POV:
+        if word.lower() in text.lower():
+            raise ContinuityError(f""FORBIDDEN: '{word}' in Sheldon POV"")
+    return True
+```
+
+---
+
+# SECTION 4: RAG-STYLE QUERY TEMPLATES
+
+## The ""Evidence-Based"" Query
+
+**When searching for facts:**
+
+```
+QUERY: [Did Rea and Tenchi interact before Sheldon arrived?]
+
+FORMAT: 
+- List every scene mention
+- The day/scene number
+- The specific action or dialogue
+- Verification status (Canon / Story / Inferred)
+
+OUTPUT: Table showing Scene | Context | Verification Status
+```
+
+## The Conflict Audit
+
+**When checking new content against canon:**
+
+```
+INPUT: [Paste new scene] + [Paste relevant Bible section]
+
+TASK: Audit for ""System Violations""
+- Character presence errors (is Rea missing?)
+- Knowledge boundary violations (does Sheldon know something he shouldn't?)
+- Timeline inconsistencies (is the date/time correct?)
+- Household composition errors (wrong number of people?)
+
+OUTPUT: Pass/Fail with specific violations listed
+```
+
+## The Character Voice Consistency Test
+
+```
+INPUT: [Paste 3 sample dialogues from existing scenes] + [Paste new dialogue]
+
+ANALYSIS:
+- Sentence length comparison
+- Vocabulary level match
+- Age-appropriate speech (Tenchi is 4, speaks simply)
+- Honorific usage (Japanese formality)
+
+GRADE: 1-10 consistency score with specific notes
+```
+
+---
+
+# SECTION 5: RIPPLE EFFECT TEMPLATES
+
+## The Cascade Tracker
+
+When ANY fact changes, trace the ripple:
+
+```
+CHANGE: Kiyone's death date moved from 1988 to 1986-1987
+
+RIPPLE ANALYSIS:
+
+1. IMMEDIATE EFFECTS:
+   - Tennyo left Earth 1-2 years earlier
+   - Tenchi's grief period is longer
+   - Rea has been helping raise Tenchi longer
+   
+2. DOCUMENT UPDATES REQUIRED:
+   - Tenchi_Masaki.md (death date reference)
+   - Nobuyuki_Masaki.md (death date reference)
+   - Rea_Masaki.md (timeline)
+   - Complete_Family_Trees.md (death date)
+   - Year_By_Year_Complete.md (context)
+   - All Day files (grief references)
+   
+3. EMOTIONAL CONSEQUENCES:
+   - Tenchi (age 4) has dimmer memories of mother
+   - Nobuyuki has had longer to process grief
+   - Household routines more established
+   
+4. VERIFICATION:
+   - Check all documents in DEPENDENCY_MATRIX
+   - Run V1 pass on updated docs
+   - Confirm no contradictions remain
+```
+
+## The ""Bad Faith Reader"" Stress Test
+
+```
+PROMPT: Act as a hostile reader trying to break continuity.
+
+TARGET: [Day 1 dinner scene]
+
+ATTACKS:
+1. ""Why is there no teenage girl at dinner if Rea lives here?""
+2. ""Who cooked? You say Katsuhito but Rea is the cook.""
+3. ""3 people eating but you said 4 live here?""
+4. ""Where's Nobuyuki? Oh right, weekday. Did you establish that?""
+
+DEFENSE REQUIRED: Answer each attack with canon/story justification
+```
+
+---
+
+# SECTION 6: ENTITY RELATIONSHIP MAP
+
+## Core Entities (UID System)
+
+```
+CHARACTERS:
+  CHAR-KATSUHITO-001: Katsuhito Masaki (Yosho)
+  CHAR-TENCHI-001: Tenchi Masaki
+  CHAR-REA-001: Rea Masaki
+  CHAR-SHELDON-001: Sheldon Tsukino
+  CHAR-NOBUYUKI-001: Nobuyuki Masaki
+  CHAR-TENNYO-001: Tennyo Masaki
+  CHAR-KIYONE-001: Kiyone Masaki (DECEASED)
+  CHAR-SEINA-001: Seina Yamada
+  CHAR-KAI-001: Kai Masaki
+  CHAR-KIRIKO-001: Kiriko Masaki
+
+LOCATIONS:
+  LOC-SHRINE-001: Masaki Shrine Complex
+  LOC-TSUKINO-001: Tsukino House
+  LOC-VILLAGE-001: Masaki Village
+  LOC-KURASHIKI-001: Nobuyuki's City Residence
+  LOC-CAVE-001: Ryoko's Sealed Cave
+
+EVENTS:
+  EVT-ARRIVAL-001: Sheldon's Manifestation (Day 1)
+  EVT-BIRTHDAY-001: Tenchi's 5th Birthday (Day 22)
+  EVT-RELEASE-001: Ryoko's Release (Year 13)
+```
+
+## Relationship Notation
+
+```
+CHAR-TENCHI-001 --[grandson_of]-->"
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/VERIFICATION_FRAMEWORK_v1.md,134,10,QUESTION_MARKS,fter Kiyone died) |\n| Airi | ~??? | Galaxy Academy | Full | OFF,?
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/VERIFICATION_FRAMEWORK_v1.md,135,12,QUESTION_MARKS,ull | OFF-WORLD |\n| Minaho | ~??? | GP Space | Full | OFF-WORLD,?
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/PROTOCOLS/MASTER_PROTOCOL_SUITE_v1.md,578,0,ANGLE,TAGGING\n```\n[PHYSICAL WALLS]\n\n<lore_source>\n[Verified notes only]\n</lore_,MISSING:lore_source
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/PROTOCOLS/MASTER_PROTOCOL_SUITE_v1.md,580,0,ANGLE,source>\n[Verified notes only]\n</lore_source>\n\n<task_instructions>\n[Specifi,</lore_source>
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/PROTOCOLS/MASTER_PROTOCOL_SUITE_v1.md,582,0,ANGLE,d notes only]\n</lore_source>\n\n<task_instructions>\n[Specific task with constrain,MISSING:task_instructions
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/PROTOCOLS/MASTER_PROTOCOL_SUITE_v1.md,584,0,ANGLE,ecific task with constraints]\n</task_instructions>\n\n<draft>\n[Content being evalu,</task_instructions>
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/PROTOCOLS/MASTER_PROTOCOL_SUITE_v1.md,586,0,ANGLE,raints]\n</task_instructions>\n\n<draft>\n[Content being evaluated]\n</d,MISSING:draft
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/01_CODEX_v4.1/PROTOCOLS/MASTER_PROTOCOL_SUITE_v1.md,588,0,ANGLE,ft>\n[Content being evaluated]\n</draft>\n\nAI cannot easily ignore XML ,</draft>
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/05_RELATIONSHIPS_AND_FORESHADOWING/Family_Trees/Complete_Family_Trees.md,55,6,QUESTION_MARKS, generations)\n        │\n      ??? ═══ ???\n        │\n   NOBUYUKI,?
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/05_RELATIONSHIPS_AND_FORESHADOWING/Family_Trees/Complete_Family_Trees.md,55,14,QUESTION_MARKS,ions)\n        │\n      ??? ═══ ???\n        │\n   NOBUYUKI ══════ ,?
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/02_CANON_CORE/CHAPTER_1_MASTER_REMEDIATION_PLAN.md,180,6,ANGLE,"\n### Prose Requirements\n- [ ] < 0.1% filter words\n- [ ] No repetitive starters (> 3x per 2,000 words)\n- [ ] Par","< 0.1% filter words
+- [ ] No repetitive starters (>"
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/02_CANON_CORE/Son_of_Cosmos_Master_Complete_Corrected.md,164,9,TBD,don (Protagonist)**\n\n-   Age: TBD\n-   Background: Placeholder\n-,MISSING:to_be_determined
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/02_CANON_CORE/Son_of_Cosmos_Master_Complete_Corrected.md,2824,20,TBD,- Oldest\n\n**Possible Names:** TBD (blend of Jurai + Earth + Cos,MISSING:to_be_determined
+/mnt/data/BIBLE_v14_COMPLETE/BIBLE_v14/02_CANON_CORE/CHAPTER_1_GAP_ANALYSIS_REPORT.md,42,29,ANGLE,"\n**Files With Minimal Detail (<100 lines):** 11 of 29 (38%)\n| Day | Lines | Gap from Standard |\n|-----|-------|-------------------|\n| 016 | 53 | -349 lines (87% deficit) |\n| 009 | 60 | -342 lines (85% deficit) |\n| 012 | 61 | -341 lines (85% deficit) |\n| 017 | 64 | -338 lines (84% deficit) |\n| 011 | 65 | -337 lines (84% deficit) |\n| 015 | 73 | -329 lines (82% deficit) |\n| 008 | 75 | -327 lines (81% deficit) |\n| 010 | 76 | -326 lines (81% deficit) |\n| 013 | 79 | -323 lines (80% deficit) |\n| 019 | 81 | -321 lines (80% deficit) |\n| 020 | 87 | -315 lines (78% deficit) |\n\n### Missing Elements in Low-Detail Files\n\n**Day 16 (53 lines) is missing:**\n- ❌ Pre-story character positions (00:00-05:41)\n- ❌ Hour-by-hour tracking grid\n- ❌ Scene registry with time ranges\n- ❌ Minute-by-minute breakdowns\n- ❌ Sensory details for each location\n- ❌ Dialogue logs\n- ❌ Character position tracking at scene boundaries\n- ❌ Physical state tracking\n- ❌ Knowledge state changes\n- ❌ Weather details beyond ""Clear""\n- ❌ Evening activities (15:00-21:30)\n- ❌ Dinner scene\n- ❌ Bedtime routine\n- ❌ Seeds/Threads updated\n\n---\n\n## PART II: TEMPORAL COVERAGE GAPS\n\n### Chapter 1 Calendar Reality\n\n**Chapter 1 = April 1989**\n- Story starts: April 3, 1989 (Day 1)\n- Story ends (Chapter 1): April 30, 1989 OR May 1, 1989\n\n**Current Coverage:** Days 1-29 (April 3 - May 1)\n**Total Hours in 29 Days:** 696 hours\n\n### Scene Coverage Analysis\n\n| Day | Documented Hours | Undocumented Hours | Coverage |\n|-----|-----------------|-------------------|----------|\n| 1 | 6.75 hrs (14:47-21:30) | Pre-story (justified) | ✅ |\n| 2 | ~10 hrs | ~6 hrs gap | 62% |\n| 3 | ~8 hrs | ~8 hrs gap | 50% |\n| 4-7 | ~8-10 hrs each | ~6-8 hrs each | 55-65% |\n| 8-13 | Minimal detail | Cannot determine | ❓ |\n| 14 | ~10 hrs | ~6 hrs gap | 62% |\n| 15-21 | Minimal detail | Cannot determine | ❓ |\n| 22 | ~16 hrs | ~0 hrs | ✅ |\n| 23-29 | ~12 hrs each | ~4 hrs each | 75% |\n\n### Example: Day 16 Temporal Gaps\n\n**From Narrative File (day_16_narrative.md):**\n- Scene 16.1: 05:41-06:35\n- Scene 16.12: 18:20-18:39 (ENDS HERE)\n- Listed Sleep Time: 21:30\n\n**UNDOCUMENTED TIME:**\n- 18:39 → 21:30 = **2 hours 51 minutes** of evening activity missing\n- No dinner scene (should be ~18:30-19:30)\n- No evening family time (should be ~19:30-21:00)\n- No bedtime routine (should be ~21:00-21:30)\n\n---\n\n## PART III: NARRATIVE-COMPREHENSIVE FILE CONTRADICTIONS\n\n### Day 16 Case Study\n\n**Comprehensive File (day_016_comprehensive.md) says:**\n- ""Repair Project (09:00-15:00)"" - Sheldon learns carpentry\n\n**Narrative File (day_16_narrative.md) says:**\n- NO mention of repair project\n- NO mention of carpentry\n- Different events entirely\n\n**VERDICT:** These files describe DIFFERENT days. One or both are wrong.\n\n### Pattern Across Days\n\n| Day | Comprehensive Key Event | Narrative Key Event | Match |\n|-----|------------------------|---------------------|-------|\n| 4 | Cooking Debut | Cooking mentioned | ✅ |\n| 5 | Village Visit (320 steps) | Village mentioned | ✅ |\n| 6 | Cave Mention | Cave mentioned | ✅ |\n| 14 | Nobuyuki Visit | Nobuyuki mentioned | ✅ |\n| 16 | Shrine Repairs | NO repairs | ❌ CONFLICT |\n| 18 | Kiyone Revelation | Needs verification | ❓ |\n\n---\n\n## PART IV: CONTENT QUALITY ISSUES\n\n### Placeholder Template Text\n\n**8 of 12 scenes in Day 16 narrative use identical template:**\n\n```\n""The day continued with [ACTIVITY], a rhythm that was becoming increasingly \nfamiliar. Sheldon moved through the tasks with growing confidence, each \naction building on the foundation of days past.\n\nCharacters present: [NAMES].\n\nThe [LOCATION] provided the backdrop for these moments, its details now \nas familiar as they had once been strange. \n\nTime passed in the way time does—measured in small accomplishments...""\n```\n\n**Scenes Using This Template:**\n- Scene 16.2 (06:35-08:13)\n- Scene 16.3 (08:13-09:19)\n- Scene 16.5 (10:32-13:12)\n- Scene 16.6 (13:12-14:01)\n- Scene 16.7 (14:01-14:28)\n- Scene 16.8 (14:28-15:39)\n- Scene 16.10 (16:53-17:09)\n- Scene 16.12 (18:20-18:39)\n\n**THIS IS NOT NARRATIVE PROSE - IT IS PLACEHOLDER CONTENT**\n\n### Duplicate Content\n\n**Scenes 16.9 and 16.10 contain IDENTICAL text** (the rock collecting conversation).\n\n### Hallucinated Character\n\n**Scene 16.11 references ""Itsuki"":**\n> ""You're holding the knife wro","<100 lines):** 11 of 29 (38%)
+| Day | Lines | Gap from Standard |
+|-----|-------|-------------------|
+| 016 | 53 | -349 lines (87% deficit) |
+| 009 | 60 | -342 lines (85% deficit) |
+| 012 | 61 | -341 lines (85% deficit) |
+| 017 | 64 | -338 lines (84% deficit) |
+| 011 | 65 | -337 lines (84% deficit) |
+| 015 | 73 | -329 lines (82% deficit) |
+| 008 | 75 | -327 lines (81% deficit) |
+| 010 | 76 | -326 lines (81% deficit) |
+| 013 | 79 | -323 lines (80% deficit) |
+| 019 | 81 | -321 lines (80% deficit) |
+| 020 | 87 | -315 lines (78% deficit) |
+
+### Missing Elements in Low-Detail Files
+
+**Day 16 (53 lines) is missing:**
+- ❌ Pre-story character positions (00:00-05:41)
+- ❌ Hour-by-hour tracking grid
+- ❌ Scene registry with time ranges
+- ❌ Minute-by-minute breakdowns
+- ❌ Sensory details for each location
+- ❌ Dialogue logs
+- ❌ Character position tracking at scene boundaries
+- ❌ Physical state tracking
+- ❌ Knowledge state changes
+- ❌ Weather details beyond ""Clear""
+- ❌ Evening activities (15:00-21:30)
+- ❌ Dinner scene
+- ❌ Bedtime routine
+- ❌ Seeds/Threads updated
+
+---
+
+## PART II: TEMPORAL COVERAGE GAPS
+
+### Chapter 1 Calendar Reality
+
+**Chapter 1 = April 1989**
+- Story starts: April 3, 1989 (Day 1)
+- Story ends (Chapter 1): April 30, 1989 OR May 1, 1989
+
+**Current Coverage:** Days 1-29 (April 3 - May 1)
+**Total Hours in 29 Days:** 696 hours
+
+### Scene Coverage Analysis
+
+| Day | Documented Hours | Undocumented Hours | Coverage |
+|-----|-----------------|-------------------|----------|
+| 1 | 6.75 hrs (14:47-21:30) | Pre-story (justified) | ✅ |
+| 2 | ~10 hrs | ~6 hrs gap | 62% |
+| 3 | ~8 hrs | ~8 hrs gap | 50% |
+| 4-7 | ~8-10 hrs each | ~6-8 hrs each | 55-65% |
+| 8-13 | Minimal detail | Cannot determine | ❓ |
+| 14 | ~10 hrs | ~6 hrs gap | 62% |
+| 15-21 | Minimal detail | Cannot determine | ❓ |
+| 22 | ~16 hrs | ~0 hrs | ✅ |
+| 23-29 | ~12 hrs each | ~4 hrs each | 75% |
+
+### Example: Day 16 Temporal Gaps
+
+**From Narrative File (day_16_narrative.md):**
+- Scene 16.1: 05:41-06:35
+- Scene 16.12: 18:20-18:39 (ENDS HERE)
+- Listed Sleep Time: 21:30
+
+**UNDOCUMENTED TIME:**
+- 18:39 → 21:30 = **2 hours 51 minutes** of evening activity missing
+- No dinner scene (should be ~18:30-19:30)
+- No evening family time (should be ~19:30-21:00)
+- No bedtime routine (should be ~21:00-21:30)
+
+---
+
+## PART III: NARRATIVE-COMPREHENSIVE FILE CONTRADICTIONS
+
+### Day 16 Case Study
+
+**Comprehensive File (day_016_comprehensive.md) says:**
+- ""Repair Project (09:00-15:00)"" - Sheldon learns carpentry
+
+**Narrative File (day_16_narrative.md) says:**
+- NO mention of repair project
+- NO mention of carpentry
+- Different events entirely
+
+**VERDICT:** These files describe DIFFERENT days. One or both are wrong.
+
+### Pattern Across Days
+
+| Day | Comprehensive Key Event | Narrative Key Event | Match |
+|-----|------------------------|---------------------|-------|
+| 4 | Cooking Debut | Cooking mentioned | ✅ |
+| 5 | Village Visit (320 steps) | Village mentioned | ✅ |
+| 6 | Cave Mention | Cave mentioned | ✅ |
+| 14 | Nobuyuki Visit | Nobuyuki mentioned | ✅ |
+| 16 | Shrine Repairs | NO repairs | ❌ CONFLICT |
+| 18 | Kiyone Revelation | Needs verification | ❓ |
+
+---
+
+## PART IV: CONTENT QUALITY ISSUES
+
+### Placeholder Template Text
+
+**8 of 12 scenes in Day 16 narrative use identical template:**
+
+```
+""The day continued with [ACTIVITY], a rhythm that was becoming increasingly 
+familiar. Sheldon moved through the tasks with growing confidence, each 
+action building on the foundation of days past.
+
+Characters present: [NAMES].
+
+The [LOCATION] provided the backdrop for these moments, its details now 
+as familiar as they had once been strange. 
+
+Time passed in the way time does—measured in small accomplishments...""
+```
+
+**Scenes Using This Template:**
+- Scene 16.2 (06:35-08:13)
+- Scene 16.3 (08:13-09:19)
+- Scene 16.5 (10:32-13:12)
+- Scene 16.6 (13:12-14:01)
+- Scene 16.7 (14:01-14:28)
+- Scene 16.8 (14:28-15:39)
+- Scene 16.10 (16:53-17:09)
+- Scene 16.12 (18:20-18:39)
+
+**THIS IS NOT NARRATIVE PROSE - IT IS PLACEHOLDER CONTENT**
+
+### Duplicate Content
+
+**Scenes 16.9 and 16.10 contain IDENTICAL text** (the rock collecting conversation).
+
+### Hallucinated Character
+
+**Scene 16.11 references ""Itsuki"":**
+>"
+/mnt/data/BIBLE_v14_COMPLETE/STRESS_TEST/OVERLOOKED_PROTOCOLS.md,283,0,ANGLE,t not systematically) ⚠️\n\n```\n<lore_source> \n[Insert verified notes here],MISSING:lore_source
+/mnt/data/BIBLE_v14_COMPLETE/STRESS_TEST/OVERLOOKED_PROTOCOLS.md,285,0,ANGLE,[Insert verified notes here] \n</lore_source>\n\n<task_instructions>\nCompare ,</lore_source>
+/mnt/data/BIBLE_v14_COMPLETE/STRESS_TEST/OVERLOOKED_PROTOCOLS.md,287,0,ANGLE, notes here] \n</lore_source>\n\n<task_instructions>\nCompare the scene in <draft_v,MISSING:task_instructions
+/mnt/data/BIBLE_v14_COMPLETE/STRESS_TEST/OVERLOOKED_PROTOCOLS.md,288,21,ANGLE,uctions>\nCompare the scene in <draft_v2> against the facts in <lore_so,MISSING:draft_v2
+/mnt/data/BIBLE_v14_COMPLETE/STRESS_TEST/OVERLOOKED_PROTOCOLS.md,288,53,ANGLE,raft_v2> against the facts in <lore_source>.\nFlag any contradictions.\nDo ,MISSING:lore_source
+/mnt/data/BIBLE_v14_COMPLETE/STRESS_TEST/OVERLOOKED_PROTOCOLS.md,291,0,ANGLE,ovide the discrepancy report.\n</task_instructions>\n```\n\n**Why Needed:** XML tags,</task_instructions>
+/mnt/data/BIBLE_v14_COMPLETE/STRESS_TEST/TOOL_EXECUTION_RESULTS.md,163,55,ANGLE," >= 14 and Rea.age_april_1989 <= 17  # ⚠️ NOT EXPLICIT in scenes\nassert Sheldon.apparent_age == 30  # ✅ PASS - ""~30"" mentioned\n\n# DEATH DATE TESTS\nassert Kiyone.death_year >= 1986 and Kiyone.death_year <","<= 17  # ⚠️ NOT EXPLICIT in scenes
+assert Sheldon.apparent_age == 30  # ✅ PASS - ""~30"" mentioned
+
+# DEATH DATE TESTS
+assert Kiyone.death_year >"
+/mnt/data/pasted.txt,429,0,ANGLE, the AI cannot easily ignore.\n<lore_source> [Insert your verified notes h,MISSING:lore_source
+/mnt/data/pasted.txt,429,48,ANGLE,ert your verified notes here] </lore_source>\n<task_instructions>\nCompare t,</lore_source>
+/mnt/data/pasted.txt,430,0,ANGLE,ed notes here] </lore_source>\n<task_instructions>\nCompare the scene in <draft_v,MISSING:task_instructions
+/mnt/data/pasted.txt,431,21,ANGLE,uctions>\nCompare the scene in <draft_v2> against the facts in <lore_so,MISSING:draft_v2
+/mnt/data/pasted.txt,431,53,ANGLE,raft_v2> against the facts in <lore_source>.\nFlag any contradictions.\nDo ,MISSING:lore_source
+/mnt/data/pasted.txt,434,0,ANGLE,"ovide the discrepancy report.\n</task_instructions>\n4. The ""Step-by-Step"" Executi",</task_instructions>
