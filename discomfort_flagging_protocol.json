@@ -1,0 +1,13 @@
+{
+  "description": "Identifies emotionally difficult scenes for the writer that may need review.",
+  "objectives": [
+    "Track writer hesitation/conflict signals",
+    "Tag scenes for emotional load",
+    "Schedule re-evaluation post-cooldown"
+  ],
+  "qa_checklist": [
+    "Discomfort triggers logged",
+    "Review scheduled",
+    "Emotional quality stabilized"
+  ]
+}

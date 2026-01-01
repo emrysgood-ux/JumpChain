@@ -1,0 +1,13 @@
+{
+  "description": "Captures writer intent per arc/scene to maintain vision during revision.",
+  "objectives": [
+    "Log motivation and goals per narrative unit",
+    "Embed 'why this matters' notes",
+    "Enable revision-time reflection"
+  ],
+  "qa_checklist": [
+    "Intent metadata present",
+    "Vision preserved through edits",
+    "Scene purpose traceable"
+  ]
+}

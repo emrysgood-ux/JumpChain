@@ -1,0 +1,13 @@
+{
+  "description": "Ensures realistic, character-specific, and stylistically appropriate dialogue.",
+  "objectives": [
+    "Differentiate character speech patterns",
+    "Monitor exposition levels",
+    "Enforce rhythm through pause beats"
+  ],
+  "qa_checklist": [
+    "No identical voice patterns",
+    "Balanced info delivery",
+    "Scene rhythm intact"
+  ]
+}

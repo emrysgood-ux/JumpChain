@@ -1,0 +1,13 @@
+{
+  "description": "Maintains consistent or intentionally evolving emotional tone.",
+  "objectives": [
+    "Track tonal shifts across chapters",
+    "Auto-flag sudden mood jumps",
+    "Ensure tone supports genre blend"
+  ],
+  "qa_checklist": [
+    "No unintentional tone jumps",
+    "Tonal shifts contextual",
+    "Genre blend stabilized"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Ensures every scene reinforces core story themes directly or subtextually.",
+  "objectives": [
+    "Tag scenes with dominant/subtext themes",
+    "Auto-check for thematic drift",
+    "Use semantic matching to flag off-theme content"
+  ],
+  "qa_checklist": [
+    "Themes matched",
+    "No thematic voids",
+    "Subtext aligned with core motifs"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Tracks and enforces character and narrative voice consistency across a story.",
+  "objectives": [
+    "Map syntax, tone, and idiomatic style per POV",
+    "Auto-flag inconsistent phrasing",
+    "Maintain narration alignment across timelines"
+  ],
+  "qa_checklist": [
+    "Voice drift flagged",
+    "Syntax matches character identity",
+    "No cross-contamination of tone"
+  ]
+}

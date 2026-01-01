@@ -1,0 +1,13 @@
+{
+  "description": "Models and tracks truth disruptions in narratives with unreliable elements.",
+  "objectives": [
+    "Map introduction, challenge, and collapse of truth",
+    "Prevent early tension resolution",
+    "Force information asymmetry"
+  ],
+  "qa_checklist": [
+    "No premature reveals",
+    "Narrative ambiguity sustained",
+    "Contradictions intentional"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Manages the evolution and consistency of symbols, metaphors, and motifs.",
+  "objectives": [
+    "Track introduction and resolution of recurring images",
+    "Ensure metaphors evolve alongside themes",
+    "Map motifs to scene transitions"
+  ],
+  "qa_checklist": [
+    "No dead symbols",
+    "Symbol mirrors present",
+    "Theme-symbol alignment confirmed"
+  ]
+}
