@@ -288,7 +288,7 @@ CREATE TABLE IF NOT EXISTS calendar_systems (
 
 CREATE INDEX IF NOT EXISTS idx_calendars_project ON calendar_systems(project_id);
 -- Fixed: Bug #28 - Only one default per project
-CREATE UNIQUE INDEX idx_calendar_default ON calendar_systems(project_id) WHERE is_default = 1;
+CREATE UNIQUE INDEX IF NOT EXISTS idx_calendar_default ON calendar_systems(project_id) WHERE is_default = 1;
 
 -- Calendar Months
 CREATE TABLE IF NOT EXISTS calendar_months (
