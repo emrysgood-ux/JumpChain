@@ -582,13 +582,13 @@ const unfulfilledPromiseRule: ConsistencyRule = {
 
     const promiseFacts = context.facts.filter(f =>
       f.category === 'promise' as ViolationCategory ||
-      f.tags.includes('foreshadowing') ||
-      f.tags.includes('setup')
+      (f.tags && f.tags.includes('foreshadowing')) ||
+      (f.tags && f.tags.includes('setup'))
     );
 
     const payoffFacts = context.facts.filter(f =>
-      f.tags.includes('payoff') ||
-      f.tags.includes('fulfillment')
+      (f.tags && f.tags.includes('payoff')) ||
+      (f.tags && f.tags.includes('fulfillment'))
     );
 
     for (const promise of promiseFacts) {

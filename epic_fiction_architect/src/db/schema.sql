@@ -27,8 +27,8 @@ CREATE TABLE IF NOT EXISTS projects (
     deleted_at TEXT                            -- Fixed: Bug #35 - Soft delete support
 );
 
-CREATE INDEX idx_projects_updated ON projects(updated_at DESC);
-CREATE INDEX idx_projects_not_deleted ON projects(id) WHERE deleted_at IS NULL;
+CREATE INDEX IF NOT EXISTS idx_projects_updated ON projects(updated_at DESC);
+CREATE INDEX IF NOT EXISTS idx_projects_not_deleted ON projects(id) WHERE deleted_at IS NULL;
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 2: STORY ELEMENTS
@@ -54,10 +54,10 @@ CREATE TABLE IF NOT EXISTS story_elements (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_elements_project ON story_elements(project_id);
-CREATE INDEX idx_elements_type ON story_elements(project_id, type);
-CREATE INDEX idx_elements_name ON story_elements(name);  -- Fixed: Bug #31
-CREATE INDEX idx_elements_not_deleted ON story_elements(id) WHERE deleted_at IS NULL;
+CREATE INDEX IF NOT EXISTS idx_elements_project ON story_elements(project_id);
+CREATE INDEX IF NOT EXISTS idx_elements_type ON story_elements(project_id, type);
+CREATE INDEX IF NOT EXISTS idx_elements_name ON story_elements(name);  -- Fixed: Bug #31
+CREATE INDEX IF NOT EXISTS idx_elements_not_deleted ON story_elements(id) WHERE deleted_at IS NULL;
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 3: CHARACTERS
@@ -91,8 +91,8 @@ CREATE TABLE IF NOT EXISTS characters (
     FOREIGN KEY (birth_location_id) REFERENCES story_elements(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_characters_species ON characters(species_id);
-CREATE INDEX idx_characters_role ON characters(role);
+CREATE INDEX IF NOT EXISTS idx_characters_species ON characters(species_id);
+CREATE INDEX IF NOT EXISTS idx_characters_role ON characters(role);
 
 -- Character Arc Phases
 CREATE TABLE IF NOT EXISTS arc_phases (
@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS arc_phases (
     FOREIGN KEY (end_event_id) REFERENCES timeline_events(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_arc_phases_character ON arc_phases(character_id);
+CREATE INDEX IF NOT EXISTS idx_arc_phases_character ON arc_phases(character_id);
 
 -- Character States (temporal)
 CREATE TABLE IF NOT EXISTS character_states (
@@ -128,7 +128,7 @@ CREATE TABLE IF NOT EXISTS character_states (
     FOREIGN KEY (location_id) REFERENCES story_elements(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_character_states_char ON character_states(character_id);
+CREATE INDEX IF NOT EXISTS idx_character_states_char ON character_states(character_id);
 
 -- Voice Fingerprints
 CREATE TABLE IF NOT EXISTS voice_fingerprints (
@@ -167,7 +167,7 @@ CREATE TABLE IF NOT EXISTS species (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_species_project ON species(project_id);
+CREATE INDEX IF NOT EXISTS idx_species_project ON species(project_id);
 
 -- Aging Curve Points (Fixed: replaces aging_rate multiplier)
 CREATE TABLE IF NOT EXISTS species_aging (
@@ -180,7 +180,7 @@ CREATE TABLE IF NOT EXISTS species_aging (
     UNIQUE(species_id, chronological_age)
 );
 
-CREATE INDEX idx_species_aging ON species_aging(species_id, chronological_age);
+CREATE INDEX IF NOT EXISTS idx_species_aging ON species_aging(species_id, chronological_age);
 
 -- Hybrid Species (Fixed: Bug #7 - was missing implementation)
 CREATE TABLE IF NOT EXISTS species_hybrids (
@@ -218,9 +218,9 @@ CREATE TABLE IF NOT EXISTS relationships (
     CHECK (character1_id != character2_id)     -- Can't relate to self
 );
 
-CREATE INDEX idx_relationships_project ON relationships(project_id);
-CREATE INDEX idx_relationships_char1 ON relationships(character1_id);
-CREATE INDEX idx_relationships_char2 ON relationships(character2_id);
+CREATE INDEX IF NOT EXISTS idx_relationships_project ON relationships(project_id);
+CREATE INDEX IF NOT EXISTS idx_relationships_char1 ON relationships(character1_id);
+CREATE INDEX IF NOT EXISTS idx_relationships_char2 ON relationships(character2_id);
 
 -- Relationship Phases (temporal)
 CREATE TABLE IF NOT EXISTS relationship_phases (
@@ -236,7 +236,7 @@ CREATE TABLE IF NOT EXISTS relationship_phases (
     FOREIGN KEY (trigger_event_id) REFERENCES timeline_events(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_rel_phases_relationship ON relationship_phases(relationship_id);
+CREATE INDEX IF NOT EXISTS idx_rel_phases_relationship ON relationship_phases(relationship_id);
 
 -- Romance Arc Beats
 CREATE TABLE IF NOT EXISTS romance_beats (
@@ -286,7 +286,7 @@ CREATE TABLE IF NOT EXISTS calendar_systems (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_calendars_project ON calendar_systems(project_id);
+CREATE INDEX IF NOT EXISTS idx_calendars_project ON calendar_systems(project_id);
 -- Fixed: Bug #28 - Only one default per project
 CREATE UNIQUE INDEX idx_calendar_default ON calendar_systems(project_id) WHERE is_default = 1;
 
@@ -302,7 +302,7 @@ CREATE TABLE IF NOT EXISTS calendar_months (
     FOREIGN KEY (calendar_id) REFERENCES calendar_systems(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_months_calendar ON calendar_months(calendar_id, sort_order);
+CREATE INDEX IF NOT EXISTS idx_months_calendar ON calendar_months(calendar_id, sort_order);
 
 -- Calendar Weekdays
 CREATE TABLE IF NOT EXISTS calendar_weekdays (
@@ -389,9 +389,9 @@ CREATE TABLE IF NOT EXISTS timeline_events (
     FOREIGN KEY (branch_point_id) REFERENCES branch_points(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_events_project ON timeline_events(project_id);
-CREATE INDEX idx_events_variant ON timeline_events(project_id, timeline_variant);
-CREATE INDEX idx_events_date ON timeline_events(project_id, json_extract(date, '$.year'));
+CREATE INDEX IF NOT EXISTS idx_events_project ON timeline_events(project_id);
+CREATE INDEX IF NOT EXISTS idx_events_variant ON timeline_events(project_id, timeline_variant);
+CREATE INDEX IF NOT EXISTS idx_events_date ON timeline_events(project_id, json_extract(date, '$.year'));
 
 -- Event Causality (Fixed: Bug #3 - Added circular prevention trigger below)
 CREATE TABLE IF NOT EXISTS event_causality (
@@ -407,8 +407,8 @@ CREATE TABLE IF NOT EXISTS event_causality (
     UNIQUE(from_event_id, to_event_id)
 );
 
-CREATE INDEX idx_causality_from ON event_causality(from_event_id);
-CREATE INDEX idx_causality_to ON event_causality(to_event_id);
+CREATE INDEX IF NOT EXISTS idx_causality_from ON event_causality(from_event_id);
+CREATE INDEX IF NOT EXISTS idx_causality_to ON event_causality(to_event_id);
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 8: MANUSCRIPT STRUCTURE
@@ -436,9 +436,9 @@ CREATE TABLE IF NOT EXISTS containers (
     FOREIGN KEY (parent_id) REFERENCES containers(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_containers_project ON containers(project_id);
-CREATE INDEX idx_containers_parent ON containers(parent_id);
-CREATE INDEX idx_containers_sort ON containers(project_id, parent_id, sort_order);
+CREATE INDEX IF NOT EXISTS idx_containers_project ON containers(project_id);
+CREATE INDEX IF NOT EXISTS idx_containers_parent ON containers(parent_id);
+CREATE INDEX IF NOT EXISTS idx_containers_sort ON containers(project_id, parent_id, sort_order);
 
 -- Scenes (Fixed: Bug #30 - Scene is CHILD of container, has own ID)
 CREATE TABLE IF NOT EXISTS scenes (
@@ -487,10 +487,10 @@ CREATE TABLE IF NOT EXISTS scenes (
     FOREIGN KEY (location_id) REFERENCES story_elements(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_scenes_project ON scenes(project_id);
-CREATE INDEX idx_scenes_container ON scenes(container_id, sort_order);
-CREATE INDEX idx_scenes_pov ON scenes(pov_character_id);
-CREATE INDEX idx_scenes_location ON scenes(location_id);
+CREATE INDEX IF NOT EXISTS idx_scenes_project ON scenes(project_id);
+CREATE INDEX IF NOT EXISTS idx_scenes_container ON scenes(container_id, sort_order);
+CREATE INDEX IF NOT EXISTS idx_scenes_pov ON scenes(pov_character_id);
+CREATE INDEX IF NOT EXISTS idx_scenes_location ON scenes(location_id);
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 9: PLOT THREADS & PROMISES
@@ -521,8 +521,8 @@ CREATE TABLE IF NOT EXISTS plot_threads (
     FOREIGN KEY (end_scene_id) REFERENCES scenes(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_threads_project ON plot_threads(project_id);
-CREATE INDEX idx_threads_status ON plot_threads(project_id, status);
+CREATE INDEX IF NOT EXISTS idx_threads_project ON plot_threads(project_id);
+CREATE INDEX IF NOT EXISTS idx_threads_status ON plot_threads(project_id, status);
 
 -- Promises (Fixed: Column names match TypeScript)
 CREATE TABLE IF NOT EXISTS promises (
@@ -549,9 +549,9 @@ CREATE TABLE IF NOT EXISTS promises (
     FOREIGN KEY (fulfilled_scene_id) REFERENCES scenes(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_promises_project ON promises(project_id);
-CREATE INDEX idx_promises_status ON promises(project_id, status);
-CREATE INDEX idx_promises_planted ON promises(planted_scene_id);
+CREATE INDEX IF NOT EXISTS idx_promises_project ON promises(project_id);
+CREATE INDEX IF NOT EXISTS idx_promises_status ON promises(project_id, status);
+CREATE INDEX IF NOT EXISTS idx_promises_planted ON promises(planted_scene_id);
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 10: VERSION CONTROL
@@ -571,7 +571,7 @@ CREATE TABLE IF NOT EXISTS snapshots (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_snapshots_project ON snapshots(project_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_snapshots_project ON snapshots(project_id, created_at DESC);
 
 CREATE TABLE IF NOT EXISTS document_versions (
     id TEXT PRIMARY KEY,
@@ -586,7 +586,7 @@ CREATE TABLE IF NOT EXISTS document_versions (
     FOREIGN KEY (snapshot_id) REFERENCES snapshots(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_versions_scene ON document_versions(scene_id, version_number DESC);
+CREATE INDEX IF NOT EXISTS idx_versions_scene ON document_versions(scene_id, version_number DESC);
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 11: WRITING PRODUCTIVITY
@@ -605,7 +605,7 @@ CREATE TABLE IF NOT EXISTS writing_goals (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_goals_project ON writing_goals(project_id);
+CREATE INDEX IF NOT EXISTS idx_goals_project ON writing_goals(project_id);
 
 CREATE TABLE IF NOT EXISTS writing_sessions (
     id TEXT PRIMARY KEY,
@@ -624,7 +624,7 @@ CREATE TABLE IF NOT EXISTS writing_sessions (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_sessions_project ON writing_sessions(project_id, start_time DESC);
+CREATE INDEX IF NOT EXISTS idx_sessions_project ON writing_sessions(project_id, start_time DESC);
 
 CREATE TABLE IF NOT EXISTS writing_streaks (
     project_id TEXT PRIMARY KEY,
@@ -663,7 +663,7 @@ CREATE TABLE IF NOT EXISTS compile_presets (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_presets_project ON compile_presets(project_id);
+CREATE INDEX IF NOT EXISTS idx_presets_project ON compile_presets(project_id);
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 13: WORLDBUILDING
@@ -689,7 +689,7 @@ CREATE TABLE IF NOT EXISTS locations (
     FOREIGN KEY (parent_location_id) REFERENCES locations(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_locations_parent ON locations(parent_location_id);
+CREATE INDEX IF NOT EXISTS idx_locations_parent ON locations(parent_location_id);
 
 -- Interactive Maps
 CREATE TABLE IF NOT EXISTS interactive_maps (
@@ -751,8 +751,8 @@ CREATE TABLE IF NOT EXISTS embeddings (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_embeddings_project ON embeddings(project_id);
-CREATE INDEX idx_embeddings_entity ON embeddings(entity_type, entity_id);
+CREATE INDEX IF NOT EXISTS idx_embeddings_project ON embeddings(project_id);
+CREATE INDEX IF NOT EXISTS idx_embeddings_entity ON embeddings(entity_type, entity_id);
 
 -- Consistency Facts
 CREATE TABLE IF NOT EXISTS consistency_facts (
@@ -771,8 +771,8 @@ CREATE TABLE IF NOT EXISTS consistency_facts (
     FOREIGN KEY (source_scene_id) REFERENCES scenes(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_facts_project ON consistency_facts(project_id);
-CREATE INDEX idx_facts_category ON consistency_facts(project_id, category);
+CREATE INDEX IF NOT EXISTS idx_facts_project ON consistency_facts(project_id);
+CREATE INDEX IF NOT EXISTS idx_facts_category ON consistency_facts(project_id, category);
 
 -- Entity States (temporal)
 CREATE TABLE IF NOT EXISTS entity_states (
@@ -790,7 +790,7 @@ CREATE TABLE IF NOT EXISTS entity_states (
     FOREIGN KEY (trigger_scene_id) REFERENCES scenes(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_entity_states ON entity_states(entity_type, entity_id);
+CREATE INDEX IF NOT EXISTS idx_entity_states ON entity_states(entity_type, entity_id);
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 15: TEMPLATES
@@ -808,7 +808,7 @@ CREATE TABLE IF NOT EXISTS templates (
     FOREIGN KEY (project_id) REFERENCES projects(id) ON DELETE CASCADE
 );
 
-CREATE INDEX idx_templates_category ON templates(category);
+CREATE INDEX IF NOT EXISTS idx_templates_category ON templates(category);
 
 -- ═══════════════════════════════════════════════════════════════════════════
 -- SECTION 16: WHAT-IF BRANCHING
@@ -828,7 +828,7 @@ CREATE TABLE IF NOT EXISTS branch_points (
     FOREIGN KEY (trigger_scene_id) REFERENCES scenes(id) ON DELETE SET NULL
 );
 
-CREATE INDEX idx_branches_project ON branch_points(project_id);
+CREATE INDEX IF NOT EXISTS idx_branches_project ON branch_points(project_id);
 
 CREATE TABLE IF NOT EXISTS branch_alternatives (
     id TEXT PRIMARY KEY,

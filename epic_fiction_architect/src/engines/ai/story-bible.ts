@@ -368,7 +368,7 @@ export class StoryBible {
     }
 
     // 6. Pending promises that might need fulfillment
-    const promises = this.db.getUnfulfilledPromises(projectId);
+    // Note: 'promises' already fetched above for summarization guard
     const relevantPromises = promises.filter(p =>
       p.mustFulfillBy === sceneId || // Due in this scene
       Math.random() < 0.3 // Random reminder of 30% of promises
