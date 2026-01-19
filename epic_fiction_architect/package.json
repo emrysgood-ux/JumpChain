@@ -1,0 +1,51 @@
+{
+  "name": "epic-fiction-architect",
+  "version": "0.1.0",
+  "description": "Comprehensive fiction writing application for epic-scale narratives spanning millions of words and thousands of years",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "writing",
+    "fiction",
+    "novel",
+    "worldbuilding",
+    "character",
+    "timeline",
+    "story-bible",
+    "scrivener-alternative",
+    "ai-writing",
+    "semantic-search"
+  ],
+  "author": "Epic Fiction Architect Team",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.8",
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.7",
+    "typescript": "^5.3.0"
+  },
+  "optionalDependencies": {
+    "docx": "^8.5.0",
+    "epub-gen": "^0.1.0",
+    "pdf-lib": "^1.17.1",
+    "@xenova/transformers": "^2.15.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epic-fiction-architect/epic-fiction-architect"
+  }
+}
