@@ -82,6 +82,31 @@ export type {
   NarrativeAnalysisReport
 } from './engines/narrative/index';
 
+// Consistency Checker (Contradiction Detection)
+export {ConsistencyChecker} from './engines/consistency/index';
+export type {
+  ConsistencyViolation,
+  ViolationType,
+  ViolationCategory,
+  TrackedFact,
+  ConsistencyRule,
+  ConsistencyCheckResult
+} from './engines/consistency/index';
+
+// Writing Craft Analyzer (Award-Winning Prose Techniques)
+export {WritingCraftAnalyzer} from './engines/craft/index';
+export type {
+  EmotionalArcType,
+  EmotionalArcAnalysis,
+  RhythmAnalysis,
+  ShowTellAnalysis,
+  SensoryAnalysis,
+  DialogueAnalysis,
+  ThematicAnalysis,
+  CraftAnalysisReport,
+  PrioritizedSuggestion
+} from './engines/craft/index';
+
 // ============================================================================
 // APPLICATION CLASS
 // ============================================================================
@@ -94,6 +119,8 @@ import {ProductivityTracker} from './engines/tracking/productivity';
 import {EmbeddingsEngine} from './engines/ai/embeddings';
 import {StoryBible, SCOREFramework} from './engines/ai/story-bible';
 import {PredictiveNarrativeEngine} from './engines/narrative/index';
+import {ConsistencyChecker} from './engines/consistency/index';
+import {WritingCraftAnalyzer} from './engines/craft/index';
 import type {EmbeddingConfig} from './engines/ai/embeddings';
 
 export interface EpicFictionArchitectConfig {
@@ -114,6 +141,8 @@ export class EpicFictionArchitect {
   private _storyBible: StoryBible;
   private _score: SCOREFramework;
   private _narrative: PredictiveNarrativeEngine;
+  private _consistency: ConsistencyChecker;
+  private _craft: WritingCraftAnalyzer;
 
   constructor(config: EpicFictionArchitectConfig = {}) {
     // Initialize database
@@ -128,6 +157,8 @@ export class EpicFictionArchitect {
     this._storyBible = new StoryBible(this.db, this._embeddings, this._calendar, this._ageCalculator);
     this._score = new SCOREFramework(this._storyBible);
     this._narrative = new PredictiveNarrativeEngine();
+    this._consistency = new ConsistencyChecker();
+    this._craft = new WritingCraftAnalyzer();
   }
 
   // --------------------------------------------------------------------------
@@ -177,6 +208,16 @@ export class EpicFictionArchitect {
   /** Predictive Narrative Engine (causal graphs, branching, cascades) */
   get narrative(): PredictiveNarrativeEngine {
     return this._narrative;
+  }
+
+  /** Consistency Checker (contradiction detection) */
+  get consistency(): ConsistencyChecker {
+    return this._consistency;
+  }
+
+  /** Writing Craft Analyzer (award-winning prose techniques) */
+  get craft(): WritingCraftAnalyzer {
+    return this._craft;
   }
 
   // --------------------------------------------------------------------------
