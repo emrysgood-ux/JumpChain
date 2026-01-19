@@ -199,27 +199,32 @@ Three words. Twelve years of watching. Recognition.
 10. **SHELDON:** [Response TBD]
 11. Ryoko goes to Tenchi's room (as in canon)
 
-## 3.3 — Sheldon's Response (LOCKED)
+## 3.3 — Sheldon's Response Options
 
-**THE EXCHANGE:**
+**Option A — Simple Acknowledgment:**
+> "I am."
 
-> **RYOKO:** "You're still here."
-> 
-> **SHELDON:** "I am." 
-> 
-> *A beat. He doesn't look away.*
-> 
-> **SHELDON:** "Welcome home."
+Mirrors her simplicity. Confirms the fact. No demands, no questions.
 
-**Why This Works:**
+**Option B — Gentle Challenge:**
+> "Where else would I be?"
 
-- **"I am."** — Mirrors her simplicity. Acknowledges his choice to stay without defensiveness. Lets her observation land.
-- **The beat** — He doesn't rush to fill space. Pause matters.
-- **"Welcome home."** — Offers belonging. Takes initiative. Bold, but earned by the pause.
+Implies: staying is natural, not remarkable. Challenges her surprise.
 
-**Character Truth:** This is Sheldon — listens, acknowledges, offers warmth. Not presumptuous (jumping straight to welcome), not cold (just acknowledgment). Both.
+**Option C — Recognition Back:**
+> "You've been watching."
 
-**Effect on Ryoko:** She has no framework for this. Expected hostility, fear, questions about what she is. Instead: acceptance of her observation, then an offer of belonging. From someone she's watched for twelve years but never spoken to. Those four words follow her into Tenchi's room.
+Shows he knew (or suspected) she was aware. Levels playing field.
+
+**Option D — Warmth:**
+> "Welcome home."
+
+Bold. Assumes she belongs. Offers what she's been watching from outside.
+
+**RECOMMENDED:** Option A or D, depending on tone desired.
+
+- Option A: More mysterious, lets Ryoko control the conversation
+- Option D: More vulnerable, Sheldon takes the initiative
 
 ---
 
@@ -306,14 +311,12 @@ She has to fit INTO the family structure, not CREATE chaos around Tenchi.
 **Framework:** COMPLETE
 **Ready for Draft:** YES
 **POV Selected:** Multi-POV (Tenchi → Sheldon → Tenchi)
-**Key Dialogue:** LOCKED
-
-> **RYOKO:** "You're still here."
-> **SHELDON:** "I am." *[beat]* "Welcome home."
+**Key Dialogue:** "You're still here." (Ryoko's first words to Sheldon)
 
 **Outstanding:**
+- Sheldon's exact response
 - Morning after scene details
-- First real conversation scene (Day 2-3)
+- First real conversation scene
 
 ---
 

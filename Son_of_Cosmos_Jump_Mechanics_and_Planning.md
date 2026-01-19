@@ -1,9 +1,8 @@
 # Son of Cosmos: JumpChain — Comprehensive Jump Mechanics & 1000-Year Planning
 
-**Document Version:** 2.0 (Research-Verified)  
+**Document Version:** 1.0  
 **Compiled:** December 29, 2025  
-**Scope:** Death → Arrival → Pre-Canon → Canon → Post-Canon → Departure  
-**Sources:** 15+ past conversations, Story Bible v6+, Celestial Pack Reference, Canon Audits
+**Scope:** Death → Arrival → Pre-Canon → Canon → Post-Canon → Departure
 
 ---
 
@@ -25,7 +24,7 @@ The Tenchi Muyo! Jump offers **Two Jumps in One**:
 - After 20 years total: Eligible for Endgame Scenario
 - Maximum standard duration: **30 years**
 
-**STORY FRAMEWORK:**
+**CRITICAL FOR STORY:**
 The 1000-year duration indicates Sheldon chose **"This Side Up"** (stay for lifetime) with Cosmos arranging special departure conditions. The Jump framework provides his power scaffolding, but his arrangement with Cosmos supersedes standard Jump completion timelines.
 
 ---
@@ -131,158 +130,45 @@ Sheldon operates under **TWO STACKING POWER SYSTEMS:**
 
 ---
 
-### 2.2 VERIFIED CELESTIAL PACK GRANTS (~70 Total)
+### 2.2 Jump Perk Unlock Timeline
 
-**CONFIRMED FROM PREVIOUS DOCUMENTATION:**
-
-#### Cooking & Food (15+ grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Supreme Chef | Celestial Oven | Cooking at professional level; first meal impresses Katsuhito |
-| Comfort Cooking | Celestial Oven | Food provides emotional comfort beyond nutrition |
-| Infinite Pantry | Celestial Oven | Always has the right ingredient (manifests as "coincidence" Phase I) |
-| Preservation Master | Three Star Gauntlet | Perfect canning, pickling, drying, fermentation |
-| Lambda Infusion (HIDDEN) | Cosmos Crystal | Food carries trace Lambda energy; people feel warmer, safer, more loved |
-| Voice of Ingredients | Toriko | Ingredients "speak" to guide freshness and preparation |
-| Food Luck | Toriko | Increased fortune with food-related matters |
-| Natural Cook | Sims 3 | Can learn dishes by watching; never fails at cooking |
-| Brewmaster | Three Star Gauntlet | Mastery of tea, soup, stew, coffee |
-
-#### Science & Academics (7 grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Intuitive Mathematics | Generic Scientist | Calculations come faster; patterns emerge naturally |
-| Lab Precision | Multiple | Perfect experimental technique |
-| Teaching Gift | Multiple | Can explain complex concepts at any level |
-| Memory Palace | Celestial Grimoire/Akashic | Perfect recall of academic knowledge |
-| Educated Guess | Generic Scientist | Intuition about correct approaches |
-| Unusual Specialization | Generic | Deep expertise in narrow fields |
-| Data Banks | Red Dwarf | Large knowledge across fields |
-
-#### Craftsmanship & Building (14 grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Craftsman | Multiple | Enhanced crafting ability |
-| Excellent Craftsman | Multiple | Master-level skill development |
-| Shaper | Multiple | Intuitive understanding of materials |
-| Builder Package | Multiple | Construction knowledge |
-| Fixer Upper | Multiple | Repair intuition |
-| The Right Tools | Multiple | Tools always at hand |
-| Touch of Improvement | Multiple | Enhances quality of finished work |
-| Master Seamstress | Multiple | Perfect sewing, mending, tailoring |
-| Cosplay Crafting | Multiple | Can recreate any costume |
-| Home Repair Intuition | Multiple | Understands how to fix anything domestic |
-| Woodworking (via Yosho training) | Traditional | Japanese carpentry techniques |
-| Garden Mastery | Multiple | Plants thrive under his care |
-| Shrine Maintenance | Multiple | Instinctive understanding of sacred space |
-| Festival Preparation | Multiple | Traditional festival crafts |
-
-#### Physical Enhancement (8 grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Physical Optimization | Multiple | Body operates at peak efficiency |
-| Body | Multiple | Enhanced physical capability |
-| Super Endurance | Multiple | Exceptional stamina |
-| Quick On Your Feet | Multiple | Enhanced reflexes |
-| Clean Blooded | Multiple | Disease resistance |
-| Enhanced Physiology | Multiple | General physical improvement |
-
-#### Sensory Enhancement (4 grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Enhanced Senses | Multiple | Better sight, hearing, smell |
-| Hand Sensitivity | Multiple | Tactile precision |
-| Awareness | Multiple | Environmental perception |
-| Built-In Geo-Nav | Multiple | Always knows where he is |
-
-#### Mental & Knowledge (4 grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Occlumency | Harry Potter | Mental defense |
-| Mental Prodigy | Multiple | Enhanced cognitive processing |
-| Analyze Weakness | Multiple | Intuitive understanding of problems |
-| Better Read My Own Manual | Multiple | Self-knowledge enhancement |
-
-#### Social & Communication (4 grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Language Fluency | Multiple | Automatic Japanese acquisition |
-| Trustworthy Presence | Generic Isekai | People find it easier to trust him |
-| Patience | Generic Parenting | Exceptional patience with children/learners |
-| Emotional Resilience | Generic Isekai | Processes grief without breaking |
-
-#### Protective & Defensive (4 grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Lambda Core | Cosmos Crystal | Source of all Lambda manifestations; passive protection |
-| THEY ARE MINE AND MINE ALONE | Medaka Box Abnormal | Impossible to degrade or take away abilities |
-| Renewal | Age of Wonders II | Impossible to corrupt abilities; partial restoration |
-| Safe Self Modification | SB Dragonball Z | Self-modification always succeeds |
-
-#### Martial Arts (4 grants)
-| Grant | Source | Effect |
-|-------|--------|--------|
-| Foundation Footwork | Celestial Dojo | Core movement principles |
-| Mountain's Heart Path | Celestial Dojo | Defensive martial philosophy |
-| White Fox Path | Celestial Dojo | Evasion and redirection |
-| Breathing Techniques | Celestial Dojo | Energy control through breath |
+| Phase | Years | Jump Perks Available |
+|-------|-------|---------------------|
+| Pre-Unlock | 0-1 | NONE — Sheldon operates as exceptional human only |
+| Initial Unlock | 1 | Basic perks activate (origin + tier 1-2) |
+| Progressive | 2-20 | Higher tier perks phase in with development |
+| Ultimatum | 20+ | Final perk selection available |
 
 ---
 
-### 2.3 COSMOS-ORIGIN POWERS (Not Celestial Pack)
+### 2.3 Celestial Pack Confirmed Grants (~44 Total)
 
-| Power | Effect | Manifestation Phase |
-|-------|--------|---------------------|
-| **Cosmos Seed** | Neither human star seed nor Sailor Crystal — unprecedented | Always present |
-| **Lambda Power** | Cosmic regeneration/purification energy | Phase III+ |
-| **Light Hawk Wings** | 13 dormant wings (crisis manifestation only) | Phase III+ (emergency) |
-| **Dream Communication** | Cross-dimensional contact with Cosmos | Year 1+ (2-3 times Year 1, then monthly+) |
-| **Life Sensing** | Awareness of nearby souls | Phase II+ |
-| **Healing Touch** | Subtle passive healing in contact | Phase II+ |
-| **Cosmic Longevity** | Aging halts at Phase V (age 70-80) | Phase V |
+The Celestial Pack abilities include selections from:
+- **Celestial Grimoire** (magical/mystical abilities)
+- **Celestial Forge** (crafting/technology abilities)
+- Other themed packs
 
----
+**Grant Categories (per previous documentation):**
+1. **Cognitive Enhancement** — Memory, processing, learning
+2. **Physical Enhancement** — Strength, durability, reflexes
+3. **Sensory Enhancement** — Perception, awareness
+4. **Social/Mental** — Charisma, influence, mental defense
+5. **Supernatural Foundation** — Magic potential, energy manipulation
+6. **Utility** — Quality of life, inventory, comfort
 
-### 2.4 VERIFIED POWER PHASE SCHEDULE
-
-| Phase | Years | Manifestation Level | Examples |
-|-------|-------|---------------------|----------|
-| **I** | 1-5 | Exceptional Human | "Impressive but explainable" — "Grandmother taught him" |
-| **II** | 6-12 | Subtle Supernatural | Katsuhito notices; leaks around edges |
-| **III** | 13-25 | Emergence | First conscious access; 1-3 LHW in crisis |
-| **IV** | 26-50 | Active | 5-10 LHW available; Lambda conscious use |
-| **V** | 51+ | Awakened | All 13 LHW accessible; ageless stasis; full integration |
+**CRITICAL:** Celestial Pack grants are ACTIVE from arrival. They explain why Sheldon can function at exceptional-human level even before Jump perks unlock.
 
 ---
 
-### 2.5 LIGHT HAWK WING PROGRESSION (VERIFIED)
+### 2.4 Power Phase Integration
 
-| Phase | Years | Wings | Notes |
-|-------|-------|-------|-------|
-| Dormant | 1-5 | 0 | Ambient effects only |
-| Awakening | 6-12 | 0 (micro-bursts) | Stress triggers possible |
-| Emergence | 13-17 | 1-3 (crisis) | Kagato arc (Year 13) |
-| **Shadow Incident** | **~18** | **13 (ONE TIME)** | **Cosmos intervention to prevent multiversal collapse** |
-| Recovery | 18-19 | 0→3 | Rebuilding baseline |
-| Ascension | 20-40 | 4-10 | Proper climb |
-| Mature | 40+ | 10 max | **Hard ceiling (never exceeds again)** |
-
-**CRITICAL:** The 13-wing manifestation was a ONE-TIME emergency breach. Cosmos directly intervened to prevent multiversal collapse. Sheldon suffered severe strain and required extended recovery. He NEVER exceeds the 10-wing universal limit again.
-
----
-
-### 2.6 FIRST MANIFESTATION MOMENTS (VERIFIED)
-
-| Grant | First Story Beat | Scene ID |
-|-------|------------------|----------|
-| Supreme Chef | Day 3-4, cooking recognized | 1.03.C |
-| Teaching Gift | Week 2, helping Tenchi with homework | ~1.09 |
-| Comfort Cooking | First meal that makes Tenchi cry (happy tears) | TBD |
-| Craftsman | House repairs with Tanaka | ~Day 5-6 |
-| Memory Palace | Recalling Dorothy's lessons | Internal |
-| Lambda Infusion | Hidden — all his cooking from Day 1 | Always active |
-| Trustworthy Presence | Village acceptance (faster than expected) | Week 2+ |
-| Patience | Every interaction with 4-year-old Tenchi | Throughout |
+| Phase | Years | Jump Status | Celestial Pack Status | Effective Capability |
+|-------|-------|------------|----------------------|---------------------|
+| **I: Dormant** | 1-5 | Locked | Active (subtle) | Exceptional human with enhanced fundamentals |
+| **II: Controlled** | 6-12 | Partial unlock | Active (growing) | Enhanced human with strategic advantages |
+| **III: Active Defense** | 13-25 | Full unlock | Significant | 1-3 LHW manifestation |
+| **IV: Full Integration** | 26-40 | Complete | Mature | 5-10 LHW capacity |
+| **V: True Awakening** | 70-80+ | Transcended | Mastered | All 13 LHW access |
 
 ---
 
@@ -387,134 +273,153 @@ After death, Sheldon exists in a liminal space where Cosmos can reach him.
 
 ---
 
-### 4.2 YEAR 1 WRITTEN CONTENT (VERIFIED)
+### 4.2 Year 1 Scene-Level Planning (April 1989)
 
-**TOTAL WRITTEN:** ~185,000 words | 61+ scenes | Days 1-28 (April 3-30, 1989)
+#### Week 1 (Days 1-7): Arrival & First Contact
 
-#### Week 1 (Days 1-7): WRITTEN
+| Day | Date | Scenes Required |
+|-----|------|-----------------|
+| 1 | Mon Apr 3 | Arrival at shrine; Katsuhito discovers Sheldon; Initial interrogation; Decision to let him stay |
+| 2 | Tue Apr 4 | First breakfast; Tenchi encounter; Guest room establishment; Village below |
+| 3 | Wed Apr 5 | Shrine grounds exploration; 320 steps noted; Cave area avoided; Evening conversation |
+| 4 | Thu Apr 6 | Settling routine; First interactions with village; Nobuyuki mention |
+| 5 | Fri Apr 7 | Week reflection; Yosho's assessment; Tenchi's acceptance |
+| 6 | Sat Apr 8 | Weekend rhythms; Domestic patterns |
+| 7 | Sun Apr 9 | Shrine duties; Quiet observation |
 
-| Day | Date | Scenes | Words | Key Events |
-|-----|------|--------|-------|------------|
-| 1 | Mon Apr 3 | 8 | ~13,650 | Awakens 2:47 PM in field; Yamamoto encounter; Bus ride; 320 steps; meets Katsuhito and Tenchi; first dinner; SEED-002 (Cave warning) |
-| 2 | Tue Apr 4 | 3 | ~6,050 | Wakes 6:23 AM; first work (dishes, sweeping); curry dinner; coin trick; promise to stay; SEED-003 (Master Key seen) |
-| 3 | Wed Apr 5 | 5 | ~13,400 | **SUPREME CHEF MANIFESTS**; shrine maintenance; first village visit |
-| 4 | Thu Apr 6 | 4 | ~11,300 | Tsukino house exploration; meeting more villagers |
-| 5 | Fri Apr 7 | 4 | ~9,400 | **MET YAMADA KENJI** (roofer); **MET NOBUYUKI**; "Sheru-ji" nickname planted |
-| 6 | Sat Apr 8 | 3 | ~8,000 | Roof assessment (¥280K estimate); first dinner with Nobuyuki |
-| 7 | Sun Apr 9 | 2 | ~4,600 | Sacred Sunday; Nobuyuki departs; **SEED-005 R1** (dusk cue at Funaho) |
+#### Week 2 (Days 8-14): Integration Deepens
 
-#### Week 2 (Days 8-14): WRITTEN
+| Day | Date | Scenes Required |
+|-----|------|-----------------|
+| 8 | Mon Apr 10 | Weekly rhythm established; Tenchi's kindergarten mentioned |
+| 9 | Tue Apr 11 | Village introduction proper; Meeting neighbors |
+| 10 | Wed Apr 12 | First real conversation about Sheldon's past (what he can share) |
+| 11 | Thu Apr 13 | Nobuyuki visit from Tokyo; Dynamic with widower |
+| 12 | Fri Apr 14 | End of second week; Yosho's deeper assessment |
+| 13 | Sat Apr 15 | Weekend activities with Tenchi |
+| 14 | Sun Apr 16 | Shrine ceremonies; Public role establishing |
 
-| Day | Date | Scenes | Words | Key Events |
-|-----|------|--------|-------|------------|
-| 8 | Mon Apr 10 | 1 | ~4,200 | **TENCHI'S NIGHTMARE** — Major bonding milestone |
-| 9 | Tue Apr 11 | TBD | TBD | Morning after; gentle routines |
-| 10-14 | Apr 12-16 | TBD | TBD | Village integration continues |
+#### Week 3 (Days 15-21): Hikaru's Arrival
 
-#### Week 3 (Days 15-21): WRITTEN
+| Day | Date | Scenes Required |
+|-----|------|-----------------|
+| 15 | Mon Apr 17 | Build-up to Hikaru; Talk of previous caregivers |
+| 16 | Tue Apr 18 | Preparations underway |
+| 17 | Wed Apr 19 | **HIKARU ARRIVES** — New dynamic established |
+| 18 | Thu Apr 20 | Hikaru integration; Tenchi's reaction |
+| 19 | Fri Apr 21 | Birthday preparations begin |
+| 20 | Sat Apr 22 | Birthday prep intensifies |
+| 21 | Sun Apr 23 | Day before birthday; Final preparations |
 
-| Day | Date | Key Events |
-|-----|------|------------|
-| 15-16 | Apr 17-18 | Build-up to Hikaru arrival |
-| 17 | Wed Apr 19 | **HIKARU (ORANGE TABBY) ARRIVES** |
-| 18-21 | Apr 20-23 | Hikaru integration; birthday preparations |
+#### Week 4 (Days 22-28+): Birthday & Month Close
 
-#### Week 4 (Days 22-28): WRITTEN
-
-| Day | Date | Key Events |
-|-----|------|------------|
-| 22 | Mon Apr 24 | **TENCHI'S 5TH BIRTHDAY** (born April 24, 1984) — Full celebration |
-| 23-28 | Apr 25-30 | Post-birthday; month closes; Golden Week approaches |
-
-**SCENE FILE LOCATIONS (Verified):**
-| Archive | Contents |
-|---------|----------|
-| files_3.zip | Days 3-14 scenes (1.03.A - 1.14.B) |
-| files_4.zip | Days 1-2 scenes (1.01.A - 1.02.C) |
-| files_6.zip | Days 15-22 scenes (1.15.A - 1.22.A) |
-| files_7.zip | Days 23-28 scenes (1.23.A - 1.28) |
+| Day | Date | Scenes Required |
+|-----|------|-----------------|
+| 22 | Mon Apr 24 | **TENCHI'S 5TH BIRTHDAY** — Full celebration scene |
+| 23 | Tue Apr 25 | Post-birthday; New toy enjoyment |
+| 24 | Wed Apr 26 | Return to routine |
+| 25 | Thu Apr 27 | Month winding down |
+| 26 | Fri Apr 28 | Golden Week approaches |
+| 27 | Sat Apr 29 | Shōwa Day (national holiday) |
+| 28 | Sun Apr 30 | April ends; Month reflection |
 
 ---
 
-### 4.3 Year 1 Monthly Arc Planning (VERIFIED)
+### 4.3 Year 1 Monthly Arc Planning
 
 #### May 1989 — Settling In
-- **Theme:** Routine establishment, Golden Week (May 3-5)
-- **Tenchi Focus:** Kindergarten resumes after Golden Week
+- **Theme:** Routine establishment, spring deepening
+- **Tenchi Focus:** Kindergarten stories, playmate interactions
 - **Sheldon Development:** Finding his role, contributing to household
 - **Yosho Dynamic:** Moving from guest to resident
-- **Village:** "Tsukino-san" gradually accepted
+- **Key Scenes:** Golden Week (May 3-5), first sustained conversations
 
 #### June 1989 — Rainy Season (Tsuyu)
 - **Theme:** Indoor bonding, philosophical conversations
-- **Key Development:** Major repairs on shrine buildings begin
-- **Sheldon's skills impress Katsuhito**
+- **Tenchi Focus:** Weather complaints, indoor activities
+- **Sheldon Development:** Deeper discussions with Yosho, processing his situation
+- **Key Scenes:** First major rain, indoor projects, nighttime talks
 
 #### July 1989 — Summer Heat
-- **Key Events:** Tanabata (July 7), first Japanese summer
-- **Tenchi:** Summer vacation begins (~July 20)
-- **Festival traditions learned**
+- **Theme:** Festival season, community integration
+- **Tenchi Focus:** Summer vacation begins (~July 20), excitement
+- **Key Events:** Tanabata (July 7), local summer festivals
+- **Key Scenes:** Festival attendance, wish-making, village acceptance
 
 #### August 1989 — Obon Season
-- **Critical:** First anniversary of Kiyone's death (~August 1988)
-- **Theme:** Ancestors honored; village community
-- **Sheldon integrated into Obon observances**
+- **Theme:** Grief, memory, family bonds
+- **Critical Event:** **First anniversary of Kiyone's death** (~August)
+- **Tenchi Focus:** Grief behaviors, missing mother
+- **Nobuyuki Focus:** Visits more frequently, shared grief
+- **Yosho Dynamic:** Reveals more family history
+- **Key Scenes:** Obon ceremonies, grave visiting, family mourning, Sheldon as witness to grief
 
 #### September 1989 — Early Autumn
-- **Tenchi:** Kindergarten resumes
-- **First parent-teacher meeting (Sheldon as "family friend")**
+- **Theme:** Transition, routines resume
+- **Tenchi Focus:** New kindergarten term begins
+- **Sheldon Development:** Six months established; no longer "new"
+- **Key Scenes:** School starting, cooling weather, harvest beginnings
 
 #### October 1989 — Harvest Time
-- **Seven-Five-Three (Shichi-Go-San) prep for Tenchi**
-- **Sheldon's internal anniversary of death (Oct 23) — private processing**
+- **Theme:** Abundance, community participation
+- **Key Events:** Fall festivals, harvest activities
+- **Sheldon Development:** Anniversary of his death (Oct 23) — private processing
+- **Key Scenes:** Festival participation, harvest work, internal anniversary reflection
 
 #### November 1989 — Late Autumn
-- **Shrine's autumn festival**
-- **Sheldon fully integrated into village**
+- **Theme:** Family ceremonies, gratitude
+- **Key Events:** Shichi-Go-San (Nov 15) — Tenchi age 5 ceremony
+- **Tenchi Focus:** Formal occasion, grown-up feelings
+- **Key Scenes:** Ceremony preparations, shrine participation, family photos
 
 #### December 1989 — Winter/New Year Prep
-- **FIRST DREAM-CONTACT WITH COSMOS**
-- **Year-end traditions (Ōmisoka)**
-- **End of Year 1**
+- **Theme:** Transition, anticipation
+- **Key Events:** Winter preparations, Christmas atmosphere, Ōmisoka (Dec 31)
+- **Tenchi Focus:** Holiday excitement, Western influences
+- **Key Scenes:** Year-end cleaning (Ōsōji), New Year's Eve observances
+
+#### January 1990 — New Year
+- **Theme:** Fresh beginnings, traditions
+- **Key Events:** Hatsumode (first shrine visit), Hatsuyume (first dream)
+- **Sheldon Development:** First full year nearly complete
+- **Key Scenes:** New Year ceremonies, resolutions, winter quietude
+
+#### February 1990 — Deep Winter
+- **Theme:** Endurance, small warmths
+- **Key Events:** Setsubun (Feb 3), Valentine's Day
+- **Tenchi Focus:** Bean-throwing fun, chocolate culture introduction
+- **Key Scenes:** Setsubun ceremony, winter activities
+
+#### March 1990 — Year End
+- **Theme:** Completion, transition
+- **Key Events:** Spring approaches, academic year closes
+- **Sheldon Development:** Full year complete; preparing for Year 1 Anniversary
+- **Key Scenes:** Cherry blossom anticipation, kindergarten year-end, reflection on first year
 
 ---
 
-### 4.4 COSMOS DREAM COMMUNICATION (VERIFIED)
+### 4.4 Year 1 Anniversary: Cosmos Revelation
 
-**First Dream Contact:** December 1989 (specific date TBD)
+**Date:** April 3, 1990 (Day 366)
 
-**Communication Frequency:**
-| Period | Frequency | Quality |
-|--------|-----------|---------|
-| Year 1 | 2-3 times | Establishing contact |
-| Years 2-5 | Monthly average | Regular conversations |
-| Years 6-12 | Every 6-8 weeks | Reduced but stable |
-| Crisis | Can sometimes push through | Emergency only |
+**The Revelation Scene:**
+- Cosmos achieves full communication
+- Reveals her identity as Sailor Cosmos
+- Explains the arrangement in full
+- Jump perks begin unlocking
+- New understanding of his situation
 
-**Dream Environment:** Always the same place: a white room with no walls. Sometimes moonflowers appear. Temperature is perfect. Time moves differently.
+**What Sheldon Learns:**
+- His savior is a cosmic entity named Cosmos
+- He is her "first son" — chosen for specific purpose
+- The 1000-year arrangement
+- The dual power system (Jump perks now activating + Celestial grants)
+- Basic outlines of what's to come (but not specifics)
 
-**VERIFIED SAMPLE DIALOGUE (Year 1 — The First Dream):**
-> *He was somewhere white. Not a room—there were no walls—but a space that felt contained somehow. Warm. Safe.*
->
-> *'Sheldon.'*
->
-> *He turned. A woman stood there, silver-white hair flowing like starlight, dressed in white that seemed to glow from within. She was crying. She was smiling.*
->
-> *'I'm sorry,' she said. 'I'm so sorry. There wasn't time to explain. There wasn't time for anything but catching you.'*
->
-> *'Who—' His voice cracked. 'Who are you?'*
->
-> *'I'm your mother now.' She reached for his face, and her touch felt like being loved. 'I'm Usagi. I'm Cosmos. I'm the one who couldn't let you go.'*
-
-**COSMOS'S LIMITATIONS:**
-| She CAN | She CANNOT |
-|---------|------------|
-| Reach him when conditions align | Appear at will |
-| Provide emotional support | Give tactical information about Tenchi universe |
-| Remind him of her love | Intervene physically |
-| Sense his emotional state | Read specific thoughts |
-
-**Sheldon calls her "Mom." She calls herself "Usagi."**
+**What Remains Unknown:**
+- Full details of the Chousin situation
+- Exactly how his presence affects canon
+- The ultimate endgame purpose
 
 ---
 
@@ -552,74 +457,34 @@ After death, Sheldon exists in a liminal space where Cosmos can reach him.
 
 ---
 
-### 4.6 Year 4: The Revelation to Yosho (VERIFIED)
+### 4.6 Year 4: The Revelation to Yosho
 
-**CRITICAL MILESTONE:** Sheldon reveals his reincarnation truth to Yosho
+**Critical Milestone:** Sheldon reveals his reincarnation truth to Yosho
 
-**ESTABLISHED TIMING:** April 3, 1992 — Three-Year Anniversary
+**Buildup (April – June 1992):**
+- Yosho's observations accumulate
+- Direct questions begin
+- Sheldon's internal debate about disclosure
 
-**VERIFIED DIALOGUE (from planning documents):**
+**The Revelation (July 1992):**
+- Setting: Private conversation, likely after evening practice
+- Content: Sheldon's death, Cosmos's intervention, reincarnation
+- Does NOT reveal: Cosmos's identity, full Jump mechanics, future knowledge (he has none)
 
-> *Evening. Porch. Tea. Now tradition.*
->
-> *Yosho: "Three years. You have earned my trust."*
->
-> *Sheldon: "And you've earned mine."*
->
-> *Yosho: "I know you are not ordinary. I have known since the first year. Your soul is old. Older than your body."*
->
-> *Sheldon: "How long have you suspected?"*
->
-> *Yosho: "Your reactions to Tenchi were too knowing. Too prepared. You speak of history as if you've lived it twice."*
->
-> *Pause.*
->
-> *Sheldon: "I died. In another life. I was a physicist. There was an accident."*
->
-> *Yosho listens.*
->
-> *"Someone called Cosmos. She... she made me her son. Gave me this life."*
->
-> *Yosho: "Cosmos." He considers the name. "I do not know this being. But I know power. Yours is gentle. Growth-oriented."*
->
-> *Pause.*
->
-> *"I have my own unusual background. I was born on another world. I have lived in Japan for over seven hundred years. I am not human, though I have chosen to live as one."*
->
-> *First mutual acknowledgment of being "other."*
->
-> *Neither explaining everything. Both accepting.*
-
-**YOSHO'S RESPONSE (Verified):**
-- Listens completely
-- Believes without question
-- Reveals his own alien/immortal nature
-- Does NOT reveal full Juraian politics yet
-- Offers to help Sheldon understand his abilities
-- Offers formal training using Juraian techniques
+**Yosho's Response:**
+- Initial shock, then consideration
+- Recognition: Sheldon is a "true peer" (another being displaced from proper time/context)
+- Decision: Begin Tenchi's sword training with Sheldon as partner
 
 **"First Blade" Moment (July 1992):**
 - Tenchi receives first sword training
 - Sheldon participates as training partner
-- New phase of all three relationships begins
+- New phase of relationship begins
 
-**POST-REVELATION STATUS:**
-
-| What Sheldon Now Knows | What Sheldon Still Doesn't Know |
-|------------------------|--------------------------------|
-| Yosho is not human | Full Juraian identity |
-| Yosho is 700+ years old | Prince status, Azusa, politics |
-| Yosho recognizes otherworldly power | What's in the cave |
-| His abilities are real, not imagination | Why Cosmos sent him HERE |
-| They can be developed through training | Anything about Tenchi Muyo plot |
-
-**RELATIONSHIP STATUS POST-REVELATION:**
-
-| Relationship | Before | After |
-|--------------|--------|-------|
-| **Sheldon ↔ Yosho** | Trust complete; hints exchanged | **FULL ACKNOWLEDGMENT**: Both know the other is otherworldly; true peers |
-| **Training** | Advanced beginning | Integrated practice; Juraian techniques |
-| **Power** | Phase I (Dormant) | **Phase II** (Environmental effects; controlled) |
+**Aftermath (August 1992 – March 1993):**
+- Yosho treats Sheldon differently — equals
+- Training sessions become regular
+- Deeper conversations about longevity, loss, purpose
 
 ---
 
@@ -668,41 +533,30 @@ After death, Sheldon exists in a liminal space where Cosmos can reach him.
 
 ---
 
-## PART V: CANON ERA (Year 13+) — VERIFIED
+## PART V: CANON ERA (Year 13+)
 
-### 5.1 Canon Arc Order (CONFIRMED)
+### 5.1 Canon Timeline
 
-| # | Arc | Year | Key Event |
-|---|-----|------|-----------|
-| 1 | **Ryoko Awakening** | 13 (2001) | Memory fog shatters; found family begins |
-| 2 | **Kagato** | 14 (2002) | Tenchi's first LHW; Washu freed |
-| 3 | **Dr. Clay/Zero** | 15 (2003) | Tokimi hints; Zero/Ryoko merge |
-| 4 | **Z/Chousin** | 17 (2005) | Revelation; cosmic context established |
-| 5 | **Shadow** | 18 (2006-07) | **13-WING INCIDENT**; Cosmos intervenes |
+**Year 13 (April 2001+):** Canon begins — Ryoko awakens when Tenchi is 17
 
-### 5.2 Power Progression Through Canon Era
+**Original OVA Timeline (to be preserved/enhanced):**
+1. Ryoko's awakening at cave
+2. Ayeka's arrival seeking Yosho
+3. Sasami's presence
+4. Mihoshi's crash landing
+5. Washu's release from imprisonment
+6. Kagato's confrontation
+7. Various adventures and arrivals
 
-| Year | Sheldon's LHW | Notes |
-|------|---------------|-------|
-| 13 | 1-3 (crisis) | Emerging |
-| 14 | 2-3 (stable) | Post-Kagato |
-| 15-16 | 3-4 | Developing |
-| 17 | 4-5 | Pre-Shadow |
-| 18 (Shadow) | **13 (ONE TIME)** | Cosmos intervention |
-| 18 (Recovery) | 0→3 | Rebuilding |
-| 19-40 | 4-10 | Gradual climb |
-| 40+ | 10 max | **HARD CEILING** |
-
-### 5.3 Canon Deviation Strategy
+### 5.2 Canon Deviation Strategy
 
 **Principle:** Enhance rather than replace
 
 **What Changes:**
 - Characters are NOT meeting Tenchi alone
-- Sheldon's 12-year presence has created an **established family**
+- Sheldon's presence provides additional perspective
 - Harem dynamic transforms into found family structure
 - Female characters become "aunts" rather than romantic rivals
-- Yosho and Sheldon are in a relationship by Year 13
 
 **What Stays:**
 - All major canon events still occur
@@ -710,58 +564,20 @@ After death, Sheldon exists in a liminal space where Cosmos can reach him.
 - Core relationships (Tenchi with each character) develop
 - Primary conflicts (Kagato, etc.) still happen
 
-### 5.4 Character Arrival Integration (VERIFIED)
+### 5.3 Character Arrival Planning
 
 | Character | Canon Arrival | Story Adaptation |
 |-----------|---------------|------------------|
-| **Ryoko** | Cave awakening | **CONSCIOUS entire 700-year imprisonment**; watched household via astral projection for 12 years |
-| **Ayeka** | Arrives seeking Yosho | Finds Yosho has a FAMILY; must process 700 years of searching ending differently |
-| **Sasami** | With Ayeka | Kitchen dynamic: Two cooks. Mentorship + collaboration, not competition |
+| **Ryoko** | Cave awakening | Same, but Sheldon may witness or be present |
+| **Ayeka** | Arrives seeking Yosho | Sheldon's knowledge of Yosho creates tension |
+| **Sasami** | With Ayeka | Immediate connection with expanded household |
 | **Mihoshi** | Crash landing | Galaxy Police introduction |
-| **Washu** | Released from prison | **Special dynamic**: When she discovers Sheldon's true nature, gains scientific fascination (external cosmology!), cosmic kinship, protective interest |
-| **Noike** | Later arrival | Integrates as family, not arranged bride |
-
-### 5.5 The "Aunt Dynamic" (VERIFIED)
-
-**Transformation from Canon:**
-| Canon Structure | Story Structure |
-|-----------------|-----------------|
-| Women arrive, compete for Tenchi | Women enter **established family** |
-| Romantic tension | Aunt/sister dynamics |
-| Tenchi can't choose | Nothing to choose — he has parents already |
-| Rivals | Allies |
-
-**Key Mechanism:** By 2001, Sheldon and Yosho are in a relationship. The household has structure, routines, and hierarchy. When canon characters arrive, they're integrated into an existing family system, not creating one from scratch.
-
-### 5.6 Shadow Arc — The 13-Wing Incident (VERIFIED)
-
-**Timeline:** ~2006-2007 (Sheldon's Years 17-18)
-
-**Arc Order Context:** Kagato → Dr. Clay/Zero → Z/Chousin → **Shadow**
-
-**What Happened:**
-- Family threatened by Shadows (original storyline)
-- Desperation triggers full Lambda inheritance
-- Sheldon pushes to 13 wings — exceeding the 10-wing 3D maximum
-- Reality begins destabilizing (multiversal collapse risk)
-- **Cosmos intervenes** from outside to stabilize/prevent catastrophe
-- Sheldon suffers severe strain; requires extended recovery
-
-**Recovery Timeline:**
-| Timeframe | Wing Capacity | Status |
-|-----------|---------------|--------|
-| Immediately after | 0 | Unconscious, depleted |
-| Weeks | 1-2 | Weakened, rebuilding |
-| Months | 3 | Baseline restored |
-| ~1 year | 4 | Stable with effort |
-| Years | 5+ | Gradual climb |
-| **Never again** | 11-13 | **Permanently off-limits** |
-
-**PERMANENT RULE:** Sheldon's practical maximum going forward is **10 Light Hawk Wings** (universal limit). The 13-wing manifestation was a one-time emergency breach. He cannot and will not exceed 10 again.
+| **Washu** | Released from prison | Scientist-to-scientist dynamic with Sheldon |
+| **Kiyone (GP)** | Later arrival | Professional dynamic |
 
 ---
 
-## PART VI: POST-CANON ERA (Years 26-1000) — VERIFIED
+## PART VI: POST-CANON ERA (Years 26-1000)
 
 ### 6.1 Era Overview
 
@@ -769,372 +585,198 @@ After death, Sheldon exists in a liminal space where Cosmos can reach him.
 **Power Phase:** IV → V progression
 
 **Major Periods:**
-1. **Stabilization (Years 26-50):** Canon aftermath, new normal, formal commitment
-2. **First Century (Years 50-100):** Space opera era, galactic involvement, generational changes
-3. **Deep Time (Years 100-500):** Watching generations pass, cosmic awareness develops
-4. **Transcendence (Years 500-900):** Power mastery, all 13 LHW accessible (but 10 max used)
+1. **Stabilization (Years 26-50):** Canon aftermath, new normal
+2. **Expansion (Years 50-100):** Space opera era, galactic involvement
+3. **Maturity (Years 100-500):** Deep time adjustment, watching generations
+4. **Transcendence (Years 500-900):** Power mastery, cosmic awareness
 5. **Completion (Years 900-1000):** Final century, preparing for departure
 
----
-
-### 6.2 Century-by-Century Overview (VERIFIED)
-
-| Century | Years | Duration | Key Content |
-|---------|-------|----------|-------------|
-| 1st | ~1989-2089 | 100 years | Foundation → Canon → Stabilization |
-| 2nd | ~2090-2189 | 100 years | Family expansion |
-| 3rd | ~2190-2289 | 100 years | Political evolution |
-| 4th | ~2290-2389 | 100 years | Cosmic developments |
-| 5th | ~2390-2489 | 100 years | Generational saga |
-| 6th | ~2490-2589 | 100 years | New challenges |
-| 7th | ~2590-2689 | 100 years | Transformation |
-| 8th | ~2690-2789 | 100 years | Legacy building |
-| 9th | ~2790-2889 | 100 years | Approaching conclusion |
-| 10th | ~2890-2989 | 100 years | **Finale — Yosho's death, Sheldon's departure** |
-
----
-
-### 6.3 Longevity Mechanics (VERIFIED)
+### 6.2 Longevity Mechanics
 
 **How Sheldon Lives 1000 Years:**
-1. Lambda Power provides cosmic longevity
+1. Jump framework provides baseline longevity
 2. Celestial Pack grants enhance durability
-3. Phase V (Year 51+): Aging halts at approximately age 70-80
-4. Cosmos's direct investment in her son's survival
+3. Possible connection to Sentient Tree (Smiling Goddess Leaves perk)
+4. Cosmos's direct investment in his survival
 
-**Character Lifespans at Year 100:**
-| Character | Approximate Age | Status |
-|-----------|-----------------|--------|
-| Yosho | ~800 years | Healthy, unchanged |
-| Washu | 20,000+ years | Unchanged |
-| Ryoko | ~5,700+ years | Unchanged |
-| Ayeka | ~800 years | Unchanged |
-| Sasami | ~800 years | Merging with Tsunami continues |
-| Tenchi | ~117 years | Juraian genetics; minimal aging |
-| Sheldon | ~128 years | Lambda-sustained; minimal aging |
+**Emotional Reality of Deep Time:**
+- Watching human friends age and die
+- Watching Tenchi's children, grandchildren, etc.
+- Yosho as constant companion (also extremely long-lived)
+- Processing centuries of change
+- Maintaining identity across geological timeframes
 
----
-
-### 6.4 Key Millennium Milestones (VERIFIED)
+### 6.3 Key Millennium Milestones
 
 | Year | Date | Milestone |
 |------|------|-----------|
-| 36+ | ~2025 | Formal commitment — Yosho proposes (Bond-to-Ship gesture) |
-| 50 | ~2039 | Half-century mark; first "era" complete |
-| 100 | ~2089 | Century mark; generational turnover begins |
-| 500 | ~2489 | Halfway through thousand years |
-| 700 | ~2689 | Yosho approaching limits |
-| 900 | ~2889 | Final century begins |
-| ~1000 | April 2989 | Yosho's death; Sheldon departs July 2989 |
+| 50 | 2039 | Half-century mark; first "era" complete |
+| 100 | 2089 | Century mark; tree matured (if taken) |
+| 500 | 2489 | Halfway through thousand years |
+| 700 | 2689 | Yosho approaching limits |
+| 900 | 2889 | Final century begins |
+| ~1000 | ~2989 | Yosho's death, Sheldon's departure |
 
 ---
 
-### 6.5 Emotional Reality of Deep Time
+## PART VII: DEPARTURE MECHANICS
 
-**What Sheldon Must Process:**
-- Watching human friends age and die
-- Watching Tenchi's children, grandchildren, great-grandchildren
-- Yosho as constant companion (both extremely long-lived)
-- Processing centuries of historical change
-- Maintaining identity across geological timeframes
-- The weight of accumulated memory
+### 7.1 Trigger Condition
 
-**What Sustains Him:**
-- Dream communication with Cosmos
-- Partnership with Yosho
-- The extended found family (immortal members remain)
-- Purpose: Caring for the legacy he helped build
-- Knowledge: This was always the plan; departure approaches
+**Primary Trigger:** Yosho's death (~2989)
+**Departure Window:** Approximately 3 months after Yosho's death
 
----
+**Why Yosho's Death:**
+- Yosho is Sheldon's longest continuous companion
+- Last connection to his original arrival period
+- Symbolic completion of the found-family arc
+- Cosmos's designated departure trigger
 
-## PART VII: DEPARTURE MECHANICS (VERIFIED)
+### 7.2 Departure Sequence
 
-### 7.1 The Endpoint: Yosho's Death
+**Post-Yosho Period (3 months):**
+- Grieving process
+- Farewells to descendants and surviving companions
+- Final arrangements
+- Closure conversations
 
-**Yosho's Lifespan:** Born approximately 700+ years before 1292 AD. By story's end (~2989), he will be approximately **1,700 years old**.
-
-**The Death (VERIFIED DETAILS):**
-- Natural death from old age (Juraian limit reached)
-- Peaceful, surrounded by family
-- Approximately **April 2989 AD**
-- A spring morning. Cherry blossoms falling, as they did when Sheldon arrived 1,000 years before
-- Yosho does not wake. His face is peaceful. His hand rests in Sheldon's
-- No visible aging—he looks as he did the day they met. But something within has simply... completed
-
-### 7.2 The Final Years (2980-2989) — VERIFIED
-
-**2980-2985: Intimate Time**
-- Yosho and Sheldon rarely leave the shrine grounds
-- Family visits constantly, but quietly
-- Conversations spanning centuries recalled and treasured
-- No regrets. Only gratitude
-
-**2985-2988: Preparation**
-- Yosho gives final gifts to each family member personally
-- Long conversations with Tenchi about leadership
-- With Ayeka about Jurai and duty
-- With Ryoko about freedom and belonging
-- With Washu about the nature of existence
-- With Sasami/Tsunami about cosmic continuation
-
-**2988: The Last Year**
-- **Spring:** Yosho plants a final tree beside Funaho. "For those who come after."
-- **Summer:** Family gathering. Everyone who can comes home. Thousands descend on the shrine.
-- **Autumn:** Yosho thanks Sheldon for "making 1,000 years feel like a beginning."
-- **Winter:** Quiet. Peaceful. Together.
-
-### 7.3 The Mourning
-
-- The funeral spans a week
-- Representatives from every major civilization attend
-- Jurai sends the Emperor personally
-- **Private moments matter more:**
-  - Tenchi, weeping for his grandfather, father-figure, anchor
-  - Ryoko, who never cried, crying
-  - Ayeka, finally embracing her brother's memory without reserve
-  - Washu, quiet for once, lost in thought
-- Yosho is interred beside Funaho. Ship and captain, together in earth.
-
-### 7.4 Sheldon's Departure — Three Months After
-
-**The Week After Yosho's Death:**
-> *Sheldon sits by the grave. A thousand years of memories. And one question from Cosmos, gentle in his mind:*
->
-> *'You did well, my son. You loved well. Are you ready?'*
->
-> *'One week. Let me say goodbye properly.'*
-
-**Departure Timeline:**
-- ~3 months of grieving and farewells
-- Final arrangements with descendants
-- Closure conversations with each family member
-- **July 2989:** Cosmos returns for direct communication
-- Explanation of next phase (JumpChain continuation, return home, or other)
+**The Departure Moment:**
+- Cosmos returns for direct communication
+- Explanation of next phase (continued JumpChain? Return home? Other?)
 - Final moment in Tenchi universe
 - Transition
 
-### 7.5 What Sheldon Leaves Behind
+### 7.3 What Sheldon Leaves Behind
 
-- 1,000 years of history in the Tenchi universe
-- Descendants (details TBD)
+- 1000 years of history in the Tenchi universe
+- Descendants (if any)
 - Transformed canon — a better version of the story
-- Found family legacy spanning millennia
+- Found family legacy
 - Yosho's memory preserved
-- The "Aunt Dynamic" — a whole universe changed from harem comedy to found family
 
 ---
 
-## PART VIII: CHARACTER ARC MAPPING (VERIFIED)
+## PART VIII: CHARACTER ARC MAPPING
 
-### 8.1 Sheldon × Yosho: Five-Phase Progression (VERIFIED)
+### 8.1 Sheldon Carter — Full Arc
 
-| Phase | Years | Development |
-|-------|-------|-------------|
-| **1** | 1-3 | **ASSESSMENT**: Yosho observes, tests, evaluates. Sheldon proves himself through consistent action, patience, care for Tenchi. Trust earned, not given. |
-| **2** | 4-12 | **TRUST**: Sheldon reveals reincarnation truth (Year 4). Yosho keeps his own secrets but offers training. Deep friendship forms. |
-| **3** | 13-25 | **REVELATION**: Canon events force Yosho to reveal true identity. The "old priest" becomes young prince. Relationship must recalibrate. |
-| **4** | 26-100 | **DEEPENING**: Both acknowledged immortals now. No more secrets. Romantic feelings can finally be explored without deception. |
-| **5** | 100+ | **COMMITMENT**: Whatever form marriage takes for two immortals. Partnership across remaining centuries. |
-
-**VERIFIED KEY MOMENTS:**
-- **Year 4:** Sheldon's Truth — First major vulnerability shared
-- **Year 5:** First time Yosho makes tea and brings it TO Sheldon
-- **Year 7:** Kobe earthquake. They sit together that night. No words needed.
-- **Year 9:** First time their hands touch and neither pulls away
-- **Year 11:** Gift exchange. Yosho gives something with meaning. Sheldon understands.
-- **Year 13:** Yosho's Truth — The great reversal; everything changes
-- **Year 25:** First Admission — Feelings acknowledged
-- **Year 36+:** Formal commitment. Yosho proposes using Bond-to-Ship gesture (Juraian tradition)
-- **Year 50:** Physical relationship established
-- **Year 100:** Full partnership confirmed
-
-**STORY NOTE:** The romance CANNOT begin until Phase 3. Until Yosho drops the "old priest" illusion, Sheldon sees a mentor figure, not a potential partner. The revelation recontextualizes everything.
-
----
-
-### 8.2 Sheldon × Tenchi: Father-Son Arc (VERIFIED)
-
-| Year | Development Milestone |
-|------|----------------------|
-| 1 | **ATTACHMENT**: 4-year-old Tenchi latches onto available adult. Basic trust. Sheldon wasn't planning on being a father. |
-| 2-3 | **BONDING**: Tenchi sees Sheldon as permanent fixture. "Fun uncle" becomes "parent figure." |
-| 4-8 | **GROWTH**: Training partnership. Father-son dynamic established. Tenchi's academics and skills flourish. |
-| 9-12 | **TEEN YEARS**: Normal independence phase. Sheldon shifts to background support. |
-| 13+ | **EQUALS**: Canon events. Tenchi becomes hero. Sheldon as proud parent. |
-| 20+ | **GENERATIONS**: Tenchi's own family. Sheldon as grandfather figure. |
-
-**VERIFIED MOMENTS:**
-- Day 8: **TENCHI'S NIGHTMARE** — First major bonding
-- Week 2: Teaching Gift manifests — "You explain it better than teacher"
-- Day 22: Tenchi's 5th Birthday — Parent role cemented
-- Year 4: Training begins — Growth together
-- Year 10: Legacy book — Tenchi writes down everything Sheldon has taught him
-
----
-
-### 8.3 Sheldon × Cosmos: Mother-Son Arc (VERIFIED)
-
-**Communication Frequency:**
-| Period | Frequency |
-|--------|-----------|
-| Year 1 | 2-3 times (establishing contact) |
-| Years 2-5 | Monthly average |
-| Years 6-12 | Every 6-8 weeks |
-| Post-2001 | Can visit physically (limited duration) |
-
-**Relationship Dynamic:**
-- Sheldon calls her "Mom"
-- She calls herself "Usagi" (asks him to use this name)
-- Contact is precious because rare — neither can summon the other at will
-- She cannot give tactical information about Tenchi universe
-- She CAN provide emotional support, guidance, and love
-
-**Key Development:** Year ~6-8 — The "Harem Complaint" scene:
-> *"Question."*
-> *Cosmos tilts her head. "Yes, my child?"*
-> *Sheldon crosses his arms.*
-> *"Why, exactly, did you put me in a universe with, and I'm counting, four different kinds of harems?"*
-> *Cosmos blinks. Actually blinks.*
-> *"Harems?" she repeats, like he just introduced her to a word invented five seconds ago.*
-
----
-
-### 8.4 Sheldon Carter — Full Arc (VERIFIED)
-
-**Beginning:** Displaced scientist, grieving, uncertain (October 2025 → April 1989)
-**Year 1:** Finding place, building trust, discovering abilities manifest as "exceptional talent"
-**Years 2-4:** Deepening roots, revelation to Yosho, training begins
-**Years 5-12:** Training partner, found family, Phase II powers, preparation for canon
-**Year 13+:** Canon navigation, protector role, first LHW manifestation
-**Year 18:** Shadow Arc — 13-wing incident; learns his limits the hard way
-**Years 26-100:** Stabilization, watching first generation age, deep time adjustment
-**Years 100-500:** Long view perspective, cosmic awareness developing
+**Beginning:** Displaced scientist, grieving, uncertain
+**Year 1:** Finding place, building trust
+**Years 2-4:** Deepening roots, revelation to Yosho
+**Years 5-12:** Training partner, found family, preparation
+**Year 13+:** Canon navigation, protector role
+**Years 26-100:** Stabilization, watching first generation age
+**Years 100-500:** Long view perspective, cosmic awareness
 **Years 500-1000:** Transcendence, acceptance, completion
-**~2989:** Yosho's death; departure 3 months later with purpose fulfilled
+**End:** Departure with purpose fulfilled
 
----
+### 8.2 Tenchi Masaki — Arc Through Sheldon's Eyes
 
-### 8.5 Canon Characters — Entry and Integration (VERIFIED)
+**Age 4-5:** Grieving child, hungry for attention
+**Age 6-12:** Growing boy, developing skills
+**Age 13-17:** Teen hero, canon events
+**Age 18-40:** Young adult, family formation
+**Age 40-80:** Middle age, grandfather
+**Age 80-death:** Elder, passing legacy
+
+### 8.3 Yosho/Katsuhito — 700-1700 Years
+
+**At Sheldon's arrival:** Ancient warrior in hermit disguise, grieving Kiyone
+**Years 1-4:** Cautious observer → trusted confidant
+**Years 4-12:** True peer, training partner
+**Year 13+:** United front for canon events
+**Years 26-1000:** Brothers in deep time
+**Death (~2989):** Completes his 1700-year journey
+
+### 8.4 Canon Characters — Entry and Integration
 
 **Ryoko:**
-- Pre-canon: **CONSCIOUS entire 700-year imprisonment**; watched household via astral projection 12 years
-- Canon: Awakening, but enters a family that already exists
+- Pre-canon: Sealed in cave (no interaction)
+- Canon: Awakening, initial chaos
 - Post-canon: "Aunt Ryoko" — protective older sister energy
 - Long-term: Eternal companion (immortal via Masu nature)
 
 **Ayeka:**
-- Entry: Arrives seeking Yosho — finds him with a FAMILY
-- Initial: Must process 700 years of searching ending differently than expected
+- Entry: Arrives seeking Yosho
+- Initial: Princess formality vs household casualness
 - Growth: Accepts Earth life choice
 - Long-term: Royal ambassador to found family
 
 **Sasami/Tsunami:**
 - Entry: With Ayeka
-- Dynamic: Kitchen partnership with Sheldon (two cooks, mentorship + collaboration)
+- Dynamic: Immediate warmth, kitchen partnership
 - Secret: Tsunami merger (known to Sheldon via Yosho)
 - Long-term: Divine presence in household
-
-**Washu:**
-- Entry: Release from imprisonment
-- **Special Dynamic:** When she discovers Sheldon's Lambda Power from an EXTERNAL cosmology:
-  - Scientific fascination (new physics!)
-  - Cosmic kinship (both connected to supreme beings)
-  - Protective interest (unique specimen)
-  - Eventually detects Lambda infusion in food but keeps quiet
-- Long-term: Mad science aunt; possibly closest cosmic "peer"
 
 **Mihoshi:**
 - Entry: Crash landing
 - Dynamic: Chaotic good energy
+- Function: Galaxy Police connection
 - Long-term: Family luck charm
+
+**Washu:**
+- Entry: Release from imprisonment
+- Dynamic: Scientist rivalry/partnership with Sheldon
+- Function: Technical support, experimentation
+- Long-term: Mad science aunt
 
 ---
 
 ## PART IX: GAPS REQUIRING DECISIONS
 
-### 9.1 ESTABLISHED (No Longer Gaps)
+### 9.1 Unresolved Questions
 
-✅ Sheldon's birth: August 21, 1987 (Griffin, GA)
-✅ Sheldon's death: October 23, 2025 (UAF particle accelerator)
-✅ Arrival date: April 3, 1989
-✅ Tenchi's birth: April 24, 1984
-✅ Kiyone's death: ~August 1988
-✅ Yosho's death: ~April 2989
-✅ Sheldon's departure: ~July 2989 (3 months after Yosho)
-✅ Total stay: 1000 years
-✅ Celestial Pack grants: ~70 documented
-✅ Power phases: I-V defined
-✅ LHW progression: Verified with 13-wing incident
-✅ Yosho revelation: Year 4, April 3, 1992
-✅ Canon arc order: Kagato → Clay/Zero → Z/Chousin → Shadow
-✅ Cosmos communication frequency: Established
-✅ Sheldon × Yosho relationship progression: Five phases defined
+1. **Sheldon's exact Jump perk build:** Which perks purchased? What CP total?
+2. **Complete Celestial Pack grant list:** All 44 grants specifically identified?
+3. **Clothing at arrival:** Original clothes or Cosmos-provided?
+4. **Tsukino family details:** How much of this fabricated history matters?
+5. **Children/descendants:** Does Sheldon have any?
+6. **Romantic relationships:** Any over 1000 years?
+7. **Power manifestation specifics:** When exactly do abilities become visible?
+8. **Canon event timings:** Exact dates for arrivals?
+9. **Post-canon adventures:** What happens in Years 14-25?
+10. **Deep time structure:** Major events in Years 100-900?
 
-### 9.2 STILL REQUIRES DECISION
+### 9.2 Decisions Needed from Author
 
-| Question | Status | Notes |
-|----------|--------|-------|
-| **Sheldon's exact Jump perk build** | PARTIAL | Origin (Drop-In) confirmed; specific CP allocation TBD |
-| **Sheldon's arrival clothing** | UNRESOLVED | What does Cosmos provide? |
-| **Tsukino family detailed history** | PARTIAL | Framework exists; full genealogy TBD |
-| **Sheldon's descendants** | UNRESOLVED | Does he have biological children? With whom? |
-| **Romantic relationships beyond Yosho** | UNRESOLVED | Any other partners over 1000 years? |
-| **Deep time structure** | PARTIAL | Major milestones exist; specific events Years 100-900 TBD |
-| **Post-canon adventures** | PARTIAL | Arcs through Year 25 defined; Years 26-100 TBD |
-| **Griffin childhood home fate** | UNRESOLVED | Sold? Demolished? Still standing? |
-
-### 9.3 LOW PRIORITY / FUTURE DECISIONS
-
-These can be developed as story reaches these points:
-
-1. Year 50+ specific events
-2. Year 100+ specific events  
-3. Descendants' names and personalities
-4. Century 2-9 detailed arcs
-5. Final farewell scene specifics
-6. Where Sheldon goes after departure
+1. Confirm or modify Jump perk selections
+2. Provide complete Celestial Pack grant list
+3. Decide on romantic subplot approach
+4. Determine descendant question
+5. Specify post-canon adventure priorities
+6. Identify key millennium milestone events
 
 ---
 
 ## APPENDIX A: QUICK REFERENCE
 
-### Forbidden Words in Sheldon's POV (Phase I)
-- Cosmos, Sailor, Lambda
+### Forbidden Words in Sheldon's POV
+- Cosmos, Sailor
 - Ryoko, Washu, Tsunami, Kagato (until learned on-page)
 - Ayeka, Sasami (until learned on-page)
 - Jurai, Royal Tree, Galaxy Police (until learned on-page)
 - Phase I/II/III (meta-terminology)
-- "remade"
-- Light Hawk Wing(s), LHW, wings of light (until Year 13+)
+- "remade," Lambda
 
-### Safe Terminology for Sheldon's POV (Phase I)
+### Safe Terminology for Sheldon's POV
 - "the system," "the presence," "his benefactor," "whatever brought him here"
-- Katsuhito (until learns true name Yosho)
+- Katsuhito (until learns true name)
 - Descriptive terms for observed phenomena
 
 ### Key Dates Quick Reference
-| Event | Date |
-|-------|------|
-| Sheldon born | August 21, 1987 |
-| Sheldon dies | October 23, 2025 |
-| Tenchi born | April 24, 1984 |
-| Kiyone (Tenchi's mother) dies | ~August 1988 |
-| **Sheldon arrives** | **April 3, 1989** |
-| Tenchi's 5th birthday | April 24, 1989 |
-| Day 8: Nightmare | April 10, 1989 |
-| Day 17: Hikaru arrives | April 19, 1989 |
-| First Cosmos dream | December 1989 |
-| Year 4: Revelation to Yosho | April 3, 1992 |
-| Year 4: Tenchi training begins | July 1992 |
-| Canon begins (Ryoko awakens) | ~2001 (Year 13) |
-| Shadow Arc (13-wing incident) | ~2006-2007 (Year 18) |
-| Formal commitment | ~2025 (Year 36) |
-| Yosho dies | ~April 2989 |
-| Sheldon departs | ~July 2989 |
+- Sheldon born: August 21, 1987
+- Sheldon dies: October 23, 2025
+- Tenchi born: April 24, 1984
+- Kiyone (Tenchi's mother) dies: ~August 1988
+- Sheldon arrives: April 3, 1989
+- Tenchi's 5th birthday: April 24, 1989
+- Cosmos revelation: April 3, 1990
+- Yosho revelation: July 1992
+- Canon begins: ~2001
+- Yosho dies: ~2989
+- Sheldon departs: ~July 2989
 
 ---
 
-*Document compiled from Jump source materials, 15+ past conversations, Story Bible content, Celestial Pack Reference, and Canon Audits.*
-*Research-verified: December 29, 2025*
+*Document compiled from Jump source materials, established Bible content, and planning discussions.*
 *For Bible integration: Create as standalone document, user integrates.*
