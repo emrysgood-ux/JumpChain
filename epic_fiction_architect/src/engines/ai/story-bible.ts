@@ -15,6 +15,13 @@ import {DatabaseManager} from '../../db/database';
 import {EmbeddingsEngine} from './embeddings';
 import {CalendarEngine} from '../timeline/calendar';
 import {AgeCalculator} from '../timeline/age';
+import {
+  SummarizationGuard,
+  SummarizationConfig,
+  DEFAULT_CONFIG as DEFAULT_SUMMARIZATION_CONFIG,
+  shouldSummarize,
+  calculateSafeSummaryLength
+} from './summarization-guard';
 import type {
   StoryBibleQuery,
   StoryBibleResult,
@@ -88,17 +95,27 @@ export class StoryBible {
   private embeddings: EmbeddingsEngine;
   private calendar: CalendarEngine;
   private ageCalc: AgeCalculator;
+  private summarizationGuard: SummarizationGuard;
 
   constructor(
     db: DatabaseManager,
     embeddings: EmbeddingsEngine,
     calendar: CalendarEngine,
-    ageCalc: AgeCalculator
+    ageCalc: AgeCalculator,
+    summarizationConfig?: Partial<SummarizationConfig>
   ) {
     this.db = db;
     this.embeddings = embeddings;
     this.calendar = calendar;
     this.ageCalc = ageCalc;
+    this.summarizationGuard = new SummarizationGuard(summarizationConfig);
+  }
+
+  /**
+   * Get the summarization guard for external access
+   */
+  getSummarizationGuard(): SummarizationGuard {
+    return this.summarizationGuard;
   }
 
   // ==========================================================================
@@ -261,20 +278,52 @@ export class StoryBible {
 
   /**
    * Build a comprehensive context package for AI writing assistance
+   * Now with over-summarization protection
    */
   async buildAIContext(
     projectId: string,
     sceneId: string,
     query?: string,
     maxTokens: number = 8000
-  ): Promise<AIContextPackage> {
+  ): Promise<AIContextPackage & {summarizationWarnings?: string[]}> {
     const scene = this.db.getScene(sceneId);
     if (!scene) {
       return this.emptyContextPackage();
     }
 
+    // Gather context for summarization guard
+    const promises = this.db.getUnfulfilledPromises(projectId);
+    const characterIds = scene.characterIds;
+    const characters = characterIds.map(id => this.db.getCharacter(id)).filter((c): c is Character => c !== null);
+    const threads = this.getRelevantPlotThreads(projectId, characterIds);
+    const facts = this.db.all<{
+      id: string;
+      project_id: string;
+      fact: string;
+      category: string;
+      importance: string;
+      source_scene_id: string | null;
+      source_chapter: string | null;
+      related_entity_ids: string;
+      verified: number;
+    }>('SELECT * FROM consistency_facts WHERE project_id = ?', [projectId]);
+
+    const consistencyFacts: ConsistencyFact[] = facts.map(f => ({
+      id: f.id,
+      projectId: f.project_id,
+      fact: f.fact,
+      category: f.category as ConsistencyFact['category'],
+      importance: f.importance as ConsistencyFact['importance'],
+      sourceSceneId: f.source_scene_id ?? undefined,
+      sourceChapter: f.source_chapter ?? undefined,
+      relatedEntityIds: JSON.parse(f.related_entity_ids),
+      verified: f.verified === 1,
+      establishedAt: new Date()
+    }));
+
     const parts: {section: string; content: string; priority: number}[] = [];
     const tokensPerChar = 0.25;
+    const summarizationWarnings: string[] = [];
 
     // 1. POV Character Bio (highest priority)
     if (scene.povCharacterId) {
@@ -355,7 +404,7 @@ export class StoryBible {
     // Sort by priority and build context within token limit
     parts.sort((a, b) => b.priority - a.priority);
 
-    const result: AIContextPackage = {
+    const result: AIContextPackage & {summarizationWarnings?: string[]} = {
       characterBios: '',
       currentSituation: '',
       relevantFacts: '',
@@ -365,10 +414,14 @@ export class StoryBible {
     };
 
     let totalTokens = 0;
+    const skippedParts: string[] = [];
 
     for (const part of parts) {
       const partTokens = Math.ceil(part.content.length * tokensPerChar);
-      if (totalTokens + partTokens > maxTokens) continue;
+      if (totalTokens + partTokens > maxTokens) {
+        skippedParts.push(part.content);
+        continue;
+      }
 
       const section = part.section as keyof AIContextPackage;
       if (section !== 'tokenEstimate') {
@@ -378,6 +431,49 @@ export class StoryBible {
     }
 
     result.tokenEstimate = totalTokens;
+
+    // Validate summarization to prevent over-compression
+    if (skippedParts.length > 0) {
+      const originalContent = skippedParts.join('\n\n');
+      const summarizationCheck = shouldSummarize(originalContent);
+
+      if (summarizationCheck.shouldSummarize) {
+        // Validate that we're not losing critical details
+        const validationResult = this.summarizationGuard.validateSummarization(
+          originalContent,
+          '', // Empty summary since content was skipped
+          {
+            promises,
+            characters,
+            plotThreads: threads,
+            facts: consistencyFacts
+          }
+        );
+
+        if (!validationResult.isAcceptable) {
+          summarizationWarnings.push(
+            `⚠️ Over-summarization detected: ${validationResult.errors.join('; ')}`
+          );
+        }
+
+        if (validationResult.warnings.length > 0) {
+          summarizationWarnings.push(...validationResult.warnings);
+        }
+
+        if (validationResult.lostDetails.length > 0) {
+          const criticalLost = validationResult.lostDetails.filter(d => d.importance === 'critical');
+          if (criticalLost.length > 0) {
+            summarizationWarnings.push(
+              `CRITICAL: ${criticalLost.length} critical details lost due to token limit`
+            );
+          }
+        }
+      }
+    }
+
+    if (summarizationWarnings.length > 0) {
+      result.summarizationWarnings = summarizationWarnings;
+    }
 
     return result;
   }
