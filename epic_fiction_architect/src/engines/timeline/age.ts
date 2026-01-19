@@ -88,6 +88,11 @@ export class AgeCalculator {
     // Calculate chronological age
     const chronologicalAge = this.calculateChronologicalAge(character.birthDate, atDate);
 
+    // Character not born yet - return null instead of negative age
+    if (chronologicalAge < 0) {
+      return null;
+    }
+
     // Check if character is dead
     if (character.deathDate) {
       const deathDay = this.calendar.dateToDayNumber(character.deathDate);
@@ -162,7 +167,8 @@ export class AgeCalculator {
       }
     }
 
-    return Math.max(0, age);
+    // Return actual age (may be negative if target date is before birth)
+    return age;
   }
 
   /**
