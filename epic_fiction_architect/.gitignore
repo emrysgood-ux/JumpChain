@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Database files (test artifacts)
+*.db
+*.db-shm
+*.db-wal
+
+# Build output
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
