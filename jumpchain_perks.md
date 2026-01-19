@@ -1,108 +1,165 @@
-# JUMPCHAIN PERKS — LORE FILE
-**Category:** Lore (Power System)
-**Last Updated:** 2025-12-30
-**Related Files:** [[celestial_pack.md]], [[../characters/main_cast/sheldon.md]]
+# JUMPCHAIN PERKS
+## Sheldon's Granted Abilities
+### Son of Cosmos: JumpChain
 
 ---
 
-## FRAMEWORK OVERVIEW
+## SOURCE
 
-**System Name:** JumpChain
-**Nature:** Mechanism for moving souls between realities, granting abilities
-**Sheldon's Case:** Cosmos built his configuration while he was unconscious (emergency)
+Perks selected from **Tenchi Muyo! JumpChain Document** by Cosmos as benefactor.
 
----
-
-## CONFIGURATION DETAILS
-
-### Universe Designation
-**Name:** Tenchi Muyo
-**Classification:** "Slice of Life" primary, "Space Opera" secondary
-**Warning in Documentation:** "Shipping Wars" (Cosmos misread as naval conflicts)
-
-### Perk Unlock Schedule
-**Status Pre-Day 366:** Dormant; felt as intuitions, lucky breaks
-**Status Post-Day 366:** Fully active; consciously accessible
+**Budget:** 1000cp (Slice of Life mode)
+**Origin:** Drop-In (50cp for first perk)
 
 ---
 
-## ORIGIN: SUPERTECH-MAGO-SCIENTIST
+## ACTIVE FROM DAY 1
 
-**Selection Rationale:** Sheldon was already a scientist with four PhDs
+These perks function immediately upon arrival.
 
-### Tier 1: Simple Scientific Solution (100cp, Free)
-- Create supertech improvements to common tools/appliances
-- See underlying principles others miss
+### Drop-In Origin (Free)
+- Humanoid form, no extra memories
+- Automatic Japanese language
+- Can handwave tech/abilities as "from elsewhere"
 
-### Tier 2: Technobabel Fish (200cp, 100cp discounted)
-- Flawlessly understand any technical terminology
-- Explain to anyone; they understand no matter how dense
+### Trained in the Old Ways (100cp)
+**Slice of Life Version:**
+> Knowledge in a field of your choice. Methodology often unexpected, helps see solutions others miss.
 
-### Tier 3: Super Study Buddy (400cp, 200cp discounted)
-- People studying with you don't require sleep while learning
-- Legendary passion for teaching
-- Companion: brilliant scientist/professor or student, enamored
+**Sheldon's Application:**
+- Enhanced intuition in physics/science
+- Unconventional problem-solving
+- "Sees angles others don't"
 
-### Tier 4: The Maddest Science Yet (800cp, 400cp discounted)
-- Build amazing inventions
-- **CRITICAL: Nothing you make can harm people unintentionally**
-- Cosmos's gift: "Permission to create without fear"
+### Civilian Savvy (200cp)
+**Slice of Life Version:**
+> Street-smarts in excess of noble/military/ruling classes. Adapts to new situations quickly. Abduction or aliens = water off your back. Can find work anywhere.
 
----
+**Sheldon's Application:**
+- Rapid adaptation to 1989 Japan
+- Social navigation without rank/privilege
+- Employment/integration ease
+- Unflappable about strangeness
 
-## ORIGIN: DROP-IN
+### Exceptional Company (400cp)
+**Slice of Life Version:**
+> Best of the best gravitate toward you. Most interesting, beautiful, skilled fall into your circle. Those who enjoy your company are enriched—traits and qualities boost, can become permanent.
 
-**Selection Rationale:** No false memories; arrived as stranger
+**Additional Effect:**
+> Engaged to at least two noble scions or equivalent. Compatible but may have rivalry.
 
-### Tier 1: Trained in Old Ways (100cp, 50cp discounted)
-- Knowledge in field of choice
-- Unexpected methodology; wildcard approach
-
-### Tier 2: Civilian Savvy (200cp, 100cp discounted)
-- Street-smarts; adapt quickly to new situations
-- Navigate unfamiliar social structures naturally
-
-### Tier 3: Exceptional Company (400cp, 200cp discounted)
-- Best of best gravitate toward you
-- Those near you are enriched; traits boosted
-- Companion: engaged to noble scions (may rival)
-
-### Tier 4: The UnChousin One (600cp, 300cp discounted)
-- **IGNORED by beings infinitely your greater**
-- Prognostics, scrying give fuzzy returns
-- Concealment, not invisibility
-- Must keep head down; announcing origin breaks it
-
-### Tier 5: Long Lost Noble Heir (800cp, 400cp discounted)
-- Inherited titles, bloodlines, connections
-- Tsukino family (Cosmos-created, genuinely real)
-- Great-Aunt Michiko left house; Uncle Kiyoshi in Osaka
+**Sheldon's Application:**
+- Attracts quality people naturally
+- Enhances those around him
+- The "engaged to nobles" = Yosho connection (eventually)
+- Found family gravitates to him
 
 ---
 
-## PERK INTERACTION NOTES
+## LOCKED UNTIL DAY 366
 
-### Scientist + Drop-In Synergy
-- Scientific methodology + unconventional approaches
-- Teaching boosted by people wanting to be near him
-- Safety guarantee applies to all inventions
+These perks unlock after Cosmos's full revelation.
 
-### UnChousin One + Everything Else
-- Perk effects don't register to divine observation
-- Combined effect: Sheldon appears remarkably talented human
-- No red flags for Chousin observation
+### The UnChousin One (600cp)
+**Slice of Life Version:**
+> Greatest luck: being ignored by beings infinitely your greater. Keep head down = accepted as "part of the action." Concealment from prognostics, scrying, higher senses—fuzzier returns the more circumspect you are.
+
+**Sheldon's Application:**
+- Divine beings don't notice him easily
+- Chousin experiment doesn't flag him
+- Can exist in Tenchi universe without cosmic attention
+- Washu's investigation = natural curiosity, not compulsion
+
+### Long Lost Last Noble Heir to the Dojo (800cp)
+**Slice of Life Version:**
+> Inherited credulity-straining number of titles, bloodlines, seats on organizations/councils. Too much to handle immediately, but allies and connections around six powerful enclaves/groups/royal lines.
+
+**Sheldon's Application:**
+- Tsukino family holdings (house, legitimacy)
+- Future connections to power structures
+- Basis for "belongs here" in galactic society
+- Details manifest as needed
 
 ---
 
-## COST ACCOUNTING
+## GEAR PURCHASES
 
-| Track | Total Base | Discounted |
-|-------|------------|-----------|
-| Scientist | 1500cp | 700cp |
-| Drop-In | 2100cp | 1050cp |
+### Subspace Onsen (100cp)
+**Description:**
+> Wonderful retreat with infinite hot water, dozens of pools, fully stocked kitchen and bar. Connects to Warehouse, can be summoned to current location. Outside Warehouse: infinite occupants. Inside: capped at 50.
 
-**Note:** Cosmos built configuration; normal budget rules may not apply to emergency intervention.
+**Status:** Locked until Day 366
+**Application:** Private relaxation space, family gathering location
+
+### Master Key (300cp)
+**Description:**
+> Rare Juraian artifact. Interface for all Jurian technology. Made from 1st-gen tree bark and crystallized sap. Administrator access to 2nd-gen tree ships and below. Can generate energy sword and personal defensive shield.
+
+**Caution:**
+> If not Juraian, you're not supposed to have this. Will be "asked" to return it.
+
+**Status:** Locked until Day 366
+**Application:** Interface with Juraian tech despite Lambda (not LHW) nature. Workaround for system incompatibility.
 
 ---
 
-**END OF LORE FILE**
+## WHAT SHELDON DOESN'T HAVE
+
+### Not Purchased
+| Perk | Reason |
+|------|--------|
+| Space-Pirate Origin | Wrong character concept |
+| Galaxy Police Origin | Wrong character concept |
+| Scientist Origin | Has PhD legitimately |
+| Jurian Noble Origin | Would conflict with Lambda |
+| Combat perks | Not a fighter |
+| Ship purchases | Not needed |
+
+### Cannot Access (Wrong System)
+| Power | Reason |
+|-------|--------|
+| Light Hawk Wings | Lambda, not Chousin |
+| Royal Tree Bond | Incompatible energy |
+| Juraian Power | Not Juraian |
+
+---
+
+## PERK MANIFESTATION
+
+### How Perks Feel to Sheldon
+
+**Day 1-365:**
+- Doesn't know they're "perks"
+- Experiences as intuition, luck, talent
+- "I don't know why I know this"
+- Attributes to adaptation, survival instinct
+
+**Day 366+:**
+- Understands framework
+- Can consciously recognize perk effects
+- Still experiences naturally
+- Knowledge doesn't change behavior much
+
+### How Perks Appear to Others
+
+| Observer | Sees |
+|----------|------|
+| Katsuhito | Unusual competence, anomalous energy |
+| Tenchi | Cool uncle who knows stuff |
+| Nobuyuki | Capable, reliable person |
+| Washu (Year 13+) | Fascinating anomaly |
+| Ryoko (Year 13+) | Doesn't fit any category |
+
+---
+
+## CROSS-REFERENCES
+
+- `[[powers/dual_system.md]]` — Lambda vs. LHW
+- `[[powers/celestial_pack.md]]` — Non-JumpChain abilities
+- `[[characters/sheldon_tsukino.md]]` — How perks apply
+- `[[characters/cosmos.md]]` — Who granted them
+- `[[timeline/year4_revelation.md]]` — When unlocks occur
+
+---
+
+**END OF DOCUMENT**

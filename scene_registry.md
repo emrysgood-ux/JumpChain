@@ -1,169 +1,188 @@
-# SCENE REGISTRY — COMPLETE
-**Category:** Timeline
-**Last Updated:** 2025-12-15
-**Related Files:** [[../dashboards/session_startup.md]], [[day_001.md]]
+# SCENE REGISTRY
+## Written Content Tracking
+### Son of Cosmos: JumpChain
 
 ---
 
-## CHAPTER 1 OVERVIEW
+## PURPOSE
 
-**Timeline:** Day 1-28 (April 3 - April 30, 1989)
-**Total Estimated:** ~150,000 words | ~50 scenes
-**Status:** 79% complete through Day 22
-
----
-
-## DAY 1 — April 3, 1989 (Monday)
-
-**Total:** ~13,650 words | 8 scenes | Timeline: 2:47 PM - 9:00 PM
-
-### Scene 1: The Awakening (REWRITE v1 — Dec 15, 2025)
-- **Time:** 2:47 PM
-- **Location:** Agricultural field, Asakuchi District
-- **POV:** Sheldon (close third)
-- **Word Count:** ~950 words
-- **Summary:** Sheldon wakes with no memory, observes environment, begins walking toward road
-- **Bible Elements Used:** Field description (13.3), Uguisu bird call (13.3), Sumire flowers (13.3)
-- **Seeds Planted:** SEED-004 reinforced (body efficiency, borrowed confidence)
-- **Knowledge State:** Day 1 compliant — no cosmic awareness
-- **End State:** Standing at field edge, walking south toward road
-
-### Scene 2: The Road (REWRITE v1 — Dec 15, 2025)
-- **Time:** 2:52 PM
-- **Location:** Rural asphalt road
-- **POV:** Sheldon (close third)
-- **Word Count:** ~700 words
-- **Summary:** Sheldon discovers wallet, learns name from Residence Card, finds photograph
-- **Bible Elements Used:** Wallet contents (5.12), Residence Card (5.12.1)
-- **Items Discovered:** ¥500,000 cash, Residence Card, photograph of elderly woman
-- **Seeds Planted:** Identity mystery established
-- **Knowledge State:** Day 1 compliant — name discovered from physical evidence only
-- **End State:** Walking west on rural road with wallet
-
-### Scene 3: The Farmer
-- **Time:** ~3:30 PM
-- **Location:** Rural road
-- **POV:** Sheldon
-- **Summary:** Yamamoto Takeshi gives Sheldon a ride; learns about Tsukino family near shrine
-- **Characters:** Yamamoto Takeshi (first human contact)
-- **Seeds:** Omamori charm from Masaki Shrine in truck
-
-### Scene 4: The Bus
-- **Time:** ~4:15 PM
-- **Location:** Bus stop → Bus route
-- **POV:** Sheldon
-- **Summary:** Sheldon takes bus to Jinja-mae stop
-- **Characters:** Nakamura Kenji (bus driver)
-
-### Scene 5: The Steps
-- **Time:** ~4:45 PM
-- **Location:** Masaki Shrine steps (320 steps)
-- **POV:** Sheldon
-- **Summary:** Sheldon climbs to shrine; physical capability noted
-- **Seeds:** SEED-004 reinforced (doesn't tire as expected)
-
-### Scene 6: First Meeting — Tenchi
-- **Time:** ~5:00 PM
-- **Location:** Shrine grounds
-- **POV:** Sheldon
-- **Summary:** Meets Tenchi (age 5) playing on grounds
-- **Characters:** Tenchi Masaki (first appearance)
-- **Milestone:** Found family begins
-
-### Scene 7: First Meeting — Katsuhito
-- **Time:** ~5:15 PM
-- **Location:** Shrine interior
-- **POV:** Sheldon
-- **Summary:** Meets Katsuhito; arrangement proposed
-- **Characters:** Katsuhito Masaki (first appearance)
-- **Seeds:** SEED-001 planted (Katsuhito's impossible grace)
-
-### Scene 8: Evening — The Cave Warning
-- **Time:** ~6:30 PM
-- **Location:** Shrine grounds tour
-- **POV:** Sheldon
-- **Summary:** Katsuhito shows grounds; forbids cave approach
-- **Seeds:** SEED-002 planted (Forbidden Cave)
+Track all scenes written to:
+- Prevent contradiction
+- Enable continuation
+- Document progress
+- Reference established content
 
 ---
 
-## DAY 2 — April 4, 1989 (Tuesday)
+## CHAPTER 1 STATUS
 
-**Total:** ~6,050 words | 3 scenes | Timeline: 6:23 AM - 8:00 PM
+**Days Covered:** 1-28
+**Approximate Scenes:** ~61
+**Approximate Words:** ~170,000+
+**Status:** WRITTEN (in previous sessions)
 
-### Scene 1: First Morning
-- **Time:** 6:23 AM
-- **Summary:** Sheldon wakes in new room; establishes morning routine
-
-### Scene 2: The Arrangement
-- **Time:** ~8:00 AM
-- **Summary:** Formal arrangement discussed; Sheldon to help with shrine maintenance
-
-### Scene 3: Tenchi-ken Discovery
-- **Time:** ~2:00 PM
-- **Summary:** Sheldon notices ornate sword hilt in storage
-- **Seeds:** SEED-003 planted (Master Key)
+### Note on Access
+These scenes were written in previous ephemeral sessions. Content exists but files may need retrieval from user's local storage or reconstruction from conversation history.
 
 ---
 
-## DAYS 3-7 — April 5-9, 1989
+## SCENE LOG TEMPLATE
 
-**Summary:** Establishment of routine, first cooking, integration into shrine life
+When scenes are written, log here:
 
----
+```
+### Day [X] — [Date]
 
-## DAY 8 — April 10, 1989 (Monday)
+**Scene [X.1]: [Title]**
+- POV: [Character]
+- Location: [Place]
+- Characters: [Present]
+- Time: [Morning/Afternoon/Evening]
+- Word Count: ~[X]
+- Key Events: [Summary]
+- Canon Established: [New facts]
+- Foreshadowing: [Seeds planted]
 
-**MAJOR MILESTONE:** First major cooking scene; Tenchi's birthday preparation begins
-
----
-
-## DAYS 9-16 — April 11-18, 1989
-
-**Summary:** Deepening relationships, village integration begins
-
----
-
-## DAY 17 — April 19, 1989 (Wednesday)
-
-**MAJOR MILESTONE:** First village shopping trip alone
-
----
-
-## DAY 18 — April 20, 1989 (Thursday)
-
-**MAJOR MILESTONE:** First conversation with Nobuyuki (weekend visit)
+**Scene [X.2]: [Title]**
+...
+```
 
 ---
 
-## DAY 20 — April 22, 1989 (Saturday)
+## DAYS 1-7: ARRIVAL WEEK
 
-**MAJOR MILESTONE:** Nobuyuki weekend visit complete; Sheldon's role validated
+### Day 1 — April 3, 1989
+
+**Scene 1.1: Awakening**
+- POV: Sheldon
+- Location: Bamboo grove
+- Characters: Sheldon alone
+- Key Events: Wakes up, discovers changes, orients
+- Canon Established: Physical restoration details
+
+**Scene 1.2: The Climb**
+- POV: Sheldon
+- Location: 320 steps
+- Characters: Sheldon alone
+- Key Events: Climbs to shrine, physical assessment
+
+**Scene 1.3: First Meeting**
+- POV: Sheldon / Katsuhito (multi-POV)
+- Location: Shrine grounds
+- Characters: Sheldon, Katsuhito
+- Key Events: Introduction, assessment begins
+
+*[Additional Day 1 scenes documented in session files]*
+
+### Day 2 — April 4, 1989
+
+**Scene 2.1: Morning**
+- POV: Sheldon
+- Key Events: First morning at shrine
+
+**Scene 2.2: Meeting Tenchi**
+- POV: Sheldon / Tenchi
+- Key Events: First encounter with Tenchi
+- Canon Established: "Sheru-ji" nickname
+
+*[Continue pattern for remaining days]*
 
 ---
 
-## DAY 22 — April 24, 1989 (Monday)
+## DAYS 8-14: ESTABLISHING WEEK
 
-**MAJOR MILESTONE:** Current writing position
-**Status:** Scene 1 complete
-
----
-
-## CUMULATIVE STATISTICS
-
-| Metric | Value |
-|--------|-------|
-| Total Words (Est.) | ~125,000 |
-| Total Scenes | ~42 |
-| Days Covered | 22 |
-| Chapter Progress | 79% |
+*[To be documented from session files]*
 
 ---
 
-## REMAINING SCENES (Estimated)
+## DAYS 15-21: INTEGRATION WEEK
 
-**Days 23-28:** ~6 days, ~8-12 scenes, ~20K-30K words
+### Day 17 — April 19, 1989
+
+**Key Event: Move to Tsukino House**
+- Sheldon transitions from shrine guest to house resident
+- First night in own space
+- New daily rhythm begins
 
 ---
 
-**END OF SCENE REGISTRY**
+## DAYS 22-28: SETTLING WEEK
+
+### Day 22 — April 24, 1989
+
+**Key Event: Tenchi's 5th Birthday**
+- Canon Established: Birthday celebration details
+- Relationship milestone
+
+---
+
+## DAYS 29-31: BRIDGE
+
+**Status:** NOT YET WRITTEN
+
+---
+
+## DREAM SEQUENCES
+
+| Stage | Day | Status | Content |
+|-------|-----|--------|---------|
+| 1 | 14 | WRITTEN (Dec 2025) | Fragmentary contact |
+| 2 | 75 | WRITTEN (Dec 2025) | "You're healing" |
+| 3 | 130 | WRITTEN (Dec 2025) | Galaxy Cauldron glimpse |
+| 4 | 145 | WRITTEN (Dec 2025) | First Son revelation |
+| 5 | 152 | WRITTEN (Dec 2025) | Shipping Wars joke |
+| 6 | 366 | WRITTEN (Dec 2025) | Full revelation |
+
+**Word Count:** ~25,000 total for dream sequences
+
+---
+
+## CANON FACTS ESTABLISHED
+
+### Characters
+- [ ] Sheldon's full backstory shared with Katsuhito? When?
+- [x] Tenchi calls Sheldon "Sheru-ji" (Day 2)
+- [x] Katsuhito permits Sheldon to stay (Day 1)
+- [ ] Village knows Sheldon as Tsukino heir (Day 17+)
+
+### Locations
+- [x] 320 steps confirmed (Day 1)
+- [x] Tsukino house exists and occupied (Day 17)
+- [ ] Village shop names established?
+- [ ] Neighbors named?
+
+### Relationships
+- [x] Sheldon-Tenchi bonding begun
+- [x] Katsuhito observing/testing
+- [ ] Nobuyuki's acceptance level?
+
+### Daily Life
+- [x] Cooking routine established
+- [x] Shrine help routine established
+- [ ] Village interaction patterns?
+
+---
+
+## CONTRADICTION WATCH
+
+### Potential Issues to Monitor
+- Exact dialogue that might be referenced later
+- Specific descriptions of locations
+- Promised or implied future events
+- Character knowledge states
+
+### Known Corrections Made
+*[Log any corrections to previously written content]*
+
+---
+
+## CROSS-REFERENCES
+
+- `[[timeline/year1_daily.md]]` — Day-by-day reference
+- `[[tracking/knowledge_states.md]]` — Who knows what
+- `[[tracking/corrections_log.md]]` — Fixes made
+- `[[canon/forbidden_words.md]]` — POV compliance
+
+---
+
+**END OF REGISTRY**

@@ -1,7 +1,6 @@
 # KATSUHITO MASAKI / PRINCE YOSHO
 ## Complete Character Profile
 ### Son of Cosmos: JumpChain
-### Updated: Bible v16 (101 Tenchi Secrets Integration)
 
 ---
 
@@ -79,14 +78,13 @@
 
 ### The Attack on Jurai (~1292 CE)
 - Kagato sent mind-controlled Ryoko to attack
-- Young Sasami mortally wounded; assimilated by Tsunami
+- Young Sasami fatally injured; assimilated by Tsunami
 - Yosho volunteered to pursue Ryoko
 - This was partly heroic duty, partly escape from suffocating life
 
 ### Battle on Earth (~1292 CE)
 - Pursued Ryoko across space to Earth
 - Engaged her in combat near mountain (future shrine site)
-- **Battle Method**: Used Funaho (ship) and **BARRIERS** (NOT Light Hawk Wings) to counter her (Kajishima confirmed)
 - Victory: Removed her three power gems
 - Embedded gems in his sword (Tenchi-ken)
 - Sealed Ryoko in cave beneath what would become the shrine lake
@@ -117,32 +115,16 @@
 
 ## MARRIAGES & CHILDREN
 
-### Pre-Kasumi Marriages
-**Source:** 101 Tenchi Muyo Secrets Q29
-
-> "Yousho has been on Earth for 700 years since he sealed Ryoko in the shrine. It is not surprising that he had SEVERAL WIVES before and Nobuyuki is a descendant of one of his children by one of these wives. So the similarity is genetic."
-
-**Key Points:**
-- Kasumi was NOT Yosho's only Earth wife
-- He had "several" wives over the 700-year period
-- Children from these earlier marriages exist
-- Nobuyuki's line descends from one of these earlier unions
-- This explains the physical resemblance between Nobuyuki and Katsuhito
-
-### Marriage: Kasumi
+### First Marriage: Kasumi
 | Attribute | Value |
 |-----------|-------|
 | **Wife** | Kasumi (Funaho's niece, Yosho's cousin) |
-| **Relation** | Rescued during Ryoko battle |
-| **Duration** | ~100 years together |
-| **Children** | 3 children with Yosho |
 | **Status** | Deceased at age 138 |
+| **Children** | Multiple (descendants include Nobuyuki line) |
 
-Kasumi convinced Yosho their children shouldn't be forced to live extended lives if confined on Earth. She initially received life-extension treatment but became disturbed outliving normal Earthlings, requested it stopped, and died naturally. Yosho honored her wish.
+Kasumi convinced Yosho their children shouldn't be forced to live extended lives if confined on Earth. She initially received life-extension but became disturbed outliving normal Earthlings, requested it stopped, and died naturally.
 
-**After Kasumi:** Yosho gave subsequent descendants the choice regarding bio-enhancement.
-
-### Marriage: Airi
+### Second Marriage: Airi
 | Attribute | Value |
 |-----------|-------|
 | **Wife** | Airi Masaki (common law marriage) |
@@ -151,71 +133,6 @@ Kasumi convinced Yosho their children shouldn't be forced to live extended lives
 | **Children** | Minaho Masaki, Kiyone Masaki |
 
 Politically sensitive—if the Jurai-Airai hostilities became public, major scandal. Lady Seto assisted with arrangements.
-
----
-
-## THE 700-YEAR PLAN
-
-**Source:** 101 Tenchi Muyo Secrets Q20
-
-Yosho has been executing a deliberate, centuries-long strategy regarding Tenchi and the sealed Ryoko. The 101 Secrets source explicitly calls him "a tactician."
-
-### The Strategy Components
-
-1. **Cultivated Tenchi's Curiosity**
-   - Made Tenchi interested in the demon/cave "ever since childhood"
-   - Told deliberate stories about the "sleeping demon"
-   - Created mystery and forbidden-fruit allure
-
-2. **Kiyone's Involvement**
-   - Tenchi's mother Kiyone actively helped Yosho cultivate this interest
-   - She was a knowing participant in the plan
-   - Her involvement was NOT accidental
-
-3. **Awareness of Ryoko's Surveillance**
-   - Yosho KNEW that Ryoko's astral body was watching Tenchi constantly
-   - He positioned her seal so she could project to the cave entrance
-   - He understood she was observing Tenchi since childhood
-   - Tenchi himself did not realize he was being watched
-
-4. **Ultimate Goal**
-   - Wanted Tenchi to break the seal
-   - Wanted Tenchi to use the Tree (Funaho) to attract Aeka
-   - "He felt something special about Tenchi and wanted him to be Emperor of Jurai in the future"
-
-### Full Q20 Text
-> "His grandfather's fault. He fell in his grandfather's trap - Yosho made Tenchi interested in the demon ever since childhood, with help of Tenchi's mother. He is a tactician and knew Ryoko was watching Tenchi all the time. He arranged so that Tenchi would break the seal and use the Tree to attract Aeka. He felt something special about Tenchi and wanted him to be Emperor of Jurai."
-
-**Story Implication:** Sheldon's arrival in April 1989 introduces an unknown variable into a plan that has been 700 years in the making. Yosho, "a tactician," will need to adapt.
-
----
-
-## YOSHO'S POLITICAL CONNECTIONS
-
-**Source:** 101 Tenchi Muyo Secrets Q32
-
-> "Also he has got his way deep into Japanese politics in the last 700 years, so that he can change the family register."
-
-**Implications:**
-- Yosho has significant influence in Japanese bureaucracy
-- He can manipulate official documentation
-- This explains how he maintains identity continuity over centuries
-- He has connections at high levels of government
-- This could potentially affect Sheldon's documentation situation
-
----
-
-## YOSHO'S DISGUISE
-
-**Source:** Multiple (confirmed by Kajishima)
-
-Yosho's aged appearance is:
-- An illusion/simulation created through his tree bond
-- A simulation of his FUTURE appearance (Kajishima specified this)
-- NOT borrowed from someone else
-- Arranged with Tsunami's assistance so he could live on Earth without arousing suspicion
-
-His true form (young appearance) is shown only to select individuals such as his mother Funaho.
 
 ---
 
@@ -260,9 +177,6 @@ He tells Tenchi stories about the "sleeping demon," deliberately stoking the boy
 6. His ongoing marriage to Airi
 7. His galactic contacts through Lady Seto
 8. The true nature of the "ancient tree" (Funaho)
-9. His deep political connections in Japanese government
-10. The 700-year plan for Tenchi's destiny
-11. His awareness of Ryoko's astral surveillance
 
 ---
 
@@ -316,8 +230,7 @@ What the mask taught him (per his own words):
 | **Longevity** | ~700+ years; could live centuries more |
 | **Shinto** | Fully trained kannushi; authentic ceremonies |
 | **Languages** | Galactic languages, Japanese, others |
-| **Politics** | Centuries of court experience; Japanese political connections |
-| **Strategy** | Explicitly "a tactician" per canon |
+| **Politics** | Centuries of court experience |
 
 ---
 
@@ -360,29 +273,10 @@ See `[[relationships/sheldon_yosho.md]]` for full progression:
 
 - `[[characters/tenchi_masaki.md]]` — Grandson
 - `[[characters/ryoko.md]]` — Sealed prisoner
-- `[[characters/extended_cast.md]]` — Kasumi, Kiyone, other wives
 - `[[locations/masaki_shrine.md]]` — His domain
 - `[[relationships/sheldon_yosho.md]]` — Central romance
 - `[[canon/tenchi_ova_reference.md]]` — Source material
 - `[[powers/light_hawk_wings.md]]` — What he DOESN'T have
-
----
-
-## SOURCE DOCUMENTATION
-
-### 101 Tenchi Muyo Secrets Citations
-| Question | Topic | Content |
-|----------|-------|---------|
-| Q20 | The 700-Year Plan | Full strategy, Kiyone involvement, tactician description |
-| Q29 | Multiple Wives | "Several wives" over 700 years, Nobuyuki's lineage |
-| Q32 | Political Connections | "Deep into Japanese politics," family register manipulation |
-
-### Publication Information
-- **Title:** 101 Tenchi Muyo Facts (天地無用！101の謎)
-- **Published:** May 30, 1994
-- **Author:** Yousuke Kuroda under Masaki Kajishima's direction
-- **ISBN:** 4-87376-084-4
-- **Canon Status:** AUTHORITATIVE (direct creator supervision)
 
 ---
 

@@ -1,7 +1,6 @@
 # NOBUYUKI MASAKI
 ## Complete Character Profile
 ### Son of Cosmos: JumpChain
-### Updated: Bible v16 (101 Tenchi Secrets Integration)
 
 ---
 
@@ -11,7 +10,7 @@
 |-----------|-------|
 | **Full Name** | Nobuyuki Masaki (柾木 信幸) |
 | **Role** | Tenchi's father, weekend presence |
-| **Occupation** | Architect/designer of ordinary houses |
+| **Occupation** | Architect |
 | **Story Function** | Absent-but-loving parent; contrast to Sheldon's constant presence |
 
 ---
@@ -59,27 +58,12 @@ See `[[canon/juraian_aging.md]]` and `[[characters/nobuyuki_family_network.md]]`
 
 ---
 
-## LINEAGE AND RESEMBLANCE
-
-**Source:** 101 Tenchi Muyo Secrets Q29
-
-### Why Nobuyuki Resembles Katsuhito
-
-> "Yousho has been on Earth for 700 years since he sealed Ryoko in the shrine. It is not surprising that he had SEVERAL WIVES before and Nobuyuki is a descendant of one of his children by one of these wives. So the similarity is genetic."
-
-**Key Lineage Facts:**
-- Nobuyuki is descended from one of Yosho's EARLIER marriages (not necessarily Kasumi)
-- Yosho had "several wives" during his 700 years on Earth
-- The physical resemblance between Nobuyuki and Katsuhito is GENETIC
-- This explains the similarity without coincidence
-- Nobuyuki then married Kiyone (Yosho's daughter), creating a double connection
-
-### Lineage Paradox
+## LINEAGE PARADOX
 
 Nobuyuki is descended from Yosho through the Kasumi line (700 years of descendants). He then married Kiyone Masaki, who is Yosho's DAUGHTER through Airi.
 
 ```
-Yosho ─┬─ [Several Wives] (~1292+)
+Yosho ─┬─ Kasumi (~1292)
        │      │
        │      ↓ (700 years of descendants)
        │      │
@@ -98,72 +82,25 @@ Yosho ─┬─ [Several Wives] (~1292+)
 
 ---
 
-## PROFESSION AND WORK ARRANGEMENT
-
-**Source:** 101 Tenchi Muyo Secrets Q28
-
-### Profession Details
-> "What does Tenchi's father Nobuyuki do for a living? He is a designer of ordinary houses. Tenchi's house is one of his works. He owns a small office and has some staff, working as a manager..."
-
-**Key Professional Facts:**
-- **Job Title:** Designer/architect of ordinary houses
-- **Business:** Owns a small office with staff
-- **Role:** Works as manager
-- **Notable Work:** Designed and built the Masaki house
-
-### Work Arrangement (1989 - Pre-Canon)
-
-**CRITICAL FOR STORY:** The 101 Secrets Q28 describes his work arrangement BEFORE and AFTER canon events:
-
-**BEFORE Canon (April 1989):**
-> "...he originally worked at home in his room..."
-
-- Nobuyuki worked FROM HOME in his own room
-- This room later becomes Mihoshi's room (when she arrives)
-- He only occasionally went to the office
-- This means he was MORE PRESENT at home than post-canon depictions suggest
-
-**AFTER Canon (Post-Ryoko Moving the House):**
-> "...but after Ryoko moved the house near Masaki shrine, he works in his office and lives alone in a one-room flat not to disturb Tenchi and the girls..."
-
-- Only AFTER Ryoko relocates the house does he move to the city
-- This is a deliberate choice to give Tenchi space
-- Lives in one-room flat near his office
-- The change happens "not to disturb Tenchi"
-
-### Story Implications for 1989
-
-In April 1989, Nobuyuki's work arrangement means:
-- He works primarily FROM HOME, not in the city
-- He is more available for scenes than post-canon timeline suggests
-- His room (later Mihoshi's room) is his home office
-- He is physically present more often, though emotionally distant
-- The "absent father in the city" dynamic develops LATER
-
----
-
 ## CURRENT SITUATION (1989)
 
-### Updated Work Schedule
+### Work Schedule
+| Day | Location |
+|-----|----------|
+| Monday-Friday | City (architectural firm) |
+| Saturday-Sunday | Masaki Shrine |
 
-| Day | Location | Notes |
-|-----|----------|-------|
-| Monday-Friday | HOME (mostly) | Works from his room; occasional office visits |
-| Saturday-Sunday | Same | More family time available |
-| Note | - | This changes dramatically after Ryoko moves house |
-
-### Living Arrangement (Pre-Canon)
-- Lives in Masaki House with Tenchi
-- Works from home in his room
-- Goes to city office occasionally, not primarily
-- More present than previously depicted
-- Still emotionally struggling with Kiyone's death
+### Living Arrangement
+- Maintains apartment in city for workweek
+- Returns to family home on weekends
+- Home is partway down the mountain from shrine
+- ~500m from shrine, ~300m from Tsukino house
 
 ### Emotional State
 - Grieving wife's death (~1 year ago)
-- Guilt over not connecting more despite physical presence
-- Relies heavily on Katsuhito for Tenchi's emotional care
-- Uses work as coping mechanism even when home
+- Guilt over not being present more
+- Relies heavily on Katsuhito for Tenchi's care
+- Throws himself into work as coping mechanism
 - Genuinely loves Tenchi but doesn't know how to show it
 
 ---
@@ -178,18 +115,17 @@ In April 1989, Nobuyuki's work arrangement means:
 - Deeply misses Kiyone
 
 ### How He Copes
-- Buries himself in work (even at home)
-- Stays in his room/office for long hours
-- Lets Katsuhito handle emotional parenting
+- Overworks
+- Avoids the shrine (too many memories)
+- Lets Katsuhito handle parenting
 - Brings gifts instead of presence
-- Physically present but emotionally absent
 
 ### With Tenchi
 - Loves him deeply
 - Doesn't know how to connect
 - Feels inadequate as single father
 - Relieved Katsuhito is there
-- Even when home, struggles with direct interaction
+- Weekend visits feel awkward, forced
 
 ---
 
@@ -240,16 +176,13 @@ Nobuyuki provides what Sheldon can't: biological connection, legal authority, fi
 ## CANON TRAJECTORY
 
 ### Pre-Canon (Years 1-12)
-- Work-from-home pattern with Tenchi
-- After Year 13, moves primarily to city office
+- Weekend father pattern continues
 - Gradually more comfortable with Sheldon
 - Still processing grief
 - Work remains primary focus
 
 ### Canon Era (Year 13+)
 - Aliens literally crash into his life
-- Ryoko moves the house near shrine
-- He relocates to city "not to disturb Tenchi"
 - Can no longer ignore family secrets
 - Adapts surprisingly well
 - "Pervy dad" persona emerges (coping mechanism?)
@@ -285,31 +218,17 @@ Nobuyuki provides what Sheldon can't: biological connection, legal authority, fi
 - Work-life imbalance
 - Biological family vs. chosen family
 
-### Contrast with Sheldon (Revised Understanding)
-| Nobuyuki (1989) | Sheldon |
-|-----------------|---------|
-| Present but distant | Present and engaged |
+### Contrast with Sheldon
+| Nobuyuki | Sheldon |
+|----------|---------|
 | Biological father | Chosen family |
-| Works from home, unavailable | Available daily |
+| Absent weekdays | Present daily |
 | Avoids emotion | Processes through action |
 | Legal authority | Practical authority |
 | Provides money | Provides meals |
 
 ### Why This Matters
-Sheldon doesn't replace Nobuyuki—he fills the emotional gaps. Even with Nobuyuki physically present, his grief and inability to connect creates space for Sheldon's nurturing role. Tenchi needs both: the father who loves him but can't express it and the uncle who's emotionally there every day.
-
----
-
-## MASAKI HOUSE ROOM DESIGNATION
-
-**Per 101 Secrets Q28:**
-
-The room that becomes "Mihoshi's room" in post-canon was originally Nobuyuki's work room/home office. This is where he worked during the 1989 time period.
-
-**Room Evolution:**
-1. 1989-2001: Nobuyuki's home office (where he works from home)
-2. Post-Mihoshi arrival: Becomes Mihoshi's room
-3. Nobuyuki relocates to city apartment
+Sheldon doesn't replace Nobuyuki—he fills the gaps. Tenchi needs both: the father who loves him from afar and the uncle who's there every day.
 
 ---
 
@@ -318,26 +237,8 @@ The room that becomes "Mihoshi's room" in post-canon was originally Nobuyuki's w
 - `[[characters/tenchi_masaki.md]]` — His son
 - `[[characters/katsuhito_yosho.md]]` — Father-in-law/ancestor
 - `[[characters/sheldon_tsukino.md]]` — New household member
-- `[[locations/masaki_house.md]]` — His home (see floor plan)
+- `[[locations/masaki_house.md]]` — His home
 - `[[relationships/found_family.md]]` — Family dynamics
-- `[[canon/research_resources.md]]` — Source verification
-
----
-
-## SOURCE DOCUMENTATION
-
-### 101 Tenchi Muyo Secrets Citations
-| Question | Topic | Content |
-|----------|-------|---------|
-| Q28 | Profession & Work Arrangement | Full text on designer job, work from home, post-canon relocation |
-| Q29 | Lineage | "Several wives," genetic resemblance to Katsuhito |
-
-### Publication Information
-- **Title:** 101 Tenchi Muyo Facts (天地無用！101の謎)
-- **Published:** May 30, 1994
-- **Author:** Yousuke Kuroda under Masaki Kajishima's direction
-- **ISBN:** 4-87376-084-4
-- **Canon Status:** AUTHORITATIVE (direct creator supervision)
 
 ---
 

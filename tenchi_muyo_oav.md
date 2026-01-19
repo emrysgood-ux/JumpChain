@@ -1,19 +1,3 @@
-**PART II**
-
-VERIFIED CORRECTIONS LOG
-
-**2.1 --- Master Corrections Table**
-
-When this bible contradicts other sources, THIS BIBLE WINS.
-
-**2.2 --- Light Hawk Wings Clarification**
-
-**⚠️ CRITICAL: Kajishima confirmed: Yosho generates BARRIERS through
-Funaho, NOT Light Hawk Wings. Only Tenchi and Z generate LHW
-independently.\*\***
-
-**2.3 --- Continuity Excludes**
-
 **PART III**
 
 COSMOS CRYSTAL EVOLUTION THEORY

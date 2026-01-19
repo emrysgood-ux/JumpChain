@@ -1,78 +1,215 @@
-# RYOKO HAKUBI — CHARACTER PROFILE
-**Category:** Character (Canon Arrival)
-**Last Updated:** 2025-12-15
-**Related Files:** [[washu.md]], [[../locations/forbidden_cave.md]], [[../seeds/_seed_index.md]]
+# RYOKO HAKUBI
+## Complete Character Profile
+### Son of Cosmos: JumpChain
 
 ---
 
-## Core Identity
+## IDENTITY
 
-**Full Name:** Ryoko Hakubi (白鬼 魎呼)
-**Age:** ~5,000 years
-**Species:** Masu/Chousin hybrid (artificial being)
-**Mother/Creator:** Washu Hakubi
-**Status (1989):** Sealed in cave on Masaki Shrine grounds for 700 years
-**Release:** Year 13 (2001) — when Tenchi removes sword
-
----
-
-## The Three Gems
-
-Ryoko possesses three gems created by Washu that grant her powers:
-- Flight
-- Energy manipulation
-- Phasing through matter
-- Summoning demons
-- Energy sword creation
-
-*📝 Power levels vary based on how many gems she has access to.*
+| Attribute | Value |
+|-----------|-------|
+| **Full Name** | Ryoko Hakubi (白眉 魎呼) |
+| **Species** | Masu/Chousin synthetic hybrid |
+| **Age** | ~5,000 years |
+| **Creator** | Washu (biological mother) |
+| **Story Role** | Sealed demon → chaotic aunt |
 
 ---
 
-## The 12-Year Observation Period
+## ORIGIN
 
-While sealed, Ryoko's astral form could observe shrine grounds. For 12 years (1989-2001) she watched:
+### Creation
+- Created by Washu from her own ovum + Masu DNA
+- Washu is her biological mother
+- Designed as ultimate weapon/companion
+- Three gems contain portions of Washu's power
 
-| Year | What She Observed |
-|------|-------------------|
-| Year 1 | Strange man arrives — energy signature WRONG |
-| Years 1-3 | Watches Sheldon integrate; smells his cooking |
-| Years 4-12 | Watches Tenchi grow; sees training, kindness |
-
-📖 **STORY:** When Ryoko emerges Year 13, she has spent 12 years watching Sheldon be a father. She knows him before they speak.
-
----
-
-## Found Family Role: "Wild Aunt"
-
-**Function:** Chaos agent with heart of gold
-**Parenting Style:** "Rules are suggestions; loyalty is everything"
-**Relationship to Tenchi:** Romantic interest (canon)
-**Relationship to Sheldon:** Complicated — watched him for 12 years, respects his role
+### Under Kagato
+- Kagato stole Ryoko from Washu
+- Mind-controlled for ~5,000 years
+- Criminal record (unwilling):
+  - 28 planets destroyed
+  - 69 colonies decimated
+  - Galaxy-wide terror
+- Not responsible for actions (brainwashed)
 
 ---
 
-## Phase I Constraints
+## THE SEALING (~1292 CE)
 
-**FORBIDDEN in Sheldon POV:**
-- The word "Ryoko"
-- Any reference to the sealed demon
-- Any awareness of astral observation
+### The Battle
+- Attacked Jurai under Kagato's control
+- Young Sasami mortally wounded
+- Yosho pursued to Earth
+- Final battle near future shrine site
 
-**Permitted references:**
-- "That cave by the lake"
-- "The forbidden cave"
-- Strange feelings near the cave (SEED-002)
+### The Defeat
+- Yosho removed her three power gems
+- Embedded gems in Tenchi-ken
+- Sealed her in cave beneath lake
+- Mummified appearance (not dead)
+
+### The 700-Year Wait
+- Conscious but immobile
+- Can project astral form to cave entrance
+- Watched Masaki family for centuries
+- Watched Tenchi specifically for 5 years
 
 ---
 
-## Story Integration Notes
+## CURRENT STATE (1989-2001)
 
-🔮 **FORESHADOW:** Hikaru the cat will not approach the cave (animal instinct sensing Ryoko's presence)
+### Physical
+- Sealed in cave
+- Mummified appearance
+- Preserved, not decayed
+- Gems removed = powers suppressed
 
-🔮 **FORESHADOW:** Sheldon may feel watched near the cave — Ryoko observing
+### Mental
+- Conscious, aware
+- Astral projection active
+- Watching Tenchi grow up
+- Psychological healing (Yosho's plan)
 
-📖 **Year 13 Scene:** When Ryoko emerges, her first words to Sheldon should reflect 12 years of observation. She KNOWS him.
+### The Astral Form
+- Can manifest at cave entrance
+- Invisible to normal humans
+- Watches, cannot interact
+- Falls in love with Tenchi through observation
+
+---
+
+## YEAR 13: THE RELEASE (2001)
+
+### How It Happens
+- Tenchi (age 17) steals key from Katsuhito
+- Enters forbidden cave
+- Accidentally breaks seal
+- Ryoko awakens
+
+### Immediate Aftermath
+- Powers partially restored
+- Obsessed with Tenchi
+- Chaotic, aggressive, possessive
+- Moves into Masaki household
+
+---
+
+## PERSONALITY
+
+### Core Traits (Canon)
+- Aggressive, bold
+- Emotionally intense
+- Covers vulnerability with bravado
+- Fiercely loyal when bonded
+- Teasing, provocative
+- Deep insecurity beneath surface
+
+### The Damage
+- 5,000 years of mind control
+- Used as weapon against will
+- Genuine trauma
+- Healing slowly through observation
+
+### After Zero Merger (OVA 2)
+- Android Zero copies her, develops emotions
+- Zero merges back into Ryoko
+- Gains emotional depth
+- Better able to express feelings
+
+---
+
+## RELATIONSHIP WITH SHELDON
+
+### Initial Reaction (Year 13)
+- Confused by his presence
+- He's been here 12 years already
+- Doesn't fit her expectations
+- Territorial about Tenchi
+
+### Development
+- Realizes he's not a rival
+- Uncle figure, not competitor
+- His cooking wins her over
+- Gradually accepts him as family
+
+### The Transformation
+**Canon:** Ryoko competes for Tenchi romantically
+**This Story:** Finds family already established
+- Tenchi sees her as chaotic aunt
+- She eventually accepts aunt role
+- Still loves Tenchi (differently)
+- Part of found family, not harem
+
+---
+
+## ABILITIES
+
+### With Gems (Full Power)
+| Ability | Description |
+|---------|-------------|
+| Flight | Self-propelled |
+| Teleportation | Short-range |
+| Energy sword | Manifested weapon |
+| Energy blasts | Ranged attack |
+| Phasing | Pass through matter |
+| Duplication | Create copies |
+| Regeneration | Heal from damage |
+
+### Without Gems (Sealed/Partial)
+- Greatly reduced
+- Astral projection only (sealed)
+- Some flight/combat (released, no gems)
+- Full power requires gems
+
+---
+
+## VOICE CONSISTENCY
+
+### Speech Patterns
+- Aggressive, direct
+- Teasing, provocative
+- Loud when emotional
+- Softer in vulnerable moments
+- "Tenchi~!" (drawn out, possessive)
+
+### Sample Lines
+- "Tenchi! You finally came for me!"
+- "Who the hell is this guy?"
+- "I've been watching you for years..."
+- "This food... it's actually good."
+- "Fine. He can stay. But Tenchi is MINE."
+
+---
+
+## STORY FUNCTION
+
+### What Changes
+| Canon | This Story |
+|-------|------------|
+| Arrives to empty house | Arrives to established family |
+| Competes for Tenchi | Finds uncle already there |
+| Romantic rival | Chaotic aunt role |
+| Harem dynamics | Found family dynamics |
+
+### Her Arc
+1. Release (Year 13)
+2. Confusion at family structure
+3. Territorial resistance
+4. Won over by food/care
+5. Accepts aunt role
+6. Genuine family member
+
+---
+
+## CROSS-REFERENCES
+
+- `[[characters/washu.md]]` — Her mother/creator
+- `[[characters/katsuhito_yosho.md]]` — Her captor/healer
+- `[[characters/tenchi_masaki.md]]` — Her obsession → nephew
+- `[[characters/sheldon_tsukino.md]]` — New family member
+- `[[relationships/found_family.md]]` — Her place in family
+- `[[timeline/year13_canon.md]]` — Her release
 
 ---
 

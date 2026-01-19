@@ -1,95 +1,186 @@
-# AYEKA MASAKI JURAI — CHARACTER PROFILE
-**Category:** Character (Canon Arrival)
-**Last Updated:** 2025-12-15
-**Related Files:** [[sasami.md]], [[../lore/jurai_royal_family.md]], [[katsuhito.md]]
+# AYEKA MASAKI JURAI
+## Complete Character Profile
+### Son of Cosmos: JumpChain
 
 ---
 
-## Core Identity
+## IDENTITY
 
-**Full Name:** Ayeka Masaki Jurai (柾木 阿重霞 樹雷)
-**Age:** ~720 years old (Year 13)
-**Species:** Juraian (humanoid)
-**Title:** First Princess of Jurai
-**Royal Tree:** Ryu-Oh
-**Status (1989):** Searching the galaxy for Yosho
-
----
-
-## Physical Description
-
-**Height:** 5'5" (165 cm)
-**Build:** Slender, regal bearing
-**Hair:** Purple, long, elaborately styled
-**Eyes:** Red-violet
-**Clothing:** Traditional Juraian royal robes; adapts to Earth fashion reluctantly
+| Attribute | Value |
+|-----------|-------|
+| **Full Name** | Ayeka Masaki Jurai (柾木 阿重霞 樹雷) |
+| **Title** | First Crown Princess of Jurai |
+| **Age** | ~717 years |
+| **Royal Tree** | Ryu-Oh (2nd Generation) |
+| **Story Role** | Searching princess → proper aunt |
 
 ---
 
-## Personality
+## HERITAGE
 
-**Core Traits:**
-- Proud, formal, proper
-- Deeply honorable
-- Fierce when protecting family
-- Vulnerable beneath the regal exterior
-- Struggles with Earth's casual culture
-
-**Speech Patterns:**
-- Formal, archaic Japanese
-- Addresses others by title
-- Rarely uses contractions
-- Can be cutting when angry
+| Relation | Person |
+|----------|--------|
+| **Father** | Emperor Azusa Masaki Jurai |
+| **Mother** | Second Empress Misaki |
+| **Half-Brother** | Yosho (First Prince, missing) |
+| **Sister** | Sasami |
+| **Fiancé (Former)** | Yosho (arranged, never consummated) |
 
 ---
 
-## Family Connections
+## HISTORY
 
-| Relation | Person | Notes |
-|----------|--------|-------|
-| Half-Brother | Yosho (Katsuhito) | Searching for him for 700 years |
-| Sister | Sasami | Travels with her, deeply protective |
-| Father | Azusa (Emperor) | Complicated relationship |
-| Mother | Misaki | Second Queen of Jurai |
-| Grandmother | Seto Kamiki | "Devil Princess" — terrifying but loving |
+### On Jurai
+- Born princess, raised in court
+- Engaged to half-brother Yosho (political)
+- Loved him genuinely (he loved her only as sister)
+- Yosho disappeared pursuing Ryoko (~700 years ago)
+- Has been searching for him since
 
----
-
-## Found Family Role: "Proper Aunt"
-
-**Function:** Structure, tradition, propriety
-**Parenting Style:** Rules, manners, expectations (with hidden warmth)
-**Relationship to Tenchi:** Romantic interest (canon rivalry with Ryoko)
-**Relationship to Sheldon:** Initially suspicious of this stranger near her brother; grows to respect
+### The Search
+- 700 years of looking
+- Followed rumors, leads
+- Ship Ryu-Oh damaged in travels
+- Eventually traces Yosho to Earth
 
 ---
 
-## Royal Tree: Ryu-Oh
+## ARRIVAL (Year 13)
 
-Ayeka's bonded tree-ship:
-- First generation tree (like Funaho)
-- Severely damaged in battle with Ryoko 700 years ago
-- Regenerating during OVA timeline
-- Provides Light Hawk Wings (limited)
+### How She Arrives
+- Tracks Yosho's energy signature
+- Arrives on Earth shortly after Ryoko's release
+- Discovers Yosho alive (as Katsuhito)
+- Discovers Ryoko free
 
----
-
-## Phase I Constraints
-
-**FORBIDDEN in Sheldon POV:**
-- The word "Ayeka"
-- Any reference to Jurai or Juraian
-- Any awareness of the search for Yosho
+### Immediate Reaction
+- Shock: Yosho is old man (illusion)
+- Rage: Ryoko is free and unrepentant
+- Confusion: Household already established
+- Rivalry: Competes with Ryoko for Tenchi
 
 ---
 
-## Story Integration Notes
+## PERSONALITY
 
-📖 **Year 13:** Ayeka arrives on Earth following Ryoko's energy signature. Discovers Yosho has been here all along — as has a strange human raising her nephew.
+### Core Traits (Canon)
+- Formal, proper, dignified
+- Princess bearing always
+- Quick temper (especially with Ryoko)
+- Genuinely kind beneath formality
+- Lonely (700 years searching)
+- Desperate for connection
 
-🔮 **DYNAMIC:** Ayeka's initial reaction to Sheldon: "Who is this person who has been influencing my family?" Grows into: "He has been a better guardian than I could have been."
+### Speech Patterns
+- Formal Japanese (archaic touches)
+- "Ara ara" / "Maa"
+- Loses composure around Ryoko
+- Softens around Sasami
+- Polite to elders (Katsuhito, Sheldon)
 
-📖 **FOUND FAMILY ARC:** Ayeka must learn that family is built, not just inherited.
+### The Rivalry
+- Ryoko: chaos, aggression, informality
+- Ayeka: order, restraint, propriety
+- Oil and water
+- Eventually sisterly bickering
+
+---
+
+## RELATIONSHIP WITH SHELDON
+
+### Initial Reaction (Year 13)
+- Polite, formal greeting
+- Confused by his role
+- He's clearly family but... how?
+- Respects his position with Katsuhito
+
+### Development
+- Appreciates his propriety
+- His cooking impresses her
+- Sees him as stabilizing influence
+- Grateful someone civilized is present
+
+### The Transformation
+**Canon:** Ayeka competes for Tenchi romantically
+**This Story:** Finds established family structure
+- Tenchi sees her as elegant aunt
+- She eventually accepts aunt role
+- Still cares for Tenchi (differently)
+- Proper aunt to his chaotic aunt (Ryoko)
+
+---
+
+## ABILITIES
+
+### Juraian Power
+- Royal Tree bond (Ryu-Oh)
+- Personal force field
+- Guardians Azaka and Kamidake (logs)
+- Combat training (formal)
+
+### Ryu-Oh
+- 2nd Generation Royal Tree
+- Can generate Light Hawk Wings (with override)
+- Damaged from 700-year search
+- Repairs during Earth stay
+
+---
+
+## VOICE CONSISTENCY
+
+### Speech Patterns
+- Formal, elevated register
+- Occasional archaic phrasing
+- Loses composure = voice rises
+- Genuine warmth when relaxed
+- "Ryoko!" (exasperated)
+
+### Sample Lines
+- "I am Ayeka, First Princess of the Jurai Royal Family."
+- "That woman has no concept of proper behavior!"
+- "Tsukino-san, your hospitality is most gracious."
+- "Sasami, we should help with dinner preparations."
+- "Lord Tenchi deserves better than... THAT."
+
+---
+
+## STORY FUNCTION
+
+### What Changes
+| Canon | This Story |
+|-------|------------|
+| Arrives seeking Yosho | Same |
+| Competes for Tenchi | Finds family established |
+| Romantic rival to Ryoko | Aunt rival to Ryoko |
+| Harem member | Found family member |
+
+### Her Arc
+1. Arrival, shock at situation
+2. Rivalry with Ryoko (familiar)
+3. Confusion at family structure (new)
+4. Gradual acceptance
+5. Finds place as "proper aunt"
+6. Genuine family connection
+
+---
+
+## WITH SASAMI
+
+- Protective older sister
+- Sasami often mediates her temper
+- Sasami adapts faster to found family
+- Ayeka follows Sasami's lead eventually
+
+---
+
+## CROSS-REFERENCES
+
+- `[[characters/katsuhito_yosho.md]]` — Her half-brother
+- `[[characters/ryoko.md]]` — Her rival
+- `[[characters/tenchi_masaki.md]]` — Her... nephew now
+- `[[characters/sheldon_tsukino.md]]` — Household member
+- `[[relationships/found_family.md]]` — Her place
+- `[[timeline/year13_canon.md]]` — Her arrival
 
 ---
 

@@ -1,122 +1,6 @@
 # EXTENDED CAST
 ## Supporting Characters
 ### Son of Cosmos: JumpChain
-### Updated: Bible v16 (101 Tenchi Secrets Integration)
-
----
-
-## MASAKI FAMILY - DECEASED
-
-### Kiyone Masaki (Tenchi's Mother)
-
-| Attribute | Value |
-|-----------|-------|
-| **Full Name** | Kiyone Masaki |
-| **Relation** | Tenchi's mother; Yosho + Airi's daughter |
-| **Status** | Deceased ~1988 |
-| **Age at Death** | 248 years |
-| **Cause of Death** | CLASSIFIED - "Cannot be revealed" |
-
-#### Kiyone's Role in Yosho's 700-Year Plan
-
-**Source:** 101 Tenchi Muyo Secrets Q20
-
-Kiyone was NOT merely a passive participant in family life. She actively assisted Yosho's centuries-long strategy:
-
-> "He [Yosho] made Tenchi interested in the demon ever since childhood, with help of Tenchi's mother."
-
-**Key Points:**
-- Kiyone ACTIVELY HELPED cultivate Tenchi's curiosity about the cave
-- She was a knowing participant in Yosho's plan
-- Her involvement was deliberate, not coincidental
-- She understood the strategic importance of Tenchi's future role
-
-#### Death Circumstances - Plot Significance
-
-**Source:** 101 Tenchi Muyo Secrets Q31
-
-When asked why Tenchi's mother died:
-
-> "She died because she had a short lifespan? Well, people say 'A beauty would not live long', wouldn't they? (Bijin hakumei is an idiom.) So, just be satisfied with this answer. IT CANNOT BE REVEALED BECAUSE IT IS VERY IMPORTANT PART OF THE PLOT."
-
-**Key Points:**
-- The true cause/circumstances of her death are DELIBERATELY WITHHELD
-- This information is PLOT-SIGNIFICANT for future story arcs
-- The idiom response ("bijin hakumei") is a DEFLECTION, not the real answer
-- Kajishima considers this important enough to hide
-- The mystery remains in canon
-
-#### Lifespan Without Enhancement
-
-**Source:** Tenchi Fandom Wiki (derived from novels)
-
-Kiyone never received bio-enhancement augmentations and died at the natural extended lifespan inherited from Yosho's genetics:
-- **Age at death:** 248 years
-- **No bio-enhancement:** Her choice (or circumstances)
-- **Natural Juraian-descendant lifespan:** Extended beyond human, but not indefinite
-
-#### Ryoko's Presence at Death
-
-**Source:** 101 Tenchi Muyo Secrets (confirmed in various sources)
-
-Ryoko was present (in astral form) when Kiyone died. This is one of the early revealed details about the death scene.
-
-#### Seina's Presence at Death
-
-**Source:** GXP Novels
-
-Seina Yamada (childhood friend of Tenchi, protagonist of GXP) was present when Kiyone died and believes his bad luck killed her.
-
----
-
-### Kasumi (Yosho's First Earth Wife)
-
-| Attribute | Value |
-|-----------|-------|
-| **Full Name** | Kasumi |
-| **Relation** | Funaho's niece; Yosho's cousin and wife |
-| **Rescue** | During Ryoko battle ~1292 CE |
-| **Marriage Duration** | ~100 years |
-| **Children** | 3 with Yosho |
-| **Age at Death** | 138 years |
-
-#### Kasumi's Complete Story
-
-**Source:** Tenchi Fandom Wiki + 101 Secrets Q29
-
-Kasumi was:
-- Empress Funaho's niece (making her Yosho's cousin)
-- Rescued by Yosho during the battle with Ryoko on Earth
-- His first wife after arriving on Earth
-
-#### The Longevity Decision
-
-> "Kasumi was initially assisted with life extension technology but became disturbed with her extended life, outliving all of her fellow Earthlings, and so she requested for this assistance to be halted and eventually died at the age of 138."
-
-**The Psychology:**
-- She watched all her Earth friends age and die
-- She saw generations pass while she remained
-- The isolation and loss became unbearable
-- She chose mortality over eternal watching
-
-**Yosho's Response:**
-- He honored her wish without question
-- He stopped the longevity treatments
-- After her death, he gave subsequent descendants THE CHOICE
-- Some chose enhancement, some did not
-
-#### The Three Children
-
-Kasumi had 3 children with Yosho. The Masaki family on Earth descends from these children (among others from Yosho's "several wives").
-
-#### Story Significance
-
-Kasumi's decision establishes:
-1. Bio-enhancement is a CHOICE in Masaki family
-2. Not all choose extended life
-3. The emotional cost of longevity is real
-4. Yosho respects individual choice about lifespan
-5. This affects how Yosho might view Sheldon's similar situation
 
 ---
 
@@ -208,43 +92,18 @@ Kasumi's decision establishes:
 - Still technically wants Yosho back
 - Political complications
 
-### Empress Funaho (Yosho's Mother)
-
+### Empress Funaho
 | Attribute | Value |
 |-----------|-------|
-| **Position** | First Empress of Jurai |
+| **Position** | First Empress |
 | **Relation** | Yosho's mother |
-| **Origin** | EARTH (native-born) |
-| **Age** | 7+ centuries |
+| **Origin** | Earth (ancient past) |
 
-#### How Azusa Met Funaho
-
-**Source:** 101 Tenchi Muyo Secrets
-
-> "Azusa was travelling for martial training across the universe. A certain incident made him come to Earth. He saw Funaho and instantly fell in love. He took her home to get married."
-
-**Key Points:**
-- Azusa was on a martial training journey across the universe
-- "A certain incident" brought him to Earth (details unrevealed)
-- He saw Funaho and fell instantly in love
-- He brought her back to Jurai to marry
-
-#### Funaho's Status
-
-> "Looking very well for her 7+ centuries."
-
-**Key Points:**
-- Funaho is an EARTH NATIVE (not Juraian)
-- She has lived for over 700 years (bio-enhancement)
-- She adapted to Juraian longevity technology
-- Unlike her niece Kasumi, she accepted extended life
-
-#### Family Significance
-
-- Her Earth origin makes Yosho a "half-breed"
-- This caused discrimination on Jurai
-- Yosho named his Royal Tree "Funaho" after her (strategic move)
-- Her niece Kasumi became Yosho's first wife on Earth
+**Relevant Facts:**
+- Human woman from Earth
+- Yosho is "half-breed" through her
+- Her tree is Yosho's tree's ancestor
+- Namesake of Funaho-no-ki
 
 ### Empress Misaki
 | Attribute | Value |
@@ -267,10 +126,6 @@ Kasumi's decision establishes:
 | **Species** | Human (GP lineage) |
 | **Position** | Galaxy Police Detective |
 | **Arrival** | Year 13 (crash landing) |
-| **Control Cube** | "Illegal cube" with extra functions |
-
-**Source Note (101 Secrets):**
-Mihoshi's control cube is described as an "illegal cube" with extra functions beyond standard GP issue.
 
 **Canon Role:**
 - Ditzy but somehow effective
@@ -335,7 +190,6 @@ Mihoshi's control cube is described as an "illegal cube" with extra functions be
 - Created by Washu
 - Betrayed and imprisoned her
 - Controlled Ryoko for millennia
-- **Assisted in Ryoko's creation** (101 Secrets confirms this)
 - Seeks cosmic power
 
 **Year 13 Events:**
@@ -361,18 +215,6 @@ Mihoshi's control cube is described as an "illegal cube" with extra functions be
 
 ## VILLAGE NPCs
 
-### Seina Yamada
-
-| Attribute | Value |
-|-----------|-------|
-| **Relation** | Childhood friend of Tenchi |
-| **Location (1989)** | Masaki Village area |
-| **Notable Trait** | Extreme bad luck |
-| **Future Role** | GXP protagonist |
-
-**Significant Detail (GXP Novels):**
-Seina was present at Kiyone Masaki's death and believes his bad luck caused it.
-
 ### To Be Developed As Needed
 
 | Role | Description |
@@ -393,28 +235,10 @@ Seina was present at Kiyone Masaki's death and believes his bad luck caused it.
 
 ## CROSS-REFERENCES
 
-- `[[characters/katsuhito_yosho.md]]` — Family connections, multiple marriages
+- `[[characters/katsuhito_yosho.md]]` — Family connections
 - `[[characters/tenchi_masaki.md]]` — Nephew to many
 - `[[timeline/year13_canon.md]]` — When arrivals occur
 - `[[relationships/found_family.md]]` — How they integrate
-- `[[canon/research_resources.md]]` — Source verification
-
----
-
-## SOURCE DOCUMENTATION
-
-### 101 Tenchi Muyo Secrets Citations
-| Question | Topic | Content |
-|----------|-------|---------|
-| Q20 | Kiyone's Role | Helped cultivate Tenchi's interest in cave |
-| Q29 | Yosho's Wives | "Several wives" including Kasumi |
-| Q31 | Kiyone's Death | "Cannot be revealed - important part of plot" |
-| - | Funaho's Origin | Earth native, met Azusa during martial training |
-| - | Mihoshi's Cube | "Illegal cube" with extra functions |
-
-### Other Canon Sources
-- **Tenchi Fandom Wiki:** Kasumi's longevity decision, Kiyone's age at death
-- **GXP Novels:** Seina's presence at Kiyone's death
 
 ---
 
