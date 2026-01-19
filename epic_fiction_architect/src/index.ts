@@ -107,6 +107,27 @@ export type {
   PrioritizedSuggestion
 } from './engines/craft/index';
 
+// Writing Rules Engine (Banned Patterns & Phrases Detection)
+export {
+  WritingRulesEngine,
+  BANNED_CONSTRUCTIONS,
+  BANNED_PHRASES,
+  SEARCH_PATTERNS,
+  EROTICA_RULES
+} from './engines/rules/index';
+export type {
+  BannedConstruction,
+  ConstructionCategory,
+  BannedPhrase,
+  PhraseCategory,
+  SearchPattern,
+  EroticaRule,
+  EroticaCategory,
+  RuleViolation,
+  RulesAnalysisResult,
+  WritingRulesOptions
+} from './engines/rules/index';
+
 // ============================================================================
 // APPLICATION CLASS
 // ============================================================================
@@ -121,6 +142,7 @@ import {StoryBible, SCOREFramework} from './engines/ai/story-bible';
 import {PredictiveNarrativeEngine} from './engines/narrative/index';
 import {ConsistencyChecker} from './engines/consistency/index';
 import {WritingCraftAnalyzer} from './engines/craft/index';
+import {WritingRulesEngine} from './engines/rules/index';
 import type {EmbeddingConfig} from './engines/ai/embeddings';
 
 export interface EpicFictionArchitectConfig {
@@ -143,6 +165,7 @@ export class EpicFictionArchitect {
   private _narrative: PredictiveNarrativeEngine;
   private _consistency: ConsistencyChecker;
   private _craft: WritingCraftAnalyzer;
+  private _rules: WritingRulesEngine;
 
   constructor(config: EpicFictionArchitectConfig = {}) {
     // Initialize database
@@ -159,6 +182,7 @@ export class EpicFictionArchitect {
     this._narrative = new PredictiveNarrativeEngine();
     this._consistency = new ConsistencyChecker();
     this._craft = new WritingCraftAnalyzer();
+    this._rules = new WritingRulesEngine();
   }
 
   // --------------------------------------------------------------------------
@@ -218,6 +242,11 @@ export class EpicFictionArchitect {
   /** Writing Craft Analyzer (award-winning prose techniques) */
   get craft(): WritingCraftAnalyzer {
     return this._craft;
+  }
+
+  /** Writing Rules Engine (banned patterns & phrases detection) */
+  get rules(): WritingRulesEngine {
+    return this._rules;
   }
 
   // --------------------------------------------------------------------------

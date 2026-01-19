@@ -60,8 +60,11 @@ src/
 │   ├── consistency/
 │   │   ├── checker.ts       # Contradiction detection
 │   │   └── index.ts
-│   └── craft/
-│       ├── analyzer.ts      # Prose quality analysis
+│   ├── craft/
+│   │   ├── analyzer.ts      # Prose quality analysis
+│   │   └── index.ts
+│   └── rules/
+│       ├── writing-rules.ts # Banned patterns/phrases detection
 │       └── index.ts
 ├── types/
 │   └── core.ts              # Core TypeScript interfaces
@@ -465,6 +468,110 @@ The craft analyzer detects these six fundamental story shapes (from computationa
 | `cinderella` | Rise → Fall → Rise | Jane Eyre |
 | `oedipus` | Fall → Rise → Fall | Greek tragedies |
 
+### 8. Writing Rules Engine (`app.rules`)
+
+Detects banned constructions, phrases, and patterns based on "Show Don't Tell" principles.
+
+```typescript
+// Full analysis
+const result = app.rules.analyze(text, {
+  includeEroticaRules: false,        // Enable erotica-specific rules
+  severityThreshold: 'minor',         // 'critical' | 'major' | 'minor'
+  excludeCategories: [],              // Skip certain categories
+  excludeRuleIds: [],                 // Skip specific rules
+  runSearchPatterns: true             // Include search pattern counts
+});
+
+// Returns:
+// {
+//   violations: [
+//     {
+//       id: 'seq-then-comma-42',
+//       ruleId: 'seq-then-comma',
+//       ruleName: 'Sequential ", then" construction',
+//       category: 'sequential_action',
+//       severity: 'major',
+//       text: ', then stepped',
+//       position: { start: 42, end: 55, line: 2, column: 10 },
+//       reason: 'Chains two beats creating mechanical prose',
+//       suggestion: 'Use a period. Let the second action breathe.'
+//     }
+//   ],
+//   summary: {
+//     total: 15,
+//     critical: 2,
+//     major: 8,
+//     minor: 5,
+//     byCategory: Map { 'filter_word' => 5, ... }
+//   },
+//   score: 78,  // 0-100, higher is better
+//   searchPatternMatches: Map { 'was-were' => 12, ... }
+// }
+
+// Quick analysis for real-time feedback
+const quick = app.rules.quickAnalyze(text);
+// Returns: { violations, criticalCount, score, topViolation }
+
+// Check a specific rule
+const matches = app.rules.checkRule(text, 'orbs-for-eyes');
+
+// Generate readable report
+const report = app.rules.generateReport(result);
+
+// Add custom rules
+app.rules.addBannedConstruction({
+  id: 'my-custom-rule',
+  name: 'My Custom Pattern',
+  description: 'Detects custom bad pattern',
+  pattern: /\bmy bad pattern\b/gi,
+  severity: 'major',
+  category: 'custom',
+  suggestion: 'Replace with better prose.',
+  examples: {
+    bad: 'This is my bad pattern.',
+    good: 'This is better prose.'
+  }
+});
+```
+
+#### Rule Categories
+
+**Banned Constructions (31 patterns)**:
+- `sequential_action`: ", then" chains
+- `vague_interiority`: "Something in her shifted"
+- `anthropomorphized_abstraction`: "Silence stretched", "Eyes searched"
+- `filter_word`: "Found himself", "Began to", "Seemed to"
+- `purple_prose`: "Orbs", "Ministrations", "Velvet heat"
+- `pacing_killer`: "Little did X know", "In order to"
+- `telling_emotion`: "Fear washed over", "She felt scared"
+- `weak_verb`: "Suddenly", "Very + adjective"
+- `redundant_attribution`: "With a nervous laugh"
+
+**Banned Phrases (37 categories)**:
+- `physical_tell`: Overused body reactions (heart pounded, stomach dropped)
+- `vague_interiority`: "Something inside", "Part of him"
+- `cliche_reaction`: Rolled eyes, raised eyebrow, clenched jaw
+- `purple_prose_word`: Orbs, visage, countenance, alabaster
+- `hedging_word`: Somewhat, rather, quite, slightly
+- `filler_word`: Just, really, basically, actually
+- `melodrama`: "Her entire world", "Nothing would ever be the same"
+- `body_part_cliche`: Pools of eyes, piercing gaze, strong jaw
+- `emotion_shortcut`: "Felt tears", "Felt anger"
+
+**Erotica Rules (optional)**:
+- `euphemism`: Nether regions, womanhood, core, center
+- `purple_anatomy`: Velvet steel, turgid, throbbing member
+- `pacing`: Clothing inventory, body part inventory
+- `choreography`: Physically impossible positions
+- `emotion`: "Pleasure crashed", "Saw stars"
+
+**Search Patterns (for revision)**:
+- Passive voice markers (`was/were + verb`)
+- -ly adverbs
+- "That" clauses
+- "There was/were" constructions
+- Dialogue attribution adverbs
+
 ---
 
 ## Testing
@@ -549,7 +656,16 @@ if (analysis.showTell.showRatio < 0.7) {
 ## Notes for Claude
 
 1. **The database schema is in `src/db/schema.sql`** - all tables use `IF NOT EXISTS`
-2. **All engines are accessed via the main `EpicFictionArchitect` class**
+2. **All 8 engines are accessed via the main `EpicFictionArchitect` class**:
+   - `app.calendar` - Multi-calendar system
+   - `app.ages` - Species-aware age calculation
+   - `app.productivity` - Writing session tracking
+   - `app.storyBible` - AI context with embeddings
+   - `app.narrative` - Causal graphs & probability
+   - `app.consistency` - Contradiction detection
+   - `app.craft` - Prose quality analysis
+   - `app.rules` - Banned patterns/phrases detection
 3. **The `TrackedFact` interface requires all fields** - don't use simplified versions
 4. **Consistency check returns `summary` not `stats`**
 5. **Test file at `src/tests/stress-test-round3.ts`** has 60 working examples
+6. **Writing Rules Engine** - Use `app.rules.analyze()` with `includeEroticaRules: true` for mature content
