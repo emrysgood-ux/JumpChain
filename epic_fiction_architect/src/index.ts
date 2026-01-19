@@ -55,6 +55,32 @@ export {EmbeddingsEngine, defaultConfig as defaultEmbeddingConfig} from './engin
 export type {EmbeddingConfig} from './engines/ai/embeddings';
 export {StoryBible, SCOREFramework} from './engines/ai/story-bible';
 export type {StoryBibleEntry, ContextSnapshot, AIContextPackage} from './engines/ai/story-bible';
+export {SummarizationGuard, DEFAULT_CONFIG as DEFAULT_SUMMARIZATION_CONFIG} from './engines/ai/summarization-guard';
+export type {SummarizationConfig, ExtractedDetail, SummarizationResult} from './engines/ai/summarization-guard';
+
+// Predictive Narrative Engine (Causal Graphs, Probability Mapping, Cascade Simulation)
+export {
+  PredictiveNarrativeEngine,
+  CausalPlotGraph,
+  ProbabilityMapper,
+  CascadeSimulator
+} from './engines/narrative/index';
+export type {
+  PlotEvent,
+  CausalLink,
+  CharacterGoal,
+  DramaticConflict,
+  DecisionPoint,
+  NarrativeBranch,
+  NarrativePath,
+  WhatIfResult,
+  WorldStateVar,
+  StateChange,
+  SimulationResult,
+  SensitivityAnalysis,
+  NarrativePrediction,
+  NarrativeAnalysisReport
+} from './engines/narrative/index';
 
 // ============================================================================
 // APPLICATION CLASS
@@ -67,6 +93,7 @@ import {AgeCalculator} from './engines/timeline/age';
 import {ProductivityTracker} from './engines/tracking/productivity';
 import {EmbeddingsEngine} from './engines/ai/embeddings';
 import {StoryBible, SCOREFramework} from './engines/ai/story-bible';
+import {PredictiveNarrativeEngine} from './engines/narrative/index';
 import type {EmbeddingConfig} from './engines/ai/embeddings';
 
 export interface EpicFictionArchitectConfig {
@@ -86,6 +113,7 @@ export class EpicFictionArchitect {
   private _embeddings: EmbeddingsEngine;
   private _storyBible: StoryBible;
   private _score: SCOREFramework;
+  private _narrative: PredictiveNarrativeEngine;
 
   constructor(config: EpicFictionArchitectConfig = {}) {
     // Initialize database
@@ -99,6 +127,7 @@ export class EpicFictionArchitect {
     this._embeddings = new EmbeddingsEngine(this.db, config.embeddings);
     this._storyBible = new StoryBible(this.db, this._embeddings, this._calendar, this._ageCalculator);
     this._score = new SCOREFramework(this._storyBible);
+    this._narrative = new PredictiveNarrativeEngine();
   }
 
   // --------------------------------------------------------------------------
@@ -143,6 +172,11 @@ export class EpicFictionArchitect {
   /** SCORE Framework for AI context */
   get score(): SCOREFramework {
     return this._score;
+  }
+
+  /** Predictive Narrative Engine (causal graphs, branching, cascades) */
+  get narrative(): PredictiveNarrativeEngine {
+    return this._narrative;
   }
 
   // --------------------------------------------------------------------------
