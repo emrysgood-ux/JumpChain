@@ -111,6 +111,125 @@ export {
   DefenseLevel
 } from './location-designer';
 
+// Name Generator
+export {
+  NameGenerator,
+  type GeneratedName,
+  type NamingStyle,
+  type PhonemeSet,
+  type SyllableRules,
+  type NameGenerationOptions,
+  NameCategory,
+  NameStyle,
+  Gender
+} from './name-generator';
+
+// Conlang/Language Engine
+export {
+  ConlangEngine,
+  type Language,
+  type Phoneme,
+  type Phonotactics,
+  type SoundChange,
+  type Morpheme,
+  type GrammarRule,
+  type Word,
+  type Phrase,
+  type WritingSystem,
+  type Dialect,
+  type LanguageGenerationOptions,
+  type TranslationResult,
+  PhonemeType,
+  ArticulationPlace,
+  ArticulationManner,
+  VowelHeight,
+  VowelBackness,
+  WordOrder,
+  MorphologicalType,
+  GrammaticalCase,
+  GrammaticalGender,
+  TenseSystem,
+  AspectType,
+  EvidentialityType,
+  HonorificSystem,
+  WritingSystemType,
+  WritingDirection,
+  WordCategory,
+  SemanticDomain,
+  LanguageFamily
+} from './conlang-engine';
+
+// History/Timeline Generator
+export {
+  HistoryGenerator,
+  type Timeline,
+  type HistoricalEra,
+  type HistoricalEvent,
+  type HistoricalFigure,
+  type Civilization,
+  type Conflict,
+  type TimePoint,
+  type DateRange,
+  type HistoryGenerationOptions,
+  EraType,
+  EventType,
+  EventScale,
+  EventImpact,
+  CivilizationStatus,
+  FigureRole,
+  ConflictType,
+  RelationshipType
+} from './history-generator';
+
+// Ecology/Biome System
+export {
+  EcologySystem,
+  type Biome,
+  type Ecosystem,
+  type Climate,
+  type Season,
+  type EcosystemOrganism,
+  type FoodChain,
+  type EcosystemResource,
+  type EnvironmentalHazard,
+  type BiomeGenerationOptions,
+  BiomeType,
+  ClimateType as EcologyClimateType,
+  PrecipitationType,
+  SeasonType,
+  TrophicLevel,
+  EcologicalRole as EcologyRole,
+  ResourceType,
+  ResourceAbundance,
+  HazardType,
+  ConservationStatus
+} from './ecology-system';
+
+// Economy/Trade System
+export {
+  EconomySystem,
+  type Economy,
+  type Currency,
+  type CurrencyDenomination,
+  type TradeGood,
+  type Market,
+  type TradeRoute,
+  type Guild,
+  type TaxSystem,
+  type EconomyGenerationOptions,
+  EconomicSystemType,
+  CurrencyType,
+  CurrencyMetal,
+  GoodCategory,
+  GoodQuality,
+  TradeRouteType,
+  MarketType,
+  GuildType,
+  TaxType,
+  EconomicIndicator,
+  WealthLevel
+} from './economy-system';
+
 /**
  * Unified Worldbuilding Suite
  *
@@ -118,11 +237,19 @@ export {
  * cross-engine integration and consistency checking.
  */
 export class WorldbuildingSuite {
+  // Phase 1 Engines
   public readonly species: import('./species-designer').SpeciesDesigner;
   public readonly cultures: import('./culture-designer').CultureDesigner;
   public readonly religions: import('./religion-designer').ReligionDesigner;
   public readonly magic: import('./magic-system-designer').MagicSystemDesigner;
   public readonly locations: import('./location-designer').LocationDesigner;
+
+  // Phase 2 Engines
+  public readonly names: import('./name-generator').NameGenerator;
+  public readonly languages: import('./conlang-engine').ConlangEngine;
+  public readonly history: import('./history-generator').HistoryGenerator;
+  public readonly ecology: import('./ecology-system').EcologySystem;
+  public readonly economy: import('./economy-system').EconomySystem;
 
   constructor() {
     // Dynamic imports to avoid circular dependencies
@@ -131,23 +258,43 @@ export class WorldbuildingSuite {
     const { ReligionDesigner } = require('./religion-designer');
     const { MagicSystemDesigner } = require('./magic-system-designer');
     const { LocationDesigner } = require('./location-designer');
+    const { NameGenerator } = require('./name-generator');
+    const { ConlangEngine } = require('./conlang-engine');
+    const { HistoryGenerator } = require('./history-generator');
+    const { EcologySystem } = require('./ecology-system');
+    const { EconomySystem } = require('./economy-system');
 
+    // Phase 1
     this.species = new SpeciesDesigner();
     this.cultures = new CultureDesigner();
     this.religions = new ReligionDesigner();
     this.magic = new MagicSystemDesigner();
     this.locations = new LocationDesigner();
+
+    // Phase 2
+    this.names = new NameGenerator();
+    this.languages = new ConlangEngine();
+    this.history = new HistoryGenerator();
+    this.ecology = new EcologySystem();
+    this.economy = new EconomySystem();
   }
 
   /**
    * Set random seed for all engines (for reproducible generation)
    */
   setSeed(seed: number): void {
+    // Phase 1
     this.species.setSeed(seed);
     this.cultures.setSeed(seed);
     this.religions.setSeed(seed);
     this.magic.setSeed(seed);
     this.locations.setSeed(seed);
+    // Phase 2
+    this.names.setSeed(seed);
+    this.languages.setSeed(seed);
+    this.history.setSeed(seed);
+    this.ecology.setSeed(seed);
+    this.economy.setSeed(seed);
   }
 
   /**
@@ -155,11 +302,17 @@ export class WorldbuildingSuite {
    */
   exportAll(): string {
     return JSON.stringify({
+      // Phase 1
       species: JSON.parse(this.species.exportToJSON()),
       cultures: JSON.parse(this.cultures.exportToJSON()),
       religions: JSON.parse(this.religions.exportToJSON()),
       magic: JSON.parse(this.magic.exportToJSON()),
-      locations: JSON.parse(this.locations.exportToJSON())
+      locations: JSON.parse(this.locations.exportToJSON()),
+      // Phase 2
+      languages: JSON.parse(this.languages.exportAllLanguages()),
+      history: JSON.parse(this.history.exportAllTimelines()),
+      ecology: JSON.parse(this.ecology.exportAllBiomes()),
+      economy: JSON.parse(this.economy.exportAllEconomies())
     }, null, 2);
   }
 
@@ -169,11 +322,33 @@ export class WorldbuildingSuite {
   importAll(json: string): void {
     const data = JSON.parse(json);
 
+    // Phase 1
     if (data.species) this.species.importFromJSON(JSON.stringify(data.species));
     if (data.cultures) this.cultures.importFromJSON(JSON.stringify(data.cultures));
     if (data.religions) this.religions.importFromJSON(JSON.stringify(data.religions));
     if (data.magic) this.magic.importFromJSON(JSON.stringify(data.magic));
     if (data.locations) this.locations.importFromJSON(JSON.stringify(data.locations));
+    // Phase 2
+    if (data.languages) {
+      for (const lang of data.languages) {
+        this.languages.importLanguage(JSON.stringify(lang));
+      }
+    }
+    if (data.history) {
+      for (const timeline of data.history) {
+        this.history.importTimeline(JSON.stringify(timeline));
+      }
+    }
+    if (data.ecology) {
+      for (const biome of data.ecology) {
+        this.ecology.importBiome(JSON.stringify(biome));
+      }
+    }
+    if (data.economy) {
+      for (const economy of data.economy) {
+        this.economy.importEconomy(JSON.stringify(economy));
+      }
+    }
   }
 
   /**
@@ -255,6 +430,7 @@ export class WorldbuildingSuite {
    * Get statistics about the current world
    */
   getWorldStats(): {
+    // Phase 1
     speciesCount: number;
     cultureCount: number;
     religionCount: number;
@@ -264,8 +440,16 @@ export class WorldbuildingSuite {
     abilityCount: number;
     itemCount: number;
     locationCount: number;
+    // Phase 2
+    languageCount: number;
+    timelineCount: number;
+    biomeCount: number;
+    economyCount: number;
+    marketCount: number;
+    guildCount: number;
   } {
     return {
+      // Phase 1
       speciesCount: this.species.getAllSpecies().length,
       cultureCount: this.cultures.getAllCultures().length,
       religionCount: this.religions.getAllReligions().length,
@@ -274,7 +458,14 @@ export class WorldbuildingSuite {
       disciplineCount: this.magic.getAllDisciplines().length,
       abilityCount: this.magic.getAllAbilities().length,
       itemCount: this.magic.getAllMagicalItems().length,
-      locationCount: this.locations.getAllLocations().length
+      locationCount: this.locations.getAllLocations().length,
+      // Phase 2
+      languageCount: this.languages.getAllLanguages().length,
+      timelineCount: this.history.getAllTimelines().length,
+      biomeCount: this.ecology.getAllBiomes().length,
+      economyCount: this.economy.getAllEconomies().length,
+      marketCount: this.economy.getAllMarkets().length,
+      guildCount: this.economy.getAllGuilds().length
     };
   }
 }
