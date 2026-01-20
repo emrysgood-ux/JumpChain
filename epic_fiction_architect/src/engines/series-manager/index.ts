@@ -1010,6 +1010,83 @@ export class SeriesManager {
   }
 
   // ============================================================================
+  // STATISTICS
+  // ============================================================================
+
+  /**
+   * Get comprehensive series manager statistics
+   */
+  getStats(): {
+    totalSeries: number;
+    totalBooks: number;
+    totalVolumes: number;
+    totalChapters: number;
+    totalWords: number;
+    booksByStatus: Record<BookStatus, number>;
+    totalCrossBookPlots: number;
+    totalCharacterArcs: number;
+    totalCliffhangers: number;
+    totalSpinoffs: number;
+    activePlots: number;
+    resolvedPlots: number;
+  } {
+    const booksByStatus: Record<string, number> = {};
+    for (const status of Object.values(BookStatus)) {
+      booksByStatus[status] = 0;
+    }
+
+    let totalChapters = 0;
+    let totalWords = 0;
+
+    for (const book of this.books.values()) {
+      booksByStatus[book.status] = (booksByStatus[book.status] || 0) + 1;
+      totalChapters += book.chapterCount;
+      totalWords += book.wordCountActual;
+    }
+
+    const activePlots = Array.from(this.crossBookPlots.values())
+      .filter(p => p.status === 'active').length;
+    const resolvedPlots = Array.from(this.crossBookPlots.values())
+      .filter(p => p.status === 'resolved').length;
+
+    return {
+      totalSeries: this.series.size,
+      totalBooks: this.books.size,
+      totalVolumes: this.volumes.size,
+      totalChapters,
+      totalWords,
+      booksByStatus: booksByStatus as Record<BookStatus, number>,
+      totalCrossBookPlots: this.crossBookPlots.size,
+      totalCharacterArcs: this.characterArcs.size,
+      totalCliffhangers: this.cliffhangers.size,
+      totalSpinoffs: this.spinoffs.size,
+      activePlots,
+      resolvedPlots
+    };
+  }
+
+  /**
+   * Clear all data
+   */
+  clear(): void {
+    this.series.clear();
+    this.books.clear();
+    this.volumes.clear();
+    this.cliffhangers.clear();
+    this.crossBookPlots.clear();
+    this.characterArcs.clear();
+    this.bookTransitions.clear();
+    this.spinoffs.clear();
+    this.readingGuides.clear();
+
+    this.booksBySeriesIndex.clear();
+    this.volumesBySeriesIndex.clear();
+    this.cliffhangersByBookIndex.clear();
+    this.plotsBySeriesIndex.clear();
+    this.arcsByCharacterIndex.clear();
+  }
+
+  // ============================================================================
   // UTILITY METHODS
   // ============================================================================
 

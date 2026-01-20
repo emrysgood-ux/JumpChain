@@ -521,23 +521,6 @@ export class EpicFictionProject {
   }
 
   // ===========================================================================
-  // HELPER METHODS
-  // ===========================================================================
-
-  /**
-   * Get series statistics (workaround until SeriesManager has getStats)
-   */
-  private getSeriesStats(): { totalBooks: number; totalArcs: number; totalChapters: number } {
-    // Access private maps through any cast (temporary)
-    const seriesAny = this.series as any;
-    return {
-      totalBooks: seriesAny.books?.size || 0,
-      totalArcs: seriesAny.characterArcs?.size || 0,
-      totalChapters: 0  // Would need to sum from books
-    };
-  }
-
-  // ===========================================================================
   // DIAGNOSTICS
   // ===========================================================================
 
@@ -722,8 +705,8 @@ export class EpicFictionProject {
       pendingSetups: fsStats.pendingSetups,
       overduePayoffs: overdueSetups.length,
       unfiredGuns: fsStats.unfiredGuns,
-      totalBooks: this.getSeriesStats().totalBooks,
-      totalArcs: this.getSeriesStats().totalArcs,
+      totalBooks: this.series.getStats().totalBooks,
+      totalArcs: this.series.getStats().totalCharacterArcs,
       chaptersWritten: chapter
     };
 
@@ -992,8 +975,7 @@ export class EpicFictionProject {
     this.plots.clear();
     this.tension.clear();
     this.foreshadowing.clear();
-    // SeriesManager doesn't have clear - would need to create new instance
-    this.series = new SeriesManager();
+    this.series.clear();
     this.hallucination.clear();
     this.eventLog = [];
   }

@@ -400,9 +400,90 @@ export class PredictiveNarrativeEngine {
   }
 
   // ==========================================================================
+  // STANDARD API METHODS
+  // ==========================================================================
+
+  /**
+   * Get engine statistics
+   */
+  getStats(): {
+    plotGraphStats: {
+      totalEvents: number;
+      totalGoals: number;
+      totalConflicts: number;
+    };
+    probabilityMapperStats: {
+      totalDecisionPoints: number;
+    };
+    cascadeSimulatorStats: {
+      totalStates: number;
+    };
+    healthScore: number;
+    totalIssues: number;
+  } {
+    const health = this.analyze();
+
+    // Get counts from subsystems via their toJSON
+    const plotData = this.plotGraph.toJSON();
+    const probData = this.probabilityMapper.toJSON();
+    const cascadeData = this.cascadeSimulator.toJSON();
+
+    return {
+      plotGraphStats: {
+        totalEvents: plotData.events?.length || 0,
+        totalGoals: plotData.goals?.length || 0,
+        totalConflicts: plotData.conflicts?.length || 0
+      },
+      probabilityMapperStats: {
+        totalDecisionPoints: probData.decisionPoints?.length || 0
+      },
+      cascadeSimulatorStats: {
+        totalStates: cascadeData.states?.length || 0
+      },
+      healthScore: health.healthScore,
+      totalIssues: health.issues.length
+    };
+  }
+
+  /**
+   * Clear all data and reset to initial state
+   */
+  clear(): void {
+    // Reinitialize all subsystems
+    this.plotGraph = new CausalPlotGraph();
+    this.probabilityMapper = new ProbabilityMapper();
+    this.cascadeSimulator = new CascadeSimulator({
+      maxCascadeDepth: 15,
+      decayRate: 0.85,
+      minMagnitudeThreshold: 0.005
+    });
+  }
+
+  // ==========================================================================
   // SERIALIZATION
   // ==========================================================================
 
+  /**
+   * Export to JSON string (standard API)
+   */
+  exportToJSON(): string {
+    return JSON.stringify(this.toJSON(), null, 2);
+  }
+
+  /**
+   * Import from JSON string (standard API)
+   */
+  importFromJSON(json: string): void {
+    const data = JSON.parse(json);
+    this.plotGraph = CausalPlotGraph.fromJSON(data.plotGraph);
+    this.probabilityMapper = ProbabilityMapper.fromJSON(data.probabilityMapper);
+    this.cascadeSimulator = CascadeSimulator.fromJSON(data.cascadeSimulator);
+  }
+
+  /**
+   * Legacy: Get raw JSON object
+   * @deprecated Use exportToJSON() for string output
+   */
   toJSON(): {
     plotGraph: ReturnType<CausalPlotGraph['toJSON']>;
     probabilityMapper: ReturnType<ProbabilityMapper['toJSON']>;
@@ -415,6 +496,10 @@ export class PredictiveNarrativeEngine {
     };
   }
 
+  /**
+   * Legacy: Create from raw JSON object
+   * @deprecated Use importFromJSON() for string input
+   */
   static fromJSON(data: ReturnType<PredictiveNarrativeEngine['toJSON']>): PredictiveNarrativeEngine {
     const engine = new PredictiveNarrativeEngine();
     engine.plotGraph = CausalPlotGraph.fromJSON(data.plotGraph);

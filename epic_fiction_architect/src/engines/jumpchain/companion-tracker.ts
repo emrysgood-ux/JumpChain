@@ -391,6 +391,57 @@ export interface CompanionInteraction {
 }
 
 /**
+ * Relationship between two companions
+ */
+export interface CompanionRelationship {
+  id: string;
+  companionAId: string;
+  companionAName: string;
+  companionBId: string;
+  companionBName: string;
+
+  // Relationship type
+  type: RelationshipType;
+  typeFromB?: RelationshipType;         // If asymmetric
+
+  // Metrics
+  strength: number;                     // 0-100
+  trust: number;                        // 0-100
+  compatibility: number;                // 0-100, how well they work together
+
+  // Status
+  status: 'active' | 'dormant' | 'strained' | 'broken' | 'evolving';
+
+  // Timeline
+  startChapter: number;
+  startJumpId: string;
+  lastInteractionChapter: number;
+
+  // History
+  history: CompanionRelationshipEvent[];
+
+  // Context
+  sharedExperiences: string[];
+  conflicts: string[];
+  bondingMoments: string[];
+
+  // Metadata
+  notes: string;
+}
+
+/**
+ * Event in companion-companion relationship
+ */
+export interface CompanionRelationshipEvent {
+  chapter: number;
+  jumpId: string;
+  event: string;
+  strengthChange: number;
+  trustChange: number;
+  isSignificant: boolean;
+}
+
+/**
  * Companion summary for a specific jump
  */
 export interface JumpCompanionSummary {
@@ -445,12 +496,15 @@ export class CompanionTracker {
   private powerGrowth: Map<string, CompanionPowerGrowth> = new Map();
   private interactions: CompanionInteraction[] = [];
   private jumpSummaries: Map<string, JumpCompanionSummary> = new Map();
+  private companionRelationships: Map<string, CompanionRelationship> = new Map();
 
   // Indexes
   private companionsByStatus: Map<CompanionStatus, Set<string>> = new Map();
   private companionsByOrigin: Map<string, Set<string>> = new Map();
   private buildsByCompanion: Map<string, Set<string>> = new Map();
   private arcsByCompanion: Map<string, Set<string>> = new Map();
+  private relationshipsByCompanion: Map<string, Set<string>> = new Map();
+  private relationshipPairs: Map<string, string> = new Map(); // "idA:idB" -> relationshipId
 
   // Configuration
   private config: CompanionTrackerConfig = {
@@ -1014,11 +1068,260 @@ export class CompanionTracker {
           companion.relationshipStrength = Math.max(0, Math.min(100,
             companion.relationshipStrength + change.change));
         }
+      } else {
+        // Track companion-companion relationship
+        this.updateCompanionRelationship(
+          change.companionId,
+          change.targetId,
+          change.change,
+          data.chapter,
+          data.jumpId,
+          data.description
+        );
       }
-      // TODO: Track companion-companion relationships
     }
 
     return interaction;
+  }
+
+  // ===========================================================================
+  // COMPANION-COMPANION RELATIONSHIPS
+  // ===========================================================================
+
+  /**
+   * Create a relationship between two companions
+   */
+  createCompanionRelationship(params: {
+    companionAId: string;
+    companionBId: string;
+    type: RelationshipType;
+    startChapter: number;
+    startJumpId: string;
+    initialStrength?: number;
+    initialTrust?: number;
+  }): CompanionRelationship {
+    const companionA = this.companions.get(params.companionAId);
+    const companionB = this.companions.get(params.companionBId);
+
+    if (!companionA || !companionB) {
+      throw new Error('One or both companions not found');
+    }
+
+    // Check for existing relationship
+    const existingId = this.getRelationshipIdBetween(params.companionAId, params.companionBId);
+    if (existingId) {
+      throw new Error(`Relationship already exists between ${companionA.name} and ${companionB.name}`);
+    }
+
+    const relationship: CompanionRelationship = {
+      id: uuidv4(),
+      companionAId: params.companionAId,
+      companionAName: companionA.name,
+      companionBId: params.companionBId,
+      companionBName: companionB.name,
+      type: params.type,
+      strength: params.initialStrength ?? 50,
+      trust: params.initialTrust ?? 50,
+      compatibility: 50,
+      status: 'active',
+      startChapter: params.startChapter,
+      startJumpId: params.startJumpId,
+      lastInteractionChapter: params.startChapter,
+      history: [],
+      sharedExperiences: [],
+      conflicts: [],
+      bondingMoments: [],
+      notes: ''
+    };
+
+    // Store
+    this.companionRelationships.set(relationship.id, relationship);
+
+    // Index
+    this.indexCompanionRelationship(relationship);
+
+    return relationship;
+  }
+
+  /**
+   * Get relationship between two companions
+   */
+  getCompanionRelationship(companionAId: string, companionBId: string): CompanionRelationship | undefined {
+    const id = this.getRelationshipIdBetween(companionAId, companionBId);
+    return id ? this.companionRelationships.get(id) : undefined;
+  }
+
+  /**
+   * Get all relationships for a companion
+   */
+  getCompanionRelationships(companionId: string): CompanionRelationship[] {
+    const relationshipIds = this.relationshipsByCompanion.get(companionId);
+    if (!relationshipIds) return [];
+
+    return Array.from(relationshipIds)
+      .map(id => this.companionRelationships.get(id))
+      .filter((r): r is CompanionRelationship => r !== undefined);
+  }
+
+  /**
+   * Update companion relationship strength and trust
+   */
+  private updateCompanionRelationship(
+    companionAId: string,
+    companionBId: string,
+    strengthChange: number,
+    chapter: number,
+    jumpId: string,
+    eventDescription: string
+  ): void {
+    let relationship = this.getCompanionRelationship(companionAId, companionBId);
+
+    // Create relationship if it doesn't exist
+    if (!relationship) {
+      const companionA = this.companions.get(companionAId);
+      const companionB = this.companions.get(companionBId);
+
+      if (!companionA || !companionB) return;
+
+      relationship = this.createCompanionRelationship({
+        companionAId,
+        companionBId,
+        type: RelationshipType.ALLY,
+        startChapter: chapter,
+        startJumpId: jumpId
+      });
+    }
+
+    // Apply change
+    const oldStrength = relationship.strength;
+    relationship.strength = Math.max(0, Math.min(100, relationship.strength + strengthChange));
+
+    // Trust changes proportionally but slower
+    const trustChange = strengthChange * 0.5;
+    relationship.trust = Math.max(0, Math.min(100, relationship.trust + trustChange));
+
+    relationship.lastInteractionChapter = chapter;
+
+    // Record in history
+    relationship.history.push({
+      chapter,
+      jumpId,
+      event: eventDescription,
+      strengthChange,
+      trustChange,
+      isSignificant: Math.abs(strengthChange) >= 10
+    });
+
+    // Update status based on strength
+    if (relationship.strength < 20) {
+      relationship.status = 'broken';
+    } else if (relationship.strength < 40) {
+      relationship.status = 'strained';
+    } else if (Math.abs(relationship.strength - oldStrength) >= 15) {
+      relationship.status = 'evolving';
+    } else {
+      relationship.status = 'active';
+    }
+
+    // Track bonding moments and conflicts
+    if (strengthChange >= 10) {
+      relationship.bondingMoments.push(`Ch${chapter}: ${eventDescription}`);
+    } else if (strengthChange <= -10) {
+      relationship.conflicts.push(`Ch${chapter}: ${eventDescription}`);
+    }
+  }
+
+  /**
+   * Get relationship ID between two companions
+   */
+  private getRelationshipIdBetween(companionAId: string, companionBId: string): string | undefined {
+    const key1 = `${companionAId}:${companionBId}`;
+    const key2 = `${companionBId}:${companionAId}`;
+    return this.relationshipPairs.get(key1) || this.relationshipPairs.get(key2);
+  }
+
+  /**
+   * Index a companion relationship
+   */
+  private indexCompanionRelationship(rel: CompanionRelationship): void {
+    // By companion
+    for (const companionId of [rel.companionAId, rel.companionBId]) {
+      if (!this.relationshipsByCompanion.has(companionId)) {
+        this.relationshipsByCompanion.set(companionId, new Set());
+      }
+      this.relationshipsByCompanion.get(companionId)!.add(rel.id);
+    }
+
+    // Pair index
+    this.relationshipPairs.set(`${rel.companionAId}:${rel.companionBId}`, rel.id);
+  }
+
+  /**
+   * Get companion relationship network analysis
+   */
+  getCompanionNetworkAnalysis(): {
+    totalRelationships: number;
+    strongestBonds: { companionA: string; companionB: string; strength: number }[];
+    mostStrained: { companionA: string; companionB: string; strength: number }[];
+    mostConnected: { companionId: string; name: string; relationshipCount: number }[];
+    isolatedCompanions: string[];
+  } {
+    const relationships = Array.from(this.companionRelationships.values());
+
+    // Find strongest bonds
+    const strongestBonds = relationships
+      .filter(r => r.status !== 'broken')
+      .sort((a, b) => b.strength - a.strength)
+      .slice(0, 5)
+      .map(r => ({
+        companionA: r.companionAName,
+        companionB: r.companionBName,
+        strength: r.strength
+      }));
+
+    // Find most strained
+    const mostStrained = relationships
+      .filter(r => r.strength < 50)
+      .sort((a, b) => a.strength - b.strength)
+      .slice(0, 5)
+      .map(r => ({
+        companionA: r.companionAName,
+        companionB: r.companionBName,
+        strength: r.strength
+      }));
+
+    // Count relationships per companion
+    const connectionCounts = new Map<string, number>();
+    for (const [companionId] of this.relationshipsByCompanion) {
+      connectionCounts.set(companionId, this.relationshipsByCompanion.get(companionId)?.size || 0);
+    }
+
+    // Most connected
+    const mostConnected = Array.from(connectionCounts.entries())
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(([companionId, count]) => ({
+        companionId,
+        name: this.companions.get(companionId)?.name || 'Unknown',
+        relationshipCount: count
+      }));
+
+    // Isolated companions (no relationships with other companions)
+    const isolatedCompanions: string[] = [];
+    for (const [companionId] of this.companions) {
+      if (!this.relationshipsByCompanion.has(companionId) ||
+          this.relationshipsByCompanion.get(companionId)!.size === 0) {
+        isolatedCompanions.push(this.companions.get(companionId)?.name || companionId);
+      }
+    }
+
+    return {
+      totalRelationships: relationships.length,
+      strongestBonds,
+      mostStrained,
+      mostConnected,
+      isolatedCompanions
+    };
   }
 
   /**
@@ -1279,6 +1582,9 @@ export class CompanionTracker {
     completedArcs: number;
     totalInteractions: number;
     pivotalInteractions: number;
+    totalCompanionRelationships: number;
+    strongRelationships: number;
+    strainedRelationships: number;
   } {
     let totalCPInvested = 0;
     for (const companion of this.companions.values()) {
@@ -1287,6 +1593,10 @@ export class CompanionTracker {
 
     const activeArcs = Array.from(this.arcs.values()).filter(a => !a.isComplete).length;
     const completedArcs = Array.from(this.arcs.values()).filter(a => a.isComplete).length;
+
+    const relationships = Array.from(this.companionRelationships.values());
+    const strongRelationships = relationships.filter(r => r.strength >= 70).length;
+    const strainedRelationships = relationships.filter(r => r.status === 'strained' || r.status === 'broken').length;
 
     return {
       totalCompanions: this.companions.size,
@@ -1299,7 +1609,10 @@ export class CompanionTracker {
       activeArcs,
       completedArcs,
       totalInteractions: this.interactions.length,
-      pivotalInteractions: this.getPivotalInteractions().length
+      pivotalInteractions: this.getPivotalInteractions().length,
+      totalCompanionRelationships: this.companionRelationships.size,
+      strongRelationships,
+      strainedRelationships
     };
   }
 
@@ -1327,6 +1640,7 @@ export class CompanionTracker {
       powerGrowth: powerGrowthArray,
       interactions: this.interactions,
       jumpSummaries: Array.from(this.jumpSummaries.entries()),
+      companionRelationships: Array.from(this.companionRelationships.entries()),
       config: this.config
     }, null, 2);
   }
@@ -1397,6 +1711,16 @@ export class CompanionTracker {
       this.jumpSummaries = new Map(data.jumpSummaries);
     }
 
+    if (data.companionRelationships) {
+      this.companionRelationships = new Map(data.companionRelationships);
+      // Rebuild indexes
+      this.relationshipsByCompanion.clear();
+      this.relationshipPairs.clear();
+      for (const [, rel] of this.companionRelationships) {
+        this.indexCompanionRelationship(rel);
+      }
+    }
+
     if (data.config) {
       this.config = { ...this.config, ...data.config };
     }
@@ -1415,6 +1739,9 @@ export class CompanionTracker {
     this.buildsByCompanion.clear();
     this.arcsByCompanion.clear();
     this.companionsByOrigin.clear();
+    this.companionRelationships.clear();
+    this.relationshipsByCompanion.clear();
+    this.relationshipPairs.clear();
 
     // Reset status index
     for (const status of Object.values(CompanionStatus)) {

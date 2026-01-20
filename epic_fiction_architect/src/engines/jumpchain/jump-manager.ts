@@ -1387,6 +1387,44 @@ export class JumpManager {
   // ==========================================================================
 
   /**
+   * Clear all data and reset to initial state
+   */
+  clear(): void {
+    const jumperName = this.chainState.jumperName;
+    const chainName = this.chainState.name;
+
+    // Clear all maps
+    this.jumps.clear();
+    this.jumpsByOrder.clear();
+    this.jumpsByUniverse.clear();
+    this.perksByJump.clear();
+    this.itemsByJump.clear();
+
+    // Reset chain state
+    this.chainState = {
+      id: uuidv4(),
+      name: chainName,
+      jumperName,
+      currentJumpIndex: 0,
+      totalJumps: 0,
+      status: 'active',
+      warehouseUnlocked: false,
+      bodyModApplied: false,
+      totalCPEarned: 0,
+      totalCPSpent: 0,
+      chainPerks: [],
+      chainDrawbacks: [],
+      deaths: 0,
+      oneUps: this.config.enableOneUps ? this.config.oneUpCount : 0,
+      housRules: [],
+      allowedSupplements: [],
+      difficulty: 'standard',
+      createdAt: new Date(),
+      updatedAt: new Date()
+    };
+  }
+
+  /**
    * Export to JSON
    */
   exportToJSON(): string {
