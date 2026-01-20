@@ -156,9 +156,87 @@ export enum BeliefChangeType {
   MODERATED = 'moderated'
 }
 
+/**
+ * Character role in the narrative
+ */
+export enum CharacterRole {
+  PROTAGONIST = 'protagonist',
+  DEUTERAGONIST = 'deuteragonist',
+  TRITAGONIST = 'tritagonist',
+  ANTAGONIST = 'antagonist',
+  LOVE_INTEREST = 'love_interest',
+  MENTOR = 'mentor',
+  SIDEKICK = 'sidekick',
+  ALLY = 'ally',
+  RIVAL = 'rival',
+  FOIL = 'foil',
+  SUPPORTING = 'supporting',
+  MINOR = 'minor',
+  BACKGROUND = 'background',
+  CUSTOM = 'custom'
+}
+
 // =============================================================================
 // INTERFACES
 // =============================================================================
+
+/**
+ * Core character entity - the foundation for all character-related tracking
+ */
+export interface Character {
+  id: string;
+  name: string;
+  aliases: string[];                  // Other names, nicknames
+
+  // Role and importance
+  role: CharacterRole;
+  customRole?: string;
+  importance: 'primary' | 'secondary' | 'tertiary' | 'background';
+
+  // Introduction
+  introductionChapter: number;
+  introductionContext: string;        // How they're introduced
+
+  // Basic info
+  description: string;
+  physicalDescription?: string;
+  age?: number | string;              // Can be number or "appears 30" etc.
+  occupation?: string;
+  origin?: string;                    // Where from
+
+  // Universe tracking (for jumpchain/multiverse)
+  currentUniverse?: string;
+  universeHistory: {
+    universe: string;
+    entryChapter: number;
+    exitChapter?: number;
+  }[];
+
+  // Status
+  isAlive: boolean;
+  deathChapter?: number;
+  deathCause?: string;
+  resurrectionChapter?: number;
+
+  // Relationships
+  primaryRelationships: {
+    characterId: string;
+    characterName: string;
+    relationship: string;             // "father", "rival", "mentor", etc.
+    startChapter: number;
+  }[];
+
+  // Groups/affiliations
+  affiliations: string[];
+
+  // Meta
+  narrativePurpose?: string;          // Why this character exists in story
+  thematicRole?: string;              // What themes they embody
+
+  createdAt: Date;
+  updatedAt: Date;
+  notes: string;
+}
 
 /**
  * A character arc instance
@@ -572,6 +650,7 @@ export interface CharacterArcConfig {
 
 export class CharacterArcSystem {
   // Data storage
+  private characters: Map<string, Character> = new Map();
   private arcs: Map<string, CharacterArc> = new Map();
   private states: Map<string, CharacterState> = new Map();
   private motivations: Map<string, CharacterMotivation> = new Map();
@@ -581,6 +660,7 @@ export class CharacterArcSystem {
   private growthEvents: GrowthEvent[] = [];
 
   // Indexes
+  private charactersByName: Map<string, string> = new Map(); // name/alias → id
   private arcsByCharacter: Map<string, Set<string>> = new Map();
   private skillsByCharacter: Map<string, Set<string>> = new Map();
   private beliefsByCharacter: Map<string, Set<string>> = new Map();
@@ -602,6 +682,299 @@ export class CharacterArcSystem {
     for (const type of Object.values(ArcType)) {
       this.arcsByType.set(type, new Set());
     }
+  }
+
+  // ===========================================================================
+  // CHARACTER MANAGEMENT
+  // ===========================================================================
+
+  /**
+   * Create a new character
+   */
+  createCharacter(data: {
+    name: string;
+    aliases?: string[];
+    role: CharacterRole;
+    customRole?: string;
+    importance: Character['importance'];
+    introductionChapter: number;
+    introductionContext: string;
+    description: string;
+    physicalDescription?: string;
+    age?: number | string;
+    occupation?: string;
+    origin?: string;
+    currentUniverse?: string;
+    affiliations?: string[];
+    narrativePurpose?: string;
+    thematicRole?: string;
+    notes?: string;
+  }): Character {
+    const id = uuidv4();
+    const now = new Date();
+
+    const character: Character = {
+      id,
+      name: data.name,
+      aliases: data.aliases || [],
+      role: data.role,
+      customRole: data.customRole,
+      importance: data.importance,
+      introductionChapter: data.introductionChapter,
+      introductionContext: data.introductionContext,
+      description: data.description,
+      physicalDescription: data.physicalDescription,
+      age: data.age,
+      occupation: data.occupation,
+      origin: data.origin,
+      currentUniverse: data.currentUniverse,
+      universeHistory: data.currentUniverse ? [{
+        universe: data.currentUniverse,
+        entryChapter: data.introductionChapter
+      }] : [],
+      isAlive: true,
+      primaryRelationships: [],
+      affiliations: data.affiliations || [],
+      narrativePurpose: data.narrativePurpose,
+      thematicRole: data.thematicRole,
+      createdAt: now,
+      updatedAt: now,
+      notes: data.notes || ''
+    };
+
+    this.characters.set(id, character);
+
+    // Index by name and aliases
+    this.charactersByName.set(data.name.toLowerCase(), id);
+    for (const alias of character.aliases) {
+      this.charactersByName.set(alias.toLowerCase(), id);
+    }
+
+    return character;
+  }
+
+  /**
+   * Get character by ID
+   */
+  getCharacter(id: string): Character | undefined {
+    return this.characters.get(id);
+  }
+
+  /**
+   * Get character by name or alias (case-insensitive)
+   */
+  getCharacterByName(name: string): Character | undefined {
+    const id = this.charactersByName.get(name.toLowerCase());
+    return id ? this.characters.get(id) : undefined;
+  }
+
+  /**
+   * Get all characters
+   */
+  getAllCharacters(): Character[] {
+    return Array.from(this.characters.values());
+  }
+
+  /**
+   * Get characters by role
+   */
+  getCharactersByRole(role: CharacterRole): Character[] {
+    return this.getAllCharacters().filter(c => c.role === role);
+  }
+
+  /**
+   * Get characters by importance
+   */
+  getCharactersByImportance(importance: Character['importance']): Character[] {
+    return this.getAllCharacters().filter(c => c.importance === importance);
+  }
+
+  /**
+   * Get living characters
+   */
+  getLivingCharacters(): Character[] {
+    return this.getAllCharacters().filter(c => c.isAlive);
+  }
+
+  /**
+   * Update character
+   */
+  updateCharacter(id: string, updates: Partial<Omit<Character, 'id' | 'createdAt'>>): Character | undefined {
+    const character = this.characters.get(id);
+    if (!character) return undefined;
+
+    // Handle name change
+    if (updates.name && updates.name !== character.name) {
+      this.charactersByName.delete(character.name.toLowerCase());
+      this.charactersByName.set(updates.name.toLowerCase(), id);
+    }
+
+    // Handle aliases change
+    if (updates.aliases) {
+      // Remove old aliases
+      for (const alias of character.aliases) {
+        this.charactersByName.delete(alias.toLowerCase());
+      }
+      // Add new aliases
+      for (const alias of updates.aliases) {
+        this.charactersByName.set(alias.toLowerCase(), id);
+      }
+    }
+
+    Object.assign(character, updates, { updatedAt: new Date() });
+    return character;
+  }
+
+  /**
+   * Add alias to character
+   */
+  addAlias(id: string, alias: string): boolean {
+    const character = this.characters.get(id);
+    if (!character) return false;
+
+    if (!character.aliases.includes(alias)) {
+      character.aliases.push(alias);
+      this.charactersByName.set(alias.toLowerCase(), id);
+      character.updatedAt = new Date();
+    }
+    return true;
+  }
+
+  /**
+   * Record character death
+   */
+  killCharacter(id: string, chapter: number, cause: string): boolean {
+    const character = this.characters.get(id);
+    if (!character) return false;
+
+    character.isAlive = false;
+    character.deathChapter = chapter;
+    character.deathCause = cause;
+    character.updatedAt = new Date();
+
+    return true;
+  }
+
+  /**
+   * Record character resurrection
+   */
+  resurrectCharacter(id: string, chapter: number): boolean {
+    const character = this.characters.get(id);
+    if (!character || character.isAlive) return false;
+
+    character.isAlive = true;
+    character.resurrectionChapter = chapter;
+    character.updatedAt = new Date();
+
+    return true;
+  }
+
+  /**
+   * Move character to new universe
+   */
+  moveToUniverse(id: string, universe: string, chapter: number): boolean {
+    const character = this.characters.get(id);
+    if (!character) return false;
+
+    // Close previous universe entry
+    const lastEntry = character.universeHistory[character.universeHistory.length - 1];
+    if (lastEntry && !lastEntry.exitChapter) {
+      lastEntry.exitChapter = chapter;
+    }
+
+    // Add new universe entry
+    character.universeHistory.push({
+      universe,
+      entryChapter: chapter
+    });
+    character.currentUniverse = universe;
+    character.updatedAt = new Date();
+
+    return true;
+  }
+
+  /**
+   * Add relationship to character
+   */
+  addRelationship(
+    characterId: string,
+    relatedCharacterId: string,
+    relationship: string,
+    startChapter: number
+  ): boolean {
+    const character = this.characters.get(characterId);
+    const related = this.characters.get(relatedCharacterId);
+    if (!character || !related) return false;
+
+    character.primaryRelationships.push({
+      characterId: relatedCharacterId,
+      characterName: related.name,
+      relationship,
+      startChapter
+    });
+    character.updatedAt = new Date();
+
+    return true;
+  }
+
+  /**
+   * Get character summary
+   */
+  getCharacterSummary(id: string): string {
+    const character = this.characters.get(id);
+    if (!character) return 'Character not found';
+
+    const arcs = this.getCharacterArcs(id);
+    const skills = this.getCharacterSkills(id);
+    const beliefs = this.getCharacterBeliefs(id);
+    const traumas = this.getCharacterTraumas(id);
+
+    let summary = `# ${character.name}\n\n`;
+    summary += `**Role:** ${character.role}${character.customRole ? ` (${character.customRole})` : ''}\n`;
+    summary += `**Importance:** ${character.importance}\n`;
+    summary += `**Status:** ${character.isAlive ? 'Alive' : `Deceased (Ch ${character.deathChapter})`}\n`;
+    if (character.currentUniverse) {
+      summary += `**Current Universe:** ${character.currentUniverse}\n`;
+    }
+    summary += `\n${character.description}\n\n`;
+
+    if (arcs.length > 0) {
+      summary += `## Character Arcs (${arcs.length})\n`;
+      for (const arc of arcs) {
+        summary += `- **${arc.name}** (${arc.type}): ${arc.currentPhase}, ${arc.progressPercent.toFixed(0)}%\n`;
+      }
+      summary += '\n';
+    }
+
+    if (skills.length > 0) {
+      summary += `## Skills (${skills.length})\n`;
+      for (const skill of skills.slice(0, 5)) {
+        summary += `- **${skill.name}** (${skill.category}): Level ${skill.currentLevel}\n`;
+      }
+      if (skills.length > 5) summary += `- _...and ${skills.length - 5} more_\n`;
+      summary += '\n';
+    }
+
+    if (beliefs.length > 0) {
+      const activeBeliefs = beliefs.filter(b => b.isActive);
+      summary += `## Beliefs (${activeBeliefs.length} active)\n`;
+      for (const belief of activeBeliefs.filter(b => b.isCore).slice(0, 3)) {
+        summary += `- **${belief.belief}** (conviction: ${belief.conviction})\n`;
+      }
+      summary += '\n';
+    }
+
+    if (traumas.length > 0) {
+      const unresolvedTraumas = traumas.filter(t => !t.isResolved);
+      if (unresolvedTraumas.length > 0) {
+        summary += `## Traumas (${unresolvedTraumas.length} unresolved)\n`;
+        for (const trauma of unresolvedTraumas) {
+          summary += `- **${trauma.event}** (${trauma.severity}): ${trauma.healingProgress}% healed\n`;
+        }
+      }
+    }
+
+    return summary;
   }
 
   // ===========================================================================
@@ -1503,6 +1876,8 @@ export class CharacterArcSystem {
    * Get system statistics
    */
   getStats(): {
+    totalCharacters: number;
+    livingCharacters: number;
     totalArcs: number;
     activeArcs: number;
     completedArcs: number;
@@ -1511,9 +1886,10 @@ export class CharacterArcSystem {
     totalTraumas: number;
     totalMotivations: number;
     totalGrowthEvents: number;
-    characterCount: number;
   } {
     return {
+      totalCharacters: this.characters.size,
+      livingCharacters: Array.from(this.characters.values()).filter(c => c.isAlive).length,
       totalArcs: this.arcs.size,
       activeArcs: Array.from(this.arcs.values()).filter(a => !a.isComplete).length,
       completedArcs: Array.from(this.arcs.values()).filter(a => a.isComplete).length,
@@ -1521,8 +1897,7 @@ export class CharacterArcSystem {
       totalBeliefs: this.beliefs.size,
       totalTraumas: this.traumas.size,
       totalMotivations: this.motivations.size,
-      totalGrowthEvents: this.growthEvents.length,
-      characterCount: this.arcsByCharacter.size
+      totalGrowthEvents: this.growthEvents.length
     };
   }
 
@@ -1560,7 +1935,15 @@ export class CharacterArcSystem {
       }
     }]);
 
+    // Convert characters (Date objects need special handling)
+    const charactersArray = Array.from(this.characters.entries()).map(([id, char]) => [id, {
+      ...char,
+      createdAt: char.createdAt.toISOString(),
+      updatedAt: char.updatedAt.toISOString()
+    }]);
+
     return JSON.stringify({
+      characters: charactersArray,
       arcs: arcsArray,
       states: statesArray,
       motivations: Array.from(this.motivations.entries()),
@@ -1577,6 +1960,27 @@ export class CharacterArcSystem {
    */
   importFromJSON(json: string): void {
     const data = JSON.parse(json);
+
+    // Import characters
+    if (data.characters) {
+      this.characters.clear();
+      this.charactersByName.clear();
+
+      for (const [id, char] of data.characters) {
+        const restored: Character = {
+          ...char,
+          createdAt: new Date(char.createdAt),
+          updatedAt: new Date(char.updatedAt)
+        };
+        this.characters.set(id, restored);
+
+        // Rebuild name index
+        this.charactersByName.set(restored.name.toLowerCase(), id);
+        for (const alias of restored.aliases) {
+          this.charactersByName.set(alias.toLowerCase(), id);
+        }
+      }
+    }
 
     if (data.arcs) {
       this.arcs.clear();
@@ -1679,6 +2083,7 @@ export class CharacterArcSystem {
    * Clear all data
    */
   clear(): void {
+    this.characters.clear();
     this.arcs.clear();
     this.states.clear();
     this.motivations.clear();
@@ -1687,6 +2092,7 @@ export class CharacterArcSystem {
     this.traumas.clear();
     this.growthEvents = [];
 
+    this.charactersByName.clear();
     this.arcsByCharacter.clear();
     this.skillsByCharacter.clear();
     this.beliefsByCharacter.clear();

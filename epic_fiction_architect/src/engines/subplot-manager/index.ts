@@ -52,24 +52,53 @@ export enum PlotStatus {
  * Plot category
  */
 export enum PlotCategory {
+  // Action/Adventure
   ACTION = 'action',
-  MYSTERY = 'mystery',
-  ROMANCE = 'romance',
-  POLITICAL = 'political',
-  PERSONAL = 'personal',
-  REVENGE = 'revenge',
+  ADVENTURE = 'adventure',
   QUEST = 'quest',
-  SURVIVAL = 'survival',
-  DISCOVERY = 'discovery',
-  RELATIONSHIP = 'relationship',
-  BETRAYAL = 'betrayal',
-  REDEMPTION = 'redemption',
-  TRAGEDY = 'tragedy',
-  COMEDY = 'comedy',
-  RIVALRY = 'rivalry',
-  INVESTIGATION = 'investigation',
   HEIST = 'heist',
   WAR = 'war',
+  SURVIVAL = 'survival',
+  CHASE = 'chase',
+
+  // Mystery/Investigation
+  MYSTERY = 'mystery',
+  INVESTIGATION = 'investigation',
+  DISCOVERY = 'discovery',
+  CONSPIRACY = 'conspiracy',
+
+  // Relationships
+  ROMANCE = 'romance',
+  RELATIONSHIP = 'relationship',
+  FAMILY = 'family',
+  FRIENDSHIP = 'friendship',
+  RIVALRY = 'rivalry',
+  BETRAYAL = 'betrayal',
+
+  // Internal/Personal
+  INTERNAL = 'internal',             // Inner journey, self-discovery
+  PERSONAL = 'personal',
+  IDENTITY = 'identity',             // Who am I?
+  MORAL = 'moral',                   // Ethical dilemma
+  REDEMPTION = 'redemption',
+  CORRUPTION = 'corruption',
+  GROWTH = 'growth',                 // Character development focus
+
+  // External/Social
+  POLITICAL = 'political',
+  SOCIAL = 'social',                 // Social dynamics/class
+  ECONOMIC = 'economic',             // Money/business
+  REVENGE = 'revenge',
+
+  // Tone-based
+  TRAGEDY = 'tragedy',
+  COMEDY = 'comedy',
+  HORROR = 'horror',
+
+  // Special
+  TRAINING = 'training',             // Power-up arc
+  TOURNAMENT = 'tournament',         // Competition arc
+  RESCUE = 'rescue',                 // Save someone
   CUSTOM = 'custom'
 }
 
