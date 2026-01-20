@@ -653,10 +653,53 @@ if (analysis.showTell.showRatio < 0.7) {
 
 ---
 
+### 9. Map Visualization Engine (`app.maps`)
+
+Multi-format map generation for worldbuilding with ASCII, SVG, and real-world integration.
+
+```typescript
+// Create procedural fantasy map
+const map = app.maps.createMap({
+  name: 'The Realm of Shadows',
+  width: 100, height: 100,
+  scale: 10, scaleUnit: 'miles'
+});
+
+// Generate terrain (procedural)
+app.maps.generateTerrain(map.id, { seed: 12345 });
+
+// Add locations
+app.maps.addPoint(map.id, { x: 50, y: 50, label: 'Shadow Keep', type: 'castle' });
+app.maps.addPath(map.id, {
+  name: "King's Road",
+  points: [{x: 30, y: 40}, {x: 50, y: 50}],
+  type: 'road'
+});
+
+// Render ASCII (terminal)
+const ascii = app.maps.renderASCII(map.id, { width: 80, height: 40, charset: 'extended' });
+
+// Render SVG (graphics)
+const svg = app.maps.renderSVG(map.id, { width: 800, height: 600, theme: 'fantasy' });
+
+// Real-world overlay (Leaflet/OpenStreetMap)
+const realMap = app.maps.createRealWorldMap('Masaki Village',
+  { north: 34.75, south: 34.55, east: 133.95, west: 133.65 }, 800, 600);
+app.maps.addRealWorldPoint(realMap.id, 34.68, 133.78, { label: 'Masaki Shrine', type: 'shrine' });
+
+// Export interactive HTML
+const html = app.maps.exportLeafletHTML(realMap.id, { tileProvider: 'osm' });
+
+// Pre-built Masaki Village map
+const masakiMap = app.maps.createMasakiVillageMap();
+```
+
+---
+
 ## Notes for Claude
 
 1. **The database schema is in `src/db/schema.sql`** - all tables use `IF NOT EXISTS`
-2. **All 8 engines are accessed via the main `EpicFictionArchitect` class**:
+2. **All 9 engines are accessed via the main `EpicFictionArchitect` class**:
    - `app.calendar` - Multi-calendar system
    - `app.ages` - Species-aware age calculation
    - `app.productivity` - Writing session tracking
@@ -665,7 +708,9 @@ if (analysis.showTell.showRatio < 0.7) {
    - `app.consistency` - Contradiction detection
    - `app.craft` - Prose quality analysis
    - `app.rules` - Banned patterns/phrases detection
+   - `app.maps` - ASCII, SVG, Leaflet map visualization
 3. **The `TrackedFact` interface requires all fields** - don't use simplified versions
 4. **Consistency check returns `summary` not `stats`**
 5. **Test file at `src/tests/stress-test-round3.ts`** has 60 working examples
 6. **Writing Rules Engine** - Use `app.rules.analyze()` with `includeEroticaRules: true` for mature content
+7. **Map Visualization** - Use `app.maps.createMasakiVillageMap()` for pre-built Tenchi Muyo location

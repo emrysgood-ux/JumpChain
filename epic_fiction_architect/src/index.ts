@@ -128,6 +128,24 @@ export type {
   WritingRulesOptions
 } from './engines/rules/index';
 
+// Map Visualization Engine (ASCII, SVG, Leaflet/OpenStreetMap)
+export {MapVisualizer} from './engines/maps/index';
+export type {
+  MapPoint,
+  MapRegion,
+  MapPath,
+  MapLayer,
+  PointType,
+  RegionType,
+  PathType,
+  TerrainType,
+  MapConfig,
+  WorldMap,
+  ASCIIRenderOptions,
+  SVGRenderOptions,
+  LeafletExportOptions
+} from './engines/maps/index';
+
 // ============================================================================
 // APPLICATION CLASS
 // ============================================================================
@@ -143,6 +161,7 @@ import {PredictiveNarrativeEngine} from './engines/narrative/index';
 import {ConsistencyChecker} from './engines/consistency/index';
 import {WritingCraftAnalyzer} from './engines/craft/index';
 import {WritingRulesEngine} from './engines/rules/index';
+import {MapVisualizer} from './engines/maps/index';
 import type {EmbeddingConfig} from './engines/ai/embeddings';
 
 export interface EpicFictionArchitectConfig {
@@ -166,6 +185,7 @@ export class EpicFictionArchitect {
   private _consistency: ConsistencyChecker;
   private _craft: WritingCraftAnalyzer;
   private _rules: WritingRulesEngine;
+  private _maps: MapVisualizer;
 
   constructor(config: EpicFictionArchitectConfig = {}) {
     // Initialize database
@@ -183,6 +203,7 @@ export class EpicFictionArchitect {
     this._consistency = new ConsistencyChecker();
     this._craft = new WritingCraftAnalyzer();
     this._rules = new WritingRulesEngine();
+    this._maps = new MapVisualizer();
   }
 
   // --------------------------------------------------------------------------
@@ -247,6 +268,11 @@ export class EpicFictionArchitect {
   /** Writing Rules Engine (banned patterns & phrases detection) */
   get rules(): WritingRulesEngine {
     return this._rules;
+  }
+
+  /** Map Visualization Engine (ASCII, SVG, Leaflet/OpenStreetMap) */
+  get maps(): MapVisualizer {
+    return this._maps;
   }
 
   // --------------------------------------------------------------------------
