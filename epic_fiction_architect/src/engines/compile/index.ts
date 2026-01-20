@@ -321,7 +321,7 @@ export class CompileEngine {
   private compileToPlainText(
     scenes: Scene[],
     containers: Container[],
-    options: CompileOptions
+    _options: CompileOptions
   ): string {
     const lines: string[] = [];
 

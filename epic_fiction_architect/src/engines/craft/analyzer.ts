@@ -1192,7 +1192,6 @@ export class WritingCraftAnalyzer {
         const occurrences: {position: number; context: string}[] = [];
 
         const textCopy = lowerText;
-        let lastIndex = 0;
         while ((match = regex.exec(textCopy)) !== null) {
           const position = match.index / text.length;
           const start = Math.max(0, match.index - 30);
@@ -1201,7 +1200,6 @@ export class WritingCraftAnalyzer {
             position,
             context: text.substring(start, end)
           });
-          lastIndex = match.index;
         }
 
         if (occurrences.length > 0) {

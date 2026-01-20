@@ -17,10 +17,8 @@ import type {
   Project,
   ProjectSettings,
   StoryElement,
-  StoryElementType,
   Character,
   Species,
-  Relationship,
   CalendarSystem,
   TimelineDate,
   TimelineEvent,
@@ -28,18 +26,11 @@ import type {
   Scene,
   PlotThread,
   Promise,
-  Snapshot,
   WritingSession,
-  WritingGoal,
-  CompilePreset,
-  Location,
   Embedding,
-  ConsistencyFact,
-  EntityState,
-  Template,
-  BranchPoint,
-  SceneSentiment
+  ConsistencyFact
 } from '../core/types';
+import { StoryElementType } from '../core/types';
 
 // ============================================================================
 // DATABASE MANAGER
@@ -47,10 +38,8 @@ import type {
 
 export class DatabaseManager {
   private db: Database.Database;
-  private dbPath: string;
 
   constructor(dbPath: string) {
-    this.dbPath = dbPath;
     const dbDir = path.dirname(dbPath);
 
     // Ensure directory exists

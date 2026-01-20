@@ -29,7 +29,7 @@ export {
   ReproductionType,
   IntelligenceLevel,
   SocialStructure,
-  Biome
+  Biome as SpeciesBiome
 } from './species-designer';
 
 // Culture/Civilization Designer

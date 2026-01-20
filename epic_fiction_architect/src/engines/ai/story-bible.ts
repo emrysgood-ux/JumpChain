@@ -18,9 +18,9 @@ import {AgeCalculator} from '../timeline/age';
 import {
   SummarizationGuard,
   SummarizationConfig,
-  DEFAULT_CONFIG as DEFAULT_SUMMARIZATION_CONFIG,
+  DEFAULT_CONFIG as _DEFAULT_SUMMARIZATION_CONFIG,
   shouldSummarize,
-  calculateSafeSummaryLength
+  calculateSafeSummaryLength as _calculateSafeSummaryLength
 } from './summarization-guard';
 import type {
   StoryBibleQuery,
@@ -32,10 +32,9 @@ import type {
   CharacterState,
   Character,
   Scene,
-  Location,
-  PlotThread,
-  Promise as StoryPromise
+  PlotThread
 } from '../../core/types';
+import {PlotThreadType} from '../../core/types';
 
 // ============================================================================
 // TYPES
@@ -191,7 +190,7 @@ export class StoryBible {
   /**
    * Get a context snapshot at a specific point in the story
    */
-  getContextSnapshot(projectId: string, atDate: TimelineDate, sceneId?: string): ContextSnapshot {
+  getContextSnapshot(projectId: string, atDate: TimelineDate, _sceneId?: string): ContextSnapshot {
     // Get all characters and their states at this date
     const characterElements = this.db.getStoryElementsByType(projectId, 'character' as any);
     const characters = characterElements.map(elem => {
@@ -362,7 +361,7 @@ export class StoryBible {
     const relevantThreads = this.getRelevantPlotThreads(projectId, scene.characterIds);
     if (relevantThreads.length > 0) {
       const threadsContent = relevantThreads.map(t =>
-        `- **${t.name}** (${t.status}, ${t.progress}% complete): ${t.description ?? ''}`
+        `- **${t.name}** (${t.status}, ${t.progressPercent}% complete): ${t.description ?? ''}`
       ).join('\n');
       parts.push({section: 'activeConflicts', content: `## Active Plot Threads\n${threadsContent}`, priority: 70});
     }
@@ -684,7 +683,7 @@ export class StoryBible {
         projectId,
         name: t.name,
         description: t.description ?? undefined,
-        type: 'subplot' as const,
+        type: PlotThreadType.SUBPLOT,
         status: t.status as any,
         characterIds: JSON.parse(t.character_ids),
         color: '#3498db',

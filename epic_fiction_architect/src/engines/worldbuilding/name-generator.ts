@@ -791,17 +791,9 @@ export class NameGenerator {
       includeSuffix: true
     });
 
-    // Add place-specific suffix if not already present
-    const placeSuffixes: Record<string, string[]> = {
-      city: ['burg', 'ton', 'ville', 'polis'],
-      town: ['ton', 'ford', 'wick', 'ham'],
-      village: ['stead', 'thorpe', 'ham'],
-      fortress: ['hold', 'keep', 'guard', 'watch'],
-      river: ['water', 'flow', 'stream'],
-      mountain: ['peak', 'mount', 'horn', 'top'],
-      forest: ['wood', 'grove', 'glen'],
-      region: ['land', 'realm', 'march']
-    };
+    // Reserved for future place-specific suffix additions
+    void placeType;
+    void style;
 
     return baseName;
   }

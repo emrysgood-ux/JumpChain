@@ -21,9 +21,9 @@
  * - Identify plot holes and orphaned events
  */
 
-import {CausalPlotGraph, PlotEvent, CausalLink, CharacterGoal, DramaticConflict} from './causal-plot-graph';
-import {ProbabilityMapper, DecisionPoint, NarrativeBranch, NarrativePath, WhatIfResult} from './probability-mapper';
-import {CascadeSimulator, WorldStateVar, StateChange, SimulationResult, SensitivityAnalysis} from './cascade-simulator';
+import {CausalPlotGraph, PlotEvent, CharacterGoal, DramaticConflict} from './causal-plot-graph';
+import {ProbabilityMapper, DecisionPoint, NarrativePath, WhatIfResult} from './probability-mapper';
+import {CascadeSimulator, WorldStateVar, StateChange, StateValue, SimulationResult, SensitivityAnalysis} from './cascade-simulator';
 
 // Re-export all types and classes
 export * from './causal-plot-graph';
@@ -137,7 +137,7 @@ export class PredictiveNarrativeEngine {
 
     // If it's a decision point, add to probability mapper
     if (event.isDecisionPoint) {
-      const characterGoals = this.plotGraph['goals'] as Map<string, CharacterGoal>;
+      const characterGoals = this.plotGraph['goals'] as unknown as Map<string, CharacterGoal[]>;
       this.probabilityMapper.detectDecisionPoints([plotEvent], characterGoals);
     }
 
@@ -145,7 +145,7 @@ export class PredictiveNarrativeEngine {
     for (const condition of event.establishesConditions) {
       this.cascadeSimulator.applyChange(
         condition.id,
-        condition.value,
+        condition.value as StateValue,
         plotEvent.id,
         event.timelinePosition
       );
@@ -210,7 +210,7 @@ export class PredictiveNarrativeEngine {
                 id: 'predicted-' + condition.id,
                 stateId: condition.id,
                 oldValue: state.value,
-                newValue: condition.value,
+                newValue: condition.value as StateValue,
                 triggeredBy: step.branchId,
                 timestamp: 0,
                 magnitude: 0.5,
@@ -294,7 +294,7 @@ export class PredictiveNarrativeEngine {
     if (narrativeResult) {
       const stateChanges = narrativeResult.alternativeBranch.favoringConditions.map(c => ({
         stateId: c.id,
-        newValue: c.value,
+        newValue: c.value as StateValue,
         timestamp: narrativeResult.divergencePoint.position
       }));
 

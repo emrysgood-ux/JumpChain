@@ -11,7 +11,8 @@ import {
   speciesAgingTemplates,
   calendarTemplates
 } from '../index';
-import type {TimelineDate, Character} from '../core/types';
+import type {TimelineDate} from '../core/types';
+import {CompileFormat, PromiseStatus} from '../core/types';
 
 // ============================================================================
 // TEST HARNESS
@@ -41,7 +42,7 @@ function test(name: string, fn: () => void | Promise<void>): void {
   }
 }
 
-function expectThrows(fn: () => void, expectedError?: string): void {
+function _expectThrows(fn: () => void, expectedError?: string): void {
   try {
     fn();
     throw new Error('Expected function to throw but it did not');
@@ -51,6 +52,7 @@ function expectThrows(fn: () => void, expectedError?: string): void {
     }
   }
 }
+void _expectThrows; // Reserved for error testing
 
 // ============================================================================
 // AGE CALCULATOR STRESS TESTS
@@ -453,7 +455,7 @@ function compileTests(app: EpicFictionArchitect) {
   test('Compile: Empty project with no content', async () => {
     const projectId = app.createProject('Empty Project').id;
 
-    const result = await app.compile.compile(projectId, {format: 'markdown'});
+    const result = await app.compile.compile(projectId, {format: CompileFormat.MARKDOWN});
 
     if (!result.success) {
       throw new Error(`Compilation failed on empty project: ${result.errors.join(', ')}`);
@@ -477,7 +479,7 @@ function compileTests(app: EpicFictionArchitect) {
     app.database.createScene(parentId!, 'Deep Scene', {content: 'Finally here!'});
 
     try {
-      const result = await app.compile.compile(projectId, {format: 'markdown'});
+      const result = await app.compile.compile(projectId, {format: CompileFormat.MARKDOWN});
       if (!result.success) {
         throw new Error(`Deep nesting compilation failed: ${result.errors.join(', ')}`);
       }
@@ -504,7 +506,7 @@ function compileTests(app: EpicFictionArchitect) {
       app.database.createScene(containerId, 'Scene', {content: 'Content'});
     }
 
-    const result = await app.compile.compile(projectId, {format: 'html'});
+    const result = await app.compile.compile(projectId, {format: CompileFormat.HTML});
 
     // Check that HTML wasn't broken by unescaped characters
     if (typeof result.content === 'string' && result.content.includes('<<')) {
@@ -514,7 +516,7 @@ function compileTests(app: EpicFictionArchitect) {
 
   // TEST 4: Compile non-existent project
   test('Compile: Non-existent project ID', async () => {
-    const result = await app.compile.compile('non-existent-id', {format: 'markdown'});
+    const result = await app.compile.compile('non-existent-id', {format: CompileFormat.MARKDOWN});
 
     if (result.success) {
       throw new Error('BUG: Should fail for non-existent project');
@@ -592,11 +594,11 @@ function promiseTests(app: EpicFictionArchitect) {
     const containerId = app.database.createContainer(projectId, 'chapter', 'Ch1');
     const sceneId = app.database.createScene(containerId, 'Setup Scene', {content: 'Setup'});
 
-    const promiseId = app.database.createPromise(
+    const _promiseId = app.database.createPromise(
       projectId,
       'The gun on the mantle',
       sceneId,
-      {promiseType: 'chekhov_gun', status: 'planted'}
+      {promiseType: 'chekhov_gun', status: PromiseStatus.PLANTED}
     );
 
     // Delete the scene
@@ -604,7 +606,7 @@ function promiseTests(app: EpicFictionArchitect) {
 
     // Promise now references non-existent scene
     const promises = app.database.getUnfulfilledPromises(projectId);
-    const orphanedPromise = promises.find(p => p.id === promiseId);
+    const orphanedPromise = promises.find(p => p.id === _promiseId);
 
     if (orphanedPromise) {
       // Try to get the planted scene info
@@ -640,8 +642,9 @@ function promiseTests(app: EpicFictionArchitect) {
       projectId,
       "Chekhov's gun",
       plantSceneId,
-      {fulfilledSceneId: fulfillSceneId, status: 'fulfilled', promiseType: 'chekhov_gun'}
+      {fulfilledSceneId: fulfillSceneId, status: PromiseStatus.FULFILLED, promiseType: 'chekhov_gun'}
     );
+    void promiseId; // Created for demonstration, intentionally unused
 
     // MISSING: No validation that fulfillment happens after planting
     throw new Error('MISSING FEATURE: No timeline validation for promise fulfillment order');

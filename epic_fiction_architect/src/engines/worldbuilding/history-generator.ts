@@ -1131,7 +1131,7 @@ export class HistoryGenerator {
     return levels[type] || 'Unknown';
   }
 
-  private generateCivilizations(timelineId: string, count: number, startYear: number, endYear: number, theme: string): Civilization[] {
+  private generateCivilizations(timelineId: string, count: number, startYear: number, endYear: number, _theme: string): Civilization[] {
     const civilizations: Civilization[] = [];
     const timeline = this.timelines.get(timelineId);
     if (!timeline) return civilizations;

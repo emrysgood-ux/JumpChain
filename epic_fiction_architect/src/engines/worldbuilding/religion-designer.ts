@@ -668,7 +668,7 @@ export class ReligionDesigner {
     return updated;
   }
 
-  generateRandomPantheon(deityCount: number = 7, theme?: string): Pantheon {
+  generateRandomPantheon(deityCount: number = 7, _theme?: string): Pantheon {
     const name = this.generatePantheonName();
     const deities: Deity[] = [];
 
@@ -908,7 +908,7 @@ export class ReligionDesigner {
     return epithets;
   }
 
-  private generateDeityAppearance(domains: DivineDomain[], alignment: Alignment): Deity['appearance'] {
+  private generateDeityAppearance(domains: DivineDomain[], _alignment: Alignment): Deity['appearance'] {
     const animals: Record<string, string[]> = {
       [DivineDomain.SUN]: ['Eagle', 'Lion', 'Phoenix'],
       [DivineDomain.MOON]: ['Owl', 'Wolf', 'Cat'],
@@ -1043,14 +1043,14 @@ export class ReligionDesigner {
 
   private generateReligionName(type: ReligionType): string {
     const suffixes = ['ism', 'ity', 'anism', 'ology'];
-    const roots = {
+    const roots: Record<string, string[]> = {
       [ReligionType.MONOTHEISM]: ['Unithe', 'Monolatr', 'Divine'],
       [ReligionType.POLYTHEISM]: ['Panthe', 'Multithe', 'Divinesyn'],
       [ReligionType.ANIMISM]: ['Spirit', 'Animat', 'Natural'],
       [ReligionType.ANCESTOR_WORSHIP]: ['Ancestor', 'Forebear', 'Elder']
     };
 
-    const root = this.randomChoice(roots[type] || ['Sacred', 'Holy']);
+    const root = this.randomChoice(roots[type as string] || ['Sacred', 'Holy']);
     return root + this.randomChoice(suffixes);
   }
 
@@ -1058,7 +1058,7 @@ export class ReligionDesigner {
     return `${name} is a ${type.replace(/_/g, ' ')} tradition emphasizing devotion and moral living.`;
   }
 
-  private generateBeliefs(type: ReligionType, theme: string): Religion['beliefs'] {
+  private generateBeliefs(_type: ReligionType, theme: string): Religion['beliefs'] {
     const tenets = {
       light: ['Seek the light', 'Help the innocent', 'Fight darkness', 'Speak truth'],
       dark: ['Power is virtue', 'The strong survive', 'Fear is respect', 'Embrace darkness'],
@@ -1102,7 +1102,7 @@ export class ReligionDesigner {
     }];
   }
 
-  private generateClergy(type: ReligionType): Religion['clergy'] {
+  private generateClergy(_type: ReligionType): Religion['clergy'] {
     return [{
       title: ClergyType.PRIEST,
       requirements: ['Ordination', 'Education', 'Vows'],
@@ -1123,7 +1123,7 @@ export class ReligionDesigner {
     };
   }
 
-  private generateRituals(type: ReligionType): Religion['rituals'] {
+  private generateRituals(_type: ReligionType): Religion['rituals'] {
     return [
       {
         id: uuidv4(),
@@ -1168,7 +1168,7 @@ export class ReligionDesigner {
     return {
       structure: type === ReligionType.SHAMANISM ? 'decentralized' : 'hierarchical',
       headquarters: 'The Sacred City',
-      leaderTitle: type === ReligionType.THEOCRACY ? 'Divine Ruler' : 'High Hierarch',
+      leaderTitle: type === ReligionType.MONOTHEISM ? 'Divine Ruler' : 'High Hierarch',
       councils: [{ name: 'Council of Elders', role: 'Theological guidance' }],
       orders: [{ name: 'Order of the Sacred', focus: 'Preservation of texts' }]
     };
@@ -1185,7 +1185,7 @@ export class ReligionDesigner {
     };
   }
 
-  private generateReligionHistory(religionName: string): Religion['history'] {
+  private generateReligionHistory(_religionName: string): Religion['history'] {
     return {
       founding: 'Thousands of years ago through divine revelation',
       founder: 'The First Prophet',

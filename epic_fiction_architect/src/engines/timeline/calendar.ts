@@ -12,9 +12,6 @@
 import {DatabaseManager} from '../../db/database';
 import type {
   CalendarSystem,
-  CalendarMonth,
-  CalendarWeekday,
-  CalendarMoon,
   CalendarHoliday,
   TimelineDate
 } from '../../core/types';
@@ -596,27 +593,27 @@ export const calendarTemplates = {
     eraName: 'CE',
     eraNegativeName: 'BCE',
     months: [
-      {name: 'January', shortName: 'Jan', days: 31, order: 1},
-      {name: 'February', shortName: 'Feb', days: 28, order: 2},
-      {name: 'March', shortName: 'Mar', days: 31, order: 3},
-      {name: 'April', shortName: 'Apr', days: 30, order: 4},
-      {name: 'May', shortName: 'May', days: 31, order: 5},
-      {name: 'June', shortName: 'Jun', days: 30, order: 6},
-      {name: 'July', shortName: 'Jul', days: 31, order: 7},
-      {name: 'August', shortName: 'Aug', days: 31, order: 8},
-      {name: 'September', shortName: 'Sep', days: 30, order: 9},
-      {name: 'October', shortName: 'Oct', days: 31, order: 10},
-      {name: 'November', shortName: 'Nov', days: 30, order: 11},
-      {name: 'December', shortName: 'Dec', days: 31, order: 12}
+      {id: 'jan', name: 'January', shortName: 'Jan', days: 31, order: 1},
+      {id: 'feb', name: 'February', shortName: 'Feb', days: 28, order: 2},
+      {id: 'mar', name: 'March', shortName: 'Mar', days: 31, order: 3},
+      {id: 'apr', name: 'April', shortName: 'Apr', days: 30, order: 4},
+      {id: 'may', name: 'May', shortName: 'May', days: 31, order: 5},
+      {id: 'jun', name: 'June', shortName: 'Jun', days: 30, order: 6},
+      {id: 'jul', name: 'July', shortName: 'Jul', days: 31, order: 7},
+      {id: 'aug', name: 'August', shortName: 'Aug', days: 31, order: 8},
+      {id: 'sep', name: 'September', shortName: 'Sep', days: 30, order: 9},
+      {id: 'oct', name: 'October', shortName: 'Oct', days: 31, order: 10},
+      {id: 'nov', name: 'November', shortName: 'Nov', days: 30, order: 11},
+      {id: 'dec', name: 'December', shortName: 'Dec', days: 31, order: 12}
     ],
     weekdays: [
-      {name: 'Sunday', shortName: 'Sun', order: 0},
-      {name: 'Monday', shortName: 'Mon', order: 1},
-      {name: 'Tuesday', shortName: 'Tue', order: 2},
-      {name: 'Wednesday', shortName: 'Wed', order: 3},
-      {name: 'Thursday', shortName: 'Thu', order: 4},
-      {name: 'Friday', shortName: 'Fri', order: 5},
-      {name: 'Saturday', shortName: 'Sat', order: 6}
+      {id: 'sun', name: 'Sunday', shortName: 'Sun', order: 0},
+      {id: 'mon', name: 'Monday', shortName: 'Mon', order: 1},
+      {id: 'tue', name: 'Tuesday', shortName: 'Tue', order: 2},
+      {id: 'wed', name: 'Wednesday', shortName: 'Wed', order: 3},
+      {id: 'thu', name: 'Thursday', shortName: 'Thu', order: 4},
+      {id: 'fri', name: 'Friday', shortName: 'Fri', order: 5},
+      {id: 'sat', name: 'Saturday', shortName: 'Sat', order: 6}
     ],
     moons: [
       {name: 'Moon', cycleLength: 29.5, phases: ['New Moon', 'Waxing Crescent', 'First Quarter', 'Waxing Gibbous', 'Full Moon', 'Waning Gibbous', 'Last Quarter', 'Waning Crescent']}
@@ -629,24 +626,24 @@ export const calendarTemplates = {
     eraName: 'JSC', // Juraian Standard Calendar
     eraNegativeName: 'Pre-JSC',
     months: [
-      {name: 'Firstbloom', days: 36, order: 1},
-      {name: 'Tsunami', days: 35, order: 2},
-      {name: 'Highgrowth', days: 36, order: 3},
-      {name: 'Starcrest', days: 35, order: 4},
-      {name: 'Midyear', days: 36, order: 5},
-      {name: 'Treewake', days: 35, order: 6},
-      {name: 'Highsun', days: 36, order: 7},
-      {name: 'Harvestide', days: 35, order: 8},
-      {name: 'Fallrest', days: 36, order: 9},
-      {name: 'Deepnight', days: 35, order: 10}
+      {id: 'firstbloom', name: 'Firstbloom', days: 36, order: 1},
+      {id: 'tsunami', name: 'Tsunami', days: 35, order: 2},
+      {id: 'highgrowth', name: 'Highgrowth', days: 36, order: 3},
+      {id: 'starcrest', name: 'Starcrest', days: 35, order: 4},
+      {id: 'midyear', name: 'Midyear', days: 36, order: 5},
+      {id: 'treewake', name: 'Treewake', days: 35, order: 6},
+      {id: 'highsun', name: 'Highsun', days: 36, order: 7},
+      {id: 'harvestide', name: 'Harvestide', days: 35, order: 8},
+      {id: 'fallrest', name: 'Fallrest', days: 36, order: 9},
+      {id: 'deepnight', name: 'Deepnight', days: 35, order: 10}
     ],
     weekdays: [
-      {name: 'Firstday', shortName: 'Fir', order: 0},
-      {name: 'Seedday', shortName: 'Sed', order: 1},
-      {name: 'Treesday', shortName: 'Tre', order: 2},
-      {name: 'Midday', shortName: 'Mid', order: 3},
-      {name: 'Lightday', shortName: 'Lig', order: 4},
-      {name: 'Starday', shortName: 'Sta', order: 5}
+      {id: 'firstday', name: 'Firstday', shortName: 'Fir', order: 0},
+      {id: 'seedday', name: 'Seedday', shortName: 'Sed', order: 1},
+      {id: 'treesday', name: 'Treesday', shortName: 'Tre', order: 2},
+      {id: 'midday', name: 'Midday', shortName: 'Mid', order: 3},
+      {id: 'lightday', name: 'Lightday', shortName: 'Lig', order: 4},
+      {id: 'starday', name: 'Starday', shortName: 'Sta', order: 5}
     ],
     moons: []
   },
@@ -657,26 +654,26 @@ export const calendarTemplates = {
     eraName: 'AE', // After Empire
     eraNegativeName: 'BE', // Before Empire
     months: [
-      {name: 'Winterdeep', days: 30, order: 1, season: 'Winter'},
-      {name: 'Icemelt', days: 28, order: 2, season: 'Winter'},
-      {name: 'Newspring', days: 31, order: 3, season: 'Spring'},
-      {name: 'Rainmoon', days: 30, order: 4, season: 'Spring'},
-      {name: 'Flowering', days: 31, order: 5, season: 'Spring'},
-      {name: 'Highsun', days: 30, order: 6, season: 'Summer'},
-      {name: 'Goldmoon', days: 31, order: 7, season: 'Summer'},
-      {name: 'Harvest', days: 31, order: 8, season: 'Summer'},
-      {name: 'Fallingleaf', days: 30, order: 9, season: 'Autumn'},
-      {name: 'Darkening', days: 30, order: 10, season: 'Autumn'},
-      {name: 'Frostfall', days: 30, order: 11, season: 'Autumn'},
-      {name: 'Yearsend', days: 31, order: 12, season: 'Winter'}
+      {id: 'winterdeep', name: 'Winterdeep', days: 30, order: 1, season: 'Winter'},
+      {id: 'icemelt', name: 'Icemelt', days: 28, order: 2, season: 'Winter'},
+      {id: 'newspring', name: 'Newspring', days: 31, order: 3, season: 'Spring'},
+      {id: 'rainmoon', name: 'Rainmoon', days: 30, order: 4, season: 'Spring'},
+      {id: 'flowering', name: 'Flowering', days: 31, order: 5, season: 'Spring'},
+      {id: 'highsun', name: 'Highsun', days: 30, order: 6, season: 'Summer'},
+      {id: 'goldmoon', name: 'Goldmoon', days: 31, order: 7, season: 'Summer'},
+      {id: 'harvest', name: 'Harvest', days: 31, order: 8, season: 'Summer'},
+      {id: 'fallingleaf', name: 'Fallingleaf', days: 30, order: 9, season: 'Autumn'},
+      {id: 'darkening', name: 'Darkening', days: 30, order: 10, season: 'Autumn'},
+      {id: 'frostfall', name: 'Frostfall', days: 30, order: 11, season: 'Autumn'},
+      {id: 'yearsend', name: 'Yearsend', days: 31, order: 12, season: 'Winter'}
     ],
     weekdays: [
-      {name: 'Sunday', shortName: 'Sun', order: 0},
-      {name: 'Moonday', shortName: 'Moo', order: 1},
-      {name: 'Starday', shortName: 'Sta', order: 2},
-      {name: 'Hearthday', shortName: 'Hea', order: 3},
-      {name: 'Workday', shortName: 'Wor', order: 4},
-      {name: 'Restday', shortName: 'Res', order: 5}
+      {id: 'sunday', name: 'Sunday', shortName: 'Sun', order: 0},
+      {id: 'moonday', name: 'Moonday', shortName: 'Moo', order: 1},
+      {id: 'starday', name: 'Starday', shortName: 'Sta', order: 2},
+      {id: 'hearthday', name: 'Hearthday', shortName: 'Hea', order: 3},
+      {id: 'workday', name: 'Workday', shortName: 'Wor', order: 4},
+      {id: 'restday', name: 'Restday', shortName: 'Res', order: 5}
     ],
     moons: [
       {name: 'Silver Moon', cycleLength: 28, phases: ['New', 'Waxing', 'Full', 'Waning']},

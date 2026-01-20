@@ -121,6 +121,7 @@ export interface TrackedFact {
   supersededBy?: string; // ID of fact that replaced this
   isCanonical: boolean;
   tags: string[];
+  confidence?: number; // Confidence level for the fact (0-1)
 }
 
 /**
@@ -301,7 +302,7 @@ const attributeConsistencyRule: ConsistencyRule = {
     }
 
     // Check for conflicting values
-    for (const [key, facts] of factsBySubjectAttr) {
+    for (const [_key, facts] of factsBySubjectAttr) {
       if (facts.length < 2) continue;
 
       // Sort by establishment time
@@ -1029,7 +1030,7 @@ export class ConsistencyChecker {
   /**
    * Dismiss a violation (mark as intentional/acceptable)
    */
-  dismissViolation(violationId: string, reason?: string): void {
+  dismissViolation(violationId: string, _reason?: string): void {
     this.updateViolationStatus(violationId, 'dismissed');
   }
 

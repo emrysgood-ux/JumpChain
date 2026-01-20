@@ -817,7 +817,7 @@ export class SpeciesDesigner {
   // GENERATION HELPERS
   // ===========================================================================
 
-  private generateSpeciesName(style: 'latin' | 'fantasy' | 'descriptive', theme?: string): string {
+  private generateSpeciesName(style: 'latin' | 'fantasy' | 'descriptive', _theme?: string): string {
     const prefixes = {
       latin: ['Mega', 'Micro', 'Neo', 'Paleo', 'Proto', 'Pseudo', 'Crypto', 'Xeno'],
       fantasy: ['Grim', 'Shadow', 'Storm', 'Fire', 'Ice', 'Blood', 'Iron', 'Crystal', 'Star', 'Moon'],
@@ -902,7 +902,7 @@ export class SpeciesDesigner {
     }
   }
 
-  private generatePhysiology(size: SizeCategory, biome: Biome, options: SpeciesGenerationOptions): Physiology {
+  private generatePhysiology(size: SizeCategory, _biome: Biome, options: SpeciesGenerationOptions): Physiology {
     const baseforms = ['humanoid', 'quadruped', 'serpentine', 'avian', 'insectoid', 'amorphous', 'aquatic', 'plant-like'];
     const baseForm = this.randomChoice(baseforms);
 
@@ -1006,7 +1006,7 @@ export class SpeciesDesigner {
     };
   }
 
-  private generateEcology(biome: Biome, size: SizeCategory, diet?: DietType): Ecology {
+  private generateEcology(biome: Biome, _size: SizeCategory, diet?: DietType): Ecology {
     const selectedDiet = diet || this.randomChoice(Object.values(DietType).slice(0, 6));
 
     return {
@@ -1037,7 +1037,7 @@ export class SpeciesDesigner {
     }
   }
 
-  private generateBehavior(intelligence: IntelligenceLevel, classification: Classification): Behavior {
+  private generateBehavior(intelligence: IntelligenceLevel, _classification: Classification): Behavior {
     const isSocial = this.random() > 0.4;
 
     return {
@@ -1110,7 +1110,7 @@ export class SpeciesDesigner {
     };
   }
 
-  private generateCulture(intelligence: IntelligenceLevel): SpeciesCulture {
+  private generateCulture(_intelligence: IntelligenceLevel): SpeciesCulture {
     return {
       canFormCultures: true,
       languageFamilies: ['Native tongue'],

@@ -449,9 +449,10 @@ export class MapVisualizer {
     const {
       seed = Math.floor(Math.random() * 100000),
       waterLevel = 0.35,
-      mountainLevel = 0.7,
+      mountainLevel: _mountainLevel = 0.7,
       moistureSeed = seed + 5000
     } = options;
+    void _mountainLevel; // Reserved for future terrain detail levels
 
     const terrain: TerrainType[][] = [];
 
@@ -644,11 +645,12 @@ export class MapVisualizer {
       height = Math.min(map.config.height, 40),
       showLabels = true,
       showPaths = true,
-      showRegions = true,
+      showRegions: _showRegions = true,
       charset = 'extended'
     } = options;
+    void _showRegions; // Reserved for future region rendering
 
-    const chars = ASCII_CHARS[charset];
+    const chars = ASCII_CHARS[charset] as Record<string, string>;
     const scaleX = map.config.width / width;
     const scaleY = map.config.height / height;
 
@@ -954,9 +956,10 @@ export class MapVisualizer {
       customTileUrl,
       initialZoom = 10,
       maxZoom = 18,
-      includeSearch = false,
+      includeSearch: _includeSearch = false,
       includeLayerControl = true
     } = options;
+    void _includeSearch; // Reserved for future search functionality
 
     // Determine center
     let centerLat = 0;

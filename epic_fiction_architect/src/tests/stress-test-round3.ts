@@ -12,21 +12,8 @@ import {
 } from '../index';
 
 import type {
-  ConsistencyViolation,
-  ViolationType,
-  ViolationCategory,
-  TrackedFact,
   ConsistencyRule,
-  ConsistencyCheckResult,
-  EmotionalArcType,
-  EmotionalArcAnalysis,
-  RhythmAnalysis,
-  ShowTellAnalysis,
-  SensoryAnalysis,
-  DialogueAnalysis,
-  ThematicAnalysis,
-  CraftAnalysisReport,
-  PrioritizedSuggestion
+  EmotionalArcType
 } from '../index';
 
 // ============================================================================
@@ -69,11 +56,12 @@ function assertTrue(condition: boolean, message?: string): void {
   }
 }
 
-function assertFalse(condition: boolean, message?: string): void {
+function _assertFalse(condition: boolean, message?: string): void {
   if (condition) {
     throw new Error(message || 'Expected condition to be false');
   }
 }
+void _assertFalse; // Reserved for future tests
 
 function assertDefined<T>(value: T | undefined | null, message?: string): asserts value is T {
   if (value === undefined || value === null) {
@@ -328,15 +316,15 @@ test('Check with valid scenes', () => {
 
   const scenes = [
     {
-      sceneId: 'scene-001',
-      chapterNumber: 1,
+      id: 'scene-001',
+      title: 'Scene 1',
       position: 100,
       content: 'John walked into the room. His brown hair was unkempt.',
       characterIds: ['char-001']
     },
     {
-      sceneId: 'scene-002',
-      chapterNumber: 2,
+      id: 'scene-002',
+      title: 'Scene 2',
       position: 200,
       content: 'Mary greeted John warmly.',
       characterIds: ['char-001', 'char-002']
@@ -344,8 +332,8 @@ test('Check with valid scenes', () => {
   ];
 
   const characters = [
-    {id: 'char-001', name: 'John', status: 'alive' as const},
-    {id: 'char-002', name: 'Mary', status: 'alive' as const}
+    {id: 'char-001', name: 'John', aliases: [], attributes: new Map()},
+    {id: 'char-002', name: 'Mary', aliases: [], attributes: new Map()}
   ];
 
   const result = checker.check(scenes, characters, 200);
@@ -391,7 +379,7 @@ test('Register custom rule', () => {
     severity: 'minor',
     enabled: true,
     tags: ['test'],
-    check: (context) => {
+    check: (_context) => {
       return [];
     }
   };
@@ -426,8 +414,8 @@ test('Dead character rule detects appearance after death', () => {
 
   const scenes = [
     {
-      sceneId: 'scene-002',
-      chapterNumber: 2,
+      id: 'scene-002',
+      title: 'Chapter 2',
       position: 200,
       content: 'John walked into the room.',
       characterIds: ['char-001']
@@ -435,7 +423,7 @@ test('Dead character rule detects appearance after death', () => {
   ];
 
   const characters = [
-    {id: 'char-001', name: 'John', status: 'dead' as const}
+    {id: 'char-001', name: 'John', aliases: [], attributes: new Map(), deathDate: 100}
   ];
 
   const result = checker.check(scenes, characters, 200);

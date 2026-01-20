@@ -1039,7 +1039,7 @@ export class MagicSystemDesigner {
     };
   }
 
-  private generateProgression(theme: string): MagicSystem['progression'] {
+  private generateProgression(_theme: string): MagicSystem['progression'] {
     return {
       system: 'tiers',
       stages: [
@@ -1053,7 +1053,7 @@ export class MagicSystemDesigner {
     };
   }
 
-  private generateLearning(theme: string): MagicSystem['learning'] {
+  private generateLearning(_theme: string): MagicSystem['learning'] {
     return {
       methods: [LearningMethod.STUDY, LearningMethod.PRACTICE, LearningMethod.MEDITATION],
       institutions: ['Academies', 'Guilds', 'Temples', 'Apprenticeships'],
@@ -1085,7 +1085,7 @@ export class MagicSystemDesigner {
     };
   }
 
-  private generateConsistencyRules(laws: MagicSystem['laws'], limitations: MagicSystem['limitations']): MagicSystem['consistencyRules'] {
+  private generateConsistencyRules(laws: MagicSystem['laws'], _limitations: MagicSystem['limitations']): MagicSystem['consistencyRules'] {
     const rules: MagicSystem['consistencyRules'] = [];
 
     for (const law of laws) {
@@ -1123,7 +1123,7 @@ export class MagicSystemDesigner {
     return `${prefix} ${suffix}`;
   }
 
-  private generateAbilityDescription(name: string, school: MagicSchool): string {
+  private generateAbilityDescription(_name: string, school: MagicSchool): string {
     return `A ${school} spell that channels magical energy.`;
   }
 
@@ -1200,10 +1200,8 @@ export class MagicSystemDesigner {
     return `${prefix} ${name}`;
   }
 
-  private generateItemProperties(type: string, rarity: string): MagicalItem['properties'] {
+  private generateItemProperties(_type: string, rarity: string): MagicalItem['properties'] {
     const count = rarity === 'common' ? 1 : rarity === 'uncommon' ? 2 : rarity === 'rare' ? 3 : 4;
-
-    const properties: MagicalItem['properties'] = [];
 
     const possibleProperties = [
       { name: '+1 Enhancement', description: 'Grants +1 bonus' },

@@ -356,7 +356,7 @@ export interface EnvironmentalHazard {
   type: HazardType;
   name: string;
   description: string;
-  frequency: 'rare' | 'occasional' | 'seasonal' | 'common' | 'constant';
+  frequency: 'rare' | 'occasional' | 'seasonal' | 'common' | 'frequent' | 'constant';
   severity: 'minor' | 'moderate' | 'severe' | 'catastrophic';
   duration: string;
   affectedArea: 'localized' | 'regional' | 'biome_wide' | 'global';
@@ -914,7 +914,7 @@ export class EcologySystem {
     }
   }
 
-  private getSeasonDayLength(seasonType: SeasonType, index: number, totalSeasons: number): number {
+  private getSeasonDayLength(seasonType: SeasonType, _index: number, _totalSeasons: number): number {
     switch (seasonType) {
       case SeasonType.POLAR_DAY: return 24;
       case SeasonType.POLAR_NIGHT: return 0;

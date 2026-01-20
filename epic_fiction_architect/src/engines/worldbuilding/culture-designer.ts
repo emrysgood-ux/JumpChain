@@ -771,7 +771,7 @@ export class CultureDesigner {
     };
   }
 
-  private generateSocialClasses(government: GovernmentType, theme: string): SocialClass[] {
+  private generateSocialClasses(_government: GovernmentType, theme: string): SocialClass[] {
     const classes: SocialClass[] = [];
 
     // Ruling class
@@ -875,7 +875,7 @@ export class CultureDesigner {
     };
   }
 
-  private generateIndustries(theme: string, techLevel: TechnologyLevel): string[] {
+  private generateIndustries(theme: string, _techLevel: TechnologyLevel): string[] {
     const industries: Record<string, string[]> = {
       warrior: ['Weapons smithing', 'Armor crafting', 'Horse breeding'],
       merchant: ['Banking', 'Shipping', 'Warehousing'],
@@ -891,7 +891,7 @@ export class CultureDesigner {
     return industries[theme] || ['Agriculture', 'Crafts'];
   }
 
-  private generateTradeGoods(theme: string, climate?: string): { export: string[]; import: string[] } {
+  private generateTradeGoods(theme: string, _climate?: string): { export: string[]; import: string[] } {
     const exports: Record<string, string[]> = {
       warrior: ['Weapons', 'Armor', 'Mercenaries'],
       merchant: ['Luxury goods', 'Spices', 'Textiles'],
@@ -942,7 +942,7 @@ export class CultureDesigner {
     return weaknesses[theme] || ['Various'];
   }
 
-  private generateLaws(theme: string, government: GovernmentType): Law[] {
+  private generateLaws(theme: string, _government: GovernmentType): Law[] {
     const laws: Law[] = [];
 
     // Universal laws
@@ -1184,7 +1184,7 @@ export class CultureDesigner {
     return artForms;
   }
 
-  private generateArchitecture(theme: string, climate?: string): ArchitectureStyle {
+  private generateArchitecture(theme: string, _climate?: string): ArchitectureStyle {
     const themeArchitecture: Record<string, ArchitectureStyle[]> = {
       warrior: [ArchitectureStyle.MEGALITHIC, ArchitectureStyle.CLASSICAL],
       merchant: [ArchitectureStyle.CLASSICAL, ArchitectureStyle.BAROQUE],
@@ -1255,7 +1255,7 @@ export class CultureDesigner {
     };
   }
 
-  private generateNamingConvention(theme: string): NamingConvention {
+  private generateNamingConvention(_theme: string): NamingConvention {
     return {
       pattern: 'Given + Family',
       givenNames: {
@@ -1274,7 +1274,7 @@ export class CultureDesigner {
     };
   }
 
-  private generateMilitary(theme: string, techLevel: TechnologyLevel): Culture['military'] {
+  private generateMilitary(theme: string, _techLevel: TechnologyLevel): Culture['military'] {
     return {
       structure: theme === 'warrior' ? 'Professional army' : 'Militia with professional core',
       branches: theme === 'maritime' ? ['Navy', 'Marines'] : ['Infantry', 'Cavalry'],

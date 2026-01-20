@@ -27,6 +27,7 @@
 
 // Core Types
 export * from './core/types';
+import {CompileFormat} from './core/types';
 
 // Database
 export {DatabaseManager, getDatabase, closeDatabase} from './db/database';
@@ -306,7 +307,7 @@ export class EpicFictionArchitect {
   /**
    * Quick search across all content types
    */
-  async search(projectId: string, query: string) {
+  async search(_projectId: string, query: string) {
     return this._storyBible.query({
       query,
       limit: 20
@@ -342,7 +343,7 @@ export class EpicFictionArchitect {
    */
   async compileManuscript(
     projectId: string,
-    format: 'markdown' | 'docx' | 'epub' | 'pdf' | 'html'
+    format: CompileFormat
   ) {
     return this._compileEngine.compile(projectId, {format});
   }

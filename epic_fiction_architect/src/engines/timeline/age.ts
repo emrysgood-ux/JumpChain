@@ -20,8 +20,7 @@ import {CalendarEngine} from './calendar';
 import type {
   TimelineDate,
   Species,
-  Character,
-  AgingCurvePoint
+  Character
 } from '../../core/types';
 
 // ============================================================================
@@ -268,7 +267,7 @@ export class AgeCalculator {
    * Generate contextual notes about the character's age
    */
   private generateAgeNotes(
-    character: Character,
+    _character: Character,
     chronologicalAge: number,
     apparentAge: number,
     species?: Species

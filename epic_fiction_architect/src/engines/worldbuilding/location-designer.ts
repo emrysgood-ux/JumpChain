@@ -552,7 +552,8 @@ export class LocationDesigner {
       settlement: data.settlement,
       governance: data.governance || {
         type: 'None',
-        laws: []
+        laws: [],
+        alignment: 'neutral'
       },
       defense: data.defense || {
         level: DefenseLevel.NONE,
@@ -709,7 +710,7 @@ export class LocationDesigner {
     });
   }
 
-  generateRegion(name: string, locationCount: number = 5): Location[] {
+  generateRegion(_name: string, locationCount: number = 5): Location[] {
     const region: Location[] = [];
 
     // Create main settlement (city or town)
@@ -841,7 +842,7 @@ export class LocationDesigner {
     return `${name} is ${typeDesc[type] || 'a notable location'} set in ${terrain.replace(/_/g, ' ')} terrain with a ${climate} climate.`;
   }
 
-  private generateGeography(terrain: TerrainType, climate: ClimateType, type: LocationType): Location['geography'] {
+  private generateGeography(terrain: TerrainType, climate: ClimateType, _type: LocationType): Location['geography'] {
     const featuresByTerrain: Record<string, string[]> = {
       [TerrainType.FLAT]: ['rolling hills', 'farmland', 'meadows'],
       [TerrainType.HILLY]: ['steep hills', 'valleys', 'ridges'],
@@ -945,7 +946,7 @@ export class LocationDesigner {
     return districts;
   }
 
-  private generateDistrict(type: DistrictType, theme: string): District {
+  private generateDistrict(type: DistrictType, _theme: string): District {
     const names: Record<DistrictType, string[]> = {
       [DistrictType.MARKET]: ['Market Square', 'Trade District', 'Merchant Quarter'],
       [DistrictType.RESIDENTIAL]: ['Old Town', 'Commons', 'Riverside'],
@@ -1107,7 +1108,7 @@ export class LocationDesigner {
     return moods[type] || 'Ordinary';
   }
 
-  private generateInfrastructure(size: SettlementSize): Location['settlement']['infrastructure'] {
+  private generateInfrastructure(size: SettlementSize): NonNullable<Location['settlement']>['infrastructure'] {
     const sizeLevel = Object.values(SettlementSize).indexOf(size);
 
     return {
@@ -1118,7 +1119,7 @@ export class LocationDesigner {
     };
   }
 
-  private generateGovernance(type: LocationType, size?: SettlementSize, theme?: string): Location['governance'] {
+  private generateGovernance(_type: LocationType, size?: SettlementSize, _theme?: string): Location['governance'] {
     const rulers = ['Mayor', 'Lord', 'Council', 'Baron', 'Duke', 'King'];
     const ruler = size && Object.values(SettlementSize).indexOf(size) > 3
       ? this.randomChoice(rulers.slice(2))
@@ -1127,11 +1128,12 @@ export class LocationDesigner {
     return {
       type: size === SettlementSize.HAMLET ? 'Village Elder' : ruler,
       ruler: `${ruler} ${this.randomChoice(['Smith', 'Iron', 'Stone', 'Gold'])}`,
-      laws: ['No murder', 'No theft', 'Pay your taxes', 'Respect the authority']
+      laws: ['No murder', 'No theft', 'Pay your taxes', 'Respect the authority'],
+      alignment: this.randomChoice(['lawful', 'neutral', 'chaotic'])
     };
   }
 
-  private generateDefense(type: LocationType, size?: SettlementSize, theme?: string): Location['defense'] {
+  private generateDefense(type: LocationType, size?: SettlementSize, _theme?: string): Location['defense'] {
     if (!this.isSettlementType(type)) {
       return { level: DefenseLevel.NONE, garrison: 0, militia: 0, fortifications: [] };
     }
@@ -1150,7 +1152,7 @@ export class LocationDesigner {
     };
   }
 
-  private generateEconomy(type: LocationType, terrain: TerrainType, theme: string): Location['economy'] {
+  private generateEconomy(_type: LocationType, terrain: TerrainType, _theme: string): Location['economy'] {
     const activities = this.getEconomicActivities(terrain);
 
     return {
@@ -1189,7 +1191,7 @@ export class LocationDesigner {
     return exports[terrain] || ['Trade goods'];
   }
 
-  private generateCulture(theme: string, cultureId?: string): Location['culture'] {
+  private generateCulture(_theme: string, cultureId?: string): Location['culture'] {
     return {
       cultureId,
       languages: ['Common', 'Local dialect'],
@@ -1200,7 +1202,7 @@ export class LocationDesigner {
     };
   }
 
-  private generatePointsOfInterest(type: LocationType, theme: string, detailLevel: string): PointOfInterest[] {
+  private generatePointsOfInterest(_type: LocationType, _theme: string, detailLevel: string): PointOfInterest[] {
     if (detailLevel === 'minimal') return [];
 
     const pois: PointOfInterest[] = [];
@@ -1235,7 +1237,7 @@ export class LocationDesigner {
     return this.randomChoice(names[type] || ['Notable Place']);
   }
 
-  private generateNotableNPCs(type: LocationType, theme: string): NotableNPC[] {
+  private generateNotableNPCs(_type: LocationType, _theme: string): NotableNPC[] {
     const npcs: NotableNPC[] = [];
 
     npcs.push({
@@ -1269,7 +1271,7 @@ export class LocationDesigner {
     return npcs;
   }
 
-  private generateFactions(type: LocationType, theme: string): LocalFaction[] {
+  private generateFactions(_type: LocationType, theme: string): LocalFaction[] {
     const factions: LocalFaction[] = [];
 
     factions.push({
@@ -1307,7 +1309,7 @@ export class LocationDesigner {
     return factions;
   }
 
-  private generateHistory(type: LocationType, theme: string): Location['history'] {
+  private generateHistory(_type: LocationType, _theme: string): Location['history'] {
     return {
       founded: `${this.randomInt(100, 2000)} years ago`,
       founder: this.randomChoice(['A great hero', 'Refugees', 'A noble house', 'Ancient settlers']),
@@ -1320,7 +1322,7 @@ export class LocationDesigner {
     };
   }
 
-  private generateAtmosphere(type: LocationType, terrain: TerrainType, climate: ClimateType, theme: string): Location['atmosphere'] {
+  private generateAtmosphere(type: LocationType, _terrain: TerrainType, _climate: ClimateType, theme: string): Location['atmosphere'] {
     return {
       sights: this.generateSightsForType(type),
       sounds: this.generateSoundsForType(type),
@@ -1364,7 +1366,7 @@ export class LocationDesigner {
     return moods[theme] || 'Ordinary';
   }
 
-  private generatePlotHooks(type: LocationType, theme: string): string[] {
+  private generatePlotHooks(_type: LocationType, _theme: string): string[] {
     const hooks: string[] = [];
 
     hooks.push('Strange disappearances have been reported');

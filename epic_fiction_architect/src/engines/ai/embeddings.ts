@@ -20,7 +20,6 @@ import type {
   StoryBibleResult,
   SearchResult
 } from '../../core/types';
-import {v4 as uuidv4} from 'uuid';
 
 // ============================================================================
 // CONFIGURATION
@@ -98,7 +97,7 @@ export class EmbeddingsEngine {
       throw new Error(`OpenAI API error: ${response.statusText}`);
     }
 
-    const data = await response.json();
+    const data = await response.json() as {data: Array<{embedding: number[]}>};
     return data.data[0].embedding;
   }
 
@@ -127,7 +126,7 @@ export class EmbeddingsEngine {
       throw new Error(`Voyage AI API error: ${response.statusText}`);
     }
 
-    const data = await response.json();
+    const data = await response.json() as {data: Array<{embedding: number[]}>};
     return data.data[0].embedding;
   }
 
@@ -152,7 +151,7 @@ export class EmbeddingsEngine {
       throw new Error(`Ollama API error: ${response.statusText}`);
     }
 
-    const data = await response.json();
+    const data = await response.json() as {embedding: number[]};
     return data.embedding;
   }
 
@@ -413,7 +412,7 @@ export class EmbeddingsEngine {
    * Build RAG context for AI prompt
    */
   async buildRAGContext(
-    projectId: string,
+    _projectId: string,
     query: string,
     maxTokens: number = 4000
   ): Promise<string> {

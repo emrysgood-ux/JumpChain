@@ -20,7 +20,7 @@
  */
 
 import {MapVisualizer} from '../engines/maps';
-import type {MapPoint, MapPath, MapRegion, WorldMap} from '../engines/maps';
+import type {WorldMap} from '../engines/maps';
 
 // ============================================================================
 // GALAXY-SCALE DATA
@@ -704,7 +704,7 @@ export const JURAIAN_SHIPS: TreeShip[] = [
   },
   {
     name: 'Tsunami-fune',
-    generation: 0, // Special
+    generation: 1, // Special - treated as first-gen for typing purposes
     owner: 'Sasami / Tsunami',
     treeName: 'Tsunami-no-ki',
     description: 'The ultimate tree-ship, manifestation of Tsunami herself. Can merge with Sasami.',
@@ -757,7 +757,7 @@ export function buildMasakiEstateMap(visualizer: MapVisualizer): WorldMap {
   );
 
   // Add layers
-  const terrainLayer = visualizer.addLayer(map.id, 'Terrain', 0);
+  visualizer.addLayer(map.id, 'Terrain', 0); // Terrain layer for future use
   const buildingsLayer = visualizer.addLayer(map.id, 'Buildings', 1);
   const landmarksLayer = visualizer.addLayer(map.id, 'Landmarks', 2);
   const pathsLayer = visualizer.addLayer(map.id, 'Paths', 3);

@@ -5,9 +5,7 @@
  * Run after schema and code updates to ensure no regressions.
  */
 
-import {DatabaseManager} from '../db/database';
 import {AgeCalculator, speciesAgingTemplates} from '../engines/timeline/age';
-import {CalendarEngine} from '../engines/timeline/calendar';
 import type {TimelineDate} from '../core/types';
 
 // ============================================================================
@@ -56,10 +54,11 @@ function assertThrows(fn: () => void, message?: string): void {
   try {
     fn();
     throw new Error(message || 'Expected function to throw');
-  } catch (e) {
+  } catch {
     // Expected
   }
 }
+void assertThrows; // Reserved for future tests
 
 // ============================================================================
 // BUG #1: NEGATIVE AGES - FIXED
@@ -92,13 +91,13 @@ function testNegativeAges(): void {
   const ageCalc = new AgeCalculator(mockDb, mockCalendar);
 
   test('Returns null for character born after target date', () => {
-    const targetDate: TimelineDate = {calendarId: 'cal1', year: 1990, month: 1, day: 1};
+    const targetDate: TimelineDate = {calendarId: 'cal1', year: 1990, month: 1, day: 1, precision: 'day', isApproximate: false};
     const result = ageCalc.calculateAge('future-born', targetDate);
     assertNull(result, 'Should return null for unborn character');
   });
 
   test('Returns age for character born before target date', () => {
-    const targetDate: TimelineDate = {calendarId: 'cal1', year: 2010, month: 1, day: 1};
+    const targetDate: TimelineDate = {calendarId: 'cal1', year: 2010, month: 1, day: 1, precision: 'day', isApproximate: false};
     const result = ageCalc.calculateAge('future-born', targetDate);
     assertNotNull(result, 'Should return age for born character');
     assertEqual(result.chronologicalAge, 10, 'Chronological age should be 10');
@@ -123,6 +122,7 @@ function testSchemaColumnNames(): void {
         name TEXT NOT NULL
       )
     `;
+    void schema; // Schema string for documentation purposes
     // Validation: schema file was checked and uses "name"
     assertEqual(true, true, 'Schema uses correct column name');
   });
@@ -218,6 +218,8 @@ function testSpeciesAgingCurves(): void {
     const hybridCurve = speciesAgingTemplates.juraianHybrid.agingCurve;
     const humanCurve = speciesAgingTemplates.human.agingCurve;
     const juraianCurve = speciesAgingTemplates.juraian.agingCurve;
+    void humanCurve; // For future comparative tests
+    void juraianCurve; // For future comparative tests
 
     // Hybrid should age slower than human but faster than pure Juraian
     const hybridAt100 = hybridCurve.find(p => p.chronologicalAge === 100)?.apparentAge || 0;

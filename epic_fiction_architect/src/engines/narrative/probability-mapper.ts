@@ -632,7 +632,7 @@ export class ProbabilityMapper {
    */
   private buildConsequenceChain(
     branch: NarrativeBranch,
-    startPosition: number
+    _startPosition: number
   ): ConsequenceNode[] {
     const chain: ConsequenceNode[] = [];
     let cumulativeProb = branch.calculatedProbability;

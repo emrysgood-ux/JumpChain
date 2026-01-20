@@ -12,11 +12,9 @@
  */
 
 import type {
-  Scene,
   Character,
   Promise,
   PlotThread,
-  TimelineEvent,
   ConsistencyFact
 } from '../../core/types';
 
@@ -180,7 +178,7 @@ export function extractDetails(
   // Extract consistency facts
   if (context.facts) {
     for (const fact of context.facts) {
-      const isWorldRule = fact.category === 'world_rule' || fact.category === 'magic_system';
+      const isWorldRule = fact.category === 'world' || fact.category === 'rule';
       details.push({
         id: generateId(),
         category: isWorldRule ? 'world_rule' : 'general',

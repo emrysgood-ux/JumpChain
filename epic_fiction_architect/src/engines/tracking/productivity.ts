@@ -239,7 +239,7 @@ export class ProductivityTracker {
   startSprint(
     projectId: string,
     durationMinutes: number,
-    targetWords?: number
+    _targetWords?: number
   ): {sessionId: string; endsAt: Date} {
     const sessionId = this.startSession(projectId, 'sprint', durationMinutes);
     const endsAt = new Date(Date.now() + durationMinutes * 60000);
