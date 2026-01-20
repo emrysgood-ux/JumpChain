@@ -64,6 +64,42 @@ export {
   IntegrityStatus
 } from './story-integrity-checker';
 
+// Relationship Validator
+export {
+  RelationshipValidator,
+  relationshipValidator,
+  type Relationship,
+  type RelationshipChange,
+  type RelationshipRule,
+  type RelationshipError,
+  type RelationshipNetwork,
+  type FamilyTree,
+  type ValidationContext as RelationshipValidationContext,
+  RelationshipType,
+  RelationshipStatus,
+  RelationshipSentiment,
+  RelationshipChangeType,
+  RelationshipErrorType
+} from './relationship-validator';
+
+// Knowledge Tracker
+export {
+  KnowledgeTracker,
+  knowledgeTracker,
+  type KnowledgePiece,
+  type CharacterKnowledge,
+  type KnowledgeTransfer,
+  type KnowledgeError,
+  type KnowledgeValidationContext,
+  type KnowledgeQuery,
+  type CharacterKnowledgeProfile,
+  KnowledgeType,
+  KnowledgeSource,
+  KnowledgeCertainty,
+  KnowledgeStatus,
+  KnowledgeErrorType
+} from './knowledge-tracker';
+
 /**
  * Unified Validation Suite
  *
@@ -74,15 +110,21 @@ export class ValidationSuite {
   public readonly chapters: import('./chapter-manager').ChapterManager;
   public readonly continuity: import('./continuity-validator').ContinuityValidator;
   public readonly integrity: import('./story-integrity-checker').StoryIntegrityChecker;
+  public readonly relationships: import('./relationship-validator').RelationshipValidator;
+  public readonly knowledge: import('./knowledge-tracker').KnowledgeTracker;
 
   constructor() {
     const { ChapterManager } = require('./chapter-manager');
     const { ContinuityValidator } = require('./continuity-validator');
     const { StoryIntegrityChecker } = require('./story-integrity-checker');
+    const { RelationshipValidator } = require('./relationship-validator');
+    const { KnowledgeTracker } = require('./knowledge-tracker');
 
     this.chapters = new ChapterManager();
     this.continuity = new ContinuityValidator();
     this.integrity = new StoryIntegrityChecker();
+    this.relationships = new RelationshipValidator();
+    this.knowledge = new KnowledgeTracker();
   }
 
   /**
@@ -109,6 +151,8 @@ export class ValidationSuite {
   validateFullStory(): {
     continuityReport: import('./continuity-validator').ValidationReport;
     integrityReport: import('./story-integrity-checker').StoryHealthReport;
+    relationshipReport: ReturnType<import('./relationship-validator').RelationshipValidator['validateAllRelationships']>;
+    knowledgeReport: ReturnType<import('./knowledge-tracker').KnowledgeTracker['validateAllKnowledge']>;
     overallScore: number;
     totalErrors: number;
     criticalErrors: number;
@@ -119,18 +163,55 @@ export class ValidationSuite {
     // Run integrity analysis
     const integrityReport = this.integrity.analyzeStoryHealth(this.chapters);
 
+    // Build validation context for relationship and knowledge validation
+    const deadCharacters = new Set<string>();
+    const characterAges = new Map<string, number>();
+    const characterLocations = new Map<string, string>();
+    const characterLanguages = new Map<string, string[]>();
+
+    // Get current chapter for context
+    const stats = this.chapters.getStats();
+    const currentChapter = stats.totalChapters;
+
+    // Run relationship validation
+    const relationshipReport = this.relationships.validateAllRelationships({
+      currentChapter,
+      deadCharacters,
+      characterAges,
+      characterLocations
+    });
+
+    // Run knowledge validation
+    const knowledgeReport = this.knowledge.validateAllKnowledge({
+      currentChapter,
+      characterLocations,
+      characterLanguages,
+      deadCharacters
+    });
+
     // Calculate overall metrics
-    const totalErrors = continuityReport.errorsFound + integrityReport.issues.length;
+    const totalErrors = continuityReport.errorsFound +
+      integrityReport.issues.length +
+      relationshipReport.errorsFound +
+      knowledgeReport.errorsFound;
+
     const criticalErrors = continuityReport.criticalIssues.length +
-      integrityReport.issues.filter(i => i.severity === 'critical').length;
+      integrityReport.issues.filter(i => i.severity === 'critical').length +
+      relationshipReport.criticalErrors +
+      knowledgeReport.criticalErrors;
 
     const overallScore = Math.round(
-      (continuityReport.passRate + integrityReport.score) / 2
+      (continuityReport.passRate +
+       integrityReport.score +
+       relationshipReport.passRate +
+       knowledgeReport.passRate) / 4
     );
 
     return {
       continuityReport,
       integrityReport,
+      relationshipReport,
+      knowledgeReport,
       overallScore,
       totalErrors,
       criticalErrors
@@ -166,6 +247,8 @@ export class ValidationSuite {
     plotThreads: number;
     characterArcs: number;
     foreshadowing: number;
+    relationships: ReturnType<import('./relationship-validator').RelationshipValidator['getStats']>;
+    knowledge: ReturnType<import('./knowledge-tracker').KnowledgeTracker['getStats']>;
   } {
     const chapterStats = this.chapters.getStats();
 
@@ -179,7 +262,9 @@ export class ValidationSuite {
       arcs: this.chapters.getAllArcs().length,
       plotThreads: chapterStats.plotThreads.total,
       characterArcs: this.integrity.getCharacterArcs().length,
-      foreshadowing: this.integrity.getForeshadowing().length
+      foreshadowing: this.integrity.getForeshadowing().length,
+      relationships: this.relationships.getStats(),
+      knowledge: this.knowledge.getStats()
     };
   }
 
@@ -200,6 +285,18 @@ export class ValidationSuite {
     report += `- **Active Plot Threads:** ${stats.plotThreads}\n`;
     report += `- **Character Arcs:** ${stats.characterArcs}\n`;
     report += `- **Foreshadowing Elements:** ${stats.foreshadowing}\n\n`;
+
+    report += `## Relationships\n\n`;
+    report += `- **Total Relationships:** ${stats.relationships.totalRelationships}\n`;
+    report += `- **Active Relationships:** ${stats.relationships.activeRelationships}\n`;
+    report += `- **Secret Relationships:** ${stats.relationships.secretRelationships}\n`;
+    report += `- **Family Trees:** ${stats.relationships.familyTrees}\n\n`;
+
+    report += `## Knowledge Tracking\n\n`;
+    report += `- **Knowledge Pieces:** ${stats.knowledge.totalKnowledgePieces}\n`;
+    report += `- **Characters Tracked:** ${stats.knowledge.charactersTracked}\n`;
+    report += `- **Secrets:** ${stats.knowledge.secrets}\n`;
+    report += `- **Misinformation:** ${stats.knowledge.misinformation}\n\n`;
 
     report += `## Validation Status\n\n`;
     report += `- **Average Score:** ${stats.validation.avgValidationScore}/100\n`;
@@ -222,6 +319,8 @@ export class ValidationSuite {
     return JSON.stringify({
       chapters: JSON.parse(this.chapters.exportToJSON()),
       integrity: JSON.parse(this.integrity.exportToJSON()),
+      relationships: JSON.parse(this.relationships.exportToJSON()),
+      knowledge: JSON.parse(this.knowledge.exportToJSON()),
       timestamp: new Date().toISOString()
     }, null, 2);
   }
@@ -239,6 +338,39 @@ export class ValidationSuite {
     if (data.integrity) {
       this.integrity.importFromJSON(JSON.stringify(data.integrity));
     }
+
+    if (data.relationships) {
+      this.relationships.importFromJSON(JSON.stringify(data.relationships));
+    }
+
+    if (data.knowledge) {
+      this.knowledge.importFromJSON(JSON.stringify(data.knowledge));
+    }
+  }
+
+  /**
+   * Clear all validation data
+   */
+  clearAll(): void {
+    this.chapters.clear();
+    this.integrity.clear();
+    this.relationships.clear();
+    this.knowledge.clearErrors();
+  }
+
+  /**
+   * Get all errors across all validators
+   */
+  getAllErrors(): {
+    continuity: import('./continuity-validator').ValidationResult[];
+    relationships: import('./relationship-validator').RelationshipError[];
+    knowledge: import('./knowledge-tracker').KnowledgeError[];
+  } {
+    return {
+      continuity: this.continuity.getErrors(),
+      relationships: this.relationships.getErrors(),
+      knowledge: this.knowledge.getErrors()
+    };
   }
 }
 
