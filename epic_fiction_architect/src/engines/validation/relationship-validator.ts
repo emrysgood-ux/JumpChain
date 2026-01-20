@@ -227,6 +227,8 @@ export class RelationshipValidator {
 
   constructor() {
     this.initializeBuiltInRules();
+    // Infrastructure for future deterministic testing
+    void this._seededRandom;
   }
 
   // ==========================================================================
@@ -237,7 +239,7 @@ export class RelationshipValidator {
     this.seed = seed;
   }
 
-  private seededRandom(): number {
+  private _seededRandom(): number {
     this.seed = (this.seed * 9301 + 49297) % 233280;
     return this.seed / 233280;
   }
@@ -1111,7 +1113,7 @@ export class RelationshipValidator {
   exportToJSON(): string {
     const data = {
       relationships: Array.from(this.relationships.values()),
-      familyTrees: Array.from(this.familyTrees.entries()).map(([id, tree]) => ({
+      familyTrees: Array.from(this.familyTrees.entries()).map(([_id, tree]) => ({
         ...tree,
         generations: Array.from(tree.generations.entries())
       })),

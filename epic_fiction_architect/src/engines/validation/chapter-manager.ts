@@ -1025,6 +1025,17 @@ export class ChapterManager {
 
     return report;
   }
+
+  /**
+   * Clear all data
+   */
+  clear(): void {
+    this.chapters.clear();
+    this.plotThreads.clear();
+    this.volumes.clear();
+    this.arcs.clear();
+    this.storyState = this.initializeStoryState();
+  }
 }
 
 // ============================================================================

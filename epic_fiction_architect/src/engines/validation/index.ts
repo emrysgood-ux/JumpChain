@@ -362,7 +362,7 @@ export class ValidationSuite {
    * Get all errors across all validators
    */
   getAllErrors(): {
-    continuity: import('./continuity-validator').ValidationResult[];
+    continuity: import('./chapter-manager').ValidationError[];
     relationships: import('./relationship-validator').RelationshipError[];
     knowledge: import('./knowledge-tracker').KnowledgeError[];
   } {

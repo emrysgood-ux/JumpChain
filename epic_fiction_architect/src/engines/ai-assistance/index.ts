@@ -253,7 +253,7 @@ export class AIAssistanceSuite {
     // Add character voice profiles
     if (voicePrompts.size > 0) {
       prompt += `## Character Voices\n\n`;
-      for (const [charId, voicePrompt] of voicePrompts) {
+      for (const [_charId, voicePrompt] of voicePrompts) {
         prompt += voicePrompt;
         prompt += '\n---\n\n';
       }

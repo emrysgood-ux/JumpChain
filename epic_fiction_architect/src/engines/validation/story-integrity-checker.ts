@@ -8,13 +8,8 @@
 import { v4 as uuidv4 } from 'uuid';
 import {
   ChapterManager,
-  Chapter,
   PlotThread,
-  StoryArc,
-  ValidationError,
-  ErrorCategory,
-  ErrorSeverity,
-  EntityMention
+  ErrorSeverity
 } from './chapter-manager';
 
 // ============================================================================
@@ -757,7 +752,7 @@ export class StoryIntegrityChecker {
     };
   }
 
-  private analyzeStructure(chapterManager: ChapterManager): StoryHealthReport['structuralAnalysis'] {
+  private analyzeStructure(_chapterManager: ChapterManager): StoryHealthReport['structuralAnalysis'] {
     if (!this.narrativeBeats) {
       return {
         structure: NarrativeStructure.CUSTOM,
@@ -1037,6 +1032,17 @@ export class StoryIntegrityChecker {
     if (data.narrativeBeats) {
       this.narrativeBeats = data.narrativeBeats;
     }
+  }
+
+  /**
+   * Clear all data
+   */
+  clear(): void {
+    this.characterArcs.clear();
+    this.foreshadowing.clear();
+    this.plotPoints.clear();
+    this.themes.clear();
+    this.narrativeBeats = null;
   }
 }
 

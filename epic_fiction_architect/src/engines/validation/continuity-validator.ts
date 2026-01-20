@@ -9,12 +9,10 @@ import { v4 as uuidv4 } from 'uuid';
 import {
   ChapterManager,
   Chapter,
-  CharacterState,
   TimelinePosition,
   ValidationError,
   ErrorCategory,
-  ErrorSeverity,
-  PlotThread
+  ErrorSeverity
 } from './chapter-manager';
 
 // ============================================================================
@@ -285,7 +283,9 @@ const createCharacterLocationRule = (): ValidationRule => ({
 
       // Check if location changed without travel
       if (prevState.location !== currentState.location) {
-        const character = ctx.characterRegistry.get(currentState.characterId);
+        // Character info available from ctx.characterRegistry if needed
+        const _charInfo = ctx.characterRegistry.get(currentState.characterId);
+        void _charInfo; // Reserved for future travel mode logic
         const prevLocation = ctx.locationRegistry.get(prevState.location);
         const currLocation = ctx.locationRegistry.get(currentState.location);
 
@@ -1003,6 +1003,28 @@ export class ContinuityValidator {
     }
 
     return md;
+  }
+
+  /**
+   * Get all errors from the most recent validation
+   */
+  getErrors(): ValidationError[] {
+    if (this.validationReports.length === 0) return [];
+    const lastReport = this.validationReports[this.validationReports.length - 1];
+    return lastReport.criticalIssues;
+  }
+
+  /**
+   * Clear all data
+   */
+  clear(): void {
+    this.characterRegistry.clear();
+    this.locationRegistry.clear();
+    this.itemRegistry.clear();
+    this.timelineRegistry = [];
+    this.worldRules = [];
+    this.magicRules = [];
+    this.validationReports = [];
   }
 }
 

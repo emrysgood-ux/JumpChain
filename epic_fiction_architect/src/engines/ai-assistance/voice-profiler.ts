@@ -680,7 +680,7 @@ export class VoiceProfiler {
 
     if (!targetProfile) return results;
 
-    for (const [otherId, otherProfile] of this.profiles) {
+    for (const [otherId, _otherProfile] of this.profiles) {
       if (otherId === characterId) continue;
 
       const comparison = this.compareVoices(characterId, otherId);

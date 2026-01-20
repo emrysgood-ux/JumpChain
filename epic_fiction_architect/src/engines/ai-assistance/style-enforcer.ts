@@ -99,7 +99,7 @@ export interface StyleGuide {
   vocabularyLevel: 'simple' | 'moderate' | 'advanced' | 'literary';
   forbiddenWords: string[];
   requiredPhrases?: string[];
-  preferredTerms: Map<string, string>;  // "said" -> ["replied", "answered"]
+  preferredTerms: Map<string, string[]>;  // "said" -> ["replied", "answered"]
 
   // Tone
   formality: number;          // 1-10 scale
@@ -749,7 +749,7 @@ export class StyleEnforcer {
   private checkAdverbUsage(
     percentage: number,
     matches: string[],
-    text: string,
+    _text: string,
     guide: StyleGuide,
     violations: StyleViolation[]
   ): number {
@@ -780,7 +780,7 @@ export class StyleEnforcer {
   private checkPassiveVoice(
     percentage: number,
     matches: string[],
-    text: string,
+    _text: string,
     guide: StyleGuide,
     violations: StyleViolation[]
   ): number {
@@ -841,8 +841,6 @@ export class StyleEnforcer {
     guide: StyleGuide,
     violations: StyleViolation[]
   ): void {
-    const lowerText = text.toLowerCase();
-
     for (const word of guide.forbiddenWords) {
       const regex = new RegExp(`\\b${word}\\b`, 'gi');
       const matches = text.match(regex);
@@ -867,7 +865,7 @@ export class StyleEnforcer {
 
   private checkParagraphLength(
     paragraphs: string[],
-    sentences: string[],
+    _sentences: string[],
     guide: StyleGuide,
     violations: StyleViolation[]
   ): number {
@@ -991,12 +989,14 @@ export class StyleEnforcer {
     ];
 
     for (const [name, valA, valB] of metricPairs) {
-      const change = valA !== 0 ? ((valB as number - valA as number) / valA as number) * 100 : 0;
+      const numA = valA as number;
+      const numB = valB as number;
+      const change = numA !== 0 ? ((numB - numA) / numA) * 100 : 0;
       if (Math.abs(change) > 10) {
         differences.push({
           element: name as string,
-          valueA: valA as number,
-          valueB: valB as number,
+          valueA: numA,
+          valueB: numB,
           change
         });
       }

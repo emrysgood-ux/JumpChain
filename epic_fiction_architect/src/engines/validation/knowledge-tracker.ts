@@ -194,7 +194,10 @@ export class KnowledgeTracker {
   private errors: KnowledgeError[] = [];
   private seed: number = Date.now();
 
-  constructor() {}
+  constructor() {
+    // Infrastructure for future deterministic testing
+    void this._seededRandom;
+  }
 
   // ==========================================================================
   // SEEDING
@@ -204,7 +207,7 @@ export class KnowledgeTracker {
     this.seed = seed;
   }
 
-  private seededRandom(): number {
+  private _seededRandom(): number {
     this.seed = (this.seed * 9301 + 49297) % 233280;
     return this.seed / 233280;
   }
@@ -484,7 +487,7 @@ export class KnowledgeTracker {
     characterId: string,
     knowledgeId: string,
     chapterNumber: number,
-    context: KnowledgeValidationContext
+    _context: KnowledgeValidationContext
   ): KnowledgeError[] {
     const errors: KnowledgeError[] = [];
     const piece = this.knowledge.get(knowledgeId);
@@ -587,7 +590,7 @@ export class KnowledgeTracker {
   validateCharacterKnowledgeState(
     characterId: string,
     chapterNumber: number,
-    context: KnowledgeValidationContext
+    _context: KnowledgeValidationContext
   ): KnowledgeError[] {
     const errors: KnowledgeError[] = [];
     const charKnowledgeList = this.getAllCharacterKnowledge(characterId);
