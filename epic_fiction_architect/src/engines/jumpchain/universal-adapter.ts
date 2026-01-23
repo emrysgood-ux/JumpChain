@@ -106,6 +106,43 @@ export enum UniverseResistance {
   SEALED = 'sealed'              // No outside powers work
 }
 
+/**
+ * Universe reality type - how the universe relates to real world
+ */
+export enum UniverseRealityType {
+  // Pure fiction - no real-world connection
+  PURE_FICTION = 'pure_fiction',
+
+  // Based on reality
+  ALTERNATE_HISTORY = 'alternate_history',      // History diverged at a point
+  ALTERNATE_EARTH = 'alternate_earth',          // Different version of Earth
+
+  // Hidden/parallel to reality
+  URBAN_FANTASY = 'urban_fantasy',              // Magic hidden in real world
+  PARALLEL_WORLD = 'parallel_world',            // Exists alongside reality
+  MASQUERADE = 'masquerade',                    // Supernatural hidden from mundanes
+
+  // Mixed reality
+  AMALGAM = 'amalgam',                          // Real + fictional blended
+  FICTIONALIZED_REAL = 'fictionalized_real',    // Real places made fictional
+
+  // Multiple sources
+  CROSSOVER = 'crossover',                      // Multiple fictions merged
+  COMPOSITE = 'composite'                        // Elements from multiple sources
+}
+
+/**
+ * Real-world location binding type
+ */
+export enum RealWorldBindingType {
+  NONE = 'none',                    // No real-world connection
+  INSPIRED = 'inspired',            // Loosely inspired by real place
+  BASED_ON = 'based_on',            // Clearly based on real place
+  EXACT_OVERLAY = 'exact_overlay',  // Fiction laid over exact real location
+  RENAMED = 'renamed',              // Real place with fictional name
+  HIDDEN_WITHIN = 'hidden_within'   // Fictional place hidden in real location
+}
+
 // =============================================================================
 // INTERFACES
 // =============================================================================
@@ -137,9 +174,64 @@ export interface UniverseProfile {
   fiatOverrides: boolean;        // Can fiat override universe rules?
   crossoverFriendly: boolean;    // Designed for outside powers
 
+  // Real-World Connection (for amalgam/urban fantasy settings)
+  realityType: UniverseRealityType;
+  realWorldBinding?: {
+    bindingType: RealWorldBindingType;
+    primaryRealLocation?: string;     // e.g., "Japan", "New York City"
+    realWorldTimeframe?: string;      // e.g., "Modern day", "1920s"
+    realWorldCoordinates?: {
+      latitude: number;
+      longitude: number;
+      region?: string;
+    };
+    divergencePoint?: string;         // When/how reality diverged
+    hiddenElements: string[];         // What's hidden from mundanes
+    mundaneAwareness: 'none' | 'rumors' | 'partial' | 'full';
+  };
+
+  // Crossover Sources (for composite/amalgam worlds)
+  sourceUniverses?: Array<{
+    universeId: string;
+    universeName: string;
+    elementsIncluded: string[];
+    integrationMethod: 'merge' | 'overlay' | 'adjacent' | 'nested';
+  }>;
+
   // Reference
   sourceJumpId?: string;
   notes: string;
+}
+
+/**
+ * Real-world location with fictional overlay
+ */
+export interface RealWorldOverlayLocation {
+  id: string;
+  fictionalName: string;
+  realWorldName?: string;
+
+  // Coordinates
+  coordinates?: {
+    latitude: number;
+    longitude: number;
+  };
+
+  // Binding
+  bindingType: RealWorldBindingType;
+  universeId: string;
+
+  // Fictional elements at this location
+  fictionalAdditions: string[];       // Things added that don't exist IRL
+  fictionalModifications: string[];   // Changes to real things
+  hiddenAreas: string[];              // Secret places
+
+  // Access
+  mundaneAccessible: boolean;
+  accessRequirements?: string[];
+
+  // Notes
+  description: string;
 }
 
 /**

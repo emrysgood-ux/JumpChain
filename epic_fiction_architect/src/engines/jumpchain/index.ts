@@ -180,7 +180,7 @@ export {
 import { JumpManager, JumpStatus, OriginType } from './jump-manager';
 import { PowerSynergyEngine, PowerSource, PowerTier, PowerContext, Power } from './power-synergy-engine';
 import { WarehouseSystem, StorageZone } from './warehouse-system';
-import { UniversalAdapter, MetaphysicsType, FiatLevel, UniverseResistance } from './universal-adapter';
+import { UniversalAdapter, MetaphysicsType, FiatLevel, UniverseResistance, UniverseRealityType } from './universal-adapter';
 import { CompanionTracker, CompanionStatus, BuildMethod } from './companion-tracker';
 
 /**
@@ -253,6 +253,7 @@ export class JumpchainSuite {
       specialRules: [],
       fiatOverrides: true,
       crossoverFriendly: true,
+      realityType: UniverseRealityType.PURE_FICTION,
       sourceJumpId: jump.id,
       notes: ''
     });

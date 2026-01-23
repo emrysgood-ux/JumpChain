@@ -475,6 +475,40 @@ export interface Location {
   secrets: string[];
   hiddenLocations: Location[];
 
+  // Real-World Connection (for amalgam/urban fantasy settings)
+  realWorldBinding?: {
+    // Binding type
+    bindingType: 'none' | 'inspired' | 'based_on' | 'exact_overlay' | 'renamed' | 'hidden_within';
+
+    // Real-world reference
+    realWorldName?: string;           // e.g., "Okayama Prefecture", "London"
+    realWorldCoordinates?: {
+      latitude: number;
+      longitude: number;
+    };
+    realWorldRegion?: string;         // e.g., "Japan", "United Kingdom"
+    realWorldAddress?: string;        // Specific address if applicable
+
+    // Correspondence level
+    geographyMatch: 'exact' | 'similar' | 'inspired' | 'different';
+    cultureMatch: 'exact' | 'similar' | 'inspired' | 'different';
+    historyMatch: 'exact' | 'similar' | 'divergent' | 'different';
+
+    // Fictional modifications
+    fictionalAdditions: string[];     // Things added that don't exist in real world
+    fictionalModifications: string[]; // Changes to real-world elements
+    fictionalRemovals: string[];      // Real things that don't exist in fiction
+
+    // Visibility
+    mundanePerception?: string;       // What non-magical people see/experience
+    awakenedPerception?: string;      // What magical/aware people see
+    accessRequirements?: string[];    // How to access hidden fictional elements
+
+    // Integration notes
+    divergencePoint?: string;         // When/why the fictional version diverged
+    integrationNotes: string;         // How real and fictional blend
+  };
+
   // Meta
   tags: string[];
   plotHooks: string[];

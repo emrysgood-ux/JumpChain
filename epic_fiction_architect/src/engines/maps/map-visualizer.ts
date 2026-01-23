@@ -1240,6 +1240,385 @@ export class MapVisualizer {
 
     return map;
   }
+
+  // ==========================================================================
+  // AMALGAM/REALITY-FICTION OVERLAY METHODS
+  // ==========================================================================
+
+  /**
+   * Export an interactive HTML map with fictional overlay layers
+   * for amalgam universes that mix real-world locations with fictional elements
+   */
+  exportAmalgamMapHTML(
+    mapId: string,
+    options: {
+      title?: string;
+      realWorldLayer?: boolean;
+      fictionalLayer?: boolean;
+      showLegend?: boolean;
+      customStyles?: {
+        realWorldMarkerColor?: string;
+        fictionalMarkerColor?: string;
+        hiddenMarkerColor?: string;
+      };
+      amalgamInfo?: {
+        worldName: string;
+        realityType: string;
+        divergencePoint?: string;
+        mundaneAwareness?: string;
+      };
+    } = {}
+  ): string {
+    const map = this.maps.get(mapId);
+    if (!map) throw new Error(`Map ${mapId} not found`);
+
+    const {
+      title = map.config.name,
+      realWorldLayer = true,
+      fictionalLayer = true,
+      showLegend = true,
+      customStyles = {},
+      amalgamInfo
+    } = options;
+
+    const realColor = customStyles.realWorldMarkerColor ?? '#3498db';
+    const fictionColor = customStyles.fictionalMarkerColor ?? '#9b59b6';
+    const hiddenColor = customStyles.hiddenMarkerColor ?? '#e74c3c';
+
+    // Determine center from bounds or default
+    let centerLat = 0, centerLon = 0;
+    if (map.config.realWorldBounds) {
+      const {north, south, east, west} = map.config.realWorldBounds;
+      centerLat = (north + south) / 2;
+      centerLon = (east + west) / 2;
+    }
+
+    // Build layers JavaScript
+    const layersJS: string[] = [];
+
+    for (const layer of map.layers) {
+      const safeLayerId = layer.id.replace(/-/g, '_');
+      layersJS.push(`var layer_${safeLayerId} = L.layerGroup();`);
+
+      for (const point of layer.points) {
+        let lat: number, lon: number;
+
+        if (map.config.realWorldBounds) {
+          const {north, south, east, west} = map.config.realWorldBounds;
+          lon = west + (point.x / map.config.width) * (east - west);
+          lat = north - (point.y / map.config.height) * (north - south);
+        } else {
+          lat = -point.y;
+          lon = point.x;
+        }
+
+        // Determine marker type based on metadata
+        const isHidden = point.metadata?.hidden === true;
+        const isRealWorld = point.metadata?.realWorld === true;
+
+        let markerColor = fictionColor;
+        let markerType = 'fictional';
+        if (isRealWorld) {
+          markerColor = realColor;
+          markerType = 'real-world';
+        } else if (isHidden) {
+          markerColor = hiddenColor;
+          markerType = 'hidden';
+        }
+        // Note: fictional is the default case when not real-world or hidden
+
+        // Custom icon with color
+        const iconJS = `L.divIcon({
+          className: 'amalgam-marker ${markerType}',
+          html: '<div style="background-color: ${markerColor}; width: 12px; height: 12px; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.5);"></div>',
+          iconSize: [16, 16],
+          iconAnchor: [8, 8]
+        })`;
+
+        const popupParts = [`<b>${this.escapeXML(point.label ?? 'Unknown')}</b>`];
+        popupParts.push(`<br><i>Type: ${point.type}</i>`);
+        popupParts.push(`<br><span class="marker-type ${markerType}">${markerType.toUpperCase()}</span>`);
+
+        if (point.metadata?.description) {
+          popupParts.push(`<br>${this.escapeXML(String(point.metadata.description))}`);
+        }
+        if (point.metadata?.realWorldName) {
+          popupParts.push(`<br><small>Real-world: ${this.escapeXML(String(point.metadata.realWorldName))}</small>`);
+        }
+        if (point.metadata?.mundanePerception) {
+          popupParts.push(`<br><small>Mundanes see: ${this.escapeXML(String(point.metadata.mundanePerception))}</small>`);
+        }
+
+        layersJS.push(`
+          L.marker([${lat}, ${lon}], {icon: ${iconJS}})
+            .bindPopup('${popupParts.join('')}')
+            .addTo(layer_${safeLayerId});
+        `);
+      }
+
+      // Add paths
+      for (const path of layer.paths) {
+        const coords = path.points.map(p => {
+          if (map.config.realWorldBounds) {
+            const {north, south, east, west} = map.config.realWorldBounds;
+            const lon = west + (p.x / map.config.width) * (east - west);
+            const lat = north - (p.y / map.config.height) * (north - south);
+            return `[${lat}, ${lon}]`;
+          }
+          return `[${-p.y}, ${p.x}]`;
+        });
+
+        const pathColor = path.metadata?.fictional ? fictionColor :
+                         path.type === 'river' ? '#4169E1' :
+                         path.type === 'road' ? '#8B4513' : '#666666';
+
+        layersJS.push(`
+          L.polyline([${coords.join(', ')}], {color: '${pathColor}', weight: 3})
+            .addTo(layer_${safeLayerId});
+        `);
+      }
+
+      layersJS.push(`layer_${safeLayerId}.addTo(map);`);
+    }
+
+    // Layer control
+    const layerControlJS = map.layers.length > 1 ? `
+      var overlays = {
+        ${map.layers.map(l => `"${l.name}": layer_${l.id.replace(/-/g, '_')}`).join(',\n        ')}
+      };
+      L.control.layers(baseMaps, overlays).addTo(map);
+    ` : '';
+
+    // Info box with amalgam details
+    const infoBoxHTML = amalgamInfo ? `
+      <div class="amalgam-info">
+        <h3>${this.escapeXML(amalgamInfo.worldName)}</h3>
+        <p><strong>Reality Type:</strong> ${this.escapeXML(amalgamInfo.realityType)}</p>
+        ${amalgamInfo.divergencePoint ? `<p><strong>Divergence:</strong> ${this.escapeXML(amalgamInfo.divergencePoint)}</p>` : ''}
+        ${amalgamInfo.mundaneAwareness ? `<p><strong>Mundane Awareness:</strong> ${this.escapeXML(amalgamInfo.mundaneAwareness)}</p>` : ''}
+      </div>
+    ` : '';
+
+    // Legend
+    const legendHTML = showLegend ? `
+      <div class="map-legend">
+        <h4>Legend</h4>
+        ${realWorldLayer ? `<div><span class="legend-marker" style="background-color: ${realColor}"></span> Real-World Location</div>` : ''}
+        ${fictionalLayer ? `<div><span class="legend-marker" style="background-color: ${fictionColor}"></span> Fictional Location</div>` : ''}
+        ${fictionalLayer ? `<div><span class="legend-marker" style="background-color: ${hiddenColor}"></span> Hidden/Secret Location</div>` : ''}
+      </div>
+    ` : '';
+
+    return `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${this.escapeXML(title)} - Amalgam Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    #map { width: 100vw; height: 100vh; }
+
+    .map-title {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background: rgba(255,255,255,0.95);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 20px;
+      font-weight: bold;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .amalgam-info {
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      z-index: 1000;
+      background: rgba(255,255,255,0.95);
+      padding: 15px;
+      border-radius: 8px;
+      max-width: 300px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .amalgam-info h3 { margin: 0 0 10px 0; color: #2c3e50; }
+    .amalgam-info p { margin: 5px 0; font-size: 12px; }
+
+    .map-legend {
+      position: absolute;
+      bottom: 30px;
+      left: 10px;
+      z-index: 1000;
+      background: rgba(255,255,255,0.95);
+      padding: 10px 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .map-legend h4 { margin: 0 0 8px 0; font-size: 14px; }
+    .map-legend div { font-size: 12px; margin: 4px 0; display: flex; align-items: center; }
+    .legend-marker {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-right: 8px;
+      border: 2px solid white;
+      box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    }
+
+    .marker-type {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-size: 10px;
+      margin-top: 4px;
+    }
+    .marker-type.real-world { background: ${realColor}; color: white; }
+    .marker-type.fictional { background: ${fictionColor}; color: white; }
+    .marker-type.hidden { background: ${hiddenColor}; color: white; }
+
+    .leaflet-popup-content { min-width: 150px; }
+  </style>
+</head>
+<body>
+  <div class="map-title">${this.escapeXML(title)}</div>
+  ${infoBoxHTML}
+  ${legendHTML}
+  <div id="map"></div>
+  <script>
+    var map = L.map('map').setView([${centerLat}, ${centerLon}], 12);
+
+    // Base map layers
+    var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 19
+    });
+
+    var satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri',
+      maxZoom: 19
+    });
+
+    var baseMaps = {
+      "Street Map": osmLayer,
+      "Satellite": satelliteLayer
+    };
+
+    osmLayer.addTo(map);
+
+    ${layersJS.join('\n    ')}
+
+    ${layerControlJS}
+
+    ${map.config.realWorldBounds ? `
+    map.fitBounds([
+      [${map.config.realWorldBounds.south}, ${map.config.realWorldBounds.west}],
+      [${map.config.realWorldBounds.north}, ${map.config.realWorldBounds.east}]
+    ]);
+    ` : ''}
+  </script>
+</body>
+</html>`;
+  }
+
+  /**
+   * Add a fictional overlay point to a real-world map
+   */
+  addFictionalOverlayPoint(
+    mapId: string,
+    lat: number,
+    lon: number,
+    data: {
+      label: string;
+      type: PointType;
+      description?: string;
+      realWorldName?: string;
+      isFictional?: boolean;
+      isHidden?: boolean;
+      mundanePerception?: string;
+      accessRequirements?: string[];
+    },
+    layerId: string = 'default'
+  ): MapPoint | null {
+    const coords = this.realWorldToPixel(mapId, lat, lon);
+    if (!coords) return null;
+
+    return this.addPoint(mapId, {
+      x: coords.x,
+      y: coords.y,
+      label: data.label,
+      type: data.type,
+      metadata: {
+        description: data.description,
+        realWorldName: data.realWorldName,
+        fictional: data.isFictional ?? true,
+        hidden: data.isHidden ?? false,
+        realWorld: false,
+        mundanePerception: data.mundanePerception,
+        accessRequirements: data.accessRequirements
+      }
+    }, layerId);
+  }
+
+  /**
+   * Add a real-world reference point to a fictional overlay map
+   */
+  addRealWorldReferencePoint(
+    mapId: string,
+    lat: number,
+    lon: number,
+    data: {
+      label: string;
+      type: PointType;
+      description?: string;
+      fictionalSignificance?: string;
+    },
+    layerId: string = 'default'
+  ): MapPoint | null {
+    const coords = this.realWorldToPixel(mapId, lat, lon);
+    if (!coords) return null;
+
+    return this.addPoint(mapId, {
+      x: coords.x,
+      y: coords.y,
+      label: data.label,
+      type: data.type,
+      metadata: {
+        description: data.description,
+        fictional: false,
+        hidden: false,
+        realWorld: true,
+        fictionalSignificance: data.fictionalSignificance
+      }
+    }, layerId);
+  }
+
+  /**
+   * Create an amalgam location layer for mixing real and fictional elements
+   */
+  createAmalgamLayer(
+    mapId: string,
+    name: string,
+    layerType: 'fictional' | 'real_reference' | 'hidden' | 'mixed'
+  ): MapLayer {
+    const layer = this.addLayer(mapId, name);
+
+    // Store layer type in map metadata
+    const map = this.maps.get(mapId);
+    if (map) {
+      if (!map.metadata.amalgamLayers) {
+        map.metadata.amalgamLayers = {};
+      }
+      (map.metadata.amalgamLayers as Record<string, string>)[layer.id] = layerType;
+    }
+
+    return layer;
+  }
 }
 
 export default MapVisualizer;
