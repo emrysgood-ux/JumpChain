@@ -1052,43 +1052,71 @@ export class MillenniumPlanner {
 
     for (const era of plan.eras) {
       // Create segments for each arc in the era
-      for (const arc of era.arcs) {
-        for (const event of arc.keyEvents) {
-          segments.push({
-            id: uuidv4(),
-            type: event.importance === 'pivotal' ? 'crucial' : event.importance === 'major' ? 'major' : 'standard',
-            eraId: era.id,
-            arcId: arc.id,
-            eventId: event.id,
-            year: event.year,
-            description: event.description,
-            estimatedWords: plan.generationConfig.detailLevel[
-              event.importance === 'pivotal' ? 'major' :
-              event.importance === 'major' ? 'moderate' : 'minor'
-            ],
-            dependencies: event.foreshadowedBy || [],
-            validates: event.foreshadows || [],
-            characters: event.participants,
-            priority: event.importance === 'pivotal' ? 1 : event.importance === 'major' ? 2 : 3,
-          });
+      if (era.arcs.length > 0) {
+        for (const arc of era.arcs) {
+          for (const event of arc.keyEvents) {
+            segments.push({
+              id: uuidv4(),
+              type: event.importance === 'pivotal' ? 'crucial' : event.importance === 'major' ? 'major' : 'standard',
+              eraId: era.id,
+              arcId: arc.id,
+              eventId: event.id,
+              year: event.year,
+              description: event.description,
+              estimatedWords: plan.generationConfig.detailLevel[
+                event.importance === 'pivotal' ? 'major' :
+                event.importance === 'major' ? 'moderate' : 'minor'
+              ],
+              dependencies: event.foreshadowedBy || [],
+              validates: event.foreshadows || [],
+              characters: event.participants,
+              priority: event.importance === 'pivotal' ? 1 : event.importance === 'major' ? 2 : 3,
+            });
+          }
         }
-      }
 
-      // Add transitions between arcs
-      if (era.arcs.length > 1) {
-        for (let i = 1; i < era.arcs.length; i++) {
+        // Add transitions between arcs
+        if (era.arcs.length > 1) {
+          for (let i = 1; i < era.arcs.length; i++) {
+            segments.push({
+              id: uuidv4(),
+              type: 'transition',
+              eraId: era.id,
+              arcId: era.arcs[i].id,
+              year: era.arcs[i].startYear,
+              description: `Transition from ${era.arcs[i-1].name} to ${era.arcs[i].name}`,
+              estimatedWords: 5000,
+              dependencies: [era.arcs[i-1].id],
+              validates: [],
+              characters: [],
+              priority: 2,
+            });
+          }
+        }
+      } else {
+        // Generate default segments for eras without explicit arcs
+        // Create segments at key points: start, middle, and end of era
+        const eraLength = era.endYear - era.startYear;
+        const segmentInterval = Math.max(10, Math.floor(eraLength / 5)); // ~5 segments per era minimum
+
+        for (let year = era.startYear; year < era.endYear; year += segmentInterval) {
+          const isStart = year === era.startYear;
+          const isEnd = year + segmentInterval >= era.endYear;
+
           segments.push({
             id: uuidv4(),
-            type: 'transition',
+            type: isStart || isEnd ? 'major' : 'standard',
             eraId: era.id,
-            arcId: era.arcs[i].id,
-            year: era.arcs[i].startYear,
-            description: `Transition from ${era.arcs[i-1].name} to ${era.arcs[i].name}`,
-            estimatedWords: 5000,
-            dependencies: [era.arcs[i-1].id],
+            year,
+            description: isStart ? `${era.name} begins - establishing the era` :
+                         isEnd ? `${era.name} concludes - era transitions` :
+                         `${era.name} continues - year ${year} events`,
+            estimatedWords: isStart || isEnd ? plan.generationConfig.detailLevel.major :
+                            plan.generationConfig.detailLevel.moderate,
+            dependencies: [],
             validates: [],
-            characters: [],
-            priority: 2,
+            characters: era.prominentCharacters || [],
+            priority: isStart ? 1 : isEnd ? 2 : 3,
           });
         }
       }

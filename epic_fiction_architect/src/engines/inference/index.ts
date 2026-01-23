@@ -1104,24 +1104,54 @@ export class InferenceRuleEngine {
   }
 
   /**
+   * Predicates that represent exclusive states (only one value at a time)
+   * Other predicates like "visited", "knows", "has_skill" can have multiple values
+   */
+  private exclusivePredicates = new Set([
+    'status',
+    'alive',
+    'dead',
+    'current_location',
+    'current_status',
+    'age',
+    'is_alive',
+    'is_dead',
+    'species',
+    'gender',
+    'birth_year',
+    'death_year',
+  ]);
+
+  /**
    * Detect conflicts between facts
    */
   private detectConflicts(): void {
     this.conflicts = [];
+    const seenPairs = new Set<string>();
 
     // Check for contradictory facts
     for (const fact of this.facts.values()) {
-      // Check for negation conflicts (e.g., "is alive" vs "is dead")
+      // Only check exclusive predicates for same-predicate conflicts
+      if (!this.exclusivePredicates.has(fact.predicate)) {
+        continue;
+      }
+
       const potentialConflicts = this.queryFacts({
         subject: fact.subject,
+        predicate: fact.predicate,
       });
 
       for (const other of potentialConflicts) {
         if (other.id === fact.id) continue;
 
-        // Same predicate, different object (potential conflict)
-        if (other.predicate === fact.predicate && other.object !== fact.object) {
-          // Check if temporally overlapping
+        // Create a canonical pair ID to avoid duplicate conflict reports
+        const pairId = [fact.id, other.id].sort().join('|');
+        if (seenPairs.has(pairId)) continue;
+        seenPairs.add(pairId);
+
+        // Same exclusive predicate, different object = conflict
+        if (other.object !== fact.object) {
+          // Check if temporally overlapping (with strict bounds)
           if (this.temporalOverlap(fact, other)) {
             this.conflicts.push({
               id: uuidv4(),
@@ -1131,15 +1161,42 @@ export class InferenceRuleEngine {
             });
           }
         }
+      }
+    }
 
-        // Status contradictions
-        if (fact.predicate === 'status' && other.predicate === 'status') {
-          if (this.temporalOverlap(fact, other) && fact.object !== other.object) {
+    // Check for logical contradictions (alive vs dead)
+    this.detectLogicalContradictions();
+  }
+
+  /**
+   * Detect logical contradictions like "is alive" and "is dead"
+   */
+  private detectLogicalContradictions(): void {
+    const contradictoryPairs = [
+      ['is_alive', 'is_dead'],
+      ['alive', 'dead'],
+    ];
+
+    const seenPairs = new Set<string>();
+
+    for (const [predA, predB] of contradictoryPairs) {
+      const factsA = this.queryFacts({ predicate: predA });
+      const factsB = this.queryFacts({ predicate: predB });
+
+      for (const factA of factsA) {
+        for (const factB of factsB) {
+          if (factA.subject !== factB.subject) continue;
+
+          const pairId = [factA.id, factB.id].sort().join('|');
+          if (seenPairs.has(pairId)) continue;
+          seenPairs.add(pairId);
+
+          if (this.temporalOverlap(factA, factB)) {
             this.conflicts.push({
               id: uuidv4(),
               type: 'contradiction',
-              description: `${fact.subject} has conflicting status: "${fact.object}" vs "${other.object}"`,
-              involvedFacts: [fact.id, other.id],
+              description: `${factA.subject} cannot be both ${predA} and ${predB}`,
+              involvedFacts: [factA.id, factB.id],
             });
           }
         }
@@ -1149,6 +1206,7 @@ export class InferenceRuleEngine {
 
   /**
    * Check if two facts have temporal overlap
+   * Uses exclusive upper bounds to avoid flagging adjacent intervals
    */
   private temporalOverlap(a: InferenceFact, b: InferenceFact): boolean {
     // If neither has temporal bounds, assume overlap
@@ -1162,7 +1220,9 @@ export class InferenceRuleEngine {
     const bFrom = b.validFrom ?? -Infinity;
     const bUntil = b.validUntil ?? Infinity;
 
-    return aFrom <= bUntil && bFrom <= aUntil;
+    // Use strict inequality for upper bounds to avoid flagging adjacent intervals
+    // e.g., [0,10) and [10,20) should not overlap
+    return aFrom < bUntil && bFrom < aUntil;
   }
 
   // ==========================================================================

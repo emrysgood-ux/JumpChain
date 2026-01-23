@@ -7,11 +7,11 @@
  * Philosophy: "Build for impossible requests so reasonable ones are a cakewalk."
  */
 
-import { CanonModuleFramework, CanonEntryType, CanonicityLevel, createCanonModuleTemplate, createCharacterTemplate, createRuleTemplate } from '../canon';
-import { InferenceRuleEngine, InferenceCategory } from '../inference';
-import { GenerationLoopEngine, createGenerationRequest, createMockAIGenerate, createMockAIFix, QualityCategory } from '../generation-loop';
-import { MillenniumPlanner, EraTonet, ArcType, ResolutionType, EventType, MillenniumThreadType } from '../millennium-planner';
-import { ContinuousGenerationEngine, createContinuousGenerator, createTestConfig, SessionStatus } from '../continuous-generation';
+import { CanonModuleFramework, CanonEntryType, CanonicityLevel, createCanonModuleTemplate, createCharacterTemplate, createRuleTemplate } from '../src/engines/canon';
+import { InferenceRuleEngine, InferenceCategory } from '../src/engines/inference';
+import { GenerationLoopEngine, createGenerationRequest, createMockAIGenerate, createMockAIFix, QualityCategory } from '../src/engines/generation-loop';
+import { MillenniumPlanner, EraTonet, ArcType, ResolutionType, EventType, MillenniumThreadType } from '../src/engines/millennium-planner';
+import { ContinuousGenerationEngine, createContinuousGenerator, createTestConfig, SessionStatus } from '../src/engines/continuous-generation';
 
 // ============================================================================
 // CANON MODULE FRAMEWORK TESTS

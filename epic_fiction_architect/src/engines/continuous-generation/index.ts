@@ -646,7 +646,16 @@ export class ContinuousGenerationEngine {
     priority: number;
   }> } {
     // This would normally come from MillenniumPlanner
-    const segments = [];
+    const segments: Array<{
+      id: string;
+      year: number;
+      eraId: string;
+      arcId: string;
+      description: string;
+      dependencies: string[];
+      estimatedWords: number;
+      priority: number;
+    }> = [];
     const years = 1000;
     const segmentsPerYear = 2;
 
@@ -674,7 +683,6 @@ export class ContinuousGenerationEngine {
 
   private async generateAll(): Promise<void> {
     let segmentsCompleted = 0;
-    const totalSegments = this.taskQueue.length;
 
     while (this.taskQueue.length > 0 && !this.cancelled) {
       // Check pause
@@ -896,8 +904,8 @@ export class ContinuousGenerationEngine {
    * Validate generated content
    */
   private async validateContent(
-    content: string,
-    task: SegmentTask,
+    _content: string,
+    _task: SegmentTask,
     _context: unknown
   ): Promise<{
     quality: GeneratedSegment['quality'];
@@ -937,6 +945,7 @@ export class ContinuousGenerationEngine {
   // ==========================================================================
 
   private async createCheckpoint(): Promise<SessionCheckpoint> {
+    const previousStatus = this.status;
     this.status = SessionStatus.CHECKPOINTING;
 
     const completedTasks = Array.from(this.tasks.values()).filter(t => t.status === 'completed');
@@ -979,7 +988,8 @@ export class ContinuousGenerationEngine {
       this.config.callbacks.onCheckpoint(checkpoint);
     }
 
-    this.status = SessionStatus.GENERATING;
+    // Restore previous status (unless it was CHECKPOINTING itself)
+    this.status = previousStatus !== SessionStatus.CHECKPOINTING ? previousStatus : SessionStatus.GENERATING;
     return checkpoint;
   }
 
@@ -991,14 +1001,17 @@ export class ContinuousGenerationEngine {
     // Create final checkpoint
     await this.createCheckpoint();
 
-    // Build result
-    return this.buildResult(
-      !this.cancelled &&
-      this.errors.filter(e => e.severity === 'fatal').length === 0
-    );
+    // Determine final status
+    const finalStatus = this.cancelled ? SessionStatus.CANCELLED :
+                        this.errors.filter(e => e.severity === 'fatal').length > 0 ? SessionStatus.FAILED :
+                        SessionStatus.COMPLETED;
+
+    // Build result with final status
+    const success = !this.cancelled && this.errors.filter(e => e.severity === 'fatal').length === 0;
+    return this.buildResult(success, finalStatus);
   }
 
-  private buildResult(success: boolean): SessionResult {
+  private buildResult(success: boolean, overrideStatus?: SessionStatus): SessionResult {
     const segments = Array.from(this.segments.values());
     const endTime = new Date();
 
@@ -1016,7 +1029,7 @@ export class ContinuousGenerationEngine {
       sessionId: this.config.sessionId,
       planId: this.config.planId,
       success,
-      status: this.status,
+      status: overrideStatus ?? this.status,
       segments,
       totalWords: segments.reduce((sum, s) => sum + s.wordCount, 0),
       totalYearsCovered: segments.length > 0

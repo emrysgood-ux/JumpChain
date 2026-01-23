@@ -757,7 +757,7 @@ export class GenerationLoopEngine {
   /**
    * Calculate gate score based on violations
    */
-  private calculateGateScore(gate: QualityGate, violations: ValidationViolation[]): number {
+  private calculateGateScore(_gate: QualityGate, violations: ValidationViolation[]): number {
     let score = 100;
 
     for (const violation of violations) {
@@ -884,7 +884,7 @@ export class GenerationLoopEngine {
     return violations;
   }
 
-  private checkCharacterVoice(content: string, context: ValidationContext): ValidationViolation[] {
+  private checkCharacterVoice(content: string, _context: ValidationContext): ValidationViolation[] {
     const violations: ValidationViolation[] = [];
 
     // This would integrate with voice profiler in full implementation
@@ -915,7 +915,7 @@ export class GenerationLoopEngine {
     return violations;
   }
 
-  private checkTimeline(content: string, context: ValidationContext): ValidationViolation[] {
+  private checkTimeline(content: string, _context: ValidationContext): ValidationViolation[] {
     const violations: ValidationViolation[] = [];
 
     // Check for temporal contradictions
