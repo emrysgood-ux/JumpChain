@@ -13,16 +13,16 @@
 // Tests for Amalgam Systems - uses jest
 // Note: Run with npm test
 
-import { ImportEngine, ImportFormat, ImportContentType, MergeStrategy } from '../src/engines/import/index';
-import { VersionEngine, VersionableType, ChangeType, BranchStatus } from '../src/engines/version/index';
+import { ImportEngine, ImportFormat, ImportContentType, MergeStrategy } from '../../src/engines/import/index';
+import { VersionEngine, VersionableType, ChangeType, BranchStatus } from '../../src/engines/version/index';
 import {
   RealityFictionBridge,
   RealityRelationType,
   RealityCorrespondence,
   FictionalModificationType,
   FictionalVisibility
-} from '../src/engines/worldbuilding/reality-fiction-bridge';
-import { MapVisualizer } from '../src/engines/maps/map-visualizer';
+} from '../../src/engines/worldbuilding/reality-fiction-bridge';
+import { MapVisualizer } from '../../src/engines/maps/map-visualizer';
 
 // ============================================================================
 // IMPORT ENGINE TESTS
