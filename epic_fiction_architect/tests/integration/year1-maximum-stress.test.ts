@@ -126,7 +126,7 @@ describe('Year 1 Maximum Stress Test', () => {
             participants: ['Sheldon Cooper', 'Ayeka Jurai', 'Sasami Jurai'],
             consequences: [
               'Ayeka sees Sheldon as a challenge to her worldview',
-              'Sasami becomes fond of Sheldon's teaching style',
+              "Sasami becomes fond of Sheldon's teaching style",
               'Political implications begin as word of the "strange visitor" reaches Jurai',
             ],
           },
@@ -176,13 +176,13 @@ describe('Year 1 Maximum Stress Test', () => {
             startState: 'Denial, arrogance, rigid worldview, emotionally guarded',
             endState: 'Beginning to accept new reality, first cracks in emotional armor',
             keyMoments: ['Crash landing', 'Washu debate', 'First power manifestation'],
-            internalConflict: 'His entire identity was built on being the smartest person in any room—what happens when that's no longer true?',
+            internalConflict: "His entire identity was built on being the smartest person in any room—what happens when that's no longer true?",
           },
           {
             characterId: 'ryoko',
             arcType: 'flat',
             startState: 'Bored, competitive with Ayeka, devoted to Tenchi',
-            endState: 'Intrigued by the newcomer's lack of fear toward her',
+            endState: "Intrigued by the newcomer's lack of fear toward her",
             keyMoments: ['Finding Sheldon in the crater', 'Realizing he genuinely doesn\'t find her intimidating'],
             internalConflict: 'Why does his indifference bother her more than fear would?',
           },
@@ -192,14 +192,14 @@ describe('Year 1 Maximum Stress Test', () => {
             id: 'subplot-sasami-student',
             name: 'The Unlikely Teacher',
             type: 'personal',
-            description: 'Sasami becomes Sheldon\'s first true student, approaching learning with enthusiasm that reminds him of his younger self',
+            description: "Sasami becomes Sheldon\'s first true student, approaching learning with enthusiasm that reminds him of his younger self",
             resolution: 'Sets up a long-term mentorship that will span decades',
           },
           {
             id: 'subplot-gp-investigation',
             name: 'The Galaxy Police Files',
             type: 'mystery',
-            description: 'Kiyone begins her investigation into Sheldon\'s true nature',
+            description: "Kiyone begins her investigation into Sheldon\'s true nature",
             resolution: 'Investigation ongoing—becomes a recurring subplot',
           },
         ],
@@ -246,7 +246,7 @@ describe('Year 1 Maximum Stress Test', () => {
             consequences: [
               'Sheldon is thrust into Juraian politics',
               'Washu sees an opportunity to gather data on his abilities',
-              'Ayeka is conflicted about her family\'s treatment of her household guest',
+              "Ayeka is conflicted about her family\'s treatment of her household guest",
             ],
           },
           {
@@ -314,7 +314,7 @@ describe('Year 1 Maximum Stress Test', () => {
             importance: 'pivotal',
             participants: ['Sheldon Cooper', 'Emperor Azusa', 'Unknown Assassins'],
             consequences: [
-              'Sheldon saves the Emperor\'s life',
+              "Sheldon saves the Emperor\'s life",
               'A new enemy faction is revealed',
               'Azusa offers Sheldon a position at court (declined)',
               'Political debt is established that will pay off later',
@@ -354,7 +354,7 @@ describe('Year 1 Maximum Stress Test', () => {
             id: 'subplot-washu-mentor',
             name: 'The Teacher and the Student',
             type: 'personal',
-            description: 'Washu's training of Sheldon forces both to confront their assumptions about intelligence and worth',
+            description: "Washu's training of Sheldon forces both to confront their assumptions about intelligence and worth",
             resolution: 'A mentorship based on mutual respect emerges',
           },
           {
@@ -367,12 +367,12 @@ describe('Year 1 Maximum Stress Test', () => {
         ],
         promises: [
           'The assassins will return',
-          'Sheldon\'s debt to the Emperor will be called upon',
+          "Sheldon\'s debt to the Emperor will be called upon",
           'Kenshi will become an important ally',
         ],
         payoffs: [
-          'Sheldon\'s power awakening from Arc 1 pays off in combat',
-          'Washu\'s interest in his abilities is justified by his growth',
+          "Sheldon\'s power awakening from Arc 1 pays off in combat",
+          "Washu\'s interest in his abilities is justified by his growth",
         ],
         targetWordCount: 200000,
       });
@@ -407,12 +407,12 @@ describe('Year 1 Maximum Stress Test', () => {
             consequences: [
               'Earth faces an existential threat',
               'Washu must decide whether to reveal what she knows',
-              'Sheldon\'s connection to the rift is undeniable',
+              "Sheldon\'s connection to the rift is undeniable",
             ],
           },
           {
             id: 'washu-revelation',
-            name: 'The Scientist\'s Confession',
+            name: "The Scientist\'s Confession",
             description: `Washu reveals to Sheldon what she deduced months ago: he died in another
             universe, was chosen by a ROB, and sent here through a process that created dimensional
             stress. The rift is a consequence of his arrival—a wound in reality that never healed.
@@ -507,14 +507,14 @@ describe('Year 1 Maximum Stress Test', () => {
             arcType: 'growth',
             startState: 'In denial about his death and rebirth, emotionally guarded',
             endState: 'Fully accepting his new existence, emotionally opening',
-            keyMoments: ['Washu\'s revelation', 'Sasami\'s comfort', 'Choosing to stay'],
+            keyMoments: ["Washu\'s revelation", "Sasami\'s comfort", 'Choosing to stay'],
             internalConflict: 'What makes him "Sheldon Cooper" if the original is dead?',
           },
           {
             characterId: 'washu',
             arcType: 'growth',
             startState: 'Detached observer, keeper of secrets',
-            endState: 'Emotional investment in Sheldon\'s wellbeing, taking responsibility',
+            endState: "Emotional investment in Sheldon\'s wellbeing, taking responsibility",
             keyMoments: ['Deciding to reveal the truth', 'Helping him through the crisis'],
             internalConflict: 'Her scientific detachment versus her growing attachment',
           },
@@ -524,7 +524,7 @@ describe('Year 1 Maximum Stress Test', () => {
             id: 'subplot-sasami-wisdom',
             name: 'The Simple Truth',
             type: 'personal',
-            description: 'Sasami\'s childlike wisdom cuts through Sheldon\'s intellectual defense mechanisms',
+            description: "Sasami's childlike wisdom cuts through Sheldon's intellectual defense mechanisms",
             resolution: 'Establishes Sasami as emotionally important to Sheldon',
           },
           {
@@ -541,8 +541,8 @@ describe('Year 1 Maximum Stress Test', () => {
           'The household bonds will strengthen',
         ],
         payoffs: [
-          'Washu\'s early secrecy is explained',
-          'Sheldon\'s denial arc reaches resolution',
+          "Washu\'s early secrecy is explained",
+          "Sheldon\'s denial arc reaches resolution",
           'The dimensional residue subplot is resolved',
         ],
         targetWordCount: 175000,
@@ -566,17 +566,17 @@ describe('Year 1 Maximum Stress Test', () => {
         keyEvents: [
           {
             id: 'shadow-awakens',
-            name: 'The Shadow\'s Stirring',
+            name: "The Shadow\'s Stirring",
             description: `Ryoko begins experiencing nightmares—memories of her time under Kagato's
             control. But these aren't just dreams. A fragment of Kagato's consciousness, preserved
             in a hidden backup within Ryoko's gems, has been awakened by the dimensional disturbance.
-            It's weak but growing stronger, and it's noticed Sheldon's unusual power signature.`,
+            It"s weak but growing stronger, and it's noticed Sheldon"s unusual power signature.`,
             year: 0.77,
             eventType: EventType.DISCOVERY,
             importance: 'major',
             participants: ['Ryoko', 'Sheldon Cooper', 'Washu Hakubi'],
             consequences: [
-              'Ryoko\'s trauma resurfaces',
+              "Ryoko\'s trauma resurfaces",
               'A new threat is identified',
               'Sheldon becomes a target',
             ],
@@ -600,7 +600,7 @@ describe('Year 1 Maximum Stress Test', () => {
           },
           {
             id: 'ryoko-confession',
-            name: 'Ryoko\'s Guilt',
+            name: "Ryoko\'s Guilt",
             description: `Ryoko, horrified that her gems housed the threat, offers to leave—believing
             her presence endangers everyone. Sheldon, of all people, stops her. "Your past actions
             under control are no more your fault than my original death was mine. The logical response
@@ -689,8 +689,8 @@ describe('Year 1 Maximum Stress Test', () => {
             arcType: 'growth',
             startState: 'Haunted by past, guilty about threat she carries',
             endState: 'Finding closure, accepting support, respecting Sheldon',
-            keyMoments: ['Nightmares return', 'Sheldon\'s defense', 'Final battle'],
-            internalConflict: 'Can she escape Kagato\'s shadow?',
+            keyMoments: ['Nightmares return', "Sheldon\'s defense", 'Final battle'],
+            internalConflict: "Can she escape Kagato\'s shadow?",
           },
         ],
         subplots: [
@@ -710,13 +710,13 @@ describe('Year 1 Maximum Stress Test', () => {
           },
         ],
         promises: [
-          'Kagato\'s complete resurrection may still be attempted',
-          'Sheldon\'s role in future battles is established',
+          "Kagato\'s complete resurrection may still be attempted",
+          "Sheldon\'s role in future battles is established",
           'The household bonds will be tested further',
         ],
         payoffs: [
           'Tournament allies return',
-          'Sheldon\'s dimensional instability becomes useful',
+          "Sheldon\'s dimensional instability becomes useful",
           'All character relationships reach new levels',
         ],
         targetWordCount: 200000,
@@ -741,69 +741,17 @@ describe('Year 1 Maximum Stress Test', () => {
       console.log(`Total Target Word Count: ${totalYear1Words.toLocaleString()} words`);
     });
 
-    it('should add comprehensive prophecies for Year 1', () => {
-      // Prophecy 1: The Stranger's Coming
-      const prophecy1 = planner.addProphecy(plan.id, {
-        name: 'The Stranger\'s Coming',
-        text: `"From beyond the veil of death, a mind of light shall fall.
-        Neither god nor mortal, he carries the weight of broken worlds.
-        Where he walks, the walls between realities thin.
-        In his denial lies destruction; in his acceptance, salvation.
-        The tree of Jurai shall know him. The pirate queen shall trust him.
-        The architect goddess shall teach him. And in the end,
-        he shall either mend the breach—or become it."`,
-        spokenYear: -1000, // Ancient Juraian prophecy
-        fulfillmentYear: 0.72, // Fulfilled when Sheldon closes the rift
-        components: [
-          { description: 'Arrival from beyond death', fulfilled: true, fulfilledYear: 0, fulfilledBy: 'Sheldon Cooper' },
-          { description: 'Walls between realities thin', fulfilled: true, fulfilledYear: 0.52, fulfilledBy: 'Dimensional Rift' },
-          { description: 'Known by tree of Jurai', fulfilled: true, fulfilledYear: 0.26, fulfilledBy: 'Imperial Summons' },
-          { description: 'Trusted by pirate queen', fulfilled: true, fulfilledYear: 0.85, fulfilledBy: 'Ryoko Confession' },
-          { description: 'Taught by architect goddess', fulfilled: true, fulfilledYear: 0.02, fulfilledBy: 'Washu Mentorship' },
-          { description: 'Mends the breach', fulfilled: true, fulfilledYear: 0.72, fulfilledBy: 'Closing the Rift' },
-        ],
-        fulfillmentType: 'literal',
-        involvedCharacters: ['Sheldon Cooper', 'Washu Hakubi', 'Ryoko', 'Emperor Azusa'],
-        foreshadowing: [
-          { year: 0.05, hint: 'Ayeka recognizes echoes of ancient texts when hearing Sheldon speak', subtlety: 'subtle' },
-          { year: 0.26, hint: 'Funaho pauses, thoughtful, when first meeting Sheldon', subtlety: 'hidden' },
-          { year: 0.35, hint: 'Tournament commentators note "prophecy-like" circumstances of his survival', subtlety: 'moderate' },
-        ],
-      });
+    it('should have NO prophecies in Book 1 (Year 1)', () => {
+      // IMPORTANT: Book 1 takes place in a single universe (Tenchi Muyo)
+      // and Sheldon has NO prophecy attached to his name in Book 1.
+      // Each chapter = 1 month, totaling 12,008 chapters for the full 1000-year saga.
+      // Prophecies, if any, would only appear in later books.
 
-      // Prophecy 2: Long-term prophecy planted in Year 1
-      const prophecy2 = planner.addProphecy(plan.id, {
-        name: 'The Thousand-Year Shadow',
-        text: `"When the light-mind reaches the cosmic shore,
-        a shadow from before-time shall stir once more.
-        What Kagato began, another shall complete—
-        unless the architect and the theorist meet
-        in the place where dimensions fold,
-        to craft a weapon against the cold."`,
-        spokenYear: 0.77, // Discovered in Kagato's data
-        fulfillmentYear: 850, // Won't be fulfilled until late in the saga
-        components: [
-          { description: 'Light-mind reaches cosmic shore', fulfilled: false },
-          { description: 'Shadow from before-time stirs', fulfilled: false },
-          { description: 'Architect and theorist meet in folded space', fulfilled: false },
-          { description: 'Weapon against the cold is crafted', fulfilled: false },
-        ],
-        fulfillmentType: 'symbolic',
-        involvedCharacters: ['Sheldon Cooper', 'Washu Hakubi', 'Unknown Future Antagonist'],
-        foreshadowing: [
-          { year: 0.77, hint: 'Encrypted data found in Kagato fragment references "before-time"', subtlety: 'subtle' },
-          { year: 0.95, hint: 'Washu notes unusual readings during final battle', subtlety: 'hidden' },
-        ],
-      });
+      expect(plan.prophecies.length).toBe(0);
 
-      expect(plan.prophecies.length).toBe(2);
-      expect(prophecy1.components.filter(c => c.fulfilled).length).toBe(6);
-      expect(prophecy2.components.filter(c => c.fulfilled).length).toBe(0);
-
-      console.log('\n=== PROPHECY SUMMARY ===');
-      console.log(`Total Prophecies: ${plan.prophecies.length}`);
-      console.log(`Year 1 Fulfilled: ${prophecy1.name}`);
-      console.log(`Long-term Setup: ${prophecy2.name} (fulfills Year ${prophecy2.fulfillmentYear})`);
+      console.log('\n=== BOOK 1 PROPHECY VERIFICATION ===');
+      console.log('Prophecies in Book 1: 0 (correct - no prophecies for Sheldon in Book 1)');
+      console.log('Book 1 structure: Single universe (Tenchi Muyo), 12 chapters (1 per month)');
     });
 
     it('should add millennium threads seeded in Year 1', () => {
@@ -896,7 +844,7 @@ describe('Year 1 Maximum Stress Test', () => {
       // Crucible 1: The Crash
       planner.addCrucibleMoment(plan.id, {
         name: 'The Arrival',
-        description: 'Sheldon\'s crash landing in the Tenchi universe marks the beginning of everything',
+        description: "Sheldon\'s crash landing in the Tenchi universe marks the beginning of everything",
         year: 0,
         eraId: year1Era.id,
         significance: 'The moment that changes multiple timelines and sets the 1000-year saga in motion',
@@ -1315,7 +1263,7 @@ describe('Year 1 Maximum Stress Test', () => {
       }
 
       expect(validation.coverage.arcsPlanned).toBe(4);
-      expect(validation.coverage.prophecies).toBe(2);
+      expect(validation.coverage.prophecies).toBe(0); // Book 1 has NO prophecies for Sheldon
       expect(validation.coverage.threads).toBe(3);
     });
 
@@ -1494,7 +1442,7 @@ describe('Year 1 Maximum Stress Test', () => {
       expect(stats.totalArcs).toBe(4);
       expect(stats.totalKeyEvents).toBeGreaterThanOrEqual(20);
       expect(stats.totalTargetWords).toBeGreaterThanOrEqual(700000);
-      expect(stats.prophecies).toBe(2);
+      expect(stats.prophecies).toBe(0); // Book 1 has NO prophecies for Sheldon
       expect(stats.threads).toBe(3);
     });
   });
