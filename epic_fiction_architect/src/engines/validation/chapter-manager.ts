@@ -1,8 +1,15 @@
 /**
  * Chapter Management System
  *
- * Manages 12,000+ chapters with comprehensive metadata tracking,
+ * Manages 12,008 chapters with comprehensive metadata tracking,
  * cross-referencing, and error prevention for massive narratives.
+ *
+ * BOOK 1 STRUCTURE:
+ * - Book 1 spans the ENTIRE 1000-year saga (no other books)
+ * - Each chapter = 1 month
+ * - 12,008 chapters total = 1000 years + 8 months
+ * - Single universe (Tenchi Muyo) - no JumpChain hopping in Book 1
+ * - Sheldon has NO prophecy in Book 1
  */
 
 import { v4 as uuidv4 } from 'uuid';
@@ -319,6 +326,75 @@ export class ChapterManager {
   }
 
   // ==========================================================================
+  // CHAPTER-TO-TIMELINE UTILITIES
+  // ==========================================================================
+
+  /**
+   * Convert chapter number to timeline position.
+   * Each chapter = 1 month. Chapter 1 = Year 0, Month 1.
+   *
+   * Book 1 Structure:
+   * - 12,008 chapters total = 1000 years + 8 months
+   * - Chapter 1-12 = Year 0 (months 1-12)
+   * - Chapter 13-24 = Year 1 (months 1-12)
+   * - Chapter 12001-12008 = Year 1000 (months 1-8)
+   */
+  static chapterToTimeline(chapterNumber: number): TimelinePosition {
+    // Chapter 1 = Year 0, Month 1
+    const zeroIndexedChapter = chapterNumber - 1;
+    const year = Math.floor(zeroIndexedChapter / 12);
+    const month = (zeroIndexedChapter % 12) + 1; // 1-12
+
+    return {
+      year,
+      month,
+      era: ChapterManager.getEraForYear(year)
+    };
+  }
+
+  /**
+   * Convert timeline position back to chapter number.
+   */
+  static timelineToChapter(year: number, month: number = 1): number {
+    return (year * 12) + month;
+  }
+
+  /**
+   * Get era name for a given year.
+   * Book 1 spans ~11 eras of ~91 years each (1000 years / 11 eras).
+   */
+  static getEraForYear(year: number): string {
+    if (year < 91) return 'Era of Arrival';
+    if (year < 182) return 'Era of Foundation';
+    if (year < 273) return 'Era of Expansion';
+    if (year < 364) return 'Era of Conflict';
+    if (year < 455) return 'Era of Transformation';
+    if (year < 546) return 'Era of Discovery';
+    if (year < 637) return 'Era of Alliance';
+    if (year < 728) return 'Era of Challenge';
+    if (year < 819) return 'Era of Mastery';
+    if (year < 910) return 'Era of Legacy';
+    return 'Era of Culmination';
+  }
+
+  /**
+   * Get total chapters for a given number of years.
+   */
+  static yearsToChapters(years: number): number {
+    return years * 12;
+  }
+
+  /**
+   * Get total years (and remaining months) from chapter count.
+   */
+  static chaptersToYears(chapters: number): { years: number; months: number } {
+    return {
+      years: Math.floor(chapters / 12),
+      months: chapters % 12
+    };
+  }
+
+  // ==========================================================================
   // CHAPTER CRUD
   // ==========================================================================
 
@@ -441,7 +517,13 @@ export class ChapterManager {
   }
 
   /**
-   * Create all 12,008 chapters with basic structure
+   * Create all 12,008 chapters with basic structure for Book 1.
+   *
+   * BOOK 1 STRUCTURE:
+   * - Each chapter = 1 month (12 chapters per year)
+   * - 12,008 chapters = 1000 years + 8 months
+   * - Single universe (Tenchi Muyo) throughout
+   * - Volumes are organizational units (~100 chapters each, ~8.3 years)
    */
   initializeFullStory(chapterCount: number = 12008, volumeSize: number = 100): {
     chapters: Chapter[];
@@ -452,7 +534,7 @@ export class ChapterManager {
     const volumes: Volume[] = [];
     const arcs: StoryArc[] = [];
 
-    // Create volumes
+    // Create volumes (organizational units, ~8.3 years each at 100 chapters)
     const volumeCount = Math.ceil(chapterCount / volumeSize);
     for (let v = 0; v < volumeCount; v++) {
       const volumeChapters: number[] = [];
@@ -463,43 +545,66 @@ export class ChapterManager {
         volumeChapters.push(c);
       }
 
+      const startTimeline = ChapterManager.chapterToTimeline(startChapter);
+      const endTimeline = ChapterManager.chapterToTimeline(endChapter);
+
       const volume = this.createVolume({
         number: v + 1,
-        title: `Volume ${v + 1}`,
+        title: `Volume ${v + 1}: Years ${startTimeline.year}-${endTimeline.year}`,
         chapters: volumeChapters
       });
       volumes.push(volume);
     }
 
-    // Create chapters
+    // Create chapters with correct timeline (1 chapter = 1 month)
     for (let i = 1; i <= chapterCount; i++) {
       const volumeNumber = Math.ceil(i / volumeSize);
       const volume = volumes[volumeNumber - 1];
+      const timeline = ChapterManager.chapterToTimeline(i);
 
       const chapter = this.createChapter({
         number: i,
         title: `Chapter ${i}`,
         volumeId: volume?.id,
-        timelineStart: { year: Math.floor(i / 100) }, // Rough timeline
+        timelineStart: timeline, // 1 chapter = 1 month
         status: ChapterStatus.PLANNED
       });
       chapters.push(chapter);
     }
 
-    // Create major story arcs (every ~500 chapters)
-    const arcSize = 500;
-    const arcCount = Math.ceil(chapterCount / arcSize);
-    for (let a = 0; a < arcCount; a++) {
-      const startChapter = a * arcSize + 1;
-      const endChapter = Math.min((a + 1) * arcSize, chapterCount);
+    // Create major story arcs aligned with eras (~91 years = ~1092 chapters per era)
+    // Book 1 has 11 eras spanning 1000 years
+    const eraDefinitions = [
+      { name: 'Era of Arrival', startYear: 0, endYear: 90 },
+      { name: 'Era of Foundation', startYear: 91, endYear: 181 },
+      { name: 'Era of Expansion', startYear: 182, endYear: 272 },
+      { name: 'Era of Conflict', startYear: 273, endYear: 363 },
+      { name: 'Era of Transformation', startYear: 364, endYear: 454 },
+      { name: 'Era of Discovery', startYear: 455, endYear: 545 },
+      { name: 'Era of Alliance', startYear: 546, endYear: 636 },
+      { name: 'Era of Challenge', startYear: 637, endYear: 727 },
+      { name: 'Era of Mastery', startYear: 728, endYear: 818 },
+      { name: 'Era of Legacy', startYear: 819, endYear: 909 },
+      { name: 'Era of Culmination', startYear: 910, endYear: 1000 }
+    ];
+
+    for (const era of eraDefinitions) {
+      const startChapter = ChapterManager.timelineToChapter(era.startYear, 1);
+      const endChapter = Math.min(
+        ChapterManager.timelineToChapter(era.endYear, 12),
+        chapterCount
+      );
+
+      if (startChapter > chapterCount) break;
+
       const arcChapters: number[] = [];
       for (let c = startChapter; c <= endChapter; c++) {
         arcChapters.push(c);
       }
 
       const arc = this.createArc({
-        name: `Arc ${a + 1}`,
-        description: `Major story arc ${a + 1}`,
+        name: era.name,
+        description: `${era.name}: Years ${era.startYear}-${era.endYear} of the Tenchi Muyo saga`,
         type: 'major',
         chapters: arcChapters,
         startChapter,

@@ -526,36 +526,41 @@ Developed acute stress disorder and survivor's guilt. NOT a romantic interest.`,
   console.log('=== TEST 5: SERIES MANAGER ===\n');
 
   // Create series
+  // BOOK 1 STRUCTURE:
+  // - Book 1 = ENTIRE 1000-year saga (all 12,008 chapters)
+  // - Each chapter = 1 month (12 chapters per year)
+  // - Single universe (Tenchi Muyo) throughout Book 1
+  // - Sheldon has NO prophecy in Book 1
   const series = project.series.createSeries({
     title: 'Son of Cosmos',
-    subtitle: 'A JumpChain Story',
+    subtitle: 'The Complete Saga',
     author: project.metadata.author,
     genre: project.metadata.genre,
-    totalPlannedBooks: 50,
+    totalPlannedBooks: 1, // Book 1 IS the entire 1000-year saga
     totalPlannedWords: 300000000,
-    totalPlannedChapters: 12008,
+    totalPlannedChapters: 12008, // 1000 years + 8 months (12 chapters/year)
     premise: project.metadata.description,
     themes: ['Identity', 'Found Family', 'Purpose', 'Second Chances', 'Fish out of Water']
   });
 
   console.log(`✓ Series created: ${series.title}`);
 
-  // Add Book 1
+  // Add Book 1 - the COMPLETE 1000-year saga
   const book1 = project.series.addBook({
     seriesId: series.id,
     bookNumber: 1,
-    title: 'April Foundation',
-    subtitle: 'Year 1-2',
+    title: 'Son of Cosmos: The Complete Saga',
+    subtitle: 'A 1000-Year Journey in the Tenchi Muyo Universe',
     status: BookStatus.DRAFTING,
-    wordCountTarget: 500000,
+    wordCountTarget: 300000000, // ~25k words per chapter × 12,008 chapters
     wordCountActual: 0,
     chapterStart: 1,
-    chapterEnd: 50,
-    chapterCount: 50,
-    premise: 'Sheldon awakens in 1989 Japan and builds a new life at Masaki Shrine',
-    themes: ['Awakening', 'Belonging', 'Foundation'],
-    primaryArc: 'Sheldon\'s integration into Masaki household',
-    secondaryArcs: ['Katsuhito mentorship', 'Learning about new world'],
+    chapterEnd: 12008,
+    chapterCount: 12008, // 1 chapter = 1 month, 1000 years + 8 months
+    premise: 'Sheldon Cooper\'s 1000-year journey through the Tenchi Muyo universe, from awakening in 1989 Japan to the culmination of a millennium of growth',
+    themes: ['Awakening', 'Belonging', 'Foundation', 'Legacy', 'Transcendence'],
+    primaryArc: 'Sheldon\'s millennium-long journey of self-discovery and connection',
+    secondaryArcs: ['Found family across generations', 'Scientific mastery', 'Emotional growth'],
     openingHook: 'A man wakes in a field, remembering his own death'
   });
 

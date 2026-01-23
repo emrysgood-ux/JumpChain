@@ -18,6 +18,14 @@
  * - World state progression
  * - JumpChain integration (universe transitions)
  *
+ * BOOK 1 STRUCTURE (Sheldon Cooper saga):
+ * - Book 1 = ENTIRE 1000-year saga (all 12,008 chapters)
+ * - Each chapter = 1 month (12 chapters per year)
+ * - Single universe (Tenchi Muyo) throughout Book 1
+ * - Sheldon has NO prophecy in Book 1
+ * - 11 eras spanning ~91 years each
+ * - JumpChain universe hopping reserved for potential future books
+ *
  * @module engines/millennium-planner
  */
 
@@ -773,7 +781,7 @@ export class MillenniumPlanner {
         openingState: {},
         closingState: {},
         targetWordCount: Math.round(eraLength * plan.generationConfig.wordsPerYearAverage),
-        targetChapterCount: Math.round(eraLength * 2), // ~2 chapters per year
+        targetChapterCount: Math.round(eraLength * 12), // 12 chapters per year (1 chapter = 1 month)
       };
 
       eras.push(era);

@@ -35,16 +35,23 @@ describe('Year 1 Maximum Stress Test', () => {
   beforeAll(() => {
     planner = new MillenniumPlanner();
 
-    // Create a 1000-year JumpChain plan
+    // Create a 1000-year plan for Book 1
+    // BOOK 1 STRUCTURE:
+    // - Book 1 = ENTIRE 1000-year saga (all 12,008 chapters)
+    // - Each chapter = 1 month (12 chapters per year)
+    // - SINGLE UNIVERSE (Tenchi Muyo) - no JumpChain hopping in Book 1
+    // - Sheldon has NO prophecy in Book 1
     plan = planner.createPlan({
       name: 'Son of Cosmos: The Complete Saga',
-      description: `A 1000-year epic following Sheldon Cooper's journey through the multiverse
-      via JumpChain, from mortal physicist to cosmic entity. Year 1 begins in the Tenchi Muyo universe
-      where Sheldon crash-lands on Earth near the Masaki Shrine and must navigate alien politics,
-      romance, and the discovery that physics is far stranger than he ever theorized.`,
+      description: `A 1000-year epic following Sheldon Cooper's journey in the Tenchi Muyo universe.
+      Book 1 takes place entirely in a SINGLE UNIVERSE - the Tenchi Muyo setting.
+      Sheldon crash-lands on Earth near the Masaki Shrine and spends a millennium navigating alien
+      politics, romance, found family, and the discovery that physics is far stranger than he ever
+      theorized. Each chapter = 1 month. Total: 12,008 chapters covering 1000 years + 8 months.
+      NOTE: Sheldon has NO prophecy attached to him in Book 1.`,
       totalYears: 1000,
       startYear: 0,
-      isJumpChain: true,
+      isJumpChain: false, // Book 1 is SINGLE UNIVERSE - no JumpChain hopping
     });
 
     // Generate base era structure
@@ -744,14 +751,22 @@ describe('Year 1 Maximum Stress Test', () => {
     it('should have NO prophecies in Book 1 (Year 1)', () => {
       // IMPORTANT: Book 1 takes place in a single universe (Tenchi Muyo)
       // and Sheldon has NO prophecy attached to his name in Book 1.
-      // Each chapter = 1 month, totaling 12,008 chapters for the full 1000-year saga.
-      // Prophecies, if any, would only appear in later books.
+      //
+      // BOOK 1 STRUCTURE:
+      // - Book 1 = ENTIRE 1000-year saga (all 12,008 chapters)
+      // - Each chapter = 1 month (12 chapters per year)
+      // - Single universe (Tenchi Muyo) - no JumpChain hopping
+      // - Sheldon has NO prophecy in Book 1 (not planning to add any)
 
       expect(plan.prophecies.length).toBe(0);
 
       console.log('\n=== BOOK 1 PROPHECY VERIFICATION ===');
       console.log('Prophecies in Book 1: 0 (correct - no prophecies for Sheldon in Book 1)');
-      console.log('Book 1 structure: Single universe (Tenchi Muyo), 12 chapters (1 per month)');
+      console.log('Book 1 structure:');
+      console.log('  - ENTIRE 1000-year saga = all 12,008 chapters');
+      console.log('  - Each chapter = 1 month (12 chapters/year)');
+      console.log('  - Single universe: Tenchi Muyo');
+      console.log('  - NO JumpChain universe hopping in Book 1');
     });
 
     it('should add millennium threads seeded in Year 1', () => {

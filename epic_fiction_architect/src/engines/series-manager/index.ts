@@ -9,6 +9,13 @@
  * - Series-level character progression
  * - Reading order management
  * - Publication/release coordination
+ *
+ * BOOK 1 STRUCTURE (Sheldon Cooper saga):
+ * - Book 1 = ENTIRE 1000-year saga (all 12,008 chapters)
+ * - Each chapter = 1 month (12 chapters per year)
+ * - Single universe (Tenchi Muyo) - no JumpChain hopping in Book 1
+ * - Sheldon has NO prophecy in Book 1
+ * - Volumes are organizational units within Book 1 (~100 chapters each)
  */
 
 import { v4 as uuidv4 } from 'uuid';
@@ -936,6 +943,113 @@ export class SeriesManager {
     }
 
     return result;
+  }
+
+  /**
+   * Create Book 1 structure for the Sheldon Cooper saga.
+   *
+   * Book 1 = ENTIRE 1000-year saga:
+   * - 12,008 chapters total (1 chapter = 1 month)
+   * - 1000 years + 8 months of story time
+   * - Single universe (Tenchi Muyo)
+   * - NO prophecies for Sheldon in Book 1
+   * - Volumes are organizational units (~100 chapters = ~8.3 years each)
+   *
+   * @param avgWordsPerChapter Average words per chapter (default 25,000)
+   * @returns Book 1 structure
+   */
+  createBook1Structure(avgWordsPerChapter: number = 25000): {
+    book: {
+      bookNumber: 1;
+      title: string;
+      chapterStart: 1;
+      chapterEnd: 12008;
+      chapterCount: 12008;
+      estimatedWordCount: number;
+      timespan: { years: 1000; months: 8 };
+      universe: 'Tenchi Muyo';
+      propheciesForProtagonist: 0;
+    };
+    volumes: Array<{
+      volumeNumber: number;
+      chapterStart: number;
+      chapterEnd: number;
+      chapterCount: number;
+      yearsStart: number;
+      yearsEnd: number;
+    }>;
+    eras: Array<{
+      name: string;
+      yearsStart: number;
+      yearsEnd: number;
+      chapterStart: number;
+      chapterEnd: number;
+    }>;
+  } {
+    const totalChapters = 12008;
+    const volumeSize = 100;
+    const volumeCount = Math.ceil(totalChapters / volumeSize);
+
+    // Create volumes
+    const volumes: Array<{
+      volumeNumber: number;
+      chapterStart: number;
+      chapterEnd: number;
+      chapterCount: number;
+      yearsStart: number;
+      yearsEnd: number;
+    }> = [];
+
+    for (let v = 0; v < volumeCount; v++) {
+      const chapterStart = v * volumeSize + 1;
+      const chapterEnd = Math.min((v + 1) * volumeSize, totalChapters);
+      const yearsStart = Math.floor((chapterStart - 1) / 12);
+      const yearsEnd = Math.floor((chapterEnd - 1) / 12);
+
+      volumes.push({
+        volumeNumber: v + 1,
+        chapterStart,
+        chapterEnd,
+        chapterCount: chapterEnd - chapterStart + 1,
+        yearsStart,
+        yearsEnd
+      });
+    }
+
+    // Define the 11 eras
+    const eras = [
+      { name: 'Era of Arrival', yearsStart: 0, yearsEnd: 90 },
+      { name: 'Era of Foundation', yearsStart: 91, yearsEnd: 181 },
+      { name: 'Era of Expansion', yearsStart: 182, yearsEnd: 272 },
+      { name: 'Era of Conflict', yearsStart: 273, yearsEnd: 363 },
+      { name: 'Era of Transformation', yearsStart: 364, yearsEnd: 454 },
+      { name: 'Era of Discovery', yearsStart: 455, yearsEnd: 545 },
+      { name: 'Era of Alliance', yearsStart: 546, yearsEnd: 636 },
+      { name: 'Era of Challenge', yearsStart: 637, yearsEnd: 727 },
+      { name: 'Era of Mastery', yearsStart: 728, yearsEnd: 818 },
+      { name: 'Era of Legacy', yearsStart: 819, yearsEnd: 909 },
+      { name: 'Era of Culmination', yearsStart: 910, yearsEnd: 1000 }
+    ].map(era => ({
+      ...era,
+      chapterStart: era.yearsStart * 12 + 1,
+      chapterEnd: Math.min((era.yearsEnd + 1) * 12, totalChapters)
+    }));
+
+    return {
+      book: {
+        bookNumber: 1,
+        title: 'Son of Cosmos: The Complete Saga',
+        chapterStart: 1,
+        chapterEnd: 12008,
+        chapterCount: 12008,
+        estimatedWordCount: totalChapters * avgWordsPerChapter,
+        timespan: { years: 1000, months: 8 },
+        universe: 'Tenchi Muyo',
+        propheciesForProtagonist: 0 // Sheldon has NO prophecy in Book 1
+      },
+      volumes,
+      eras
+    };
   }
 
   suggestBookBreakPoints(
