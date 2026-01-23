@@ -70,13 +70,10 @@ import { SQLiteTaskStorage, createSQLiteTaskStorage } from './sqlite-storage';
 import {
   TaskDefinition,
   TaskInstance,
-  TaskEvent,
   TaskEventHandler,
   TaskQueueConfig,
-  TaskPriority,
-  DEFAULT_QUEUE_CONFIG
+  TaskPriority
 } from './types';
-import { CircuitBreakerRegistry } from './circuit-breaker';
 
 /**
  * Configuration for TaskResilienceEngine

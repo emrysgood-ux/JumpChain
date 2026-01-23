@@ -7,7 +7,6 @@
 
 import {
   TaskDefinition,
-  ChunkResult,
   TaskExecutionContext,
   TextGenerationCheckpoint,
   BatchProcessingCheckpoint,
@@ -158,7 +157,7 @@ export function createTextGenerationTask(
 // Batch Processing Task
 // ============================================================================
 
-export interface BatchProcessingInput<TItem, TResult> {
+export interface BatchProcessingInput<TItem> {
   /** Items to process */
   items: TItem[];
 
@@ -180,7 +179,7 @@ export function createBatchProcessingTask<TItem, TResult>(
     batchSize?: number;
   }
 ): TaskDefinition<
-  BatchProcessingInput<TItem, TResult>,
+  BatchProcessingInput<TItem>,
   TResult[],
   BatchProcessingCheckpoint
 > {

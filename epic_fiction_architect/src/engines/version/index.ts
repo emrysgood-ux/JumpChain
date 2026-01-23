@@ -607,11 +607,16 @@ export class VersionEngine {
   }
 
   /**
-   * Get version history (chronological order)
+   * Get version history (most recent first)
    */
   getVersionHistory(entityId: string, branchId?: string, limit?: number): Version[] {
     const versions = this.getEntityVersions(entityId, branchId)
-      .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
+      .sort((a, b) => {
+        // Sort by createdAt descending, then by versionNumber descending for same timestamp
+        const timeDiff = b.createdAt.getTime() - a.createdAt.getTime();
+        if (timeDiff !== 0) return timeDiff;
+        return b.versionNumber - a.versionNumber;
+      });
 
     return limit ? versions.slice(0, limit) : versions;
   }

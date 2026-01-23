@@ -750,8 +750,12 @@ export class ImportEngine {
     for (const entity of characters.values()) {
       if (entity.mentions.length > 10) {
         entity.confidence = Math.min(95, entity.confidence + 15);
-      } else if (entity.mentions.length < 3) {
-        entity.confidence = Math.max(30, entity.confidence - 20);
+      } else if (entity.mentions.length >= 1 && entity.mentions.length < 3) {
+        // Small penalty for few mentions, but still pass threshold
+        entity.confidence = Math.max(60, entity.confidence - 10);
+      } else if (entity.mentions.length === 0) {
+        // No mentions - should not happen but handle gracefully
+        entity.confidence = 30;
       }
     }
 

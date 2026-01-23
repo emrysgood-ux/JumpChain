@@ -12,8 +12,7 @@ import {
   createTextGenerationTask,
   createSceneWritingTask,
   createBatchProcessingTask,
-  createPipelineTask,
-  RETRY_PRESETS
+  createPipelineTask
 } from './index';
 
 // ============================================================================
@@ -31,7 +30,7 @@ async function example1_simpleResilientCall() {
       method: 'POST',
       body: JSON.stringify({ prompt })
     });
-    return response.json();
+    return response.json() as Promise<string>;
   }
 
   // Make it resilient with automatic retries
@@ -63,8 +62,9 @@ async function example1_simpleResilientCall() {
  */
 function example2_wrapFunction() {
   // Original unreliable function
-  async function generateScene(sceneId: string, prompt: string): Promise<{ text: string; tokens: number }> {
+  async function generateScene(sceneId: string, _prompt: string): Promise<{ text: string; tokens: number }> {
     // ... API call that might fail
+    console.log(`Generating scene ${sceneId}`);
     return { text: 'Generated scene...', tokens: 500 };
   }
 
@@ -72,7 +72,7 @@ function example2_wrapFunction() {
   const resilientGenerateScene = makeResilient(generateScene, {
     maxAttempts: 5,
     baseDelayMs: 2000,
-    onRetry: (attempt, error, args) => {
+    onRetry: (_attempt, _error, args) => {
       console.log(`Scene ${args[0]} generation failed, retrying...`);
     }
   });
@@ -201,7 +201,7 @@ async function example4_batchProcessing() {
     { id: string; name: string; dialogue: string[] },
     { id: string; voiceTraits: string[]; emotionalRange: string[] }
   >(
-    async (character, index) => {
+    async (character, _index) => {
       // Simulate AI analysis
       await new Promise(r => setTimeout(r, 500));
       return {
@@ -234,7 +234,7 @@ async function example4_batchProcessing() {
   // If connection drops mid-way, the task will resume from the last checkpoint
   // when the engine restarts
 
-  const result = await engine.waitForTask(taskId);
+  await engine.waitForTask(taskId);
   console.log(`Analyzed ${characters.length} characters`);
 
   await engine.stop();
@@ -262,7 +262,7 @@ async function example5_pipeline() {
     [
       {
         name: 'generate_outline',
-        execute: async (ctx, taskCtx) => {
+        execute: async (_ctx, taskCtx) => {
           taskCtx.log('Generating chapter outline...');
           await new Promise(r => setTimeout(r, 1000));
           return {
@@ -393,7 +393,7 @@ async function example7_crashRecovery() {
     });
 
     // Register task types (must do this each session)
-    engine.registerTask(createTextGenerationTask(async (prompt) => {
+    engine.registerTask(createTextGenerationTask(async (_prompt) => {
       await new Promise(r => setTimeout(r, 500));
       return { text: 'Generated...', tokensUsed: 100 };
     }));
@@ -424,7 +424,7 @@ async function example7_crashRecovery() {
     });
 
     // Re-register task types
-    engine.registerTask(createTextGenerationTask(async (prompt) => {
+    engine.registerTask(createTextGenerationTask(async (_prompt) => {
       await new Promise(r => setTimeout(r, 500));
       return { text: 'Generated...', tokensUsed: 100 };
     }));
@@ -474,7 +474,7 @@ async function example8_integration() {
     estimateChunks: (input: { beats: string[] }) => input.beats.length,
 
     executeChunk: async (input, checkpoint, context) => {
-      const state = checkpoint || { currentBeat: 0, content: '' };
+      const state: { currentBeat: number; content: string } = checkpoint as { currentBeat: number; content: string } || { currentBeat: 0, content: '' };
 
       // Call the existing engine (with retry handled by the queue)
       // const result = await writerEngine.generateBeat(input.beats[state.currentBeat]);

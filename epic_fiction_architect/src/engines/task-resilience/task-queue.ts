@@ -21,11 +21,9 @@ import {
   TaskFilter,
   TaskEvent,
   TaskEventHandler,
-  RetryConfig,
-  DEFAULT_QUEUE_CONFIG,
-  DEFAULT_RETRY_CONFIG
+  DEFAULT_QUEUE_CONFIG
 } from './types';
-import { CircuitBreaker, CircuitBreakerRegistry } from './circuit-breaker';
+import { CircuitBreakerRegistry } from './circuit-breaker';
 import { calculateRetryDelay, shouldRetry } from './retry';
 
 // Priority ordering (lower number = higher priority)

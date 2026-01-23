@@ -95,7 +95,7 @@ export class CircuitBreaker {
   /**
    * Record a failed execution
    */
-  recordFailure(error?: Error): void {
+  recordFailure(_error?: Error): void {
     const now = Date.now();
     this.failureTimestamps.push(now);
     this.state.failureCount++;

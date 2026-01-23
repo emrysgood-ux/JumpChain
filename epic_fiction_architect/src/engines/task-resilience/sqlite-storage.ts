@@ -9,14 +9,7 @@ import Database from 'better-sqlite3';
 import { TaskInstance, TaskStatus, TaskFilter } from './types';
 import { TaskQueueStorage } from './task-queue';
 
-// Priority ordering for sorting
-const PRIORITY_ORDER: Record<string, number> = {
-  critical: 0,
-  high: 1,
-  normal: 2,
-  low: 3,
-  background: 4
-};
+// Priority ordering is handled in SQL ORDER BY clause
 
 /**
  * SQL Schema for task tables
