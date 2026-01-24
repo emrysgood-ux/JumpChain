@@ -22,6 +22,16 @@
 |-----------|--------|------|--------|
 | Kiyone Masaki | Deceased ~1987 | [[kiyone_masaki.md]] | ✅ Complete |
 | Kasumi Masaki | Deceased ~1800s | [[kasumi.md]] | ✅ Complete |
+| Tsukino Takeo | Deceased 1978 | [[takeo.md]] | ✅ NEW |
+| Tsukino Yuki | Deceased 1985 | [[yuki.md]] | ✅ NEW |
+
+### Tsukino Family (Cosmos-Created)
+
+| Character | Role | File | Status |
+|-----------|------|------|--------|
+| Tsukino Takeo | Grandfather (deceased) | [[takeo.md]] | ✅ NEW |
+| Tsukino Yuki | Mother (deceased) | [[yuki.md]] | ✅ NEW |
+| Tsukino Kiyoshi | Maternal Uncle (alive) | [[Kiyoshi_Family_Branch_Complete.md]] | ✅ Updated |
 
 ### Cosmic Entities
 
@@ -116,6 +126,10 @@ Characters who CANNOT be named in Sheldon's POV during Phase I (Years 1-3):
 
 | Date | Change |
 |------|--------|
+| 2026-01-24 | Added Tsukino Takeo profile (grandfather) |
+| 2026-01-24 | Added Tsukino Yuki profile (mother) |
+| 2026-01-24 | Updated Kiyoshi Family Branch (corrected timeline) |
+| 2026-01-24 | Fixed family structure: Takeo=grandfather, Yuki=mother, Kiyoshi=maternal uncle |
 | 2025-12-15 | Added Kagato profile |
 | 2025-12-15 | Added Z profile |
 | 2025-12-15 | Added Azusa profile |
