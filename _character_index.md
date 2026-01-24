@@ -86,6 +86,12 @@
 |----------|-------|------|--------|
 | All Village NPCs | 10+ | [[village_npcs.md]] | ✅ Complete |
 
+### Supplementary Character Documents
+
+| Document | Purpose | File | Status |
+|----------|---------|------|--------|
+| Psychological States | Pre-Sheldon psychological baselines | [[psychological_states.md]] | ✅ NEW |
+
 ---
 
 ## PHASE I RESTRICTIONS
@@ -147,6 +153,7 @@ Characters who CANNOT be named in Sheldon's POV during Phase I (Years 1-3):
 
 | Date | Change |
 |------|--------|
+| 2026-01-24 | Added Psychological States document (deep dive character psychology) |
 | 2026-01-24 | Added Tennyo Masaki profile (Yosho's granddaughter) |
 | 2026-01-24 | Added Noike Kamiki Jurai profile (Seto's adopted daughter) |
 | 2026-01-24 | Added Seina Yamada profile (GXP protagonist) |
