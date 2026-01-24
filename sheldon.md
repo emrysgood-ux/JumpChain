@@ -796,21 +796,20 @@ Header: 戸籍謄本 (Certified Copy of Family Register)
 Registry Location: 岡山県浅口郡鴨方町 (Kamogata Town, Asakuchi District,
 Okayama)
 
-Head of Household: 月野 武雄 (Tsukino Takeo) --- Sheldon's 'father'
+Head of Household: 月野 武雄 (Tsukino Takeo) --- Sheldon's grandfather
 (deceased)
 
 **Household members listed:**
 
-1\. 月野 武雄 (Tsukino Takeo): Born 1925, Died 1978 --- father
+1\. 月野 武雄 (Tsukino Takeo): Born 1925, Died 1978 --- grandfather
 
-2\. 月野 幸子 (Tsukino Sachiko): Born 1930, Died 1985 --- mother
+2\. 月野 雪 (Tsukino Yuki): Born 1940, Died 1985 --- mother
 
 3\. 月野 シェルドン (Tsukino Sheldon): Born 1959/3/15, Status: 現存
-(living) --- the 'son'
+(living) --- the 'grandson'
 
-Notation: Mother remarried American serviceman (月野 カーター / Tsukino
-Carter) 1958; child born in USA; returned to Japan 1987 after parents'
-deaths
+Notation: Mother married American serviceman (カーター / Carter) 1958;
+child born in USA; returned to Japan 1987 after mother's death
 
 *📝 This backstory explains: American name, American birth, Japanese
 family registry, return to ancestral village.*
@@ -842,20 +841,20 @@ Sender
 
 Name: 月野 清 (Tsukino Kiyoshi)
 
-Relation: Paternal uncle (father's younger brother)
+Relation: Maternal uncle (Yuki's younger brother)
 
 Location: Osaka --- where the main Tsukino family moved
 
-Age: \~65 in 1987 when letter written
+Age: \~52 in 1987 when letter written
 
 Letter Content (Translated Summary)
 
 "To Whom It May Concern in Kamogata Town,
 
 I write to introduce my nephew, Tsukino Sheldon. He is the son of my
-late elder brother Takeo, who passed in 1978. Sheldon was born in
-America where my brother's wife Sachiko had emigrated, but he has always
-felt a connection to his father's homeland.
+late younger sister Yuki, who passed in 1985. Sheldon was born in
+America where my sister had emigrated, but he has always felt a
+connection to his mother's homeland.
 
 After completing his studies, Sheldon wishes to return to the village of
 his ancestors. Our family still owns property there, though it has been
@@ -880,7 +879,7 @@ memories are real within the world's history.
 Tsukino family genuinely existed. Records exist. People remember them.
 Sheldon is genuinely their relative --- because Cosmos made it so.\*\***
 
-Tsukino Takeo --- 'Father'
+Tsukino Takeo --- 'Grandfather'
 
 Full Name: 月野 武雄 (Tsukino Takeo)
 
@@ -890,49 +889,45 @@ Died: 1978 (age 53), Kamogata --- heart attack
 
 Occupation: Farmer, later factory worker in Osaka
 
-Personality: Quiet, hardworking, traditional; rarely spoke of son in
-America
+Personality: Quiet, hardworking, traditional; rarely spoke of daughter
+and grandson in America
 
-Marriage: Married Sachiko 1956; she left for America 1958; he stayed to
-care for aging mother
+Marriage: Married young; wife died in childbirth with Yuki (1940)
 
-Relationship to Sheldon: Never met his 'son' --- Sachiko was already
-pregnant when she left
+Relationship to Sheldon: Never met his grandson --- Yuki was already
+pregnant when she left for America
 
 What villagers remember: 'Takeo-san was a good man. Quiet. Worked hard.
-Died too young. His wife went to America --- we heard she had a child
+Died too young. His daughter went to America --- we heard she had a child
 there.'
 
 *📝 Takeo is buried in the village cemetery. Sheldon could visit the
 grave.*
 
-Tsukino Sachiko --- 'Mother'
+Tsukino Yuki --- 'Mother'
 
-Full Name: 月野 幸子 (Tsukino Sachiko, née Yamamoto)
+Full Name: 月野 雪 (Tsukino Yuki)
 
-Born: 1930, nearby village
+Born: 1940, Kamogata village (Takeo's only child; mother died in childbirth)
 
-Died: 1985 (age 55), Osaka --- cancer
+Died: 1985 (age 45), Osaka --- cancer
 
 Occupation: Housewife in Japan; factory worker in America; returned to
 Japan 1980
 
-Marriage 1: Married Takeo 1956; left for America 1958 after family
-conflict
-
-Marriage 2: Married James Carter (American) 1958 in California; divorced
-1970
+Marriage: Married James Carter (American serviceman) 1958 in California;
+divorced 1970
 
 Personality: Strong-willed, determined; taught Sheldon Japanese; wanted
 him to know his heritage
 
 What happened: After divorce, struggled in America; returned to Japan
-1980 to live with Kiyoshi in Osaka; died of cancer 1985
+1980 to live with brother Kiyoshi in Osaka; died of cancer 1985
 
 Relationship to Sheldon: Raised him until age 11 (in created history),
 then\... \[see Timeline Gap below\]
 
-*🔮 FORESHADOW: Sachiko's face in the photo may echo Ikuko Tsukino ---
+*🔮 FORESHADOW: Yuki's face in the photo may echo Ikuko Tsukino ---
 Usagi's mother. Cosmos creating a mother for Sheldon by drawing on her
 own.*
 
@@ -947,32 +942,32 @@ Died: 1982, USA --- car accident
 Occupation: Initially US Air Force (stationed in Japan 1957-58), later
 mechanic
 
-How they met: Sachiko worked at a restaurant near the base; romance; she
+How they met: Yuki worked at a restaurant near the base; romance; she
 became pregnant
 
-Marriage: Married Sachiko 1958 in California after she immigrated
+Marriage: Married Yuki 1958 in California after she immigrated
 
 Divorce: 1970 --- grew apart; he drank; she was homesick
 
 Relationship to Sheldon: Distant father; Sheldon took mother's maiden
 name after parents' divorce
 
-Why 'Carter' appears in koseki: Sachiko briefly took his name; notation
+Why 'Carter' appears in koseki: Yuki briefly took his name; notation
 shows 'formerly Tsukino-Carter'
 
 *📝 James Carter may be inspired by Sheldon's ACTUAL father from his
 previous life --- Cosmos weaving truth into fiction.*
 
 **⚠️ CRITICAL: Sheldon's REAL grandmother was Dorothy Mae. In created
-history, he was raised by Sachiko until 11, then\... the Gap.\*\***
+history, he was raised by Yuki until 11, then\... the Gap.\*\***
 
 Tsukino Kiyoshi --- 'Uncle' (ALIVE)
 
 Full Name: 月野 清 (Tsukino Kiyoshi)
 
-Born: 1922, Kamogata village
+Born: 1935, Kamogata village
 
-Current Age: 67 in 1989
+Current Age: 54 in 1989
 
 Status: ALIVE --- living in Osaka
 
@@ -980,30 +975,32 @@ Address: 大阪府大阪市東淀川区\... (Higashiyodogawa-ku, Osaka)
 
 Occupation: Retired; former factory foreman at textile plant
 
-Family: Wife Haruko (64), two adult children: son Masaru (40) and
-daughter Yuki (38); grandchildren
+Relation: Maternal uncle --- Yuki's older brother (Takeo's son from second marriage)
+
+Family: Wife Haruko (52), two adult children: son Masaru (28) and
+daughter Akemi (25); grandchildren
 
 Personality: Dutiful, traditional, family-oriented; feels guilt about
 abandoned village property
 
-Health: Arthritis, declining mobility; unlikely to travel to Kamogata
+Health: Good health for his age; could potentially travel to Kamogata
 
 What Kiyoshi 'Remembers'
 
 Cosmos rewrote his memories. To Kiyoshi, the following is genuinely
 true:
 
--   His brother Takeo married Sachiko, who went to America pregnant
+-   His sister Yuki married an American and went to America in 1958
 
--   Sachiko sent letters and photos over the years; he has a box of them
+-   Yuki sent letters and photos over the years; he has a box of them
 
--   He met Sheldon ONCE --- when Sachiko returned to Japan in 1980, she
+-   He met Sheldon ONCE --- when Yuki returned to Japan in 1980, she
     brought the boy (age 21) to visit
 
--   Sheldon was quiet, polite, spoke good Japanese; clearly Sachiko's
+-   Sheldon was quiet, polite, spoke good Japanese; clearly Yuki's
     son
 
--   After Sachiko died (1985), Kiyoshi wrote to Sheldon offering family
+-   After Yuki died (1985), Kiyoshi wrote to Sheldon offering family
     connection
 
 -   Sheldon came to Japan in 1987; stayed with Kiyoshi briefly; then
@@ -1041,7 +1038,7 @@ handwriting (Cosmos created them). They form a paper trail.*
 match. If Kiyoshi visits, he will recognize Sheldon. The identity is
 REAL.*
 
-Tsukino Grandmother (Photo Only)
+Tsukino Hana --- 'Great-Grandmother'
 
 Full Name: 月野 ハナ (Tsukino Hana)
 
@@ -1049,12 +1046,12 @@ Born: 1898, Kamogata
 
 Died: 1979 (age 81), one year after her son Takeo
 
-Role: Takeo's mother; matriarch who kept the family in village
+Role: Takeo's mother; Sheldon's great-grandmother; matriarch who kept the family in village
 
 What villagers remember: 'Hana-san lived to see her son die. Passed the
 next year. Some say of grief.'
 
-In photo: The elderly woman in kimono, gentle smile
+In photo: The elderly woman in kimono, gentle smile (1977, two years before her death)
 
 *📝 Hana is buried next to Takeo in village cemetery.*
 
@@ -1146,8 +1143,8 @@ Quiet.'
 Takeo: 'Takeo-san worked hard. Didn't talk much after his wife left for
 America.'
 
-Sachiko leaving: 'Scandal at the time. A woman leaving her husband for
-an American. But it was the '50s. Things were different after the war.'
+Yuki leaving: 'Scandal at the time. A young woman running off with an
+American. But it was the '50s. Things were different after the war.'
 
 Hana: 'Old Hana-san kept that family together. Died a year after her
 son.'
@@ -1207,7 +1204,7 @@ The Graves
 Family marker: Stone pillar inscribed '月野家之墓' (Tsukino Family
 Grave)
 
-NOT buried here: Sachiko (cremated in Osaka, ashes with Kiyoshi), James
+NOT buried here: Yuki (cremated in Osaka, ashes with Kiyoshi), James
 Carter (died in USA)
 
 What Sheldon 'Should' Do
@@ -1240,9 +1237,9 @@ Contents: Letters, photos, documents spanning decades
 
 Condition: Well-preserved; Kiyoshi is sentimental about family
 
-Contents --- From Sachiko in America
+Contents --- From Yuki in America
 
-Letters (1958-1980): \~50 letters from Sachiko over 22 years; chronicle
+Letters (1958-1980): \~50 letters from Yuki over 22 years; chronicle
 of her American life
 
 Photos of 'Sheldon': Baby photos, school photos, graduation --- showing
@@ -1303,16 +1300,16 @@ Season: Spring --- cherry blossoms visible in corner
 
 People in Photograph (left to right)
 
-1\. Elderly woman: \~50s, kimono, gentle smile --- 'Grandmother'
-(father's mother, died before Sheldon 'arrived')
+1\. Elderly woman: \~79, kimono, gentle smile --- 'Great-Grandmother'
+Tsukino Hana (Takeo's mother, died 1979)
 
-2\. Middle-aged man: \~50, work clothes, stern but kind face ---
-'Father' Tsukino Takeo
+2\. Middle-aged man: \~52, work clothes, stern but kind face ---
+'Grandfather' Tsukino Takeo
 
-3\. Middle-aged woman: \~45, simple dress, hand on man's arm ---
-'Mother' Tsukino Sachiko
+3\. Young woman: \~37, simple dress, warm smile ---
+'Mother' Tsukino Yuki
 
-4\. Young man: \~20, casual clothes, resembles Sheldon slightly ---
+4\. Young man: \~42, casual clothes, standing protectively near sister ---
 'Uncle' Tsukino Kiyoshi (the letter writer)
 
 Back: Handwritten in faded ink: '月野家 昭和52年' (Tsukino Family, 1977)
