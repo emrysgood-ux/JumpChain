@@ -1,6 +1,6 @@
 # CHARACTER INDEX
 **Category:** Index
-**Last Updated:** 2025-12-15
+**Last Updated:** 2026-01-24
 **Related Files:** [[../_INDEX.md]]
 
 ---
@@ -15,6 +15,7 @@
 | Katsuhito Masaki | Mentor/Yosho | [[katsuhito.md]] | ✅ Complete |
 | Tenchi Masaki | Found Son | [[tenchi.md]] | ✅ Complete |
 | Nobuyuki Masaki | Tenchi's Father | [[nobuyuki.md]] | ✅ Complete |
+| Rea | Adopted Sister | [[rea.md]] | ✅ NEW |
 
 ### Deceased/Background (Phase I)
 
@@ -22,8 +23,8 @@
 |-----------|--------|------|--------|
 | Kiyone Masaki | Deceased ~1987 | [[kiyone_masaki.md]] | ✅ Complete |
 | Kasumi Masaki | Deceased ~1800s | [[kasumi.md]] | ✅ Complete |
-| Tsukino Takeo | Deceased 1978 | [[takeo.md]] | ✅ NEW |
-| Tsukino Yuki | Deceased 1985 | [[yuki.md]] | ✅ NEW |
+| Tsukino Takeo | Deceased 1978 | [[takeo.md]] | ✅ Complete |
+| Tsukino Yuki | Deceased 1985 | [[yuki.md]] | ✅ Complete |
 
 ### Tsukino Family (Cosmos-Created)
 
@@ -55,17 +56,29 @@
 |-----------|------|------|--------|
 | Airi Magma Masaki | Kiyone's Mother | [[airi.md]] | ✅ Complete |
 | Minaho Masaki | Kiyone's Sister | [[minaho.md]] | ✅ Complete |
+| Tennyo Masaki | Kiyone's Daughter | [[tennyo.md]] | ✅ NEW |
 | Seto Kamiki Jurai | Devil Princess | [[seto.md]] | ✅ Complete |
-| Azusa Masaki Jurai | Emperor of Jurai | [[azusa.md]] | ✅ NEW |
-| Funaho (Queen) | First Queen of Jurai | [[funaho_queen.md]] | ✅ NEW |
-| Misaki Masaki Jurai | Second Queen of Jurai | [[misaki.md]] | ✅ NEW |
+| Utsutsumi Kamiki Jurai | Seto's Husband | [[utsutsumi.md]] | ✅ NEW |
+| Noike Kamiki Jurai | Seto's Adopted Daughter | [[noike.md]] | ✅ NEW |
+| Azusa Masaki Jurai | Emperor of Jurai | [[azusa.md]] | ✅ Complete |
+| Funaho (Queen) | First Queen of Jurai | [[funaho_queen.md]] | ✅ Complete |
+| Misaki Masaki Jurai | Second Queen of Jurai | [[misaki.md]] | ✅ Complete |
+| Misao Kuramitsu | Mihoshi's Brother | [[misao.md]] | ✅ NEW |
+
+### GXP Canon Characters
+
+| Character | Role | File | Status |
+|-----------|------|------|--------|
+| Seina Yamada | GXP Protagonist | [[seina.md]] | ✅ NEW |
+| Kiriko Masaki | Seina's Childhood Friend | [[kiriko.md]] | ✅ NEW |
+| Amane Kaunaq | GP Officer | [[amane.md]] | ✅ NEW |
 
 ### Antagonists
 
 | Character | Role | File | Status |
 |-----------|------|------|--------|
-| Kagato | OVA 1 Villain | [[kagato.md]] | ✅ NEW |
-| Z | OVA 3 Villain | [[z.md]] | ✅ NEW |
+| Kagato | OVA 1 Villain | [[kagato.md]] | ✅ Complete |
+| Z | OVA 3 Villain | [[z.md]] | ✅ Complete |
 
 ### Village NPCs
 
@@ -80,19 +93,26 @@
 Characters who CANNOT be named in Sheldon's POV during Phase I (Years 1-3):
 
 ❌ Ryoko
-❌ Washu  
+❌ Washu
 ❌ Ayeka
 ❌ Sasami
 ❌ Mihoshi
 ❌ Airi
 ❌ Minaho
+❌ Tennyo
 ❌ Seto
+❌ Utsutsumi
+❌ Noike
 ❌ Cosmos / Sailor Cosmos
 ❌ Kagato
 ❌ Z
 ❌ Azusa
 ❌ Funaho (Queen)
 ❌ Misaki
+❌ Misao
+❌ Seina (as significant)
+❌ Kiriko (as significant)
+❌ Amane
 
 ---
 
@@ -100,14 +120,15 @@ Characters who CANNOT be named in Sheldon's POV during Phase I (Years 1-3):
 
 | Category | Count |
 |----------|-------|
-| Main Cast | 4 |
-| Deceased/Background | 2 |
+| Main Cast | 5 |
+| Deceased/Background | 4 |
 | Cosmic Entities | 1 |
 | Canon Arrivals | 5 |
-| Extended Family | 6 |
+| Extended Family | 10 |
+| GXP Canon | 3 |
 | Antagonists | 2 |
 | Village NPCs | 10+ |
-| **TOTAL** | **30+** |
+| **TOTAL** | **40+** |
 
 ---
 
@@ -115,10 +136,10 @@ Characters who CANNOT be named in Sheldon's POV during Phase I (Years 1-3):
 
 | Character | Priority | Notes |
 |-----------|----------|-------|
-| Tennyo Masaki | Low | Yosho's granddaughter; appears late |
-| Naja Akara | Low | Washu's partner; backstory only |
-| Seina Yamada | Low | GXP protagonist; spin-off |
-| Noike Kamiki | Low | OVA 4 character |
+| Naja Akara | Low | Washu's partner; documented in [[seto.md]] as backstory |
+| Minami Kuramitsu | Low | Grand Marshal of GP; Mihoshi's grandfather |
+
+*Note: Tennyo, Seina, Noike profiles now complete.*
 
 ---
 
@@ -126,6 +147,14 @@ Characters who CANNOT be named in Sheldon's POV during Phase I (Years 1-3):
 
 | Date | Change |
 |------|--------|
+| 2026-01-24 | Added Tennyo Masaki profile (Yosho's granddaughter) |
+| 2026-01-24 | Added Noike Kamiki Jurai profile (Seto's adopted daughter) |
+| 2026-01-24 | Added Seina Yamada profile (GXP protagonist) |
+| 2026-01-24 | Added Utsutsumi Kamiki Jurai profile (Seto's husband) |
+| 2026-01-24 | Added Kiriko Masaki profile (GXP character) |
+| 2026-01-24 | Added Amane Kaunaq profile (GXP character) |
+| 2026-01-24 | Added Misao Kuramitsu profile (Mihoshi's brother) |
+| 2026-01-24 | Added Rea profile (Geminar girl) |
 | 2026-01-24 | Added Tsukino Takeo profile (grandfather) |
 | 2026-01-24 | Added Tsukino Yuki profile (mother) |
 | 2026-01-24 | Updated Kiyoshi Family Branch (corrected timeline) |
