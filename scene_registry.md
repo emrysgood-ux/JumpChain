@@ -85,6 +85,27 @@
 - **Summary:** Katsuhito shows grounds; forbids cave approach
 - **Seeds:** SEED-002 planted (Forbidden Cave)
 
+### Scene 9: First Meeting — Rea (NEEDS WRITING)
+- **Time:** ~5:30-6:00 PM
+- **Location:** Main residence
+- **POV:** Sheldon
+- **Word Count:** ~TBD
+- **Summary:** Rea returns from high school; meets Sheldon; wary/protective dynamic
+- **Characters:** Rea Masaki (first appearance)
+- **Setup:** She's been at school all day (new semester activities); returns to find stranger
+- **Dynamic:**
+  - She has been THE caretaker since Kiyone's death
+  - Protective of Tenchi
+  - Assessing whether Sheldon is trustworthy
+  - Quiet, competent, reserved
+- **Scene Function:**
+  - Establishes another "found family" member
+  - Creates parallel with Sheldon (both placed here by mysterious circumstances)
+  - Sets up household dynamic: Katsuhito (wisdom), Rea (practical care), Sheldon (newcomer)
+- **Seeds:** SEED-REA-001 (her mysterious origins — she doesn't know she's from Geminar)
+- **Knowledge State:** Day 1 compliant — no cosmic awareness
+- **Status:** NOT YET WRITTEN
+
 ---
 
 ## DAY 2 — April 4, 1989 (Tuesday)

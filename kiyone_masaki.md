@@ -166,10 +166,19 @@ Believes the death script stories are true - "Warm memory" of her
 smiling was probably a joke at his expense - Attaches to caring adults
 --- seeking what he lost
 
+On Rea (April 1989, age ~15-17): - Was ~13 when Kiyone died; stepped
+into maternal/caretaker role - Learned cooking from Kiyone; now prepares
+most meals - Manages household while attending high school - Functions as
+Tenchi's older sister and partial mother figure - Carries memories of
+Kiyone that Tenchi doesn't have - Her competence may stem from artificial
+human design (created for responsibility) - Kiyone's letter acknowledges:
+"a girl who probably helped raise you"
+
 On The Household: - A house that feels incomplete --- her absence is
-present - Rea has taken over cooking (Kiyone taught her) - The front
-garden she wanted to restore --- never finished - Photos of her
-throughout --- Tennyo's resemblance makes them strange
+present - Rea has taken over cooking and cleaning (Kiyone taught her) -
+The front garden she wanted to restore --- never finished - Photos of her
+throughout --- Tennyo's resemblance makes them strange - Daily rhythm
+depends on teenage Rea maintaining schedule around school
 
 **7.4.11 --- What Sheldon Can/Cannot Know (Phase I)**
 

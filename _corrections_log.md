@@ -116,6 +116,29 @@ STATUS: RESOLVED / PENDING / MONITORING
 
 ---
 
+### [CORR-007] — January 2026
+**ERROR:** Rea Masaki absent from Day 1 scenes and household documentation
+**SOURCE:** Character profile audit; consistency check between rea.md, tenchi.md, and Chapter 1 scenes
+**ROOT CAUSE:**
+- Rea was documented in kiyone_masaki.md as household member but not integrated into story chapters
+- tenchi.md did not list her as household member
+- Chapter 1 scenes only show Katsuhito and Tenchi, with Katsuhito cooking (should be Rea)
+- Original profile incorrectly stated Rea was found as "infant" (actually preteen per OVA 4/Tenchi Ban 13.8)
+**CORRECTION:**
+- Fixed Rea's age: arrived as preteen (~10-12) in 1984, making her ~15-17 in 1989
+- Added high school student status (explains Day 1 absence — she's at school)
+- Updated tenchi.md to include Rea as adopted sister and primary caretaker
+- Documented Rea's daily schedule including school hours
+- Added "First Meeting — Rea" scene to Day 1 registry (evening, after school)
+- Updated kiyone_masaki.md to say "preteen" not "infant"
+**PREVENTION:**
+- When adding characters, verify they appear in all relevant documents
+- Check story chapters against character profiles for consistency
+- Verify ages and arrival circumstances against primary canon sources
+**STATUS:** RESOLVED (profile fixed; scenes need writing)
+
+---
+
 ## ERROR PATTERN ANALYSIS
 
 ### Recurring Themes
