@@ -140,12 +140,13 @@ Characters who CANNOT be named in Sheldon's POV during Phase I (Years 1-3):
 
 ## PROFILES STILL NEEDED
 
-| Character | Priority | Notes |
-|-----------|----------|-------|
-| Naja Akara | Low | Washu's partner; documented in [[seto.md]] as backstory |
-| Minami Kuramitsu | Low | Grand Marshal of GP; Mihoshi's grandfather |
+*All character profiles are now complete.*
 
-*Note: Tennyo, Seina, Noike profiles now complete.*
+### Recently Added (Gap Fill)
+| Character | Role | File | Status |
+|-----------|------|------|--------|
+| Naja Akara | Washu's partner / Seto's true identity | [[naja_akara.md]] | ✅ NEW |
+| Minami Kuramitsu | Grand Marshal of GP; Mihoshi's grandfather | [[minami_kuramitsu.md]] | ✅ NEW |
 
 ---
 
@@ -153,6 +154,8 @@ Characters who CANNOT be named in Sheldon's POV during Phase I (Years 1-3):
 
 | Date | Change |
 |------|--------|
+| 2026-01-24 | Added Naja Akara profile (Washu's partner / Seto's true identity) |
+| 2026-01-24 | Added Minami Kuramitsu profile (GP Grand Marshal) |
 | 2026-01-24 | Added Psychological States document (deep dive character psychology) |
 | 2026-01-24 | Added Tennyo Masaki profile (Yosho's granddaughter) |
 | 2026-01-24 | Added Noike Kamiki Jurai profile (Seto's adopted daughter) |
