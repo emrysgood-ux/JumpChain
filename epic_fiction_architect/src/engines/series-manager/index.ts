@@ -10,7 +10,7 @@
  * - Reading order management
  * - Publication/release coordination
  *
- * BOOK 1 STRUCTURE (Sheldon Cooper saga):
+ * BOOK 1 STRUCTURE (Sheldon Carter saga):
  * - Book 1 = ENTIRE 1000-year saga (all 12,008 chapters)
  * - Each chapter = 1 month (12 chapters per year)
  * - Single universe (Tenchi Muyo) - no JumpChain hopping in Book 1
@@ -946,7 +946,7 @@ export class SeriesManager {
   }
 
   /**
-   * Create Book 1 structure for the Sheldon Cooper saga.
+   * Create Book 1 structure for the Sheldon Carter saga.
    *
    * Book 1 = ENTIRE 1000-year saga:
    * - 12,008 chapters total (1 chapter = 1 month)

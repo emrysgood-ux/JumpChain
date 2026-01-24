@@ -43,7 +43,7 @@ describe('Year 1 Maximum Stress Test', () => {
     // - Sheldon has NO prophecy in Book 1
     plan = planner.createPlan({
       name: 'Son of Cosmos: The Complete Saga',
-      description: `A 1000-year epic following Sheldon Cooper's journey in the Tenchi Muyo universe.
+      description: `A 1000-year epic following Sheldon Carter's journey in the Tenchi Muyo universe.
       Book 1 takes place entirely in a SINGLE UNIVERSE - the Tenchi Muyo setting.
       Sheldon crash-lands on Earth near the Masaki Shrine and spends a millennium navigating alien
       politics, romance, found family, and the discovery that physics is far stranger than he ever
@@ -69,7 +69,7 @@ describe('Year 1 Maximum Stress Test', () => {
       // Arc 1: The Arrival (Months 1-3)
       const arrivalArc = planner.createArc(plan.id, year1Era.id, {
         name: 'The Arrival',
-        description: `Sheldon Cooper, theoretical physicist, dies in his original universe and
+        description: `Sheldon Carter, theoretical physicist, dies in his original universe and
         awakens in a ROB's (Random Omnipotent Being) domain. After selecting the Tenchi Muyo
         universe as his first jump and purchasing perks/powers, he arrives via a spectacular
         crash-landing near the Masaki household. The first quarter of Year 1 establishes his
@@ -91,7 +91,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0,
             eventType: EventType.DISCOVERY,
             importance: 'pivotal',
-            participants: ['Sheldon Cooper', 'Tenchi Masaki', 'Ryoko'],
+            participants: ['Sheldon Carter', 'Tenchi Masaki', 'Ryoko'],
             consequences: [
               'Sheldon begins keeping a detailed scientific journal of "anomalous phenomena"',
               'Ryoko becomes curious about the stranger who survived a fall that should have killed him',
@@ -110,7 +110,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.02,
             eventType: EventType.MEETING,
             importance: 'pivotal',
-            participants: ['Sheldon Cooper', 'Washu Hakubi'],
+            participants: ['Sheldon Carter', 'Washu Hakubi'],
             consequences: [
               'Washu becomes a mentor figure (whether Sheldon likes it or not)',
               'Sheldon gains access to advanced Juraian scientific databases',
@@ -130,7 +130,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.05,
             eventType: EventType.MEETING,
             importance: 'major',
-            participants: ['Sheldon Cooper', 'Ayeka Jurai', 'Sasami Jurai'],
+            participants: ['Sheldon Carter', 'Ayeka Jurai', 'Sasami Jurai'],
             consequences: [
               'Ayeka sees Sheldon as a challenge to her worldview',
               "Sasami becomes fond of Sheldon's teaching style",
@@ -148,10 +148,10 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.08,
             eventType: EventType.BATTLE,
             importance: 'major',
-            participants: ['Sheldon Cooper', 'Mihoshi Kuramitsu', 'Kiyone Makibi'],
+            participants: ['Sheldon Carter', 'Mihoshi Kuramitsu', 'Kiyone Makibi'],
             consequences: [
               'Sheldon realizes his JumpChain powers are real and instinctual',
-              'Galaxy Police opens a file on "Subject Cooper"',
+              'Galaxy Police opens a file on "Subject Carter"',
               'Kiyone becomes determined to understand who/what Sheldon really is',
             ],
             foreshadows: ['sheldon-power-awakening'],
@@ -167,7 +167,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.25,
             eventType: EventType.ACHIEVEMENT,
             importance: 'significant',
-            participants: ['Sheldon Cooper', 'Masaki Household'],
+            participants: ['Sheldon Carter', 'Masaki Household'],
             consequences: [
               'Sheldon is officially considered part of the extended household',
               'His denial about his situation begins to crack',
@@ -175,7 +175,7 @@ describe('Year 1 Maximum Stress Test', () => {
             ],
           },
         ],
-        majorCharacters: ['Sheldon Cooper', 'Tenchi Masaki', 'Ryoko', 'Ayeka Jurai', 'Washu Hakubi', 'Sasami Jurai', 'Mihoshi Kuramitsu', 'Kiyone Makibi'],
+        majorCharacters: ['Sheldon Carter', 'Tenchi Masaki', 'Ryoko', 'Ayeka Jurai', 'Washu Hakubi', 'Sasami Jurai', 'Mihoshi Kuramitsu', 'Kiyone Makibi'],
         characterArcs: [
           {
             characterId: 'sheldon',
@@ -249,7 +249,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.26,
             eventType: EventType.DECISION,
             importance: 'pivotal',
-            participants: ['Sheldon Cooper', 'Lady Funaho', 'Washu Hakubi'],
+            participants: ['Sheldon Carter', 'Lady Funaho', 'Washu Hakubi'],
             consequences: [
               'Sheldon is thrust into Juraian politics',
               'Washu sees an opportunity to gather data on his abilities',
@@ -267,7 +267,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.28,
             eventType: EventType.TRANSFORMATION,
             importance: 'major',
-            participants: ['Sheldon Cooper', 'Washu Hakubi'],
+            participants: ['Sheldon Carter', 'Washu Hakubi'],
             consequences: [
               'Sheldon develops his signature "Geometric Combat" style',
               'His bond with Washu deepens through shared intensity',
@@ -284,7 +284,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.35,
             eventType: EventType.BATTLE,
             importance: 'major',
-            participants: ['Sheldon Cooper', 'Various Juraian competitors'],
+            participants: ['Sheldon Carter', 'Various Juraian competitors'],
             consequences: [
               'Sheldon earns the mockery of Juraian warriors',
               'Washu is secretly proud of his pragmatism',
@@ -302,7 +302,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.4,
             eventType: EventType.BATTLE,
             importance: 'pivotal',
-            participants: ['Sheldon Cooper', 'Prince Kenshi Masaki-Jurai'],
+            participants: ['Sheldon Carter', 'Prince Kenshi Masaki-Jurai'],
             consequences: [
               'Sheldon experiences his first honorable defeat',
               'He gains Kenshi as a friend and sparring partner',
@@ -319,7 +319,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.45,
             eventType: EventType.REVELATION,
             importance: 'pivotal',
-            participants: ['Sheldon Cooper', 'Emperor Azusa', 'Unknown Assassins'],
+            participants: ['Sheldon Carter', 'Emperor Azusa', 'Unknown Assassins'],
             consequences: [
               "Sheldon saves the Emperor\'s life",
               'A new enemy faction is revealed',
@@ -337,7 +337,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.5,
             eventType: EventType.RETURN,
             importance: 'significant',
-            participants: ['Sheldon Cooper', 'Tenchi Masaki', 'Masaki Household'],
+            participants: ['Sheldon Carter', 'Tenchi Masaki', 'Masaki Household'],
             consequences: [
               'Sheldon begins truly integrating rather than waiting to wake up',
               'His relationship with the household deepens',
@@ -345,7 +345,7 @@ describe('Year 1 Maximum Stress Test', () => {
             ],
           },
         ],
-        majorCharacters: ['Sheldon Cooper', 'Washu Hakubi', 'Emperor Azusa', 'Lady Funaho', 'Prince Kenshi', 'Ayeka Jurai'],
+        majorCharacters: ['Sheldon Carter', 'Washu Hakubi', 'Emperor Azusa', 'Lady Funaho', 'Prince Kenshi', 'Ayeka Jurai'],
         characterArcs: [
           {
             characterId: 'sheldon',
@@ -410,7 +410,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.52,
             eventType: EventType.DISCOVERY,
             importance: 'pivotal',
-            participants: ['Washu Hakubi', 'Sheldon Cooper', 'Tenchi Masaki'],
+            participants: ['Washu Hakubi', 'Sheldon Carter', 'Tenchi Masaki'],
             consequences: [
               'Earth faces an existential threat',
               'Washu must decide whether to reveal what she knows',
@@ -427,7 +427,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.55,
             eventType: EventType.REVELATION,
             importance: 'pivotal',
-            participants: ['Washu Hakubi', 'Sheldon Cooper'],
+            participants: ['Washu Hakubi', 'Sheldon Carter'],
             consequences: [
               'Sheldon must process his own death',
               'His identity crisis reaches a peak',
@@ -438,14 +438,14 @@ describe('Year 1 Maximum Stress Test', () => {
             id: 'identity-crisis',
             name: 'The Dark Night of the Soul',
             description: `Sheldon isolates himself, unable to process the revelation. Is he still
-            Sheldon Cooper if the original died? Are his memories his own or copies? Does anything
+            Sheldon Carter if the original died? Are his memories his own or copies? Does anything
             he does matter if he's just a cosmic accident? Sasami, of all people, reaches him—with
             a simple meal and simpler wisdom: "You're the Sheldon who helped me with my homework.
             That's enough."`,
             year: 0.6,
             eventType: EventType.TRANSFORMATION,
             importance: 'pivotal',
-            participants: ['Sheldon Cooper', 'Sasami Jurai'],
+            participants: ['Sheldon Carter', 'Sasami Jurai'],
             consequences: [
               'Sheldon begins accepting his new existence',
               'His bond with Sasami deepens profoundly',
@@ -462,7 +462,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.68,
             eventType: EventType.DISCOVERY,
             importance: 'major',
-            participants: ['Sheldon Cooper', 'Washu Hakubi'],
+            participants: ['Sheldon Carter', 'Washu Hakubi'],
             consequences: [
               'A solution exists but requires genuine emotional commitment',
               'Sheldon must identify what anchors him to this world',
@@ -480,7 +480,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.72,
             eventType: EventType.ACHIEVEMENT,
             importance: 'pivotal',
-            participants: ['Sheldon Cooper', 'Masaki Household', 'Washu Hakubi'],
+            participants: ['Sheldon Carter', 'Masaki Household', 'Washu Hakubi'],
             consequences: [
               'Reality is saved',
               'Sheldon has truly accepted his new existence',
@@ -499,7 +499,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.75,
             eventType: EventType.ACHIEVEMENT,
             importance: 'significant',
-            participants: ['Sheldon Cooper', 'Masaki Household'],
+            participants: ['Sheldon Carter', 'Masaki Household'],
             consequences: [
               'Sheldon is truly integrated',
               'His character growth reaches a milestone',
@@ -507,7 +507,7 @@ describe('Year 1 Maximum Stress Test', () => {
             ],
           },
         ],
-        majorCharacters: ['Sheldon Cooper', 'Washu Hakubi', 'Sasami Jurai', 'Tenchi Masaki'],
+        majorCharacters: ['Sheldon Carter', 'Washu Hakubi', 'Sasami Jurai', 'Tenchi Masaki'],
         characterArcs: [
           {
             characterId: 'sheldon',
@@ -515,7 +515,7 @@ describe('Year 1 Maximum Stress Test', () => {
             startState: 'In denial about his death and rebirth, emotionally guarded',
             endState: 'Fully accepting his new existence, emotionally opening',
             keyMoments: ["Washu\'s revelation", "Sasami\'s comfort", 'Choosing to stay'],
-            internalConflict: 'What makes him "Sheldon Cooper" if the original is dead?',
+            internalConflict: 'What makes him "Sheldon Carter" if the original is dead?',
           },
           {
             characterId: 'washu',
@@ -581,7 +581,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.77,
             eventType: EventType.DISCOVERY,
             importance: 'major',
-            participants: ['Ryoko', 'Sheldon Cooper', 'Washu Hakubi'],
+            participants: ['Ryoko', 'Sheldon Carter', 'Washu Hakubi'],
             consequences: [
               "Ryoko\'s trauma resurfaces",
               'A new threat is identified',
@@ -598,7 +598,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.82,
             eventType: EventType.BATTLE,
             importance: 'pivotal',
-            participants: ['Sheldon Cooper', 'Kagato Fragment', 'Masaki Household'],
+            participants: ['Sheldon Carter', 'Kagato Fragment', 'Masaki Household'],
             consequences: [
               'Sheldon must fight on the mental plane',
               'The household rallies to defend him',
@@ -616,7 +616,7 @@ describe('Year 1 Maximum Stress Test', () => {
             year: 0.85,
             eventType: EventType.REVELATION,
             importance: 'major',
-            participants: ['Sheldon Cooper', 'Ryoko'],
+            participants: ['Sheldon Carter', 'Ryoko'],
             consequences: [
               'Sheldon and Ryoko develop mutual respect',
               'His emotional growth is demonstrated',
@@ -681,7 +681,7 @@ describe('Year 1 Maximum Stress Test', () => {
             ],
           },
         ],
-        majorCharacters: ['Sheldon Cooper', 'Ryoko', 'Tenchi Masaki', 'Washu Hakubi', 'Full Household'],
+        majorCharacters: ['Sheldon Carter', 'Ryoko', 'Tenchi Masaki', 'Washu Hakubi', 'Full Household'],
         characterArcs: [
           {
             characterId: 'sheldon',
@@ -772,7 +772,7 @@ describe('Year 1 Maximum Stress Test', () => {
     it('should add millennium threads seeded in Year 1', () => {
       // Thread 1: The Sheldon Legacy
       const legacyThread = planner.addMillenniumThread(plan.id, {
-        name: 'The Cooper Methodology',
+        name: 'The Carter Methodology',
         description: `Sheldon's unique approach to science—combining multiple universe physics,
         JumpChain abilities, and alien technology—creates a new paradigm of understanding.
         This thread tracks how his methodology spreads, evolves, and influences civilizations
@@ -788,7 +788,7 @@ describe('Year 1 Maximum Stress Test', () => {
             : `Phase ${idx + 1} of methodology evolution`,
           intensity: Math.min(10, idx + 3),
         })),
-        resolution: 'The Cooper Methodology becomes foundational to understanding multiversal physics',
+        resolution: 'The Carter Methodology becomes foundational to understanding multiversal physics',
         keyMoments: [
           { year: 0.02, event: 'First debate with Washu plants the seeds', significance: 'Origin point' },
           { year: 0.55, event: 'Revelation of JumpChain nature adds new dimensions', significance: 'Methodology expands to include dimensional theory' },
@@ -870,10 +870,10 @@ describe('Year 1 Maximum Stress Test', () => {
         } as WorldState,
         worldAfter: {
           year: 0,
-          political: { majorPowers: ['Jurai Empire', 'Galaxy Police'], conflicts: ['Minor piracy', 'Investigation of Cooper'], alliances: ['Jurai-GP Treaty'] },
+          political: { majorPowers: ['Jurai Empire', 'Galaxy Police'], conflicts: ['Minor piracy', 'Investigation of Carter'], alliances: ['Jurai-GP Treaty'] },
           supernatural: { magicLevel: 'moderate', activeThreats: ['Remnant pirates', 'Dimensional instability'], protections: ['Juraian tree-ships', 'Washu monitoring'] },
         } as WorldState,
-        participants: ['Sheldon Cooper', 'ROB', 'Tenchi Masaki'],
+        participants: ['Sheldon Carter', 'ROB', 'Tenchi Masaki'],
         consequences: [
           { description: 'Dimensional instability in the region', manifestsIn: 0.52, severity: 'major' },
           { description: 'Galaxy Police investigation', manifestsIn: 0.08, severity: 'significant' },
@@ -898,7 +898,7 @@ describe('Year 1 Maximum Stress Test', () => {
           political: { majorPowers: ['Jurai Empire'], conflicts: ['None major'], alliances: ['Strengthened Masaki-Jurai relations'] },
           supernatural: { magicLevel: 'moderate', activeThreats: ['Reduced'], protections: ['Stable dimensional anchor (Sheldon)'] },
         } as WorldState,
-        participants: ['Sheldon Cooper', 'Washu Hakubi', 'Masaki Household'],
+        participants: ['Sheldon Carter', 'Washu Hakubi', 'Masaki Household'],
         consequences: [
           { description: 'Sheldon becomes a dimensional anchor', manifestsIn: 0, severity: 'major' },
           { description: 'Political debt to Masaki household', manifestsIn: 5, severity: 'significant' },
@@ -918,7 +918,7 @@ describe('Year 1 Maximum Stress Test', () => {
     it('should add long-lived characters', () => {
       // Sheldon himself
       planner.addLongLivedCharacter(plan.id, {
-        name: 'Sheldon Cooper',
+        name: 'Sheldon Carter',
         longevitySource: 'slow_aging',
         activeRanges: [{ startYear: 0, endYear: 1000, status: 'protagonist' }],
         characterEvolution: [
@@ -1185,12 +1185,12 @@ describe('Year 1 Maximum Stress Test', () => {
           year: 0.5,
           political: {
             majorPowers: ['Jurai Empire', 'Galaxy Police Federation'],
-            conflicts: ['Investigation of Cooper', 'Assassination plot fallout'],
+            conflicts: ['Investigation of Carter', 'Assassination plot fallout'],
             alliances: ['Jurai-GP Treaty', 'Earth Protection Accord', 'Masaki-Imperial connection'],
           },
           technological: {
             level: 'Spacefaring civilization with emerging dimensional understanding',
-            keyAdvances: ['Juraian tree-ships', 'Dimensional travel', 'Cooper Methodology foundations'],
+            keyAdvances: ['Juraian tree-ships', 'Dimensional travel', 'Carter Methodology foundations'],
           },
           social: {
             populationTrend: 'stable',
@@ -1218,11 +1218,11 @@ describe('Year 1 Maximum Stress Test', () => {
           political: {
             majorPowers: ['Jurai Empire', 'Galaxy Police Federation'],
             conflicts: ['None major'],
-            alliances: ['Jurai-GP Treaty', 'Earth Protection Accord', 'Masaki-Imperial connection', 'Cooper-Jurai recognition'],
+            alliances: ['Jurai-GP Treaty', 'Earth Protection Accord', 'Masaki-Imperial connection', 'Carter-Jurai recognition'],
           },
           technological: {
             level: 'Spacefaring civilization with advancing dimensional understanding',
-            keyAdvances: ['Juraian tree-ships', 'Dimensional travel', 'Dimensional anchor technology', 'Cooper Methodology v1.0'],
+            keyAdvances: ['Juraian tree-ships', 'Dimensional travel', 'Dimensional anchor technology', 'Carter Methodology v1.0'],
           },
           social: {
             populationTrend: 'growing',

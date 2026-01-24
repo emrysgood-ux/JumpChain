@@ -223,9 +223,9 @@ He was not "killed" in any conventional sense - he was rewritten.`,
 // What the official report says
 hallucination.addTruthVersion(explosionTruth.id, {
   layer: TruthLayer.PUBLIC_KNOWLEDGE,
-  content: `Dr. Sheldon Cooper was injured in a laboratory accident.
+  content: `Dr. Sheldon Carter was injured in a laboratory accident.
 The particle accelerator experienced a containment failure.
-Dr. Cooper sustained head trauma and was in a medically induced coma.
+Dr. Carter sustained head trauma and was in a medically induced coma.
 He has since recovered with some memory impairment.`,
   believers: ['media', 'university administration', 'general public'],
   evidence: ['Press release', 'Hospital records'],
@@ -463,7 +463,7 @@ without having lived."
 The alarms continued to wail. Emergency teams were coming. The world would
 intrude with its questions and protocols and explanations.
 
-But for now, in the smoke and the emergency lights, Sheldon Cooper held
+But for now, in the smoke and the emergency lights, Sheldon Carter held
 Amy Farrah Fowler's hand like it was the most important equation he had
 ever solved.
 

@@ -18,7 +18,7 @@
  * - World state progression
  * - JumpChain integration (universe transitions)
  *
- * BOOK 1 STRUCTURE (Sheldon Cooper saga):
+ * BOOK 1 STRUCTURE (Sheldon Carter saga):
  * - Book 1 = ENTIRE 1000-year saga (all 12,008 chapters)
  * - Each chapter = 1 month (12 chapters per year)
  * - Single universe (Tenchi Muyo) throughout Book 1

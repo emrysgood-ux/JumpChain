@@ -557,7 +557,7 @@ Developed acute stress disorder and survivor's guilt. NOT a romantic interest.`,
     chapterStart: 1,
     chapterEnd: 12008,
     chapterCount: 12008, // 1 chapter = 1 month, 1000 years + 8 months
-    premise: 'Sheldon Cooper\'s 1000-year journey through the Tenchi Muyo universe, from awakening in 1989 Japan to the culmination of a millennium of growth',
+    premise: 'Sheldon Carter\'s 1000-year journey through the Tenchi Muyo universe, from awakening in 1989 Japan to the culmination of a millennium of growth',
     themes: ['Awakening', 'Belonging', 'Foundation', 'Legacy', 'Transcendence'],
     primaryArc: 'Sheldon\'s millennium-long journey of self-discovery and connection',
     secondaryArcs: ['Found family across generations', 'Scientific mastery', 'Emotional growth'],
