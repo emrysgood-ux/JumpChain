@@ -84,10 +84,12 @@ she never fully mellowed).
 
 April 24, 1984: Tenchi Masaki born.
 
-\~1984 (before or after Tenchi): Discovered infant Rea from Geminar in a
-field. Took her in without revealing her true origins.
+\~1984 (before or after Tenchi): Discovered preteen Rea from Geminar in a
+field. The girl was disoriented, with no memory of how she arrived. Kiyone
+took her in as an adopted younger sister without revealing her true origins.
 
-\~1985-1986: Raised both Tenchi and Rea. Secretly studied Rea's origins.
+\~1985-1986: Raised both Tenchi and Rea. Rea (~11-13) helped care for infant
+Tenchi. Kiyone secretly studied Rea's origins but found no answers.
 
 \~1986-1987: Died of natural aging. Tenchi was 2-3 years old.
 

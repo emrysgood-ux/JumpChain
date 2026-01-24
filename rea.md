@@ -1,5 +1,5 @@
-# REA — CHARACTER PROFILE
-**Category:** Character (Extended Family)
+# REA MASAKI — CHARACTER PROFILE
+**Category:** Character (Household Member)
 **Last Updated:** 2026-01-24
 **Related Files:** [[kiyone_masaki.md]], [[tenchi.md]], [[nobuyuki.md]], [[../lore/geminar.md]]
 
@@ -7,86 +7,99 @@
 
 ## Core Identity
 
-**Full Name:** Rea (レア)
-**True Origin:** Geminar (alternate dimension)
-**Age:** ~5 years old (as of 1989); found as infant ~1984
-**Species:** Human (Geminar variant)
-**Status (1989):** Living at Masaki Shrine; helps with household
-**Relation to Tenchi:** Adopted sister (unofficially)
+**Full Name:** Rea Masaki (柾木 玲亜)
+**True Origin:** Geminar (alternate dimension); artificial human
+**Age:** ~15-17 years old (as of 1989); arrived as preteen ~1984
+**Species:** Artificial Human (Geminar-created)
+**Status (1989):** Living at Masaki Shrine; manages household
+**Relation to Tenchi:** Adopted sister (taken in by Kiyone)
 
 ---
 
 ## Canon Status
 
-**True Tenchi Muyo! Novels, Tenchi Muyo! War on Geminar connections** — TIER 2
+**OVA 3-4, True Tenchi Muyo! Novels, Tenchi Muyo! War on Geminar** — TIER 1-2
 
 ---
 
 ## Physical Description (As of 1989)
 
-**Age:** ~5 years old
-**Height:** Average for age
-**Build:** Normal child
-**Hair:** Light brown
+**Age:** ~15-17 years old
+**Height:** 5'2" (158 cm)
+**Build:** Slender, youthful
+**Hair:** Light brown, medium length
 **Eyes:** Brown
-**Appearance:** Unremarkable; could pass as ordinary Japanese child
+**Appearance:** Appears as ordinary Japanese teenager; nothing suggests artificial origins
 
 ---
 
-## Origin: The Mystery of Geminar
+## Origin: The Geminar Connection
 
 ### What Is Geminar?
 Geminar is an alternate dimension connected to the Tenchi Muyo multiverse. It features:
-- Medieval-esque technology mixed with bio-mechanical constructs
+- Medieval-esque technology mixed with bio-mechanical constructs (Seikijin)
 - Isolated from main universe
 - Rare crossings between dimensions
 
-### How Rea Arrived
-**CANON:** Kiyone Masaki discovered infant Rea in a field approximately 1984 — before or shortly after Tenchi's birth.
+### Rea's True Nature (CANON)
+**CONFIRMED (OVA 4, Tenchi Ban 13.8):** Rea was one of three preteen-aged **artificial humans** created on Geminar to pilot Seikijin (bio-mechanical battle units) against the threat called Gaia.
 
-The circumstances:
-- No explanation for how a Geminar infant appeared on Earth
-- Dimensional rift? Deliberate placement? Unknown
-- Kiyone chose NOT to investigate deeply
-- She simply took the child in
+**The Plan:**
+- Three artificial pilots created with enhanced abilities
+- They were having difficulties with their mission
+- Plan: Send one to another world to have a child with combined pilot talents
+- Originally Neizai was chosen to be sent
 
-*📝 Rea's origin remains one of the story's unsolved mysteries.*
+**The Accident:**
+- Rea was fascinated with "the other world" (Earth)
+- During equipment testing, the dimensional transfer accidentally triggered
+- Rea was caught in it and transported to Earth
+- She arrived as a preteen in a field near Okayama, ~1984
+
+### How She Was Found
+Kiyone Masaki discovered the disoriented preteen girl in a field. Kiyone:
+- Recognized something unusual about her
+- Chose NOT to investigate deeply (perhaps sensing the truth would be too strange)
+- Took her in as an adopted younger sister
+- Gave her a home and family
+
+*📝 Rea's arrival was accidental, not deliberate placement — but suspiciously convenient.*
 
 ---
 
 ## Personality
 
-**As Child (1989):**
+**Core Traits:**
 - Quiet, observant
-- Helpful beyond her years
-- Attached to household
-- Somewhat serious for a child
-- Protective of Tenchi
+- Practical and competent
+- Emotionally reserved
+- Deeply loyal to family
+- Awareness of being "different" without fully understanding why
 
-**Core Traits (Developing):**
-- Practical competence
-- Emotional reserve
-- Deep loyalty to family
-- Awareness of being "different" without understanding why
+**Speech Patterns:**
+- Soft-spoken
+- Direct when necessary
+- Rarely complains
+- Shows affection through actions, not words
 
 ---
 
-## Role in the Household
+## Role in the Household (1989)
 
 After Kiyone's death (~1987), Rea stepped into a caretaking role:
-- Learned cooking from Kiyone, now prepares meals
-- Helps maintain the household
-- Looks after young Tenchi
-- Functions as older sister despite uncertain age
+- Learned cooking from Kiyone, now prepares most meals
+- Manages household cleaning and organization
+- Looks after young Tenchi (age 4-5)
+- Functions as Tenchi's older sister and partial mother figure
 
-### The Burden
-At approximately 5 years old, Rea performs duties expected of someone much older:
-- Not forced, but self-imposed
-- Filling void left by Kiyone's death
-- Nobuyuki and Yosho allow it (perhaps shouldn't)
-- She finds purpose in being needed
+### The Responsibility
+At 15-17 years old, Rea carries significant household burden:
+- Not forced, but self-imposed out of love and duty
+- Filling the void left by Kiyone's death
+- Nobuyuki is often away working; Yosho is elderly in appearance
+- She finds purpose and belonging in being needed
 
-*📝 Rea's competence at such a young age hints at Geminar heritage — or trauma response.*
+*📝 Rea's competence may stem from her artificial human design — created for responsibility.*
 
 ---
 
@@ -94,10 +107,11 @@ At approximately 5 years old, Rea performs duties expected of someone much older
 
 | Relation | Person | Notes |
 |----------|--------|-------|
-| Adopted Mother | Kiyone Masaki | Deceased; found and raised Rea |
-| Adopted Brother | Tenchi Masaki | Grew up together |
-| Adopted Father | Nobuyuki Masaki | Technically; relationship unclear |
+| Adopted Sister | Kiyone Masaki | Deceased ~1987; took Rea in |
+| Adopted Brother | Tenchi Masaki | 10+ years younger; she helps raise him |
+| Future Husband | Nobuyuki Masaki | Eventually marries him (OVA 3) |
 | Adopted Grandfather | Yosho/Katsuhito | Watches over her |
+| Future Son | Kenshi Masaki | Born to Rea and Nobuyuki |
 
 ---
 
@@ -107,74 +121,92 @@ At approximately 5 years old, Rea performs duties expected of someone much older
 - She was found, not born to this family
 - Kiyone never lied to her about this
 - Her origins are mysterious
+- She's "different" somehow (can't articulate how)
 
 **Rea does NOT know:**
-- She's from another dimension
-- "Geminar" as a concept
+- She's an artificial human
+- She's from another dimension called Geminar
 - Why she was found in that field
-- Her true heritage
+- Her true purpose (Seikijin pilot)
+- Others like her exist on Geminar
 
 ---
 
 ## Relationship with Tenchi
 
-Rea and Tenchi grew up together from infancy:
-- She's protective of him (despite being same age or younger)
-- He thinks of her as his sister
-- Their bond predates his memories of Kiyone
-- She carries memories of Kiyone that he doesn't
+Rea has raised Tenchi since Kiyone's death:
+- She was ~13 when Kiyone died; Tenchi was 2-3
+- She stepped into a maternal/sister role
+- He depends on her for daily care
+- She carries memories of Kiyone that Tenchi doesn't have
 
 ### The Caretaker Dynamic
-Rea often acts as Tenchi's older sibling:
-- Reminds him of chores
+Rea functions as Tenchi's primary caretaker:
+- Prepares his meals
+- Gets him ready for school
 - Bandages his scrapes
-- Warns him about dangers
+- Provides emotional stability
 - Occupies the "responsible one" role
+
+*📝 Kiyone's letter acknowledges this: "a girl who probably helped raise you."*
+
+---
+
+## Future Canon Events
+
+**CANON (OVA 3+):**
+- Rea eventually marries Nobuyuki Masaki (Tenchi's father)
+- Together they have a son: Kenshi Masaki
+- Kenshi is sent to Geminar at age 15 (War on Geminar series)
+- This creates a full-circle connection: Rea from Geminar → Earth → her son returns to Geminar
 
 ---
 
 ## Phase I Integration
 
 **What Sheldon Will See:**
-- A quiet, competent child
-- Unusually mature for her age
-- Devoted to household duties
-- Close to Tenchi
+- A quiet, competent teenager
+- Running the household with impressive skill
+- Devoted to Tenchi's wellbeing
+- Reserved but not cold
 
 **What Sheldon Can Learn:**
-- Kiyone found her as a baby
+- Kiyone found her years ago
 - She's adopted/found family
 - Her origins are unknown
+- She's been caring for Tenchi since Kiyone's death
 
 **What Sheldon CANNOT Learn (Phase I):**
 - Geminar as dimensional origin
-- Any cosmic significance
+- Her artificial human nature
 - Connection to larger Tenchi multiverse
+- Her future marriage to Nobuyuki
 
 ---
 
 ## Story Integration Notes
 
-📖 **Phase I (1989):** Rea is present from Day 1. Sheldon encounters her as part of the household — a quiet girl who helps with cooking and watches over Tenchi.
+📖 **Phase I (1989):** Rea is present from Day 1. Sheldon encounters her as the household's quiet manager — a teenage girl who cooks, cleans, and watches over young Tenchi.
 
-🔮 **SHELDON'S REACTION:** Sheldon, himself placed by cosmic forces, may sense kinship with another "found" child. Their parallel situations create thematic resonance.
+🔮 **SHELDON'S DYNAMIC:** Sheldon, himself placed by cosmic forces, may sense kinship with another "found" person. Their parallel situations create thematic resonance. However, there may also be tension: Rea has been THE caretaker, and Sheldon's arrival disrupts her established role.
 
-📖 **DYNAMIC:** Rea and Sheldon may clash or cooperate over household duties. She's used to being the competent one; his arrival disrupts that.
+📖 **COOPERATION OR CONFLICT:** Rea and Sheldon must negotiate household responsibilities. Does she welcome the help? Resent the intrusion? Both?
 
-📖 **MYSTERY:** Rea's origins remain unresolved. The story may never explain exactly how a Geminar child appeared on Earth — or it may become plot-relevant later.
+📖 **DRAMATIC IRONY:** Readers who know canon understand Rea will eventually marry Nobuyuki. Sheldon sees only a teenage girl helping with the household.
 
 ---
 
 ## Canon Notes
 
 **Common Errors to Avoid:**
-- Rea is NOT a servant — she chooses to help, nobody forces her
-- Her competence is NOT normal — 5-year-olds don't usually cook and clean
-- She is NOT blood-related to the Masaki family
-- Her Geminar origin is CANON but unexplained in main timeline
+- Rea is NOT a young child — she's a teenager in 1989
+- She was NOT found as an infant — she arrived as a preteen
+- She is NOT naturally born — she's an artificial human
+- Her competence is NOT magical — she was literally designed for responsibility
+- She is NOT blood-related to the Masaki family (until she marries Nobuyuki)
 
 **Connection to War on Geminar:**
-The "Tenchi Muyo! War on Geminar" spin-off features Kenshi Masaki going to Geminar. Rea represents the reverse — someone from Geminar coming to Earth.
+The "Tenchi Muyo! War on Geminar" spin-off centers on her son Kenshi going to Geminar. Rea's accidental journey to Earth eventually results in Kenshi being sent to her homeworld — closing the dimensional loop.
 
 ---
 
