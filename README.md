@@ -34,30 +34,38 @@ This repository contains the complete planning, documentation, and supporting ma
 ## Quick Navigation
 
 ### Core Documents
-| Document | Purpose |
-|----------|---------|
-| [[_character_index.md]] | Master list of all character profiles |
-| [[scene_registry.md]] | Complete scene tracking for Chapter 1 |
-| [[_seed_index.md]] | Foreshadowing elements registry |
-| [[_corrections_log.md]] | Error tracking and resolution |
+| Document | Path | Purpose |
+|----------|------|---------|
+| Character Index | `characters/_character_index.md` | Master list of all character profiles |
+| Scene Registry | `story-bible/scene_registry.md` | Complete scene tracking for Chapter 1 |
+| Seed Index | `story-bible/_seed_index.md` | Foreshadowing elements registry |
+| Corrections Log | `story-bible/_corrections_log.md` | Error tracking and resolution |
 
-### Key Characters
+### Key Characters (`characters/`)
 | Character | File | Role |
 |-----------|------|------|
-| Sheldon Tsukino | [[sheldon.md]] | Protagonist |
-| Katsuhito Masaki | [[katsuhito.md]] | Mentor (secretly Yosho) |
-| Tenchi Masaki | [[tenchi.md]] | Found son |
-| Sailor Cosmos | [[cosmos.md]] | Cosmic mother |
-| Rea Masaki | [[rea.md]] | Adopted sister |
+| Sheldon Tsukino | `sheldon.md` | Protagonist |
+| Katsuhito Masaki | `katsuhito.md` | Mentor (secretly Yosho) |
+| Tenchi Masaki | `tenchi.md` | Found son |
+| Sailor Cosmos | `cosmos.md` | Cosmic mother |
+| Rea Masaki | `rea.md` | Adopted sister |
 
-### Writing Protocols
+### Locations (`locations/`)
+| Document | Purpose |
+|----------|---------|
+| `masaki_village_complete.md` | Comprehensive deep dive with ASCII regional maps |
+| `locations_network.md` | Connected places, routes, travel times |
+| `masaki_shrine.md` | Shrine layout and details |
+| `village.md` | Kamogata village overview |
+
+### Writing Protocols (`protocols/`)
 | Protocol | Purpose |
 |----------|---------|
-| [[voice_fidelity_protocol.md]] | Character voice consistency |
-| [[dialogue_texture_protocol.md]] | Dialogue quality assurance |
-| [[tone_drift_guard.md]] | Emotional tone maintenance |
-| [[theme_to_scene_enforcement.md]] | Thematic coherence |
-| [[truth_collapse_simulation.md]] | Mystery and revelation pacing |
+| `voice_fidelity_protocol.md` | Character voice consistency |
+| `dialogue_texture_protocol.md` | Dialogue quality assurance |
+| `tone_drift_guard.md` | Emotional tone maintenance |
+| `theme_to_scene_enforcement.md` | Thematic coherence |
+| `truth_collapse_simulation.md` | Mystery and revelation pacing |
 
 ---
 
@@ -104,32 +112,59 @@ This project draws from:
 
 ```
 /JumpChain
-├── Character Profiles (*.md)
-│   ├── Main cast (sheldon.md, katsuhito.md, tenchi.md, etc.)
-│   ├── Canon arrivals (ryoko.md, washu.md, ayeka.md, etc.)
-│   ├── Extended family (seto.md, airi.md, etc.)
-│   └── Supplementary (village_npcs.md, psychological_states.md)
-├── Timeline Documents
-│   ├── scene_registry.md
-│   ├── day_001.md
-│   └── Gap documentation (Gap A-G)
-├── Writing Protocols
+├── characters/              # 36 character profiles
+│   ├── sheldon.md           # Protagonist
+│   ├── katsuhito.md         # Mentor (secretly Yosho)
+│   ├── tenchi.md            # Found son
+│   ├── _character_index.md  # Master index
+│   └── [32 more profiles]
+│
+├── locations/               # 9 location documents
+│   ├── masaki_village_complete.md  # Comprehensive deep dive with ASCII maps
+│   ├── locations_network.md        # Connected places & routes
+│   ├── masaki_shrine.md            # Shrine details
+│   ├── village.md                  # Village overview
+│   └── [5 more location files]
+│
+├── timeline/
+│   ├── days/                # 10 day-by-day files
+│   │   ├── day_001.md
+│   │   ├── daily_lives.md
+│   │   └── events_calendar.md
+│   └── gaps/                # 46 gap period documents
+│       ├── GapAB_Years1_3.md
+│       ├── GapG_Years26-100_Complete.md
+│       └── [44 more timeline files]
+│
+├── scenes/                  # 19 scene files
+│   ├── SCENE_1_1_THE_AWAKENING_FINAL.md
+│   └── [18 more scene files]
+│
+├── protocols/               # 17 writing protocols
 │   ├── voice_fidelity_protocol.md
 │   ├── dialogue_texture_protocol.md
 │   ├── tone_drift_guard.md
-│   └── [8 more protocols]
-├── Indices
-│   ├── _character_index.md
+│   └── [14 more protocols + JSON configs]
+│
+├── story-bible/             # 46 planning documents
+│   ├── scene_registry.md
 │   ├── _seed_index.md
-│   └── _corrections_log.md
-├── epic_fiction_architect/ (TypeScript tool)
+│   ├── _corrections_log.md
+│   ├── SON_OF_COSMOS_MASTER_TIMELINE_COMPILED.md
+│   └── [42 more planning files]
+│
+├── references/              # 82 source materials
+│   ├── *.xlsx (spreadsheets)
+│   ├── *.pdf (JumpChain docs)
+│   ├── *.docx (story bible versions)
+│   └── *.png, *.zip (images, archives)
+│
+├── epic_fiction_architect/  # TypeScript planning tool
 │   ├── src/
 │   ├── docs/
 │   └── package.json
-└── Reference Materials
-    ├── Spreadsheets
-    ├── PDFs
-    └── Images
+│
+└── README.md                # This file
 ```
 
 ---
@@ -168,4 +203,4 @@ Personal creative project. Tenchi Muyo and Sailor Moon elements belong to their 
 
 ---
 
-**Last Updated:** 2026-01-24
+**Last Updated:** 2026-01-25
