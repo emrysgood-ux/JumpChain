@@ -449,7 +449,7 @@ Something has to give.
 
 ## 5.1 — The Letter (Year 1)
 
-Per his cover story, Sheldon arrived with an introduction letter from Uncle Kiyoshi in Osaka. He needs to acknowledge this relationship.
+Sheldon arrived with an introduction letter from Uncle Kiyoshi in Osaka. He needs to maintain this family relationship.
 
 **Month 2 (May 1989):**
 
@@ -503,7 +503,7 @@ He accepts the gift. He doesn't abuse it.
 - Sheldon sends gifts for occasions
 - He's "the American cousin who lives at a shrine"
 
-The relationship is real, even if the backstory isn't. Sheldon doesn't lie to them more than the cover story requires.
+The relationship is real. Sheldon's history with the Tsukino family genuinely happened --- he simply has no personal memory of the 1987-1989 period. He doesn't need to lie; he just cannot recall specific details from those years.
 
 ---
 
@@ -513,8 +513,8 @@ The relationship is real, even if the backstory isn't. Sheldon doesn't lie to th
 
 All abilities manifest as "exceptional but explainable":
 
-| Ability | How It Appears | Cover Story |
-|---------|----------------|-------------|
+| Ability | How It Appears | Natural Explanation |
+|---------|----------------|---------------------|
 | **Supreme Chef** | Food is delicious | "Good training; grandmother taught me" |
 | **Comfort Cooking** | People feel better after eating | "Quality ingredients; made with care" |
 | **Enhanced Senses** | Notices things; good in dim light | "Good eyes; attentive" |

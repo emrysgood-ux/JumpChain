@@ -95,7 +95,7 @@ Cosmos uses the JumpChain framework but modifies it:
 
 ### The Tsukino Identity
 
-Cosmos doesn't create a "cover story" - she creates REAL HISTORY:
+Cosmos creates genuine history through causality rewriting:
 
 | Element | Detail |
 |---------|--------|

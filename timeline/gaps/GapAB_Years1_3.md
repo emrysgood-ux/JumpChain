@@ -22,7 +22,7 @@ By the end of April 1989 (the 28 days we have detailed), Sheldon has:
 - Arrived and integrated into shrine life
 - Become Tenchi's primary caretaker
 - Earned Yosho's cautious approval
-- Established cover story in the village
+- Established himself in the village as a Tsukino family descendant
 - Moved to the Tsukino house property
 
 ## 1.2 — May 1989: First Full Month

@@ -91,8 +91,8 @@ Years 1-3 transform Sheldon from a confused stranger climbing shrine steps to an
 
 ### Phase I Powers: Becoming Noticeable
 
-| Ability | Cover Story (Wearing Thin) |
-|---------|---------------------------|
+| Ability | Natural Explanation (Wearing Thin) |
+|---------|-----------------------------------|
 | Never sick | "Healthy lifestyle" |
 | Heals overnight | Not yet noticed widely |
 | Hears far | "Good ears" |

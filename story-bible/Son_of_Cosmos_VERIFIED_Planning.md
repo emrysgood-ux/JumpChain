@@ -43,7 +43,7 @@
 
 ### 1.4 The Tsukino Family (CONFIRMED)
 
-**CRITICAL:** When a JumpChain profile is created for a character, it is made to be **completely true and not a disguise**. The Tsukino family is NOT a cover story — it's genuine history Cosmos created.
+**CRITICAL:** When Cosmos places Sheldon in a universe, she rewrites causality to create genuine history. The Tsukino family genuinely existed. Sheldon is genuinely their descendant. This is his actual history, not a disguise.
 
 ---
 

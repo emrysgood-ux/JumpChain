@@ -169,7 +169,7 @@ Takeo is the absent grandfather — the weight of expectation, the guilt of sepa
 
 ## COSMOS'S CREATION NOTE
 
-**⚠️ CRITICAL:** Takeo genuinely existed in the rewritten reality. He was not invented as a cover story. Cosmos rewrote causality so that Takeo's life, grief, work, and death are all REAL. His bones lie in the village cemetery. Villagers remember him. The property records bear his name.
+**⚠️ CRITICAL:** Takeo genuinely existed. Cosmos rewrote causality so that Takeo's life, grief, work, and death are all real. His bones lie in the village cemetery. Villagers remember him. The property records bear his name. He is Sheldon's actual maternal grandfather.
 
 Sheldon carries his blood — because Cosmos made it so.
 

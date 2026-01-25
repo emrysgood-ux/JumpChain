@@ -242,9 +242,9 @@
 
 ## 2.1 Core Principle (CONFIRMED)
 
-**CRITICAL:** This is NOT a cover story. Cosmos rewrote causality. The Tsukino family genuinely existed. Records exist. People remember them. Sheldon is genuinely their relative — because Cosmos made it so.
+**CRITICAL:** Cosmos rewrote causality. The Tsukino family genuinely existed. Records exist. People remember them. Sheldon is genuinely their descendant. This is his actual history.
 
-When a JumpChain profile is created for a character, it is made to be **completely true and not a disguise**.
+When Cosmos places Sheldon in a universe, she creates genuine history — not disguise, but reality.
 
 ---
 
@@ -337,7 +337,7 @@ When a JumpChain profile is created for a character, it is made to be **complete
 | **Late 1986** | Aunt Michiko Tsukino dies in Okayama |
 | **Early 1987** | SHELDON ARRIVES IN JAPAN for funeral and estate matters. This is the documented entry date. |
 | **1987-1989** | Extended stay. "Settling the estate." "Finding himself." THE GAP SHELDON DIDN'T LIVE. |
-| **April 1989** | "Sabbatical" from Berkeley begins. Cover story for why he's STILL in Okayama. |
+| **April 1989** | His conscious memory begins April 3. The preceding two years are documented but not personally remembered. |
 
 ### The Two-Year Gap (1987-1989)
 

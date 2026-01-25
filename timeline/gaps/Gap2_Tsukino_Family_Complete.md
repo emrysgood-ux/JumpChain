@@ -6,7 +6,7 @@
 
 # OVERVIEW
 
-**CRITICAL UNDERSTANDING:** Cosmos didn't create a cover story. She rewrote causality. The Tsukino family GENUINELY EXISTED. Records exist. People remember them. Sheldon is genuinely their relative — because Cosmos made it so.
+**CRITICAL UNDERSTANDING:** Cosmos rewrote causality. The Tsukino family genuinely existed. Records exist. People remember them. Sheldon is genuinely their descendant. This is his actual history.
 
 The family name "Tsukino" (月野, "moon field") deliberately echoes Usagi Tsukino's family. Cosmos created a mother for Sheldon by drawing on her own.
 
@@ -219,15 +219,15 @@ Cosmos created the paper trail retroactively. She placed memories in Kiyoshi's m
 
 **Potential crisis:** If someone asks "What were you doing last month?" he cannot answer.
 
-### The Cover Story (If Asked):
+### If Asked About Those Years:
 
 | Level | Response |
 |-------|----------|
-| Vague | "I was traveling. Thinking. After my mother died, I needed time." |
-| If pressed | "I don't remember clearly. It's been difficult." (TRUE — he doesn't) |
-| Red flag | Medical professional might suspect head injury or dissociative episode |
+| General | "I was traveling. Processing my mother's death. I needed time alone." |
+| If pressed for details | "Those months are blurry. Grief does that." (Genuinely true) |
+| Medical interpretation | A professional might note dissociative symptoms consistent with grief |
 
-**Note:** This vulnerability is INTENTIONAL. Cosmos wants Sheldon to build real relationships, not rely on fabricated history.
+**Note:** Sheldon's memory gap for 1987-1989 is genuine. The events happened; he simply cannot access those memories. He doesn't need to lie — he just cannot recall specifics.
 
 ---
 
@@ -287,7 +287,7 @@ Cosmos created the paper trail retroactively. She placed memories in Kiyoshi's m
 3. **Middle-aged woman (~48):** Simple dress — "Aunt" Michiko
 4. **Young woman (~47):** American-style dress — "Mother" Yuki (visiting from America)
 
-**CRITICAL:** Sheldon has NEVER MET these people (except possibly his mother Yuki in the fabricated history). They are entirely Cosmos's creation. When he looks at this photo, he feels nothing — and wonders if he should.
+**Note:** Sheldon has no personal memory of meeting these people (his conscious experience begins in 1989). When he looks at this photo, he feels nothing immediate — and wonders if he should, given that these are his actual family members.
 
 **Foreshadow:** Cosmos created these faces. They may unconsciously echo her own mortal family — Usagi's parents. Sheldon can never know this.
 

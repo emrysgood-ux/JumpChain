@@ -22,8 +22,8 @@ Year 4 is the pivotal year that transforms Sheldon from "helpful stranger" to "e
 
 By Year 4, Sheldon's Phase II abilities are becoming harder to hide:
 
-| Ability | How It's Manifesting | Cover Story Wearing Thin |
-|---------|---------------------|-------------------------|
+| Ability | How It's Manifesting | Natural Explanation Failing |
+|---------|---------------------|----------------------------|
 | **Enhanced Senses** | Sees clearly in near-darkness; hears conversations from far away | "Good eyes" doesn't explain reading in moonlight |
 | **Physical Optimization** | Never sick; heals faster than normal | Three years without a cold while village has flu outbreaks |
 | **Infinite Pantry** | Always has the right ingredient | Coincidence becomes pattern |
@@ -312,10 +312,10 @@ Sheldon still sees Yosho as an elderly mentor figure. The romantic potential is 
 - Ask questions about control
 
 **Around Everyone Else:**
-- Still suppresses
-- Still pretends normal
-- Still maintains cover story
-- No change in behavior
+- Still suppresses abilities
+- Still presents as normal human
+- Still private about his nature
+- No change in public behavior
 
 ## 5.2 — Internal Monologue Rules
 

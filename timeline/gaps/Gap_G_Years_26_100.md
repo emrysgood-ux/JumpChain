@@ -53,7 +53,7 @@ This is the heart of the "Silver Millennium" — the long peaceful stretch where
 - Attendees: Village, extended family (Kiyoshi's family from Osaka)
 - Style: Traditional Shinto
 - Officiant: Yosho himself (as shrine priest) with Tenchi assisting
-- Cover Story: "The American who's been helping at the shrine is marrying into the family"
+- Village Understanding: "The American who's been helping at the shrine is marrying into the family"
 - Village Response: "Finally! We've been waiting for this for years."
 
 **Notable Moments:**

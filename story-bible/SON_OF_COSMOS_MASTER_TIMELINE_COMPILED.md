@@ -49,7 +49,7 @@
 | April 3 | Day 1 | Sheldon awakens in Okayama field. Takes bus to village. Climbs 320 steps. Meets Katsuhito and Tenchi. |
 | April 4-7 | Days 2-5 | Initial integration. Offered guest room. First meals cooked. Tenchi curious but shy. |
 | April 8-14 | Days 6-12 | Routine establishing. Sheldon learns shrine grounds. Begins helping with chores. |
-| April 15-18 | Days 13-16 | First visit to village proper. Meets shopkeepers. Cover story established. |
+| April 15-18 | Days 13-16 | First visit to village proper. Meets shopkeepers. Identity as Tsukino descendant recognized. |
 | April 19 | Day 17 | **HIKARU (orange tabby kitten) arrives** at household. |
 | April 20-23 | Days 18-21 | Preparing for Tenchi's birthday. Sheldon learns the significance. |
 | April 24 | Day 22 | **TENCHI'S 5TH BIRTHDAY.** First celebration Sheldon organizes. Key bonding moment. |

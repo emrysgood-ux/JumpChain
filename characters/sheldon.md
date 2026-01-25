@@ -70,7 +70,7 @@ Birth Date: August 21, 1987
 4. **Year 7-12**: "Tsukino Labs" — legitimate R&D operation
 5. **Year 12+**: Multi-field technology company
 
-This isn't a cover story that needs defending — it's the trajectory anyone would expect from someone with his credentials.
+This is the natural trajectory anyone would expect from someone with his credentials.
 
 **The Work, Not The Luck:**
 
@@ -97,8 +97,8 @@ grandmother taught him physics.\*\***
 
 **5.5 --- Tsukino Identity**
 
-**⚠️ CRITICAL: Sheldon Tsukino is NOT a cover story. Cosmos cosmically
-rewrote reality --- the family genuinely exists.\*\***
+**⚠️ CRITICAL: Sheldon Tsukino is his actual identity. Cosmos rewrote
+causality --- the family genuinely exists and Sheldon is genuinely their descendant.\*\***
 
 **What the Village Sees:**
 - Biracial man returning to ancestral village
@@ -950,9 +950,9 @@ Cosmos didn't just create documents --- she created a family. These
 people EXISTED in the rewritten reality. Their lives, deaths, and
 memories are real within the world's history.
 
-**⚠️ CRITICAL: This is NOT a cover story. Cosmos rewrote causality. The
-Tsukino family genuinely existed. Records exist. People remember them.
-Sheldon is genuinely their relative --- because Cosmos made it so.\*\***
+**⚠️ CRITICAL: Cosmos rewrote causality. The Tsukino family genuinely
+existed. Records exist. People remember them. Sheldon is genuinely their
+descendant --- this is his actual history.\*\***
 
 Tsukino Takeo --- 'Grandfather'
 
@@ -1135,11 +1135,10 @@ In photo: The elderly woman in kimono, gentle smile (1977, two years before her 
 The ID shows Sheldon registered as foreign resident in April 1987. The
 story begins April 1989. Where was he for two years?
 
-**⚠️ CRITICAL: This is NOT a plot hole. Cosmos created a complete
-two-year history. Sheldon simply doesn't REMEMBER it --- because he
-wasn't conscious for it.\*\***
+**⚠️ CRITICAL: This history genuinely happened. Sheldon simply has no
+personal memory of it --- his consciousness begins April 3, 1989.\*\***
 
-The Official History (What Records Show)
+Sheldon's Documented History (1987-1989)
 
 April 1987: Sheldon Tsukino arrives in Japan from USA; registers as
 foreign resident in Osaka
@@ -1147,48 +1146,48 @@ foreign resident in Osaka
 April-May 1987: Stays with uncle Kiyoshi in Osaka; gets bearings; writes
 letter of introduction
 
-May-Dec 1987: Travels Japan; works odd jobs; 'finding himself' after
+May-Dec 1987: Travels Japan; works odd jobs; processing grief after
 mother's death
 
-Jan-Dec 1988: Continues traveling; occasional letters to uncle; deposits
-money in bank accounts
+Jan-Dec 1988: Continues traveling; sends occasional letters to uncle;
+deposits money in bank accounts
 
-Jan-Mar 1989: Records go quiet; Sheldon 'off the grid' for final months
+Jan-Mar 1989: Goes quiet; spending time alone in Okayama area
 
 April 3, 1989: Awakens in field with no memory of the past two years
 
-The Truth (What Actually Happened)
+The Memory Gap
 
-Cosmos created the paper trail retroactively. She placed memories in
-Kiyoshi's mind, letters in his box, transactions in bank records. The
-two years of history are REAL in every verifiable sense --- but Sheldon
-never lived them.
+Cosmos rewrote causality so that Sheldon's history in Japan is genuine.
+Uncle Kiyoshi has real memories of meeting him. The letters exist. The
+bank transactions are recorded. All of this genuinely happened within
+the timeline.
 
-What Sheldon knows: Nothing. He has no memories between death (2025) and
-awakening (April 3, 1989).
+What Sheldon experiences: His conscious memory begins April 3, 1989. He
+has no access to memories of the preceding two years.
 
 What he can discover: If he investigates, he'll find a complete history
-he doesn't remember living.
+he personally doesn't remember.
 
-Potential crisis: If someone asks 'What were you doing last month?' he
-cannot answer.
+The gap: This is similar to amnesia. The events happened; Sheldon simply
+cannot access those memories.
 
-The Cover Story (If Asked)
+If Asked About the Past Two Years
 
-Sheldon doesn't have a prepared story because he doesn't know he needs
-one. If pressed:
+Sheldon can answer honestly:
 
-Vague version: 'I was traveling. Thinking. After my mother died, I
-needed time.'
+Truthful response: 'I was traveling. Processing my mother's death. I
+needed time alone.'
 
-If pressed harder: 'I don't remember clearly. It's been difficult.'
-(True --- he genuinely doesn't remember)
+If pressed for details: 'Those months are blurry. Grief does that.'
+(Genuinely true --- he cannot recall specifics)
 
-Red flag: Medical professional might suspect head injury or dissociative
-episode
+Medical interpretation: A professional might note dissociative symptoms
+consistent with grief and major life transition
 
-*📝 This vulnerability is INTENTIONAL. Cosmos wants Sheldon to build
-real relationships, not rely on fabricated history.*
+*📝 The memory gap serves a narrative purpose: Sheldon must build
+genuine present-day relationships rather than relying on past connections
+he cannot actually remember.*
 
 The Address Problem
 
@@ -1349,8 +1348,9 @@ Consistent memories: Kiyoshi's memories match the documents
 Undeniable identity: Sheldon IS Tsukino Sheldon in every verifiable
 sense
 
-**⚠️ CRITICAL: Cosmos didn't create a cover story. She created a LIFE.
-The only thing missing is Sheldon's memory of living it.\*\***
+**⚠️ CRITICAL: Cosmos created genuine history. The Tsukino family lived,
+loved, and died. Sheldon is their actual descendant. The only thing
+missing is his personal memory of the 1987-1989 period.\*\***
 
 **5.12.5 --- Family Photograph**
 
@@ -1533,9 +1533,9 @@ Quick reference for what Sheldon has on his person, April 3, 1989:
 
 **Cosmos's choices reveal her nature and intentions:**
 
-IDENTITY: Not a cover story but a rewritten reality. The Tsukino family
-existed, the documents are genuine, the history is real. She didn't
-forge --- she created.
+IDENTITY: Sheldon is genuinely Tsukino Sheldon. The Tsukino family
+existed, the documents are genuine, the history is real. Cosmos rewrote
+causality --- she didn't forge documents, she made the history true.
 
 FINANCES: Enough to survive for years, not enough to be wealthy. Forces
 engagement with world, not isolation.

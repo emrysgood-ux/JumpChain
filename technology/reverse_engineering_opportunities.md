@@ -44,7 +44,7 @@ A brilliant engineer going independent and founding a multi-field tech company i
 4. **Year 7-12**: "Tsukino Labs" or equivalent — legitimate R&D operation
 5. **Year 12+**: Multi-field technology company covering electronics, materials, medical devices
 
-This is not a cover story that needs defending — it's the natural trajectory of a genius engineer in 1989 Japan.
+This is the natural trajectory of a genius engineer in 1989 Japan.
 
 ---
 

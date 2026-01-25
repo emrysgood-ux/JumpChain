@@ -55,7 +55,7 @@
 
 **Key Questions:**
 1. Does Sheldon attend any parent-teacher events?
-2. What's his cover story for income/occupation by now?
+2. What's his stated occupation by now? (Repair business, consultant, etc.)
 3. Has he contacted Uncle Kiyoshi yet?
 4. What's the first time a villager asks for his help with something significant?
 

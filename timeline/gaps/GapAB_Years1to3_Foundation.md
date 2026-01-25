@@ -408,8 +408,8 @@ Sheldon has a living "uncle" who remembers him. He's been in Japan three years w
 
 **What This Establishes:**
 - The family relationship is REAL (Cosmos made it real)
-- Sheldon is avoiding it (discomfort with fabricated history)
-- Eventually he'll have to face it
+- Sheldon is avoiding deeper contact (discomfort with his memory gap — he can't recall meeting them)
+- Eventually he'll have to face building real connections
 - For now: letters suffice
 
 ### First Phone Call (Winter 1991):
@@ -507,10 +507,10 @@ The last quiet year.
 
 ## 5.3 — Hidden Grief
 
-- Sheldon mourns his real family alone
-- No one knows his actual history
-- He performs his cover story while carrying his truth
-- Cosmos is the only one who knows, and she's distant
+- Sheldon mourns his grandmother Dorothy alone
+- No one knows about his death and resurrection
+- He lives as Tsukino Sheldon while carrying the weight of his past life
+- Cosmos is the only one who knows his full truth, and she's distant
 
 ## 5.4 — The Slow Pace
 

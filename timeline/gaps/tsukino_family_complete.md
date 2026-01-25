@@ -6,7 +6,7 @@
 
 # OVERVIEW
 
-**CRITICAL UNDERSTANDING:** Cosmos didn't create a cover story. She rewrote causality. The Tsukino family GENUINELY EXISTED. Records exist. People remember them. Sheldon is genuinely their relative — because Cosmos made it so.
+**CRITICAL UNDERSTANDING:** Cosmos rewrote causality. The Tsukino family genuinely existed. Records exist. People remember them. Sheldon is genuinely their descendant. This is his actual family history.
 
 The family name "Tsukino" (月野, "moon field") deliberately echoes Usagi Tsukino's family. Cosmos created a mother for Sheldon by drawing on her own.
 
@@ -137,7 +137,7 @@ Villagers may vaguely remember "the American nephew who came for Michiko's funer
 | Yuki (由紀) | Daughter | 38 |
 | Three grandchildren | — | 5-12 |
 
-### What Kiyoshi "Remembers" (REAL to him, Cosmos created):
+### Kiyoshi's Memories (Genuine History):
 
 1. **1957-58:** His sister Yuki met an American serviceman; fell in love; emigrated
 2. **1958-1980:** Yuki sent letters and photos over the years (Kiyoshi has a box of ~50 letters)
@@ -147,7 +147,7 @@ Villagers may vaguely remember "the American nephew who came for Michiko's funer
 6. **1987:** Sheldon came to Japan. Stayed with Kiyoshi briefly. Then went "traveling."
 7. **1987-1989:** Received occasional letters from Sheldon
 
-### Letters From "Sheldon" (In Kiyoshi's Possession):
+### Letters From Sheldon (In Kiyoshi's Possession):
 
 | Date | Content |
 |------|---------|
@@ -195,9 +195,9 @@ In his Osaka home, Kiyoshi has:
 
 ID shows Sheldon registered as foreign resident in April 1987. Story begins April 1989. **Where was he for two years?**
 
-**ANSWER:** Cosmos created a complete two-year history. Sheldon doesn't REMEMBER it — because he wasn't conscious for it.
+**ANSWER:** This history genuinely happened. Sheldon simply has no personal memory of it — his conscious experience begins April 3, 1989.
 
-### The Official History (What Records Show):
+### Sheldon's Documented History (1987-1989):
 
 | Date | Event |
 |------|-------|
@@ -209,25 +209,25 @@ ID shows Sheldon registered as foreign resident in April 1987. Story begins Apri
 | Jan-Mar 1989 | Records go quiet; Sheldon "off the grid" |
 | **April 3, 1989** | **AWAKENS with no memory of the past two years** |
 
-### The Truth (What Actually Happened):
+### The Memory Gap:
 
-Cosmos created the paper trail retroactively. She placed memories in Kiyoshi's mind, letters in his box, transactions in bank records. The two years of history are REAL in every verifiable sense — but Sheldon never lived them.
+Cosmos rewrote causality so that Sheldon's history in Japan is genuine. Uncle Kiyoshi has real memories of meeting him. The letters exist. The bank transactions are recorded. All of this genuinely happened within the timeline.
 
-**What Sheldon knows:** Nothing. No memories between death (2025) and awakening (April 3, 1989).
+**What Sheldon experiences:** His conscious memory begins April 3, 1989. He has no access to memories of the preceding two years.
 
-**What he can discover:** If he investigates, he'll find a complete history he doesn't remember living.
+**What he can discover:** If he investigates, he'll find a complete history he personally doesn't recall.
 
-**Potential crisis:** If someone asks "What were you doing last month?" he cannot answer.
+**The gap:** This is similar to amnesia. The events happened; Sheldon simply cannot access those memories.
 
-### The Cover Story (If Asked):
+### If Asked About Those Years:
 
 | Level | Response |
 |-------|----------|
-| Vague | "I was traveling. Thinking. After my mother died, I needed time." |
-| If pressed | "I don't remember clearly. It's been difficult." (TRUE — he doesn't) |
-| Red flag | Medical professional might suspect head injury or dissociative episode |
+| General | "I was traveling. Processing my mother's death. I needed time alone." |
+| If pressed for details | "Those months are blurry. Grief does that." (Genuinely true) |
+| Medical interpretation | A professional might note dissociative symptoms consistent with grief |
 
-**Note:** This vulnerability is INTENTIONAL. Cosmos wants Sheldon to build real relationships, not rely on fabricated history.
+**Note:** Sheldon's memory gap is genuine. The events happened; he simply cannot recall specifics. He doesn't need to lie — he just cannot remember.
 
 ---
 
@@ -287,7 +287,7 @@ Cosmos created the paper trail retroactively. She placed memories in Kiyoshi's m
 3. **Middle-aged woman (~48):** Simple dress — "Aunt" Michiko
 4. **Young woman (~47):** American-style dress — "Mother" Yuki (visiting from America)
 
-**CRITICAL:** Sheldon has NEVER MET these people (except possibly his mother Yuki in the fabricated history). They are entirely Cosmos's creation. When he looks at this photo, he feels nothing — and wonders if he should.
+**Note:** Sheldon has no personal memory of meeting these people (his conscious experience begins in 1989). When he looks at this photo, he feels nothing immediate — and wonders if he should, given that these are his actual family members.
 
 **Foreshadow:** Cosmos created these faces. They may unconsciously echo her own mortal family — Usagi's parents. Sheldon can never know this.
 
@@ -317,7 +317,7 @@ Now he has:
 
 ## What This Means for Sheldon:
 
-Kiyoshi remembers a version of Sheldon that never existed — but that version was still HIM. Same personality. Same handwriting. Same quiet politeness. The memories Cosmos created are consistent with who Sheldon actually is.
+Kiyoshi remembers Sheldon from his 1987 visit and their correspondence. The history is consistent with who Sheldon actually is — same personality, same handwriting, same quiet politeness. The only difference is that Sheldon cannot personally access memories from before April 1989.
 
 He doesn't have to perform. He just has to show up and be present.
 
