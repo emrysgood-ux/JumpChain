@@ -5,27 +5,70 @@ This document outlines technologies from the Tenchi Muyo universe (and general g
 
 ---
 
+## The Genius, Not The Lucky
+
+**⚠️ CRITICAL FRAMING: Sheldon is a legitimate genius. Four PhDs. Postdoctoral work in Kyoto. He's not "getting lucky" — he's doing the WORK.**
+
+Any technology Sheldon introduces requires:
+1. **Building tools** to find the right materials
+2. **Building tools** to process those materials
+3. **Building tools** to create the actual technology
+4. **Iteration, failure, refinement** — the scientific method applied rigorously
+
+This is especially true starting from 1989 infrastructure. Much of what he knows HOW to build doesn't exist yet because the TOOLS to build it don't exist yet. The knowledge is the easy part. The execution takes years of work.
+
+**Why No One Would Think "Alien":**
+- His past life career was in physics/engineering — he has the credentials
+- His current cover is entirely plausible: on sabbatical from a leading US tech company
+- Japanese firms are headhunting him (this was common in 1989's tech boom)
+- He's running his family's old shop, which naturally evolves into his own tech company
+- Much of the tech he could introduce is STILL FICTIONAL TODAY — it's ahead of Earth's current capability, not proof of alien contact
+
+A brilliant engineer going independent and founding a multi-field tech company is the OBVIOUS explanation. No one jumps to "alien" when "genius" is sitting right there.
+
+---
+
+## Sheldon's Professional Cover (Entirely Plausible)
+
+### Background (What People Know)
+- **Past Career**: Senior researcher at a leading US technology company (pre-sabbatical)
+- **Education**: Four PhDs from prestigious institutions (MIT, Stanford, Caltech, Alaska)
+- **Postdoc**: Kyoto University (~2010 equivalent in his timeline) — explains Japan connection
+- **Current Status**: On sabbatical, returned to Japan to "reconnect with family roots"
+- **Industry Interest**: Being courted by Japanese tech firms (completely normal in 1989's economic climate)
+
+### The Natural Progression
+1. **Year 1-2**: Running the family electronics/sundries shop (Tsukino-ya)
+2. **Year 2-4**: Shop evolves to include custom electronics, repairs, modifications
+3. **Year 4-7**: Files first patents; consulting for Japanese firms
+4. **Year 7-12**: "Tsukino Labs" or equivalent — legitimate R&D operation
+5. **Year 12+**: Multi-field technology company covering electronics, materials, medical devices
+
+This is not a cover story that needs defending — it's the natural trajectory of a genius engineer in 1989 Japan.
+
+---
+
 ## Key Constraints
 
 ### Sheldon's Situation (1989)
-- **Cover**: Returning Japanese-American, educated but not famous
-- **Education**: 4 PhDs (Physics, Applied Math, others)
-- **Resources**: ~¥847,000 initially (~$6,350 USD)
-- **Location**: Rural Okayama, Japan
+- **Professional Standing**: Senior researcher on sabbatical; being headhunted by Japanese firms
+- **Education**: 4 PhDs (Physics, Applied Math, Materials Science, Experimental Physics)
+- **Resources**: ~¥3,350,000 liquid + property (house, shop, land)
+- **Location**: Rural Okayama, Japan — but with easy access to Osaka/Kurashiki tech corridors
 - **Access**: Must earn trust before accessing alien tech
 
-### What He CAN'T Do
-- Introduce obviously alien technology
-- Patent things too far ahead of 1989 science
-- Draw attention that invites investigation
+### What He CAN'T Do (Self-Imposed Ethical Constraints)
+- **Give Earth access to self-destructive technology** — weapons, mass surveillance, etc.
+- Introduce obviously alien technology (different from "can't" — he chooses not to)
 - Access Washu's lab without her trust
 - Use magic-based systems
 
-### What He CAN Do
-- "Invent" things that 1989 science could plausibly produce
-- Use knowledge of future developments to guide research
-- Introduce incremental improvements that compound
-- Build wealth through strategic patents
+### What He WILL Do
+- Build the tools to build the tools to build better technology
+- Introduce incremental improvements that compound over decades
+- Focus on technology that makes lives EASIER and HEALTHIER
+- Use knowledge of future developments to guide research direction
+- Build wealth through strategic patents — but wealth is a tool, not a goal
 - Eventually access more advanced tech as relationships develop
 
 ---
@@ -325,25 +368,34 @@ Some patents should be filed through shell companies:
 ## Ethical Considerations
 
 ### What Sheldon Would Do
-Based on his character:
-- Focus on technologies that help people
-- Avoid weapons applications
-- Build sustainable institutions
-- Share wealth appropriately
+Based on his character — a man raised by Dorothy Mae to value hard work and helping others:
+- **Make people's lives easier** — labor-saving technology, convenience, accessibility
+- **Make people's lives healthier** — medical advances, cleaner environment, better food
+- Focus on technologies that help the most people, not just the wealthy
+- Build sustainable institutions that outlive him
+- Share wealth appropriately — foundation work, community investment
 - Maintain genuine relationships over profit
+- Use his genius fully — he wouldn't miss an opportunity to help when he has the capability
 
-### What He'd Avoid
-- Military contracts
-- Technologies that increase inequality
-- Anything that might expose the household
-- Profits over people
+### What He'd NEVER Do
+- **Give Earth access to anything that can destroy itself** — weapons, mass destruction tech, surveillance states
+- Military contracts of any kind
+- Technologies that concentrate power in dangerous hands
+- Anything that might expose the household before Earth is ready
+- Profits over people — ever
+
+### The Work Ethic (Dorothy Mae's Voice)
+"Idle hands are the devil's workshop. If you don't have work, find some."
+
+Sheldon won't sit on his knowledge. If he CAN help, he WILL help. Not because of guilt or obligation, but because his grandmother raised him to believe that capability creates responsibility. He has four PhDs and knowledge of the future — not using that to help people would be a betrayal of everything she taught him.
 
 ### Long-term Vision
 Not just wealth accumulation, but:
-- Foundation for charitable work
-- Influence to protect the household
+- Foundation for charitable work worldwide
+- Influence to protect the household when needed
 - Resources for the kids' futures (if applicable)
-- Preparation for when Earth meets the galaxy
+- Preparation for when Earth meets the galaxy — humanity should enter that era strong, healthy, and capable
+- A legacy that Dorothy Mae would be proud of
 
 ---
 
