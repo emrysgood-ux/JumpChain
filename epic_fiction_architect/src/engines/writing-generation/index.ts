@@ -606,9 +606,9 @@ export class WritingGenerationEngine {
   private totalTokens: number = 0;
 
   // Production tracking configuration
-  // Default: 0 (disabled) - set to a reasonable target like 3-10 for daily quotas
-  // Note: 299 is the total scenes for Chapter 1, NOT a daily per-character requirement
-  private minimumDailyScenesPerCharacter: number = 0;
+  // Default: 299 scenes/character/day for AI-assisted scaffold generation
+  // Adjust lower for manual writing workflows
+  private minimumDailyScenesPerCharacter: number = 299;
 
   // Active provider
   private activeProvider: AIProviderConfig | null = null;
@@ -624,10 +624,8 @@ export class WritingGenerationEngine {
 
   /**
    * Set the minimum daily scene generation target per character.
-   * Default is 0 (disabled). Recommended range: 3-10 for active projects.
-   *
-   * IMPORTANT: The 299 figure refers to total scenes in Chapter 1,
-   * NOT a daily per-character production requirement.
+   * Default is 299 for AI-assisted scaffold generation (outlines, seeds, structural placeholders).
+   * Lower this for manual writing workflows or raise for higher throughput sessions.
    */
   setMinimumDailyScenesPerCharacter(count: number): void {
     if (count < 0) {
