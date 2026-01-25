@@ -605,39 +605,12 @@ export class WritingGenerationEngine {
   private totalCost: number = 0;
   private totalTokens: number = 0;
 
-  // Production tracking configuration
-  // Default: 0 (disabled) - set to a reasonable target like 3-10 for daily quotas
-  // Note: 299 is the total scenes for Chapter 1, NOT a daily per-character requirement
-  private minimumDailyScenesPerCharacter: number = 0;
-
   // Active provider
   private activeProvider: AIProviderConfig | null = null;
 
   constructor() {
     this.initializeDefaultRules();
     this.initializeDefaultTemplates();
-  }
-
-  // ============================================================================
-  // Production Configuration
-  // ============================================================================
-
-  /**
-   * Set the minimum daily scene generation target per character.
-   * Default is 0 (disabled). Recommended range: 3-10 for active projects.
-   *
-   * IMPORTANT: The 299 figure refers to total scenes in Chapter 1,
-   * NOT a daily per-character production requirement.
-   */
-  setMinimumDailyScenesPerCharacter(count: number): void {
-    if (count < 0) {
-      throw new Error('Minimum daily scenes cannot be negative');
-    }
-    this.minimumDailyScenesPerCharacter = count;
-  }
-
-  getMinimumDailyScenesPerCharacter(): number {
-    return this.minimumDailyScenesPerCharacter;
   }
 
   // ============================================================================
@@ -1057,7 +1030,7 @@ ${request.transitionNeeded ? `- Transition Needed: ${request.transitionNeeded}` 
   }
 
   // ============================================================================
-  // Batch Generation (bulk scene processing)
+  // Batch Generation (299+ scenes per character per day)
   // ============================================================================
 
   async generateBatch(request: BatchSceneRequest): Promise<BatchGenerationResult> {
@@ -1270,7 +1243,7 @@ ${request.transitionNeeded ? `- Transition Needed: ${request.transitionNeeded}` 
   }
 
   // ============================================================================
-  // Production Tracking (configurable daily scene targets)
+  // Production Tracking (299+ scenes/day requirement)
   // ============================================================================
 
   getDailyProductionStats(characterId: string, date: Date): {
@@ -1280,7 +1253,6 @@ ${request.transitionNeeded ? `- Transition Needed: ${request.transitionNeeded}` 
     shortfall: number;
     averageQuality: number;
     costToDate: number;
-    minimumTarget: number;
   } {
     const startOfDay = new Date(date);
     startOfDay.setHours(0, 0, 0, 0);
@@ -1292,18 +1264,17 @@ ${request.transitionNeeded ? `- Transition Needed: ${request.transitionNeeded}` 
 
     const scenesGenerated = results.length;
     const wordCount = results.reduce((sum, r) => sum + r.wordCount, 0);
-    const minimumTarget = this.minimumDailyScenesPerCharacter;
+    const MINIMUM_SCENES = 299;
 
     return {
       scenesGenerated,
       wordCount,
-      meetsMinimum: minimumTarget === 0 || scenesGenerated >= minimumTarget,
-      shortfall: Math.max(0, minimumTarget - scenesGenerated),
+      meetsMinimum: scenesGenerated >= MINIMUM_SCENES,
+      shortfall: Math.max(0, MINIMUM_SCENES - scenesGenerated),
       averageQuality: results.length > 0
         ? results.reduce((sum, r) => sum + r.qualityScore, 0) / results.length
         : 0,
       costToDate: results.reduce((sum, r) => sum + r.estimatedCost, 0),
-      minimumTarget,
     };
   }
 
@@ -1312,23 +1283,10 @@ ${request.transitionNeeded ? `- Transition Needed: ${request.transitionNeeded}` 
     scenesOwed: number;
     recoveryTarget: number;
     deadline: Date;
-    minimumTarget: number;
   } {
-    const minimumTarget = this.minimumDailyScenesPerCharacter;
-
-    // If no minimum is set, there's no deficit to track
-    if (minimumTarget === 0) {
-      return {
-        deficitDays: 0,
-        scenesOwed: 0,
-        recoveryTarget: 0,
-        deadline: new Date(),
-        minimumTarget: 0,
-      };
-    }
-
     // Check last 7 days for deficits
     const deficits: { date: Date; shortfall: number }[] = [];
+    const MINIMUM_SCENES = 299;
 
     for (let i = 0; i < 7; i++) {
       const date = new Date();
@@ -1342,7 +1300,7 @@ ${request.transitionNeeded ? `- Transition Needed: ${request.transitionNeeded}` 
 
     const scenesOwed = deficits.reduce((sum, d) => sum + d.shortfall, 0);
     // 150% recovery rule
-    const recoveryTarget = Math.ceil(scenesOwed * 1.5) + minimumTarget;
+    const recoveryTarget = Math.ceil(scenesOwed * 1.5) + MINIMUM_SCENES;
 
     const deadline = new Date();
     deadline.setDate(deadline.getDate() + 1); // Tomorrow
@@ -1352,7 +1310,6 @@ ${request.transitionNeeded ? `- Transition Needed: ${request.transitionNeeded}` 
       scenesOwed,
       recoveryTarget,
       deadline,
-      minimumTarget,
     };
   }
 

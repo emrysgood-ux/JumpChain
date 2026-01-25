@@ -1,35 +1,32 @@
 # Epic Fiction Writing Mandates
 
-## Production Guidelines (Configurable)
+## Daily Production Requirements
 
-> **Note**: Production targets are configurable via `WritingGenerationEngine.setMinimumDailyScenesPerCharacter()`.
-> The 299 figure refers to total scenes per chapter (like Chapter 1), NOT a daily per-character requirement.
-> Adjust targets based on your actual production capacity and quality goals.
+### Scene Production Minimums
 
-### Session Production Targets
+| Metric | Minimum Requirement | Target | Stretch Goal |
+|--------|---------------------|--------|--------------|
+| **Scenes per Character per Day** | 299 | 350 | 500+ |
+| **Active Characters per Day** | 5 | 10 | 20+ |
+| **Total Daily Scenes** | 1,495 | 3,500 | 10,000+ |
 
-| Metric | Conservative | Moderate | Intensive |
-|--------|--------------|----------|-----------|
-| **Scenes per Character per Session** | 3-5 | 5-10 | 10-20 |
-| **Active Characters per Session** | 1-2 | 2-3 | 3-5 |
-| **Total Session Scenes** | 5-10 | 15-30 | 30-100 |
-
-### Word Count Goals
+### Word Count Maximization Goals
 
 | Category | Target | Notes |
 |----------|--------|-------|
 | **Words per Scene** | 800-2,500 | Maximize within quality bounds |
-| **Session Word Output** | 4,000-25,000 | Based on scene count × avg words |
-| **Weekly Word Output** | 28,000-175,000 | Sustained production |
+| **Daily Word Output** | 1,196,000+ | Based on 299 scenes × 5 chars × 800 words |
+| **Weekly Word Output** | 8,372,000+ | 7-day sustained production |
+| **Monthly Word Output** | 35,880,000+ | 30-day average |
 
 ---
 
-## Chapter Scene Structure
+## Mandatory Scene Distribution
 
-### Chapter 1 Reference (299 scenes total)
+### Per-Character Daily Breakdown (299 minimum)
 
 ```
-Chapter Scene Allocation:
+Character Daily Scene Allocation:
 ├── Main Plot Scenes:        100 (33.4%)
 ├── Subplot Scenes:           80 (26.8%)
 ├── Character Development:    50 (16.7%)
@@ -37,22 +34,22 @@ Chapter Scene Allocation:
 ├── Worldbuilding Scenes:     20 (6.7%)
 └── Transition/Bridge:         9 (3.0%)
                              ───
-                       TOTAL: 299 scenes per chapter
+                       TOTAL: 299 scenes minimum
 ```
 
-### Scene Type Distribution
+### Scene Type Requirements
 
-| Scene Type | % of Chapter | Max Word Target |
-|------------|--------------|-----------------|
-| Action/Combat | ~15% | 2,500 words |
-| Dialogue/Social | ~25% | 1,500 words |
-| Internal/Reflection | ~13% | 1,200 words |
-| Discovery/Revelation | ~10% | 2,000 words |
-| Training/Growth | ~12% | 1,800 words |
-| Romantic/Relationship | ~8% | 1,500 words |
-| Political/Strategic | ~7% | 2,000 words |
-| Comedic/Light | ~5% | 1,000 words |
-| Emotional Climax | ~5% | 2,500 words |
+| Scene Type | Min per Character/Day | Max Word Target |
+|------------|----------------------|-----------------|
+| Action/Combat | 45 | 2,500 words |
+| Dialogue/Social | 75 | 1,500 words |
+| Internal/Reflection | 40 | 1,200 words |
+| Discovery/Revelation | 30 | 2,000 words |
+| Training/Growth | 35 | 1,800 words |
+| Romantic/Relationship | 25 | 1,500 words |
+| Political/Strategic | 20 | 2,000 words |
+| Comedic/Light | 15 | 1,000 words |
+| Emotional Climax | 14 | 2,500 words |
 
 ---
 
@@ -67,87 +64,85 @@ Chapter Scene Allocation:
 - [ ] Scene connects to at least 2 other scenes
 - [ ] No redundant exposition
 
-### Session Completion Criteria
+### Daily Completion Criteria
 
 ```
-SESSION CHECKLIST:
-□ Target scenes completed per active character
-□ Word count goals achieved per scene type
+MANDATORY DAILY CHECKLIST:
+□ 299+ scenes completed per active character
+□ Maximum word count achieved per scene type
 □ All POV characters have scene coverage
 □ Emotional arc progression tracked
 □ Relationship changes documented
-□ Foreshadowing elements planted (as appropriate)
-□ Payoffs delivered for previous setups (as appropriate)
+□ Foreshadowing elements planted (min 10/day)
+□ Payoffs delivered for previous setups (min 5/day)
 ```
 
 ---
 
 ## Production Tracking
 
-### Session Log Template
+### Daily Log Template
 
 ```markdown
-## Session [X] Production Log
+## Day [X] Production Log
 
 ### Scene Counts
 | Character | Scenes | Words | Avg Words/Scene |
 |-----------|--------|-------|-----------------|
-| [Name 1]  | X      | XXX   | XXX             |
-| [Name 2]  | X      | XXX   | XXX             |
+| [Name 1]  | 299+   | XXX   | XXX             |
+| [Name 2]  | 299+   | XXX   | XXX             |
 | ...       | ...    | ...   | ...             |
 
 ### Totals
-- Total Scenes: [X]
-- Total Words: [X]
-- Quality Score: [X/10]
+- Total Scenes: [must be ≥299 × active characters]
+- Total Words: [maximize]
+- Scenes Below Target: [must be 0]
 
 ### Notes
-[Progress notes, issues encountered, next session priorities]
+[Any deviations must be documented and compensated next day]
 ```
 
-### Weekly Summary
+### Weekly Summary Requirements
 
-| Metric | Target Range | Notes |
-|--------|-------------|-------|
-| Total Scenes | Varies by capacity | Track week-over-week |
-| Total Words | Varies by capacity | Quality over quantity |
-| Plot Threads Advanced | As needed | |
+| Metric | Weekly Minimum | Formula |
+|--------|---------------|---------|
+| Total Scenes | 2,093+ per character | 299 × 7 days |
+| Total Words | 8,372,000+ | 1,196,000 × 7 |
+| Plot Threads Advanced | 50+ | |
 | Character Arcs Progressed | All active | |
-| Relationships Evolved | As appropriate | |
+| Relationships Evolved | 20+ | |
 
 ---
 
-## Flexible Production Guidelines
+## Enforcement Rules
 
-### Capacity-Based Scheduling
+### Deficit Recovery
+
+1. **Scene Shortfall**: Any day below 299 scenes per character requires 150% production the following day
+2. **Word Count Shortfall**: Missing word targets must be compensated within 48 hours
+3. **Consecutive Failures**: 3 consecutive days below minimum triggers full production audit
+
+### Maximum Output Priority
 
 ```
-PRIORITY ORDER:
-1. Maintain consistent quality FIRST
-2. Hit scene targets for the session SECOND
-3. Maximize word count within scenes THIRD
+PRIORITY ORDER (when time-constrained):
+1. Hit 299 scene minimum per character FIRST
+2. Maximize word count within each scene SECOND
+3. Optimize scene quality THIRD
 4. Polish prose FOURTH
 ```
 
-### Recovery from Shortfalls
-
-1. **Scene Shortfall**: Roll incomplete scenes to next session
-2. **Word Count Shortfall**: Focus on depth in next session
-3. **Quality Issues**: Pause production for revision pass
-
 ---
 
-## Scale Reference
+## Calculation Reference
 
 ### For a 12,008 Chapter Epic (300M+ words)
 
-| Component | Estimate | Notes |
-|-----------|----------|-------|
-| Total Chapters | 12,008 | |
-| Avg Scenes/Chapter | ~200 | Varies by chapter type |
-| Total Scenes | ~2,400,000 | |
-| Total Words | 300,000,000+ | |
-| Production Timeline | Flexible | Based on actual capacity |
+| Timeline | Scenes Needed | At 299/char/day | Days Required |
+|----------|---------------|-----------------|---------------|
+| 80 Characters | 2,401,600 total | 23,920/day | ~100 days |
+| Per Chapter | ~200 scenes avg | | |
+| Total Words | 300,000,000+ | 3,000,000/day | ~100 days |
 
 ### Scene-to-Chapter Mapping
 
@@ -160,18 +155,11 @@ PRIORITY ORDER:
 
 ---
 
-## Usage Notes
+## Compliance Statement
 
-> **Production targets should be set realistically based on:**
-> - Available time per session
-> - Writer capacity and style
-> - Quality requirements
-> - Chapter complexity
->
-> Use `engine.setMinimumDailyScenesPerCharacter(n)` to configure tracking.
-> Default is 0 (disabled). Recommended: 3-10 for active tracking.
+> **All writing sessions MUST produce a minimum of 299 scenes per day per active character, with word count maximization as the primary output goal. No exceptions without documented emergency circumstances and immediate recovery plan.**
 
 ---
 
-*Last Updated: 2026-01-25*
-*Status: FLEXIBLE GUIDELINES*
+*Last Updated: [Auto-generated]*
+*Enforcement Status: ACTIVE*
