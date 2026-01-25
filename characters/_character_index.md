@@ -32,13 +32,13 @@
 |-----------|------|------|--------|
 | Tsukino Takeo | Grandfather (deceased) | [[takeo.md]] | ✅ NEW |
 | Tsukino Yuki | Mother (deceased) | [[yuki.md]] | ✅ NEW |
-| Tsukino Kiyoshi | Maternal Uncle (alive) | [[Kiyoshi_Family_Branch_Complete.md]] | ✅ Updated |
+| Tsukino Kiyoshi | Maternal Uncle (alive) | [[../story-bible/Kiyoshi_Family_Branch_Complete.md]] | ✅ Updated |
 
 ### Cosmic Entities
 
 | Character | Role | File | Status |
 |-----------|------|------|--------|
-| Sailor Cosmos | Mother/Creator (active but unseen) | [[cosmic_entities/cosmos.md]] | ✅ Complete |
+| Sailor Cosmos | Mother/Creator (active but unseen) | [[cosmos.md]] | ✅ Complete |
 
 ### Canon Arrivals (Year 13+)
 

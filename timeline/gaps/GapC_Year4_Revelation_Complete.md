@@ -1,18 +1,19 @@
 # GAP C: YEAR 4 (1992) — THE REVELATION
 ## Son of Cosmos: Complete Scene Framework
-## December 29, 2025
+## Compiled December 29, 2025 (Merged)
 
 ---
 
 # OVERVIEW
 
-Year 4 is the pivotal year that transforms Sheldon from "helpful stranger" to "equal with secrets." This is when the Sheldon-Yosho relationship becomes genuine partnership.
+**Year:** 4 (April 1992 - March 1993)
+**Tenchi's Age:** 7→8 (Elementary 2nd Grade)
+**Sheldon's Apparent Age:** 25-26 (hasn't visibly aged)
+**Time at Shrine:** 3 full years completed
+**Phase:** Transition from Phase I to Phase II
+**Significance:** The defining moment of Sheldon and Yosho's relationship
 
-**Timeline Context:**
-- Tenchi is 7-8 years old (2nd grade)
-- Sheldon has been at the shrine for 3+ years
-- Routines are established, trust is built
-- Sheldon has been actively suppressing abilities
+This is the year Sheldon stops being a guest and becomes Yosho's true partner. Everything after this scene builds on what happens here.
 
 ---
 
@@ -71,94 +72,80 @@ Sheldon is tired of hiding. He's been lying to a man he respects, in a home that
 
 # PART 2: THE TRIGGER INCIDENT
 
-## 2.1 — The Night (Late June 1992)
+## 2.1 — The Night (Late Autumn 1992)
 
-**Setting:** 
-A warm evening. Tenchi is staying overnight at a friend's house in the village. Nobuyuki is in Tokyo for work. For the first time in months, Sheldon and Yosho are alone at the shrine.
-
-**The Setup:**
-After dinner, Yosho asks Sheldon to help him retrieve something from the storage building — an old ceremonial item needed for the upcoming summer festival. The storage building has no electricity. The sun has set. There is no moon.
+**Setting:**
+A severe autumn storm. The power goes out. Tenchi (age 8) is visiting for the weekend. A typhoon knocks out power to the shrine. Complete darkness — no moon, no stars, thick cloud cover.
 
 **The Moment:**
+Sheldon goes to check on Tenchi in the guest room. He navigates perfectly. Opens the door, walks directly to Tenchi's futon, adjusts his blanket, whispers reassurance. Doesn't bump anything. Doesn't hesitate.
 
-Yosho: "I'll get a lantern."
+The hallway has three loose boards he steps around automatically during the day. In complete darkness, he avoids all three.
 
-Sheldon: "I can see fine."
+Yosho watches from the hallway. Says nothing that night.
 
-*And then he's already walking toward the storage building, navigating in darkness that should be absolute, and he doesn't realize what he's done until he hears Yosho's footsteps stop behind him.*
+## 2.2 — The Next Morning
 
-**The Pause:**
+Yosho invites Sheldon for tea. Tenchi is sent to play. His first words:
 
-Sheldon stops. Turns. In the darkness, he can see Yosho perfectly — the old priest standing still, head slightly tilted, those sharp eyes fixed on him with an expression that is not surprise. It's *confirmation*.
+> "The power went out at 2:47 AM. You reached Tenchi's room in forty-three seconds. You did not use a light. You did not stumble."
 
-Yosho, very quietly: "Come back to the porch. We should talk."
+Sheldon freezes.
 
-## 2.2 — Sheldon's Choice
+> "I have watched you for three years, Sheldon-san. Your reflexes are faster than they should be. Your hands never burn when cooking. You hear conversations from rooms away. And last night, you saw in the dark."
 
-Sheldon could:
-- Continue the pretense ("What do you mean?")
-- Deflect ("My eyes adjusted quickly")
-- Minimize ("It's not that dark")
+A beat of silence.
 
-But three years of trust, three years of this man's home, three years of caring for his grandson—
-
-Sheldon walks back to the porch.
+> "I think it is time you told me what you are."
 
 ---
 
-# PART 3: THE CONVERSATION
+# PART 3: THE REVELATION SCENE
 
-## 3.1 — Setting the Scene
+## 3.1 — Setting
 
-**Location:** The shrine porch, overlooking the steps and the lake below
-**Time:** Full night, stars visible, cicadas singing
-**Atmosphere:** Warm summer air, the smell of cedar, distant sound of the lake
+**Date:** The morning after the incident
+**Time:** After breakfast, Tenchi sent to play
+**Location:** Yosho's private room at the shrine office
+**Atmosphere:** Rain still falling, gray light, tea between them
 
-They sit in their usual spots. Yosho does not light a lantern. The darkness is statement enough.
+This room is where Yosho handles shrine business. Sheldon has been here before, but never for a personal conversation. The invitation itself signals significance.
 
-A long silence.
+## 3.2 — The Conversation
 
-Then Yosho speaks.
+### Opening:
 
-## 3.2 — Yosho's Opening
+> **YOSHO:** "I am not accusing you of anything. I am asking you to trust me with the truth. Whatever it is."
 
-"I have watched you for three years, Sheldon Carter. I have seen you do things no ordinary man can do."
+He pauses.
 
-Pause.
+> **YOSHO:** "I have lived a very long time, Sheldon-san. I have seen things that would strain credulity. Nothing you tell me will make me think less of you. But I cannot continue to pretend I do not notice."
 
-"You see in darkness. You hear what should not be heard. You have not been sick a single day since you arrived. Your cooking..." A slight shake of his head. "Your cooking does something I cannot explain."
+### Sheldon's Decision:
 
-Pause.
+Internal: *Three years of building trust. Three years of lies by omission. If I tell him and he thinks I'm insane, I lose everything. If I don't tell him, I'm betraying the only real friendship I've had since... since before.*
 
-"You have been hiding. Poorly, toward the end. And I have been waiting."
+He sets down his tea.
 
-His eyes, ancient and patient, fix on Sheldon.
+> **SHELDON:** "What I'm about to tell you will sound impossible. I don't have proof. I can only tell you the truth and hope you believe me."
 
-"I think it is time you told me what you are."
+### The Confession:
 
-## 3.3 — Sheldon's Response
+> **SHELDON:** "I died."
 
-**The Opening:**
+Yosho's expression doesn't change. He waits.
 
-Sheldon's hands rest on his knees. He looks out at the darkness — the lake he can see clearly, the stars reflected on water Yosho probably can't distinguish.
+> **SHELDON:** "October 23rd, 2025. I was thirty-eight years old. A particle accelerator accident at the University of Alaska Fairbanks. I remember the light. I remember knowing it was over."
 
-"I don't know what I am."
+> **SHELDON:** "I was a physicist. Four doctorates. I spent my whole life in laboratories and classrooms. I never married. My parents died when I was ten. My grandmother raised me until she died when I was twenty-two. I was alone for most of my adult life."
 
-The words come slowly at first. Then faster.
+> **SHELDON:** "And then I woke up. In a field outside your village. April 3rd, 1989. In a body that was twenty-two years old. With abilities I never had before. And a... presence... in my mind that I can barely perceive. Something that saved me. Something that *made* me."
 
-**The Truth:**
+> **SHELDON:** "I don't know what I am, Yosho-san. I know I was human once. I know I died. I know something brought me back, remade me, placed me here. I don't know why."
 
-"I died. In my previous life, I was a physicist. Thirty-eight years old. I was working on an experiment, and something went wrong, and I died."
+> **SHELDON:** "Sometimes I feel... watched. Protected. Like something vast is aware of me. In dreams, there's a presence. A woman, I think. Silver light. She's never spoken clearly, but I feel her... approval. When I'm with Tenchi. When I'm... here."
 
-Pause.
-
-"And then I woke up. In a field. Near here. With this body, and these abilities, and documents saying I was someone's nephew who had inherited a house in the village."
-
-He doesn't look at Yosho.
-
-"Someone — something — gave me this. A second chance. A new life. I don't know who. I don't know why. I just know that I woke up, and I walked here, and I climbed your steps, and everything since then has been... real."
-
-## 3.4 — What Sheldon Tells Yosho
+### What Sheldon Reveals vs. Withholds:
 
 | Topic | What He Says | What He Doesn't Say |
 |-------|--------------|---------------------|
@@ -167,189 +154,91 @@ He doesn't look at Yosho.
 | **His abilities** | "I can see in the dark, hear far away, heal fast" | The full extent; the cooking's cosmic nature |
 | **His knowledge** | "I don't understand what I am" | True — he genuinely doesn't know |
 | **His intentions** | "I just want to live. To help. To matter." | True — this is his core motivation |
+| **The presence** | "A woman, silver light, approval" | Her name, her nature, any specifics |
 
-**What Sheldon Does NOT Reveal:**
-- He refers to his savior only as "someone" or "something"
-- He doesn't mention dreams or communication
-- He downplays the extent of his abilities
-- He is genuinely uncertain about most things
+## 3.3 — Yosho's Response
 
-## 3.5 — Yosho's Response
-
-**The Listening:**
-
+**The Silence:**
 Throughout Sheldon's explanation, Yosho does not interrupt. Does not react visibly. Simply listens with the patience of seven centuries.
 
-When Sheldon finishes, silence returns.
+When Sheldon finishes, silence returns. The rain falls. The tea grows cold.
 
-**The Response:**
+Then:
 
-"You are telling me the truth."
+> **YOSHO:** "You are telling me the truth."
 
 It's not a question.
 
-"I have known many liars in my life, Sheldon. Many who hid what they were. You are hiding — but you are not lying. You genuinely do not know what brought you here."
+> **YOSHO:** "I have known many liars in my life, Sheldon. Many who hid what they were. You are hiding — but you are not lying. You genuinely do not know what brought you here."
 
 Pause.
 
-"I believe you."
-
-**The Offer:**
-
-"I can help you understand your abilities. Train you to control them, to use them safely." His voice is calm, measured. "I have some experience with... unusual circumstances."
-
-A slight, dry humor enters his tone.
-
-"You are not the strangest thing I have encountered."
-
-## 3.6 — What Yosho Does NOT Reveal
-
-| Topic | What He Keeps Secret | Why |
-|-------|---------------------|-----|
-| **His identity** | He is Yosho Masaki Jurai, Crown Prince | Revealing this risks everything |
-| **His age** | He is ~700 years old | Would require explaining Jurai |
-| **The tree** | Funaho-no-ki is his Royal Tree | Same |
-| **The cave** | Ryoko is sealed there | Tenchi's safety |
-| **His true form** | He appears elderly by choice | Not yet earned |
-| **His suspicions** | He has theories about Sheldon's nature | Incomplete; might be wrong |
-
-**Yosho's Reasoning:**
-Sheldon has offered truth. But Yosho's secrets are not his alone — they involve Jurai, Tenchi's heritage, Ryoko's imprisonment, the safety of Earth. He cannot reciprocate fully.
-
-But he can offer training. Guidance. Partnership.
+> **YOSHO:** "I believe you."
 
 ---
 
-# PART 4: THE AFTERMATH
+## 3.4 — Yosho's Counter-Revelation
 
-## 4.1 — The New Dynamic
+Yosho stands. Moves to the window. His back to Sheldon.
 
-**What Changes Immediately:**
+> **YOSHO:** "You are not the only one with an impossible story."
 
-1. **No More Hiding (Between Them)**
-   - Sheldon can navigate in darkness without pretending
-   - He can acknowledge when he hears something he shouldn't
-   - Training sessions can include supernatural elements
+He turns. And for the first time, Sheldon sees it — a flicker. The elderly priest's posture shifts. Something in his eyes changes. For just a moment, Sheldon glimpses someone else. Someone younger. Someone... ancient.
 
-2. **Yosho Becomes Teacher**
-   - Offers to help Sheldon understand his abilities
-   - Begins structured training (meditation, control, awareness)
-   - Watches more carefully, with purpose now
+> **YOSHO:** "My name is not Katsuhito Masaki. It is Yosho. I am Crown Prince of the Jurai Empire. I am seven hundred and thirty-two years old. And I am not human either."
 
-3. **Equals With Secrets**
-   - Sheldon knows Yosho is hiding something ("I have some experience")
-   - Yosho knows Sheldon is telling partial truth (omissions, not lies)
-   - Both accept this. Trust doesn't require total disclosure.
+### What Yosho Reveals:
 
-**What Stays The Same:**
+**His Origin:**
+- Born on Jurai, heir to the throne
+- Bonded to a First Generation Royal Tree (Funaho)
+- His tree is the massive one on the shrine grounds — hidden in plain sight
+- The tree sustains his life, keeps him young underneath the illusion of age
 
-1. **Daily Routine**
-   - Still cooking, cleaning, caring for Tenchi
-   - Still maintaining the shrine
-   - Life continues as before
+**Why He's Here:**
+- 700+ years ago, a demon attacked Jurai
+- Yosho pursued her to Earth
+- He defeated her but chose not to return home
+- "I found something here worth staying for."
 
-2. **Boundaries With Others**
-   - Sheldon still suppresses abilities around Tenchi, Nobuyuki, villagers
-   - The secret is between Sheldon and Yosho only
+**The Sealed Cave:**
+- The demon is not dead
+- She is sealed in the cave behind the shrine
+- Has been for seven centuries
+- "She sleeps. She dreams. Sometimes I feel her stirring."
 
-3. **The Fundamental Mystery**
-   - Sheldon still doesn't know what he is
-   - Yosho still doesn't reveal his own nature
-   - Questions remain unanswered
+**Tenchi:**
+- Tenchi is his grandson — truly his grandson, not a fiction
+- He carries power he does not yet understand
+- Yosho has been waiting to see if he would need it
 
-## 4.2 — The Training Begins
+### What Yosho Does NOT Reveal (Yet):
 
-**What Yosho Teaches (Years 4-12):**
+- The demon's name (Ryoko)
+- That she was created, not born evil
+- That Washu exists in the gems
+- The full truth about Tenchi's heritage
+- That Tenchi will eventually awaken her
+- Details about Jurai's politics
+- The full nature of Light Hawk Wings
+- Tsunami, Washu, the goddesses
+- The extent of what's coming
 
-| Area | Content | Purpose |
-|------|---------|---------|
-| **Meditation** | Breathing, stillness, centering | Control over ambient energy |
-| **Awareness** | Directed sensing, filtering input | Use enhanced senses without overload |
-| **Physical Control** | Kendo forms, body awareness | Channel physical enhancement safely |
-| **Suppression** | Damping abilities intentionally | Function normally around others |
-| **Philosophy** | Patience, acceptance, long view | Prepare for immortal lifespan |
+## 3.5 — The New Understanding
 
-**Training Schedule:**
-- Early morning, before Tenchi wakes
-- Late evening, after Tenchi sleeps
-- Occasional full days when Tenchi visits Nobuyuki
+> **YOSHO:** "So. You are a dead man given new life by a silver goddess. I am an exiled prince pretending to be a country priest. We are both protecting a boy who doesn't know what he is."
 
-**Yosho's Observation:**
-The training reveals more about Sheldon's nature. His energy signature. His recovery rate. The way his body responds to instruction. Yosho is learning as much as teaching.
+> **SHELDON:** "When you put it that way..."
 
-## 4.3 — Relationship Evolution
+> **YOSHO:** "We are a strange family, Sheldon-san. But we are family."
 
-**Years 4-12: Deep Friendship**
-
-The revelation creates space for genuine connection:
-
-- **Intellectual Partnership:** They can discuss things neither can discuss with others
-- **Shared Responsibility:** Co-parenting Tenchi, co-maintaining shrine
-- **Mutual Respect:** Each knows the other is more than appearances suggest
-- **Comfortable Silence:** Two people who don't need to fill space with words
-
-**Not Yet Romantic:**
-
-Sheldon still sees Yosho as an elderly mentor figure. The romantic potential is blocked by:
-- Yosho's apparent age (elderly appearance)
-- The mentor-student dynamic
-- Sheldon's focus on Tenchi and domestic duties
-- Yosho's own restraint (he won't pursue while hiding his true form)
-
-*The soil is being prepared. But the seed hasn't been planted yet.*
+> **YOSHO:** "I tell you this because you told me truth. And because I believe the presence that sent you here... knew where she was sending you. There are no accidents with beings of that magnitude."
 
 ---
 
-# PART 5: PHASE II BEHAVIOR (YEARS 4-12)
+# PART 4: KNOWLEDGE STATE TRACKING
 
-## 5.1 — What Sheldon Can Now Do
-
-**Around Yosho:**
-- Navigate in darkness openly
-- Acknowledge enhanced hearing
-- Discuss his abilities
-- Train without pretense
-- Ask questions about control
-
-**Around Everyone Else:**
-- Still suppresses abilities
-- Still presents as normal human
-- Still private about his nature
-- No change in public behavior
-
-## 5.2 — Internal Monologue Rules
-
-**Now Allowed:**
-- Acknowledging his abilities exist
-- Noticing when they activate
-- Wondering about their source
-- Appreciating Yosho's training
-
-**Still Forbidden:**
-- Naming Cosmos, Lambda, Jurai, etc.
-- Knowing things he hasn't learned on-page
-- Sensing "supernatural" energy specifically
-- Understanding his cosmic nature
-
-## 5.3 — Training Sessions (Scene Seeds)
-
-| Year | Training Focus | Scene Potential |
-|------|----------------|-----------------|
-| 4 | Basic meditation, energy awareness | First training session; awkward beginnings |
-| 5 | Sensory control, filtering | Sheldon learns to "dial down" hearing |
-| 6 | Physical forms, kendo basics | Moving meditation; body awareness |
-| 7 | Emotional regulation | Sheldon's grief surfaces unexpectedly |
-| 8 | Endurance, recovery testing | Yosho pushes limits; learns more about Sheldon |
-| 9 | Advanced sensing | Sheldon begins to feel the "warmth" of the shrine |
-| 10 | Philosophy, patience | Long conversations about time, purpose |
-| 11 | Integration | Abilities becoming natural, not hidden |
-| 12 | Preparation | Something is coming; Yosho hints |
-
----
-
-# PART 6: WHAT EACH CHARACTER NOW KNOWS
-
-## 6.1 — Sheldon's Knowledge (Post-Revelation)
+## 4.1 — Sheldon's Knowledge (Post-Revelation)
 
 ### About Himself:
 | Fact | Certainty |
@@ -372,14 +261,15 @@ Sheldon still sees Yosho as an elderly mentor figure. The romantic potential is 
 ### About Yosho:
 | Fact | Status |
 |------|--------|
-| Yosho is more than he appears | SUSPECTS |
-| Yosho has experience with supernatural | KNOWS (Yosho admitted) |
-| Yosho is hiding his own secrets | SUSPECTS |
-| Yosho's true identity | DOES NOT KNOW |
-| Yosho's true age | DOES NOT KNOW |
-| Yosho's Juraian heritage | DOES NOT KNOW |
+| Yosho is more than he appears | KNOWS |
+| Yosho is alien royalty, 700+ years old | KNOWS |
+| Yosho is hiding more details | SUSPECTS |
+| There is a sealed demon in the cave | KNOWS |
+| The shrine is a prison as much as holy site | KNOWS |
+| Tenchi has heritage Yosho hasn't fully explained | SUSPECTS |
+| Something is coming | SENSES |
 
-## 6.2 — Yosho's Knowledge (Post-Revelation)
+## 4.2 — Yosho's Knowledge (Post-Revelation)
 
 ### About Sheldon:
 | Fact | Certainty |
@@ -390,95 +280,131 @@ Sheldon still sees Yosho as an elderly mentor figure. The romantic potential is 
 | Sheldon's energy is unlike Juraian | KNOWS |
 | Sheldon is not a threat | BELIEVES (3 years of evidence) |
 
-### Yosho's Theories (Private):
+### Yosho's Private Theories:
 - Sheldon may be connected to higher-dimensional beings
 - His energy signature resembles nothing in Yosho's experience
 - The "warmth" in his cooking is some form of life energy
 - He may be immortal (healing factor suggests this)
-- His appearance as a reincarnated human may be a shell for something else
+- His benefactor may be Chousin-level or related to them
 
 *Yosho is patient. He will watch. He will train. He will wait.*
 
 ---
 
-# PART 7: SCENE FRAMEWORK — THE REVELATION NIGHT
+# PART 5: THE AFTERMATH
 
-## 7.1 — Scene Beats
+## 5.1 — What Changes Immediately
 
-**BEAT 1: The Setup**
-- Summer evening, Tenchi away, Nobuyuki in Tokyo
-- Quiet dinner together
-- Yosho asks Sheldon to retrieve something from storage
-- Storage building has no lights; it's dark
+- The formal "-san" begins dropping in private
+- Yosho offers to help Sheldon understand his abilities
+- They become co-guardians rather than employer/employee
+- A new level of honesty enters all their interactions
+- Evening conversations become real discussions
+- Physical proximity becomes easier — the secrecy barrier removed
 
-**BEAT 2: The Slip**
-- Sheldon says "I can see fine"
-- Walks confidently in absolute darkness
-- Realizes his mistake when he hears Yosho's footsteps stop
+## 5.2 — What Stays the Same
 
-**BEAT 3: The Summons**
-- Yosho: "Come back to the porch. We should talk."
-- Sheldon's moment of choice
-- He walks back
+- Their public dynamic (for Tenchi and the village)
+- Yosho still plays the elderly priest
+- Sheldon still plays the helpful young man
+- The masks remain, but they know what's underneath
+- Sheldon still suppresses abilities around Tenchi, Nobuyuki, villagers
+- Daily routine remains the same
+- The careful protection continues
 
-**BEAT 4: The Confrontation**
-- They sit on the porch
-- No lantern (deliberate)
-- Yosho lays out what he's observed
-- "I think it is time you told me what you are."
+## 5.3 — Training Begins
 
-**BEAT 5: The Confession**
-- Sheldon's struggle to begin
-- The truth comes out: death, resurrection, unknown benefactor
-- Honesty about what he doesn't know
-- Emotional vulnerability after three years of hiding
+Within a week of the revelation, Yosho begins what he calls "adjustment sessions."
 
-**BEAT 6: The Response**
-- Yosho's long silence
-- "You are telling me the truth."
-- "I believe you."
-- The offer: "I can help you understand your abilities."
+**Not Combat Training:**
+Yosho explicitly does NOT train Sheldon to fight. "You are not a warrior. I will not make you one." Instead:
 
-**BEAT 7: The New Understanding**
-- Both acknowledge this changes things
-- Both acknowledge secrets remain
-- A handshake? A bow? Simple acknowledgment.
-- The cicadas continue. The stars continue. Life continues.
+**Control Training:**
+- How to suppress abilities consciously (so no more accidents)
+- How to activate abilities deliberately
+- Meditation techniques adapted from Juraian practice
+- Energy awareness (sensing the flow of power, not wielding it)
 
-**BEAT 8: The Aftermath (Brief)**
-- They retrieve the item from storage together
-- Sheldon navigates in darkness; Yosho follows
-- Something has shifted between them
-- End scene.
+**Knowledge Transfer:**
+- History of Jurai (oral tradition, nothing written)
+- The nature of Light Hawk Wings (theoretical — Sheldon can't manifest them yet)
+- The Chousin — Yosho's understanding of the three goddesses
+- Why Yosho suspects Sheldon's benefactor may be related to them
 
-## 7.2 — Emotional Arc
+**Sessions:** Twice weekly, after Tenchi is asleep. 1-2 hours each.
 
-| Point | Sheldon's State | Yosho's State |
-|-------|-----------------|---------------|
-| Before trigger | Tense, tired of hiding | Patient, waiting |
-| At trigger | Caught, resigned | Confirmed, ready |
-| During conversation | Vulnerable, honest | Listening, assessing |
-| At offer | Relieved, hopeful | Committed, curious |
-| After | Lighter, partnership | Satisfied, intrigued |
+**Yosho's Assessment:**
+
+> "You are not superhuman. You are... optimized. Every capacity a human could theoretically achieve, you have. But nothing beyond. Whoever made you was careful."
 
 ---
 
-# PART 8: IMPLICATIONS FOR YEARS 5-12
+# PART 6: TRAINING FRAMEWORK (Years 4-12)
 
-## 8.1 — Annual Touchstones
+## 6.1 — What Yosho Teaches
 
-| Year | Key Development | Training Focus |
-|------|-----------------|----------------|
-| **5** | First full year of training | Basics, control |
-| **6** | Tenchi refuses Tokyo; bond deepens | Physical forms |
-| **7** | Tenchi asks about mother | Emotional regulation |
-| **8** | Adolescence begins for Tenchi | Patience, endurance |
-| **9** | Middle school transition | Advanced sensing |
-| **10** | Curiosity about grandfather's past | Philosophy, long view |
-| **11** | "Something coming" feeling | Preparation, integration |
-| **12** | Final "normal" year | Readiness, waiting |
+| Area | Content | Purpose |
+|------|---------|---------|
+| **Meditation** | Breathing, stillness, centering | Control over ambient energy |
+| **Awareness** | Directed sensing, filtering input | Use enhanced senses without overload |
+| **Physical Control** | Kendo forms, body awareness | Channel physical enhancement safely |
+| **Suppression** | Damping abilities intentionally | Function normally around others |
+| **Philosophy** | Patience, acceptance, long view | Prepare for immortal lifespan |
 
-## 8.2 — Relationship Milestones
+## 6.2 — Training Sessions by Year
+
+| Year | Training Focus | Scene Potential |
+|------|----------------|-----------------|
+| 4 | Basic meditation, energy awareness | First training session; awkward beginnings |
+| 5 | Sensory control, filtering | Sheldon learns to "dial down" hearing |
+| 6 | Physical forms, kendo basics | Moving meditation; body awareness |
+| 7 | Emotional regulation | Sheldon's grief surfaces unexpectedly |
+| 8 | Endurance, recovery testing | Yosho pushes limits; learns more about Sheldon |
+| 9 | Advanced sensing | Sheldon begins to feel the "warmth" of the shrine |
+| 10 | Philosophy, patience | Long conversations about time, purpose |
+| 11 | Integration | Abilities becoming natural, not hidden |
+| 12 | Preparation | Something is coming; Yosho hints |
+
+---
+
+# PART 7: RELATIONSHIP EVOLUTION
+
+## 7.1 — Before vs. After Revelation
+
+| Aspect | Before | After |
+|--------|--------|-------|
+| Trust Level | High but incomplete | Complete, mutual |
+| Physical Contact | Rare, formal | Easier, more natural |
+| Emotional Sharing | Surface only | Deeper, honest |
+| Evening Conversations | Light topics | Real discussions |
+| Secrets | Many, on both sides | Few, and acknowledged |
+
+## 7.2 — Years 4-12: Deep Friendship
+
+The revelation creates space for genuine connection:
+
+- **Intellectual Partnership:** They can discuss things neither can discuss with others
+- **Shared Responsibility:** Co-parenting Tenchi, co-maintaining shrine
+- **Mutual Respect:** Each knows the other is more than appearances suggest
+- **Comfortable Silence:** Two people who don't need to fill space with words
+
+**Not Yet Romantic:**
+
+Sheldon still sees Yosho as an elderly mentor figure. The romantic potential is blocked by:
+- Yosho's apparent age (elderly appearance)
+- The mentor-student dynamic
+- Sheldon's focus on Tenchi and domestic duties
+- Yosho's own restraint (he won't pursue while hiding his true form)
+
+*The soil is being prepared. But the seed hasn't been planted yet.*
+
+**First Signs (Late Year 4):**
+- Yosho's hand on Sheldon's shoulder lingers slightly longer
+- Sheldon finds himself looking at Yosho's real face (glimpsed once during training)
+- Neither acts on anything
+- Both are aware something is building
+
+## 7.3 — Relationship Milestones
 
 **Year 5:** First time Yosho shares a personal story (carefully edited)
 **Year 6:** Sheldon and Yosho present united front for Tenchi's decision
@@ -491,22 +417,159 @@ Sheldon still sees Yosho as an elderly mentor figure. The romantic potential is 
 
 ---
 
+# PART 8: YEAR 4 COMPLETE TIMELINE
+
+| Month | Events |
+|-------|--------|
+| **April '92** | Year begins. Tenchi turns 8. Normal routines. |
+| **May** | Golden Week. Sheldon notices Yosho watching him more carefully. |
+| **June** | Rainy season. Long evenings. Yosho asks indirect questions about Sheldon's past. |
+| **July** | Tanabata. Tenchi writes wishes. Sheldon writes nothing (what would he wish for?). |
+| **August** | Obon. Sheldon honors "ancestors" he created. Feels the weight of false history. |
+| **September** | School resumes. **THE INCIDENT — power outage, night vision revealed.** |
+| **October** | **THE REVELATION.** Truth exchanged. Training begins. |
+| **November** | Autumn festival. First public event where Sheldon and Yosho share knowing looks. |
+| **December** | Cosmos dream intensifies. Sheldon senses her approval of the revelation. |
+| **January '93** | New Year. Shrine duties. Sheldon and Yosho work in comfortable silence. |
+| **February** | Cold months. Training continues indoors. First truly personal conversation. |
+| **March** | Year 4 ends. Something has fundamentally changed. Neither would go back. |
+
+---
+
+# PART 9: COSMOS'S RESPONSE
+
+## 9.1 — The Dream (December 1992)
+
+Sheldon's clearest contact with Cosmos to date:
+
+**Setting:** Silver void, warmth, presence
+
+**What He Perceives:**
+- Approval, strong and clear
+- Something like maternal pride
+- The sense of *"yes, this is right"*
+- A feeling that telling Yosho was part of the plan
+
+**What She Communicates (Emotional, Not Verbal):**
+- *You chose correctly*
+- *He can be trusted*
+- *The bond you're building matters*
+- *This is what I hoped for*
+
+**What She Does NOT Reveal:**
+- Her identity
+- The full plan
+- Why Yosho specifically
+- What's coming
+
+Sheldon wakes feeling lighter than he has in years.
+
+---
+
+# PART 10: KEY SCENES TO WRITE
+
+## 10.1 — The Trigger Scene
+**"The Night Vision"**
+- Storm, darkness, caring for Tenchi, aftermath
+- 2,000-3,000 words
+- POV: Sheldon
+- Tone: Tension, realization, dread
+
+## 10.2 — The Revelation Scene
+**"Tea After Midnight"**
+- The full conversation
+- 5,000-7,000 words
+- POV: Sheldon (with Yosho's responses showing his character)
+- Tone: Vulnerability, honesty, connection
+
+## 10.3 — Yosho's Response
+**"Counter-Revelation"**
+- The moment Yosho admits his own impossible truth
+- POV: Could be either
+- Tone: Recognition between two impossible men
+
+## 10.4 — The First Training Session
+**"Adjustment"**
+- What Yosho teaches, how Sheldon learns
+- 2,500-3,500 words
+- POV: Sheldon
+- Tone: Discovery, trust, foundation-building
+
+## 10.5 — The Walk
+**"Evening Paths"**
+- A quiet conversation during a walk
+- Yosho shares a memory of Jurai
+- Sheldon shares a memory of his grandmother
+- 2,000-2,500 words
+- POV: Sheldon
+- Tone: Intimacy (non-romantic), healing
+
+## 10.6 — December Dream
+**"Silver Approval"**
+- POV: Sheldon (dream-state)
+- Focus: Cosmos's presence, the warmth of approval
+- Tone: Ethereal, comforting, mysterious
+
+---
+
+# PART 11: IMPLICATIONS FOR LATER STORY
+
+## 11.1 — What This Scene Establishes
+
+**For Sheldon-Yosho Relationship:**
+- Foundation of trust that makes romance possible
+- Equality between them (both have secrets, both revealed)
+- Partnership in protecting Tenchi
+
+**For Sheldon's Character:**
+- He's capable of vulnerability when it matters
+- He values honesty over self-protection
+- He's forming genuine attachments
+
+**For Yosho's Character:**
+- He's been waiting for someone to be honest with
+- He responds to trust with trust
+- Underneath the grandfather mask is someone desperately lonely
+
+**For the Plot:**
+- Sheldon now knows about the cave (but not what's in it by name)
+- He knows something is coming
+- He's better prepared for canon events
+- His abilities are no longer accidental
+
+## 11.2 — Foreshadowing Planted
+
+| Element | Plants | Harvests |
+|---------|--------|----------|
+| Sealed cave | Year 4 | Year 13 (Ryoko) |
+| "Something is coming" | Year 4 | Year 13 (canon begins) |
+| Yosho's real face | Year 4 | Year 24 (wedding) |
+| Training sessions | Year 4 | Year 17 (Z crisis, LHW) |
+| Chousin discussion | Year 4 | Year 17 (Chousin revelation) |
+
+---
+
 # DOCUMENT STATUS
 
-**Gap C: Year 4 Revelation — RESOLVED**
+**Gap C: Year 4 Revelation — COMPLETE (MERGED)**
 
 This document provides:
-- ✅ Complete trigger scenario
-- ✅ Full conversation framework
+- ✅ Complete buildup section
+- ✅ Full trigger scenario
+- ✅ Complete conversation framework
 - ✅ What each character reveals/hides
+- ✅ Knowledge state tracking
 - ✅ Aftermath and new dynamic
 - ✅ Training outline for Years 4-12
+- ✅ Relationship evolution framework
+- ✅ Year 4 complete timeline
+- ✅ Cosmos dream response
 - ✅ Scene beats for writing
-- ✅ Implications for relationship progression
+- ✅ Implications for future plot
 
 **Ready for integration into Master Story Bible.**
 
 ---
 
-*Document compiled December 29, 2025*
-*For Bible integration: User maintains master copy*
+*Document merged January 25, 2026*
+*Source files: GapC_Year4_Revelation.md, GapC_Year4_Revelation_Complete.md, Gap_C_Year4_Revelation.md*
