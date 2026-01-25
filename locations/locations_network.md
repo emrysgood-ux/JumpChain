@@ -1,7 +1,7 @@
 # LOCATIONS NETWORK — CONNECTED PLACES & ROUTES
 **Category:** Reference (Geography)
 **Last Updated:** 2026-01-24
-**Related Files:** [[village.md]], [[masaki_shrine.md]], [[daily_lives.md]], [[sheldon.md]]
+**Related Files:** [[village.md]], [[masaki_shrine.md]], [[awakening_field.md]], [[daily_lives.md]], [[sheldon.md]]
 
 ---
 
@@ -17,10 +17,16 @@ This document maps all locations in the story, their connections, travel times, 
 
 ```
                     N
-                    |
+                    ↑
         [Mountains/Hills]
               |
     [Masaki Shrine] ← 320 steps
+              |
+        [Treeline/Forest]
+              |
+    ★ [Awakening Field] ★ ← Sheldon arrives here (Day 1)
+              |
+        [Rural Road] ← Sign: "Masaki Shrine 3.2 km"
               |
     [Tsukino Property] ~2km from village
               |
@@ -37,6 +43,8 @@ This document maps all locations in the story, their connections, travel times, 
 
 | From | To | Distance | Time (walking) | Time (vehicle) |
 |------|-----|----------|----------------|----------------|
+| Awakening Field | Rural Road | ~400m | 5-7 min | — |
+| Rural Road | Village Center | ~5 km | ~60 min | 10 min |
 | Shrine | Tsukino House | ~1 km | 15 min | 5 min |
 | Shrine | Bus Stop | ~0.5 km | 10 min + 320 steps | — |
 | Tsukino House | Village Center | ~2 km | 25 min | 8 min |
