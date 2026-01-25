@@ -1,10 +1,10 @@
-# SON OF COSMOS — DAY 1 PROSE
+# SON OF COSMOS â€” DAY 1 PROSE
 ## April 3, 1989 (Monday)
 ### Part 1: Scenes 1-50
 
 **POV:** Sheldon (exclusive)  
-**Timeline:** 14:47:23 JST — 15:45:00 JST  
-**Coverage:** The Awakening → Field Exit → Road Approach
+**Timeline:** 14:47:23 JST â€” 15:45:00 JST  
+**Coverage:** The Awakening â†’ Field Exit â†’ Road Approach
 
 ---
 
@@ -14,7 +14,7 @@
 
 Green.
 
-The smell was green. Not the word—the color itself pressed against his face, pushed into his nostrils with each shallow breath he didn't remember starting. Chlorophyll and crushed stems. Damp earth beneath that. Something floral, faint, underneath everything else.
+The smell was green. Not the wordâ€”the color itself pressed against his face, pushed into his nostrils with each shallow breath he didn't remember starting. Chlorophyll and crushed stems. Damp earth beneath that. Something floral, faint, underneath everything else.
 
 He existed.
 
@@ -26,7 +26,7 @@ The thought arrived without context, without the architecture of identity to sup
 **Time:** 14:47:31 JST  
 **Location:** Chrysanthemum field, face-down in grass
 
-His left cheek pressed into soil. Cool. Slightly damp. The texture registered before he understood what texture meant—granular pressure against skin, the particular give of earth that had absorbed recent rain.
+His left cheek pressed into soil. Cool. Slightly damp. The texture registered before he understood what texture meantâ€”granular pressure against skin, the particular give of earth that had absorbed recent rain.
 
 Somewhere above him, a bird called. Three notes. Rising, falling, sustained. The pattern meant nothing to him yet.
 
@@ -40,9 +40,9 @@ He breathed. The green smell filled him again.
 
 Fingers.
 
-He had fingers. The knowledge came not from thought but from sensation—five points of contact against grass blades, each finger slightly curled, each one responding to some automatic signal he hadn't consciously sent. His right hand lay somewhere near his face. He could feel the knuckle of his index finger pressing into his cheekbone.
+He had fingers. The knowledge came not from thought but from sensationâ€”five points of contact against grass blades, each finger slightly curled, each one responding to some automatic signal he hadn't consciously sent. His right hand lay somewhere near his face. He could feel the knuckle of his index finger pressing into his cheekbone.
 
-The bird called again. Same three notes. Hō-hoke-kyo.
+The bird called again. Same three notes. HÅ-hoke-kyo.
 
 ---
 
@@ -54,7 +54,7 @@ Language returned in fragments.
 
 *Grass. Earth. Bird.*
 
-The words attached themselves to sensations like labels being affixed to unlabeled boxes. Each connection brought a small shock of recognition—not learning, but remembering. He knew what grass was. He knew what birds were. The knowledge had been there all along, waiting for something to call it forward.
+The words attached themselves to sensations like labels being affixed to unlabeled boxes. Each connection brought a small shock of recognitionâ€”not learning, but remembering. He knew what grass was. He knew what birds were. The knowledge had been there all along, waiting for something to call it forward.
 
 *I.*
 
@@ -84,7 +84,7 @@ He tried to move his right hand.
 
 It moved.
 
-The response was immediate, precise, without the usual negotiation between intention and execution. Fingers uncurled from the grass. Palm pressed flat against earth. The movement felt like speaking a language he'd always known—no translation required, no processing delay.
+The response was immediate, precise, without the usual negotiation between intention and execution. Fingers uncurled from the grass. Palm pressed flat against earth. The movement felt like speaking a language he'd always knownâ€”no translation required, no processing delay.
 
 His hand was brown. Medium brown, warm undertones visible even against the dark soil.
 
@@ -136,7 +136,7 @@ And he could see.
 
 Memory returned like a wave breaking over a seawall.
 
-Maria Chen's face. The control room. Readouts climbing past safety thresholds. The cascade failure that should have been impossible—the one he'd modeled a thousand times, the one every safety protocol had been designed to prevent.
+Maria Chen's face. The control room. Readouts climbing past safety thresholds. The cascade failure that should have been impossibleâ€”the one he'd modeled a thousand times, the one every safety protocol had been designed to prevent.
 
 Light. Heat. The sensation of being unmade at the atomic level.
 
@@ -164,7 +164,7 @@ He had died.
 
 And yet.
 
-He breathed. His heart beat—he could feel it now, steady and strong in his chest, maintaining a rhythm that carried none of the irregular flutter he'd lived with for fifteen years. His body pressed against earth that smelled of spring growth. Above him, the bird called again, patient and unhurried.
+He breathed. His heart beatâ€”he could feel it now, steady and strong in his chest, maintaining a rhythm that carried none of the irregular flutter he'd lived with for fifteen years. His body pressed against earth that smelled of spring growth. Above him, the bird called again, patient and unhurried.
 
 He had died. And something that was not death had followed.
 
@@ -178,7 +178,7 @@ He decided to sit up.
 
 The decision translated to action without the expected delay. His arms pushed against the ground. His core engaged. His torso rose from the earth with a smoothness that felt almost mechanical in its efficiency.
 
-Grass fell away from his face, his chest, his shoulders. Purple flowers—small, delicate—clung to the fabric of his shirt before dropping back to the field.
+Grass fell away from his face, his chest, his shoulders. Purple flowersâ€”small, delicateâ€”clung to the fabric of his shirt before dropping back to the field.
 
 ---
 
@@ -188,7 +188,7 @@ Grass fell away from his face, his chest, his shoulders. Purple flowers—small,
 
 The world resolved around him.
 
-A field. Ankle-high grass interspersed with those purple flowers—hundreds of them, maybe thousands, spreading in every direction. A treeline to the north, cedar and something deciduous he couldn't immediately identify. Hills rising beyond the trees, covered in the particular green of early spring.
+A field. Ankle-high grass interspersed with those purple flowersâ€”hundreds of them, maybe thousands, spreading in every direction. A treeline to the north, cedar and something deciduous he couldn't immediately identify. Hills rising beyond the trees, covered in the particular green of early spring.
 
 No buildings. No roads visible. No people.
 
@@ -202,7 +202,7 @@ The sun sat in the western quadrant of the sky, suggesting mid-to-late afternoon
 
 His hands lay in his lap. He looked at them.
 
-Brown skin, unblemished. Short nails, clean. The lines of his palms traced familiar patterns—life line, heart line, the small scar from a paring knife when he was nine.
+Brown skin, unblemished. Short nails, clean. The lines of his palms traced familiar patternsâ€”life line, heart line, the small scar from a paring knife when he was nine.
 
 He turned his right hand over. Looked at the base of his thumb.
 
@@ -230,7 +230,7 @@ He checked his left hand. Then his forearms, pushing up the sleeves of a white s
 
 No scars anywhere.
 
-The burn mark from a soldering iron, age sixteen—gone. The thin line across his left wrist from a childhood fall—gone. Every small damage his skin had accumulated over thirty-seven years of existence had been erased.
+The burn mark from a soldering iron, age sixteenâ€”gone. The thin line across his left wrist from a childhood fallâ€”gone. Every small damage his skin had accumulated over thirty-seven years of existence had been erased.
 
 ---
 
@@ -252,7 +252,7 @@ Nothing. Just steady beats. Sixty-two per minute, if his internal counting held 
 
 His back didn't hurt.
 
-The realization came slowly because the absence of pain registered more quietly than pain itself. For seven years, sitting had meant a constant low-grade ache at the L4-L5 junction—the cost of too many hours hunched over keyboards and laboratory equipment. He'd learned to ignore it, to function around it, to accept it as the price of doing the work he loved.
+The realization came slowly because the absence of pain registered more quietly than pain itself. For seven years, sitting had meant a constant low-grade ache at the L4-L5 junctionâ€”the cost of too many hours hunched over keyboards and laboratory equipment. He'd learned to ignore it, to function around it, to accept it as the price of doing the work he loved.
 
 Now he sat on uneven ground with his spine completely straight, and nothing hurt at all.
 
@@ -266,7 +266,7 @@ Someone had fixed him.
 
 The thought arrived without drama, a simple conclusion drawn from accumulated evidence. His scars were gone. His heart worked properly. His back didn't ache. His eyes saw with a clarity he hadn't experienced since childhood.
 
-Someone—something—had taken his broken body and made it whole.
+Someoneâ€”somethingâ€”had taken his broken body and made it whole.
 
 Or made him a new one entirely.
 
@@ -288,11 +288,11 @@ He felt alert. Curious. Strangely calm.
 **Time:** 14:53:05 JST  
 **Location:** Chrysanthemum field, sitting upright
 
-The bird called again. Hō-hoke-kyo.
+The bird called again. HÅ-hoke-kyo.
 
-He knew that bird. Uguisu. Japanese Bush Warbler. The call was distinctive—he'd heard recordings during his undergraduate linguistics work, studying the acoustic properties of animal vocalizations.
+He knew that bird. Uguisu. Japanese Bush Warbler. The call was distinctiveâ€”he'd heard recordings during his undergraduate linguistics work, studying the acoustic properties of animal vocalizations.
 
-Japanese bird. Japanese flowers. The purple blooms around him were sumire—violets.
+Japanese bird. Japanese flowers. The purple blooms around him were sumireâ€”violets.
 
 He was in Japan.
 
@@ -316,7 +316,7 @@ Not his clothes. He'd died in a laboratory, wearing protective gear over casual 
 
 Someone had dressed him.
 
-The thought should have been disturbing. Instead it registered as another data point. Whoever had done this—brought him back, fixed his body, placed him in this field—had also chosen these clothes. Selected them, put them on him, arranged him face-down in the grass like a gift waiting to be opened.
+The thought should have been disturbing. Instead it registered as another data point. Whoever had done thisâ€”brought him back, fixed his body, placed him in this fieldâ€”had also chosen these clothes. Selected them, put them on him, arranged him face-down in the grass like a gift waiting to be opened.
 
 Why?
 
@@ -344,7 +344,7 @@ No. Wait. The second hand was moving. Had been moving since he woke.
 **Time:** 14:54:13 JST  
 **Location:** Chrysanthemum field, sitting upright
 
-He read the watch face more carefully. Seiko. Japanese manufacture. The movement was mechanical—he could hear the faint tick if he held his wrist close to his ear, could see the characteristic sweep of the second hand that distinguished mechanical from quartz.
+He read the watch face more carefully. Seiko. Japanese manufacture. The movement was mechanicalâ€”he could hear the faint tick if he held his wrist close to his ear, could see the characteristic sweep of the second hand that distinguished mechanical from quartz.
 
 A good watch. Not expensive, not cheap. The kind a man might receive as a gift and wear daily for decades.
 
@@ -358,7 +358,7 @@ Someone had given him this watch. Or given him the memory of being given this wa
 
 His right rear pocket held weight.
 
-He reached back without looking—muscle memory guiding the motion—and his hand closed around leather. A wallet. Rectangular, bi-fold, the corners softened from use.
+He reached back without lookingâ€”muscle memory guiding the motionâ€”and his hand closed around leather. A wallet. Rectangular, bi-fold, the corners softened from use.
 
 He pulled it out and held it in both hands, not yet opening it.
 
@@ -384,7 +384,7 @@ He opened it.
 
 Cash first. His eye went to the thick fold of currency in the bill compartment.
 
-Yen. Ten-thousand yen notes—he counted five of them, fifty thousand yen total. Beneath those, smaller denominations: a few thousand-yen notes, some five-hundreds. Maybe five thousand more in the smaller bills.
+Yen. Ten-thousand yen notesâ€”he counted five of them, fifty thousand yen total. Beneath those, smaller denominations: a few thousand-yen notes, some five-hundreds. Maybe five thousand more in the smaller bills.
 
 Significant money. Enough to live on for weeks if he was careful.
 
@@ -410,15 +410,15 @@ His new face. The one attached to his new body.
 
 He could read the card. The Japanese came without effort, as natural as English.
 
-外国人登録証明書. Gaikokujin Tōroku Shōmeisho. Alien Registration Certificate.
+å¤–å›½äººç™»éŒ²è¨¼æ˜Žæ›¸. Gaikokujin TÅroku ShÅmeisho. Alien Registration Certificate.
 
-Name: 月野シェルドン. Tsukino Sheldon.
+Name: æœˆé‡Žã‚·ã‚§ãƒ«ãƒ‰ãƒ³. Tsukino Sheldon.
 
-Nationality: アメリカ合衆国. United States of America.
+Nationality: ã‚¢ãƒ¡ãƒªã‚«åˆè¡†å›½. United States of America.
 
-Date of Birth: 1959年3月15日. March 15, 1959.
+Date of Birth: 1959å¹´3æœˆ15æ—¥. March 15, 1959.
 
-Address: 岡山県倉敷市... The rest specified a location he didn't recognize.
+Address: å²¡å±±çœŒå€‰æ•·å¸‚... The rest specified a location he didn't recognize.
 
 ---
 
@@ -442,7 +442,7 @@ He was thirty years old according to this document. Not thirty-seven. Not the ag
 
 March 15, 1959.
 
-If this document was accurate—if he was in 1989, the most recent date that would make a 1959 birth year produce a living thirty-year-old—then he'd traveled backward in time by thirty-six years.
+If this document was accurateâ€”if he was in 1989, the most recent date that would make a 1959 birth year produce a living thirty-year-oldâ€”then he'd traveled backward in time by thirty-six years.
 
 October 2025 to sometime in 1989.
 
@@ -482,9 +482,9 @@ Tsukino Sheldon had a financial history. Years of it.
 
 A folded document, thick paper with official stamps and dense text.
 
-He unfolded it carefully. 戸籍謄本. Koseki tōhon. Family registry excerpt.
+He unfolded it carefully. æˆ¸ç±è¬„æœ¬. Koseki tÅhon. Family registry excerpt.
 
-The Tsukino family. His family, apparently. Names and dates traced backward through generations. His mother: Tsukino Yuki, 月野由紀. Deceased 1985. His father: Carter James, カーター・ジェームズ. Deceased... the date was obscured by a fold in the paper.
+The Tsukino family. His family, apparently. Names and dates traced backward through generations. His mother: Tsukino Yuki, æœˆé‡Žç”±ç´€. Deceased 1985. His father: Carter James, ã‚«ãƒ¼ã‚¿ãƒ¼ãƒ»ã‚¸ã‚§ãƒ¼ãƒ ã‚º. Deceased... the date was obscured by a fold in the paper.
 
 He had parents in this life. Had had parents. Both dead.
 
@@ -496,9 +496,9 @@ He had parents in this life. Had had parents. Both dead.
 
 An envelope, sealed. His name written on the front in careful brushwork.
 
-シェルドンへ. *To Sheldon.*
+ã‚·ã‚§ãƒ«ãƒ‰ãƒ³ã¸. *To Sheldon.*
 
-The handwriting suggested age—slight tremor in the strokes, the deliberate pace of someone for whom writing required effort. An elderly person. Someone who knew him. Someone who expected him to receive this letter.
+The handwriting suggested ageâ€”slight tremor in the strokes, the deliberate pace of someone for whom writing required effort. An elderly person. Someone who knew him. Someone who expected him to receive this letter.
 
 He didn't open it. Not yet. The field didn't feel like the right place for whatever message waited inside.
 
@@ -538,7 +538,7 @@ The deed showed a transfer of ownership. Recent. Inheritance.
 
 He sat in the grass surrounded by evidence of a life he hadn't lived.
 
-Identity. Finances. Family. Property. Someone had built him an existence—complete, documented, traceable. Not a thin cover story but a full architecture of belonging. Roots extending backward through decades. A place in the world.
+Identity. Finances. Family. Property. Someone had built him an existenceâ€”complete, documented, traceable. Not a thin cover story but a full architecture of belonging. Roots extending backward through decades. A place in the world.
 
 Why?
 
@@ -618,7 +618,7 @@ The field extended in all directions, but not endlessly.
 
 North: treeline, perhaps two hundred meters away. Cedar and maple, judging by the shapes of the canopy.
 
-South: the land sloped gently downward. Movement in the distance—vehicles on a road, maybe a quarter mile away.
+South: the land sloped gently downward. Movement in the distanceâ€”vehicles on a road, maybe a quarter mile away.
 
 East and West: more field, more purple flowers, the hills rising in the distance.
 
@@ -658,7 +658,7 @@ He started walking south.
 
 His legs moved without complaint.
 
-The grass parted before him and closed behind. Purple flowers brushed his ankles, releasing faint scent with each contact. His shoes—black leather, broken in—found purchase on the uneven ground without difficulty.
+The grass parted before him and closed behind. Purple flowers brushed his ankles, releasing faint scent with each contact. His shoesâ€”black leather, broken inâ€”found purchase on the uneven ground without difficulty.
 
 He walked like someone who had always known how to walk. Like walking was the easiest thing in the world.
 
@@ -685,12 +685,12 @@ This body was taller than his old one. Significantly taller.
 *[End Part 1: Scenes 1-50]*
 
 **Word Count:** 4,247  
-**Time Covered:** 14:47:23 — 15:01:01 JST (approximately 14 minutes)  
+**Time Covered:** 14:47:23 â€” 15:01:01 JST (approximately 14 minutes)  
 **Status:** Continuing to Part 2
 
 ---
 
-## SCENE VALIDATION CHECKLIST — PART 1
+## SCENE VALIDATION CHECKLIST â€” PART 1
 
 ### Forbidden Word Audit
 - [x] No "Cosmos"
@@ -721,13 +721,13 @@ This body was taller than his old one. Significantly taller.
 - [x] Heart beats steady (no PVCs)
 - [x] Back doesn't hurt
 - [x] Taller than before (noted Scene 50)
-# SON OF COSMOS — DAY 1 PROSE
+# SON OF COSMOS â€” DAY 1 PROSE
 ## April 3, 1989 (Monday)
 ### Part 2: Scenes 51-100
 
 **POV:** Sheldon (exclusive)  
-**Timeline:** 15:01:01 JST — 15:30:00 JST  
-**Coverage:** Field Crossing → Treeline → Road Arrival
+**Timeline:** 15:01:01 JST â€” 15:30:00 JST  
+**Coverage:** Field Crossing â†’ Treeline â†’ Road Arrival
 
 ---
 
@@ -749,7 +749,7 @@ How tall was he now? He had no mirror, no measuring stick. The question joined t
 
 The sun warmed the back of his neck.
 
-Afternoon light in spring, filtered through atmosphere that carried none of the haze he'd grown accustomed to in Fairbanks. Clean air. Mountain air. The temperature registered as comfortable—neither warm enough to produce sweat nor cool enough to notice his lack of a jacket.
+Afternoon light in spring, filtered through atmosphere that carried none of the haze he'd grown accustomed to in Fairbanks. Clean air. Mountain air. The temperature registered as comfortableâ€”neither warm enough to produce sweat nor cool enough to notice his lack of a jacket.
 
 Perfect weather for being reborn in a field.
 
@@ -777,7 +777,7 @@ Another of Dorothy Mae's lessons, delivered over algebra homework when he was el
 
 The flowers thinned as he approached the field's southern edge.
 
-Grass remained, but the sumire gave way to other plants—clover, something with small white blooms he didn't recognize, the beginnings of what looked like wild radish going to seed. The careful cultivation that had produced the chrysanthemum field ended in a ragged transition to common meadow.
+Grass remained, but the sumire gave way to other plantsâ€”clover, something with small white blooms he didn't recognize, the beginnings of what looked like wild radish going to seed. The careful cultivation that had produced the chrysanthemum field ended in a ragged transition to common meadow.
 
 Someone had planted those flowers. Someone maintained that field.
 
@@ -791,9 +791,9 @@ He was walking away from whatever significance that location held.
 
 The treeline rose before him, closer than it had appeared from his waking position.
 
-Cedar. Definitely cedar—the distinctive scale-like leaves, the particular red-brown of the bark. And maple interspersed among them, new leaves bright green against the darker evergreen backdrop.
+Cedar. Definitely cedarâ€”the distinctive scale-like leaves, the particular red-brown of the bark. And maple interspersed among them, new leaves bright green against the darker evergreen backdrop.
 
-A forest, or at least a substantial wood. The undergrowth looked managed, not wild—trimmed back from the field edge, leaving a clear boundary between cultivated and natural.
+A forest, or at least a substantial wood. The undergrowth looked managed, not wildâ€”trimmed back from the field edge, leaving a clear boundary between cultivated and natural.
 
 ---
 
@@ -803,7 +803,7 @@ A forest, or at least a substantial wood. The undergrowth looked managed, not wi
 
 He angled west slightly, avoiding the direct path into the woods.
 
-The road lay south, and the most direct route would skirt the treeline rather than push through it. No path was visible—no gap in the vegetation suggesting regular human passage. Easier to go around than through.
+The road lay south, and the most direct route would skirt the treeline rather than push through it. No path was visibleâ€”no gap in the vegetation suggesting regular human passage. Easier to go around than through.
 
 His navigation instincts worked automatically, processing terrain, calculating efficiency, selecting optimal routes. Whatever else had changed, his mind still functioned like his mind.
 
@@ -827,9 +827,9 @@ He could hear water somewhere within the trees. A stream, small from the sound o
 
 His ears worked perfectly.
 
-The realization came the same way the vision had—through contrast with expectation. He'd had minor hearing loss in his left ear since a childhood illness, a slight deficit that made him favor his right during conversations.
+The realization came the same way the vision hadâ€”through contrast with expectation. He'd had minor hearing loss in his left ear since a childhood illness, a slight deficit that made him favor his right during conversations.
 
-Now he heard equally from both sides. The water burbled in perfect stereo. The bird—still calling, fainter now with distance—reached him without the characteristic muffle of his old auditory asymmetry.
+Now he heard equally from both sides. The water burbled in perfect stereo. The birdâ€”still calling, fainter now with distanceâ€”reached him without the characteristic muffle of his old auditory asymmetry.
 
 Everything fixed. Everything optimized.
 
@@ -841,7 +841,7 @@ Everything fixed. Everything optimized.
 
 The field curved southeast, following the contour of the land.
 
-He adjusted his course to match, keeping the treeline on his left and the open grass on his right. The ground began to slope more noticeably downward—not steep, but perceptible. He was descending from whatever elevation the field occupied.
+He adjusted his course to match, keeping the treeline on his left and the open grass on his right. The ground began to slope more noticeably downwardâ€”not steep, but perceptible. He was descending from whatever elevation the field occupied.
 
 The road should appear soon. He could hear vehicles now, distant but regular. The sound of tires on pavement, engines working through gears.
 
@@ -907,7 +907,7 @@ He turned west and began walking along the road's edge.
 
 The pavement felt solid beneath his shoes.
 
-Harder than the field. Less forgiving. His legs adjusted automatically to the change in surface, his stride shortening slightly to accommodate the different texture. The body knew things his conscious mind hadn't taught it—either remembered from a previous existence or programmed by whatever force had placed him here.
+Harder than the field. Less forgiving. His legs adjusted automatically to the change in surface, his stride shortening slightly to accommodate the different texture. The body knew things his conscious mind hadn't taught itâ€”either remembered from a previous existence or programmed by whatever force had placed him here.
 
 He didn't examine the implications too closely. Walking required attention. Philosophy could wait.
 
@@ -919,7 +919,7 @@ He didn't examine the implications too closely. Walking required attention. Phil
 
 A car passed, heading east.
 
-Small sedan, white, Japanese plates. The driver—an elderly man—glanced at him without interest and continued on. Either foreigners were common enough here to warrant no special attention, or the man simply had other concerns.
+Small sedan, white, Japanese plates. The driverâ€”an elderly manâ€”glanced at him without interest and continued on. Either foreigners were common enough here to warrant no special attention, or the man simply had other concerns.
 
 He watched the car recede in the distance, carrying someone who existed in this time without question or confusion.
 
@@ -931,7 +931,7 @@ He watched the car recede in the distance, carrying someone who existed in this 
 
 The rice paddies caught the afternoon light.
 
-Water mirrored the sky in each flooded field, broken only by the precise rows of young rice plants pushing up through the surface. The paddies had been planted recently—the seedlings stood barely a hand's width above the waterline. Spring planting. Early April, if he remembered the agricultural calendar correctly.
+Water mirrored the sky in each flooded field, broken only by the precise rows of young rice plants pushing up through the surface. The paddies had been planted recentlyâ€”the seedlings stood barely a hand's width above the waterline. Spring planting. Early April, if he remembered the agricultural calendar correctly.
 
 April 1989. Cherry blossom season just ending. The new year barely begun by the old calendar.
 
@@ -943,7 +943,7 @@ April 1989. Cherry blossom season just ending. The new year barely begun by the 
 
 He passed a small shrine set back from the road.
 
-Stone base, wooden structure, faded vermillion paint. Too small for formal worship—a roadside shrine, the kind that dotted rural Japan in numbers beyond counting. A guardian of travelers, perhaps. Or a marker of some long-forgotten event.
+Stone base, wooden structure, faded vermillion paint. Too small for formal worshipâ€”a roadside shrine, the kind that dotted rural Japan in numbers beyond counting. A guardian of travelers, perhaps. Or a marker of some long-forgotten event.
 
 He didn't stop, but he noted its presence. Shrines meant communities. Communities meant people. He was heading in the right direction.
 
@@ -957,7 +957,7 @@ The bus stop grew clearer with each step.
 
 Wooden construction, open on three sides. A bench inside, dark with age and weather. A sign mounted on a post, kanji characters identifying the stop and listing destinations.
 
-He could read the sign from here. His vision—perfect now—resolved the characters at a distance his old eyes would have rendered blurry.
+He could read the sign from here. His visionâ€”perfect nowâ€”resolved the characters at a distance his old eyes would have rendered blurry.
 
 The stop served a local route. Destinations included names he didn't recognize. None of them mattered yet.
 
@@ -995,7 +995,7 @@ He could wait.
 
 The route map showed a network of stops spreading across the region.
 
-Small towns connected by thin lines. Major roads marked in red, minor routes in blue. A larger destination to the west—Kurashiki, the name suggested. Not a village but a city of some size.
+Small towns connected by thin lines. Major roads marked in red, minor routes in blue. A larger destination to the westâ€”Kurashiki, the name suggested. Not a village but a city of some size.
 
 He didn't need a city. He needed information. The nearest stop might provide enough.
 
@@ -1053,7 +1053,7 @@ The evidence supported this conclusion. His documents showed a 1959 birth year. 
 
 From 2025 to 1989. Thirty-six years backward.
 
-Not merely resurrected—displaced. Relocated to a different point in the timeline.
+Not merely resurrectedâ€”displaced. Relocated to a different point in the timeline.
 
 ---
 
@@ -1063,7 +1063,7 @@ Not merely resurrected—displaced. Relocated to a different point in the timeli
 
 He had been given a new identity.
 
-Tsukino Sheldon. Not Carter. The Japanese family name suggested a Japanese mother—his documents confirmed this. Tsukino Yuki, deceased 1985. His father remained American, but the primary lineage had shifted.
+Tsukino Sheldon. Not Carter. The Japanese family name suggested a Japanese motherâ€”his documents confirmed this. Tsukino Yuki, deceased 1985. His father remained American, but the primary lineage had shifted.
 
 A half-Japanese physicist named Sheldon, thirty years old, permanent resident of rural Okayama. The identity was specific. Detailed. Too complete to be improvised.
 
@@ -1107,7 +1107,7 @@ For now, immediate concerns took priority.
 
 He needed shelter. The documents suggested he owned property, but he didn't know where that property was or how to reach it.
 
-He needed food. His body felt fine—no hunger yet—but that would change.
+He needed food. His body felt fineâ€”no hunger yetâ€”but that would change.
 
 He needed information. What year, what month, what day. What this place was. What his supposed life had been.
 
@@ -1147,7 +1147,7 @@ Now waiting felt... possible. Comfortable, even.
 
 A truck passed, heading west.
 
-Small flatbed, loaded with crates that might have held vegetables. The driver was a woman, middle-aged, wearing a broad-brimmed hat against the sun. She glanced at him as she passed—a longer look than the previous drivers had given.
+Small flatbed, loaded with crates that might have held vegetables. The driver was a woman, middle-aged, wearing a broad-brimmed hat against the sun. She glanced at him as she passedâ€”a longer look than the previous drivers had given.
 
 He raised a hand in acknowledgment. She didn't respond, but something in her expression softened before she returned her attention to the road.
 
@@ -1159,7 +1159,7 @@ He raised a hand in acknowledgment. She didn't respond, but something in her exp
 
 Footsteps approached from the east.
 
-He turned to look. An elderly woman making her way along the road's shoulder, carrying a cloth bag in one hand and using a walking stick with the other. Her clothing suggested local—simple dress, practical shoes, the kind of apron Japanese farm women had worn for generations.
+He turned to look. An elderly woman making her way along the road's shoulder, carrying a cloth bag in one hand and using a walking stick with the other. Her clothing suggested localâ€”simple dress, practical shoes, the kind of apron Japanese farm women had worn for generations.
 
 She was heading for the bus stop. Another passenger waiting for the 15:45 departure.
 
@@ -1171,7 +1171,7 @@ She was heading for the bus stop. Another passenger waiting for the 15:45 depart
 
 The woman entered the shelter and sat at the opposite end of the bench.
 
-She studied him openly—not rude, but curious. A foreigner at a rural bus stop warranted examination. He met her gaze without challenge, offering a small nod of acknowledgment.
+She studied him openlyâ€”not rude, but curious. A foreigner at a rural bus stop warranted examination. He met her gaze without challenge, offering a small nod of acknowledgment.
 
 "Konnichiwa," she said. Good afternoon.
 
@@ -1187,7 +1187,7 @@ Her eyebrows rose slightly. She hadn't expected fluent Japanese from a foreign f
 
 "You speak well," she said. A statement, not a question.
 
-"Thank you." He kept his response simple. His Japanese was fluent—he'd learned it for academic purposes, spent summers in Kyoto improving his comprehension—but he didn't know how to explain that fluency to a stranger.
+"Thank you." He kept his response simple. His Japanese was fluentâ€”he'd learned it for academic purposes, spent summers in Kyoto improving his comprehensionâ€”but he didn't know how to explain that fluency to a stranger.
 
 "Where are you going?" Direct questions, the privilege of age.
 
@@ -1201,7 +1201,7 @@ Her eyebrows rose slightly. She hadn't expected fluent Japanese from a foreign f
 
 Her expression changed.
 
-Recognition, perhaps. Or something else—a sharpening of attention, a reorganization of whatever assumptions she'd made about him.
+Recognition, perhaps. Or something elseâ€”a sharpening of attention, a reorganization of whatever assumptions she'd made about him.
 
 "Tsukino," she repeated. "The house by Masaki Shrine."
 
@@ -1217,7 +1217,7 @@ Recognition, perhaps. Or something else—a sharpening of attention, a reorganiz
 
 "She was my mother," he said, testing the words.
 
-The woman's face softened with something that might have been compassion. "I thought so. I'm Tanaka Sachiko. I knew Yuki-san when we were girls—before she left for America."
+The woman's face softened with something that might have been compassion. "I thought so. I'm Tanaka Sachiko. I knew Yuki-san when we were girlsâ€”before she left for America."
 
 A childhood friend of his mother's. Someone who had known the woman he was supposed to have lost.
 
@@ -1233,7 +1233,7 @@ A childhood friend of his mother's. Someone who had known the woman he was suppo
 
 "The shrine," he said, redirecting to concrete matters. "How far is it?"
 
-"The bus goes there. Last stop on the eastbound route." She gestured toward the schedule board. "Masaki Katsuhito tends the shrine. He's expecting you—the whole village has been expecting you since word came that Yuki-san's son would finally return."
+"The bus goes there. Last stop on the eastbound route." She gestured toward the schedule board. "Masaki Katsuhito tends the shrine. He's expecting youâ€”the whole village has been expecting you since word came that Yuki-san's son would finally return."
 
 Finally return. The phrase suggested delay, perhaps judgment. He'd been expected and had taken four years to arrive.
 
@@ -1301,7 +1301,7 @@ The woman gathered her bag, preparing to stand. "On time," she said, as if this 
 
 The bus materialized from the dust.
 
-Cream and orange livery, small by American standards, the rounded shape characteristic of Japanese local transit. The destination sign above the windshield showed kanji he could now read: 真咲神社 — Masaki Shrine.
+Cream and orange livery, small by American standards, the rounded shape characteristic of Japanese local transit. The destination sign above the windshield showed kanji he could now read: çœŸå’²ç¥žç¤¾ â€” Masaki Shrine.
 
 His destination. Someone had arranged that too, probably.
 
@@ -1313,7 +1313,7 @@ His destination. Someone had arranged that too, probably.
 
 The bus slowed, hydraulics hissing as it settled beside the stop.
 
-The driver was a man in his fifties, uniformed, professional. He glanced at the waiting passengers—one elderly woman, one foreign man—and opened the door without comment.
+The driver was a man in his fifties, uniformed, professional. He glanced at the waiting passengersâ€”one elderly woman, one foreign manâ€”and opened the door without comment.
 
 The woman boarded first, producing exact change from her bag. The bus accepted coins with mechanical clicking.
 
@@ -1327,7 +1327,7 @@ He reached for the loose change in his pocket.
 
 The steps were steep, designed for shorter passengers.
 
-He climbed them easily, his new body's longer legs finding the spacing uncomfortable but manageable. The driver watched him without obvious reaction—neither welcoming nor hostile, simply professional.
+He climbed them easily, his new body's longer legs finding the spacing uncomfortable but manageable. The driver watched him without obvious reactionâ€”neither welcoming nor hostile, simply professional.
 
 He fed coins into the fare box. The machine accepted them, displayed a total, dispensed his change.
 
@@ -1341,7 +1341,7 @@ The driver nodded toward the rear of the bus. Seating was open.
 
 The elderly woman had taken a seat near the front, on the left side facing forward.
 
-Other passengers occupied scattered positions throughout the vehicle—a farmer in work clothes, a schoolgirl with a heavy bag, an elderly man asleep against the window. None of them looked up as he boarded.
+Other passengers occupied scattered positions throughout the vehicleâ€”a farmer in work clothes, a schoolgirl with a heavy bag, an elderly man asleep against the window. None of them looked up as he boarded.
 
 He chose a seat in the middle, right side, where he could watch the road ahead.
 
@@ -1391,7 +1391,7 @@ None of it was ordinary to him. All of it was new.
 
 The radio played softly at the front of the bus.
 
-Japanese pop music from what sounded like the mid-eighties—he couldn't identify the artist, but the production style placed it within a decade. A woman's voice singing about summer, about waiting, about the kind of longing that made good lyrics and poor philosophy.
+Japanese pop music from what sounded like the mid-eightiesâ€”he couldn't identify the artist, but the production style placed it within a decade. A woman's voice singing about summer, about waiting, about the kind of longing that made good lyrics and poor philosophy.
 
 He listened without really hearing, his attention divided between the window and his own thoughts.
 
@@ -1403,12 +1403,12 @@ The bus carried him east, toward the shrine, toward the house, toward whatever w
 
 **Word Count:** 4,156  
 **Cumulative Word Count:** 8,403  
-**Time Covered:** 15:01:01 — 15:31:29 JST (approximately 30 minutes)  
+**Time Covered:** 15:01:01 â€” 15:31:29 JST (approximately 30 minutes)  
 **Status:** Continuing to Part 3
 
 ---
 
-## SCENE VALIDATION CHECKLIST — PART 2
+## SCENE VALIDATION CHECKLIST â€” PART 2
 
 ### Forbidden Word Audit
 - [x] No "Cosmos"
@@ -1437,13 +1437,13 @@ The bus carried him east, toward the shrine, toward the house, toward whatever w
 - [x] "The mountain doesn't keep secrets" (Funaho awareness)
 - [x] House has been empty "for some time"
 - [x] Katsuhito tends the shrine
-# SON OF COSMOS — DAY 1 PROSE
+# SON OF COSMOS â€” DAY 1 PROSE
 ## April 3, 1989 (Monday)
 ### Part 3: Scenes 101-150
 
 **POV:** Sheldon (exclusive)  
-**Timeline:** 15:31:29 JST — 16:15:00 JST  
-**Coverage:** Bus Ride → Village Arrival → Beginning of Ascent
+**Timeline:** 15:31:29 JST â€” 16:15:00 JST  
+**Coverage:** Bus Ride â†’ Village Arrival â†’ Beginning of Ascent
 
 ---
 
@@ -1453,7 +1453,7 @@ The bus carried him east, toward the shrine, toward the house, toward whatever w
 
 The bus rounded a curve, and the landscape shifted.
 
-The flat agricultural valley gave way to rising terrain. Hills pressed closer to the road, their slopes covered in the mixed forest of cedar and deciduous growth. The paddies disappeared, replaced by terraced plots too small for rice—vegetable gardens, perhaps, or orchards in their pre-bloom state.
+The flat agricultural valley gave way to rising terrain. Hills pressed closer to the road, their slopes covered in the mixed forest of cedar and deciduous growth. The paddies disappeared, replaced by terraced plots too small for riceâ€”vegetable gardens, perhaps, or orchards in their pre-bloom state.
 
 They were climbing. Not steeply, but steadily. Toward higher ground.
 
@@ -1467,7 +1467,7 @@ A stop. The bus slowed, stopped, opened its doors.
 
 The farmer in work clothes rose and exited, nodding to the driver as he descended. No one boarded. The doors closed. The bus resumed motion.
 
-He watched the farmer recede through the rear window—a figure in brown clothes walking toward a house that looked older than any building should look and still stand.
+He watched the farmer recede through the rear windowâ€”a figure in brown clothes walking toward a house that looked older than any building should look and still stand.
 
 ---
 
@@ -1489,7 +1489,7 @@ Three passengers remained. The elderly woman. The sleeping man. Himself.
 
 The road narrowed.
 
-What had been two adequate lanes became one and a half, then one, the pavement barely wide enough for the bus to pass. Vegetation pressed closer from both sides—branches occasionally scraping the roof, leaves brushing the windows.
+What had been two adequate lanes became one and a half, then one, the pavement barely wide enough for the bus to pass. Vegetation pressed closer from both sidesâ€”branches occasionally scraping the roof, leaves brushing the windows.
 
 The driver handled the narrow passage with the competence of long practice. He'd driven this route before. Many times.
 
@@ -1527,7 +1527,7 @@ Another stop. The elderly man exited.
 
 Only two passengers remained now. The woman who had recognized his mother's name. Himself.
 
-She caught his eye and smiled—the particular smile of someone about to share information.
+She caught his eye and smiledâ€”the particular smile of someone about to share information.
 
 "Next stop," she said. "Jinja-mae. Shrine-front. Your stop."
 
@@ -1539,7 +1539,7 @@ She caught his eye and smiled—the particular smile of someone about to share i
 
 The trees thinned. Light returned to the road.
 
-He could see it now—the torii gate, rising from a small clearing beside the road. Vermillion wood against green forest, the classic shape announcing the presence of sacred ground. Beyond the gate, stone steps ascending into shadow.
+He could see it nowâ€”the torii gate, rising from a small clearing beside the road. Vermillion wood against green forest, the classic shape announcing the presence of sacred ground. Beyond the gate, stone steps ascending into shadow.
 
 The shrine. His destination.
 
@@ -1553,7 +1553,7 @@ His stop.
 
 The bus stopped with a settling of brakes and hydraulics.
 
-The driver turned in his seat—the first time he'd really looked at the foreign passenger. His expression was neutral, professional, but something in his eyes suggested curiosity.
+The driver turned in his seatâ€”the first time he'd really looked at the foreign passenger. His expression was neutral, professional, but something in his eyes suggested curiosity.
 
 "Jinja-mae," he announced. "Last stop."
 
@@ -1567,7 +1567,7 @@ The elderly woman rose first.
 
 She moved toward the door with the careful deliberation of age, her walking stick finding purchase on the bus floor. At the door, she paused and looked back at him.
 
-"Remember—tell Katsuhito-san about the persimmons."
+"Rememberâ€”tell Katsuhito-san about the persimmons."
 
 Tanaka Sachiko. The persimmons. He committed both to memory.
 
@@ -1581,7 +1581,7 @@ Tanaka Sachiko. The persimmons. He committed both to memory.
 
 He followed her out into the afternoon light.
 
-The air outside the bus was cleaner than inside—forest air, mountain air, carrying the particular oxygen-rich freshness of elevation and vegetation. He breathed deeply without thinking about it, his lungs expanding to capacity without complaint.
+The air outside the bus was cleaner than insideâ€”forest air, mountain air, carrying the particular oxygen-rich freshness of elevation and vegetation. He breathed deeply without thinking about it, his lungs expanding to capacity without complaint.
 
 The bus doors closed behind him. The engine revved. The vehicle pulled away, heading east on whatever loop would eventually bring it back.
 
@@ -1593,7 +1593,7 @@ The bus doors closed behind him. The engine revved. The vehicle pulled away, hea
 
 He stood before the torii gate.
 
-The structure was larger than it had appeared from the bus—the crossbeam easily ten meters above the ground, the pillars thick enough that he couldn't have wrapped his arms around them. The vermillion paint had faded with age but retained its fundamental color, the red that marked the boundary between ordinary and sacred.
+The structure was larger than it had appeared from the busâ€”the crossbeam easily ten meters above the ground, the pillars thick enough that he couldn't have wrapped his arms around them. The vermillion paint had faded with age but retained its fundamental color, the red that marked the boundary between ordinary and sacred.
 
 ---
 
@@ -1615,7 +1615,7 @@ He was alone.
 
 He approached the gate slowly.
 
-Not from reverence—not yet—but from caution. Whatever waited beyond this boundary had been placed in his path deliberately. The field, the documents, the bus route that terminated here. None of this was accidental.
+Not from reverenceâ€”not yetâ€”but from caution. Whatever waited beyond this boundary had been placed in his path deliberately. The field, the documents, the bus route that terminated here. None of this was accidental.
 
 Someone had wanted him at this shrine. He was about to find out why.
 
@@ -1639,7 +1639,7 @@ Beyond the gate, steps. He could see the first dozen from where he stood, climbi
 
 He stepped through the gate.
 
-The air changed. Or perhaps he imagined that it changed—the particular stillness of moving from secular to sacred space, the psychological weight of boundaries even when nothing physical blocked the way.
+The air changed. Or perhaps he imagined that it changedâ€”the particular stillness of moving from secular to sacred space, the psychological weight of boundaries even when nothing physical blocked the way.
 
 He didn't imagine the temperature drop. The forest shade was cooler than the open road. Significantly cooler.
 
@@ -1675,7 +1675,7 @@ Left hand first. He poured water over his left hand, letting the runoff fall int
 
 Right hand next.
 
-He transferred the ladle and repeated the process, cold water washing over his palm and fingers. The water came from somewhere above—spring-fed, probably, carried down from the mountain through channels he couldn't see.
+He transferred the ladle and repeated the process, cold water washing over his palm and fingers. The water came from somewhere aboveâ€”spring-fed, probably, carried down from the mountain through channels he couldn't see.
 
 His hands tingled with the cold. Clean. Purified, if such things were possible.
 
@@ -1687,7 +1687,7 @@ His hands tingled with the cold. Clean. Purified, if such things were possible.
 
 The mouth was last.
 
-He cupped water in his left hand, brought it to his lips, rinsed without swallowing. The water tasted of minerals and mountain—a taste that seemed older than the basin that held it.
+He cupped water in his left hand, brought it to his lips, rinsed without swallowing. The water tasted of minerals and mountainâ€”a taste that seemed older than the basin that held it.
 
 Finally, he tilted the ladle to let remaining water run down the handle, cleaning the tool for the next visitor.
 
@@ -1711,7 +1711,7 @@ Dorothy Mae would have approved of the ritual. She'd always insisted on proper p
 
 He turned to face the stairs.
 
-They rose before him in a long, steep ascent. Stone steps, worn smooth at their centers from centuries of feet. The flight disappeared into forest shadow approximately a third of the way up, emerging—presumably—at the shrine grounds above.
+They rose before him in a long, steep ascent. Stone steps, worn smooth at their centers from centuries of feet. The flight disappeared into forest shadow approximately a third of the way up, emergingâ€”presumablyâ€”at the shrine grounds above.
 
 He counted what he could see. Thirty steps. Forty. The shadows swallowed the rest.
 
@@ -1723,7 +1723,7 @@ He counted what he could see. Thirty steps. Forty. The shadows swallowed the res
 
 How many in total?
 
-The question felt important. Not for practical reasons—he would climb them all regardless of the count—but as a way of measuring this place, of understanding its scale.
+The question felt important. Not for practical reasonsâ€”he would climb them all regardless of the countâ€”but as a way of measuring this place, of understanding its scale.
 
 He started climbing. He would count as he went.
 
@@ -1763,7 +1763,7 @@ The forest closed around him. Cedar branches overhead filtered the sunlight to g
 
 Fifty.
 
-A small landing broke the continuous climb. He paused here, not from exhaustion but from habit—his old body would have needed this rest. His new one did not, but the pause gave him time to observe.
+A small landing broke the continuous climb. He paused here, not from exhaustion but from habitâ€”his old body would have needed this rest. His new one did not, but the pause gave him time to observe.
 
 A stone lantern stood beside the landing, its sides carved with characters worn too smooth to read. Old. Very old. As old as the steps themselves, perhaps older.
 
@@ -1775,7 +1775,7 @@ A stone lantern stood beside the landing, its sides carved with characters worn 
 
 The forest sounds had changed.
 
-The road noise was gone—no cars, no distant engines. Only birds, wind, and the particular silence of places where human activity rarely reached. The uguisu called somewhere above him, its three-note song echoing between the trees.
+The road noise was goneâ€”no cars, no distant engines. Only birds, wind, and the particular silence of places where human activity rarely reached. The uguisu called somewhere above him, its three-note song echoing between the trees.
 
 He resumed climbing.
 
@@ -1789,7 +1789,7 @@ Seventy-five. Seventy-six. Seventy-seven.
 
 His breathing had deepened but remained controlled. His heart rate had elevated but stayed regular. The climb was exercise, not punishment.
 
-He remembered similar climbs with his old body—the burning thighs, the labored breath, the need to stop every hundred feet and let his heart recover. None of that now. Just steady progress upward.
+He remembered similar climbs with his old bodyâ€”the burning thighs, the labored breath, the need to stop every hundred feet and let his heart recover. None of that now. Just steady progress upward.
 
 ---
 
@@ -1801,7 +1801,7 @@ One hundred.
 
 Another landing. Another lantern. Another pause he didn't strictly need.
 
-The view behind him had opened slightly—he could see forest descending toward the valley, the glint of the lake he'd glimpsed from the bus. The village below was invisible, hidden by the trees.
+The view behind him had opened slightlyâ€”he could see forest descending toward the valley, the glint of the lake he'd glimpsed from the bus. The village below was invisible, hidden by the trees.
 
 Above, the steps continued. Many more. He hadn't reached the halfway point.
 
@@ -1837,7 +1837,7 @@ One twenty-eight. One twenty-nine. One thirty.
 
 The steps curved slightly to the right.
 
-He followed the curve, his count continuing. The forest canopy shifted as the path turned, admitting different light, revealing different trees. A massive cedar stood beside the steps—trunk wide enough for ten men to circle, bark furrowed with the texture of great age.
+He followed the curve, his count continuing. The forest canopy shifted as the path turned, admitting different light, revealing different trees. A massive cedar stood beside the stepsâ€”trunk wide enough for ten men to circle, bark furrowed with the texture of great age.
 
 The tree had seen centuries pass. Would see centuries more.
 
@@ -1851,7 +1851,7 @@ One fifty.
 
 Halfway, perhaps. Or close to it. His legs had found their rhythm now, the repetitive motion of climbing settling into automatic pattern.
 
-The air smelled different this high up. Colder. Cleaner. Carrying hints of incense from somewhere above—sandalwood, maybe. The presence of the shrine announcing itself through scent before sight.
+The air smelled different this high up. Colder. Cleaner. Carrying hints of incense from somewhere aboveâ€”sandalwood, maybe. The presence of the shrine announcing itself through scent before sight.
 
 ---
 
@@ -1861,7 +1861,7 @@ The air smelled different this high up. Colder. Cleaner. Carrying hints of incen
 
 One seventy-five.
 
-The steps leveled briefly—a long landing rather than a resting point. He crossed it without slowing, his momentum carrying him toward the next flight.
+The steps leveled brieflyâ€”a long landing rather than a resting point. He crossed it without slowing, his momentum carrying him toward the next flight.
 
 A torii gate appeared ahead, smaller than the one below but equally vermillion. The second gate. Marking another boundary, another threshold.
 
@@ -1873,7 +1873,7 @@ A torii gate appeared ahead, smaller than the one below but equally vermillion. 
 
 He passed through the second gate.
 
-The sensation of crossing recurred—that subtle shift that might have been psychological or might have been something else entirely. The air seemed to thicken slightly. The sounds of the forest seemed to recede.
+The sensation of crossing recurredâ€”that subtle shift that might have been psychological or might have been something else entirely. The air seemed to thicken slightly. The sounds of the forest seemed to recede.
 
 Or he was tired, and his mind was playing tricks.
 
@@ -1887,7 +1887,7 @@ He continued climbing.
 
 Two hundred.
 
-His thighs were burning now. Not badly—not the sharp protest his old body would have registered—but noticeably. The climb was work. His new body was capable of work, but work still had a cost.
+His thighs were burning now. Not badlyâ€”not the sharp protest his old body would have registeredâ€”but noticeably. The climb was work. His new body was capable of work, but work still had a cost.
 
 Twenty more steps. The burning increased.
 
@@ -1903,7 +1903,7 @@ Two thirty.
 
 Light ahead.
 
-The forest canopy was thinning. He could see sky through the gaps—blue, clear, the afternoon still bright despite the hour. The steps continued but their angle decreased. The climb was easing.
+The forest canopy was thinning. He could see sky through the gapsâ€”blue, clear, the afternoon still bright despite the hour. The steps continued but their angle decreased. The climb was easing.
 
 Two fifty. Two fifty-five. Two sixty.
 
@@ -1915,7 +1915,7 @@ Two fifty. Two fifty-five. Two sixty.
 
 The trees fell away.
 
-He emerged from the forest shadow into open air, the final section of steps rising before him in full sunlight. Above, he could see buildings—traditional structures with curved roofs, wooden construction, the distinctive architecture of Shinto sacred space.
+He emerged from the forest shadow into open air, the final section of steps rising before him in full sunlight. Above, he could see buildingsâ€”traditional structures with curved roofs, wooden construction, the distinctive architecture of Shinto sacred space.
 
 The shrine. He was almost there.
 
@@ -1927,7 +1927,7 @@ The shrine. He was almost there.
 
 Two eighty. Two eighty-five. Two ninety.
 
-The incense smell was stronger here, mixing with other scents—wood smoke, wet stone, something floral he couldn't identify. The sounds changed too. He could hear wind chimes somewhere above, their notes carrying on the breeze.
+The incense smell was stronger here, mixing with other scentsâ€”wood smoke, wet stone, something floral he couldn't identify. The sounds changed too. He could hear wind chimes somewhere above, their notes carrying on the breeze.
 
 Two ninety-five. Two ninety-six.
 
@@ -1941,7 +1941,7 @@ Three hundred.
 
 A third landing, larger than the others. Stone benches here, positioned for pilgrims who needed rest before the final push. He didn't need rest, but he paused anyway.
 
-Twenty steps remained. He could see them clearly now—the final flight ascending to a large torii gate that marked the shrine grounds proper.
+Twenty steps remained. He could see them clearly nowâ€”the final flight ascending to a large torii gate that marked the shrine grounds proper.
 
 ---
 
@@ -1951,7 +1951,7 @@ Twenty steps remained. He could see them clearly now—the final flight ascendin
 
 He caught his breath.
 
-Not because he needed to—his lungs were functioning perfectly, his heart already slowing from the climb—but because arriving mattered. Whatever waited at the top had shaped everything that came before: the field, the documents, the identity, the bus route that terminated here.
+Not because he needed toâ€”his lungs were functioning perfectly, his heart already slowing from the climbâ€”but because arriving mattered. Whatever waited at the top had shaped everything that came before: the field, the documents, the identity, the bus route that terminated here.
 
 He would arrive composed. Ready. Present.
 
@@ -1963,7 +1963,7 @@ He would arrive composed. Ready. Present.
 
 Twenty steps.
 
-He climbed them deliberately, each one a conscious choice. The stone here was different—newer, perhaps, or better maintained. The edges were sharper, the surfaces less worn.
+He climbed them deliberately, each one a conscious choice. The stone here was differentâ€”newer, perhaps, or better maintained. The edges were sharper, the surfaces less worn.
 
 Fifteen steps. Ten. Five.
 
@@ -1987,7 +1987,7 @@ Three hundred and twenty steps. Not three hundred, not three fifty. Three hundre
 
 The shrine grounds opened before him.
 
-He stood at the edge of a clearing, perhaps fifty meters across. Traditional buildings lined the perimeter—a main hall directly ahead, smaller structures to either side. Stone paths connected the buildings, bordered by carefully maintained gravel.
+He stood at the edge of a clearing, perhaps fifty meters across. Traditional buildings lined the perimeterâ€”a main hall directly ahead, smaller structures to either side. Stone paths connected the buildings, bordered by carefully maintained gravel.
 
 Everything was clean. Ordered. Maintained with obvious care.
 
@@ -1999,7 +1999,7 @@ Everything was clean. Ordered. Maintained with obvious care.
 
 The main hall dominated his attention.
 
-Two stories, traditional construction, sweeping rooflines covered in gray tile. The entrance was elevated—wooden platform, protective overhang, offerings box visible near the door. The building had weight, presence, the particular solidity of structures built to last centuries.
+Two stories, traditional construction, sweeping rooflines covered in gray tile. The entrance was elevatedâ€”wooden platform, protective overhang, offerings box visible near the door. The building had weight, presence, the particular solidity of structures built to last centuries.
 
 He was expected here. He felt certain of that now.
 
@@ -2011,7 +2011,7 @@ He was expected here. He felt certain of that now.
 
 No one was visible.
 
-The grounds appeared empty—no priests, no visitors, no signs of recent activity beyond the careful maintenance. Wind chimes rang somewhere out of sight. A crow called from the forest edge.
+The grounds appeared emptyâ€”no priests, no visitors, no signs of recent activity beyond the careful maintenance. Wind chimes rang somewhere out of sight. A crow called from the forest edge.
 
 He was alone. Or appeared to be.
 
@@ -2023,7 +2023,7 @@ He was alone. Or appeared to be.
 
 He stood still and waited.
 
-Not from indecision—from respect. This was someone's home, someone's workplace, someone's sacred charge. Tanaka Sachiko had mentioned Masaki Katsuhito. The shrine keeper. The one who would know of his return.
+Not from indecisionâ€”from respect. This was someone's home, someone's workplace, someone's sacred charge. Tanaka Sachiko had mentioned Masaki Katsuhito. The shrine keeper. The one who would know of his return.
 
 He would not barge into that person's space uninvited.
 
@@ -2035,7 +2035,7 @@ He would not barge into that person's space uninvited.
 
 A door opened.
 
-Sound carried clearly in the quiet—the slide of wood on wood, the particular friction of traditional Japanese construction. He turned toward the sound and found a figure emerging from one of the smaller buildings.
+Sound carried clearly in the quietâ€”the slide of wood on wood, the particular friction of traditional Japanese construction. He turned toward the sound and found a figure emerging from one of the smaller buildings.
 
 An old man. Gray hair pulled back in a ponytail. Round glasses. Traditional clothing.
 
@@ -2049,7 +2049,7 @@ Masaki Katsuhito, he presumed.
 
 The old man walked with deliberate care.
 
-Not the shuffling gait of infirmity—something else. A chosen slowness, as if each step mattered, as if the act of moving across his own shrine grounds required and deserved attention.
+Not the shuffling gait of infirmityâ€”something else. A chosen slowness, as if each step mattered, as if the act of moving across his own shrine grounds required and deserved attention.
 
 He was heading toward the main hall. He hadn't yet noticed the visitor standing at the edge of the clearing.
 
@@ -2061,7 +2061,7 @@ He was heading toward the main hall. He hadn't yet noticed the visitor standing 
 
 He cleared his throat.
 
-Not loudly—just enough to announce his presence without shouting across sacred ground. A small sound, carrying clearly in the afternoon stillness.
+Not loudlyâ€”just enough to announce his presence without shouting across sacred ground. A small sound, carrying clearly in the afternoon stillness.
 
 The old man stopped. Turned. Looked directly at him through those round glasses.
 
@@ -2075,12 +2075,12 @@ Neither of them moved.
 
 **Word Count:** 4,089  
 **Cumulative Word Count:** 12,492  
-**Time Covered:** 15:31:29 — 15:54:22 JST (approximately 23 minutes)  
+**Time Covered:** 15:31:29 â€” 15:54:22 JST (approximately 23 minutes)  
 **Status:** Continuing to Part 4
 
 ---
 
-## SCENE VALIDATION CHECKLIST — PART 3
+## SCENE VALIDATION CHECKLIST â€” PART 3
 
 ### Forbidden Word Audit
 - [x] No "Cosmos"
@@ -2109,13 +2109,13 @@ Neither of them moved.
 - [x] Thighs burn at step 200+
 - [x] Heart rate elevates but remains controlled
 - [x] Recovery is faster than old body would allow
-# SON OF COSMOS — DAY 1 PROSE
+# SON OF COSMOS â€” DAY 1 PROSE
 ## April 3, 1989 (Monday)
 ### Part 4: Scenes 151-200
 
 **POV:** Sheldon (exclusive)  
-**Timeline:** 15:54:22 JST — 17:15:00 JST  
-**Coverage:** First Contact with Katsuhito → Conversation → Offer of Shelter
+**Timeline:** 15:54:22 JST â€” 17:15:00 JST  
+**Coverage:** First Contact with Katsuhito â†’ Conversation â†’ Offer of Shelter
 
 ---
 
@@ -2149,7 +2149,7 @@ The old man made the decision for him.
 
 Katsuhito walked toward him with that same deliberate pace.
 
-Each step measured. Each movement considered. He didn't hurry despite the obvious interest in his expression—the slight forward tilt of his head, the attention fixed without wavering.
+Each step measured. Each movement considered. He didn't hurry despite the obvious interest in his expressionâ€”the slight forward tilt of his head, the attention fixed without wavering.
 
 Twenty meters. Fifteen. Ten.
 
@@ -2161,7 +2161,7 @@ Twenty meters. Fifteen. Ten.
 
 The old man stopped at conversational distance.
 
-Perhaps two meters separated them—close enough to speak without raising voices, far enough to maintain personal boundaries. The positioning felt deliberate, like everything else about this man.
+Perhaps two meters separated themâ€”close enough to speak without raising voices, far enough to maintain personal boundaries. The positioning felt deliberate, like everything else about this man.
 
 Up close, Katsuhito's age showed in his face but not in his eyes. The eyes were sharp. Alert. Younger than the skin that surrounded them.
 
@@ -2173,7 +2173,7 @@ Up close, Katsuhito's age showed in his face but not in his eyes. The eyes were 
 
 Neither spoke for a long moment.
 
-The shrine silence held—wind chimes, distant birds, the soft shush of breeze through cedar branches. Two men measuring each other across a boundary neither could name.
+The shrine silence heldâ€”wind chimes, distant birds, the soft shush of breeze through cedar branches. Two men measuring each other across a boundary neither could name.
 
 Then Katsuhito smiled.
 
@@ -2199,7 +2199,7 @@ The words were Japanese. The voice was gentle. The observation carried layers he
 
 "I... yes," he managed. "I think so."
 
-The words felt inadequate. He'd come an immeasurable distance—from death to life, from one century to another, from the person he'd been to whatever he was becoming. "A long way" captured none of it.
+The words felt inadequate. He'd come an immeasurable distanceâ€”from death to life, from one century to another, from the person he'd been to whatever he was becoming. "A long way" captured none of it.
 
 But it was true nonetheless.
 
@@ -2219,7 +2219,7 @@ A formal introduction. Name, role, purpose. The structure of politeness that all
 **Time:** 15:56:55 JST  
 **Location:** Shrine grounds, introducing himself
 
-He bowed—the automatic response to formality, the movement coming without thought.
+He bowedâ€”the automatic response to formality, the movement coming without thought.
 
 "My name is Sheldon. Tsukino Sheldon." The unfamiliar name felt strange on his tongue. "I believe I have... family connections to this area."
 
@@ -2233,7 +2233,7 @@ Not a lie. The documents in his wallet made the claim. Whether it was true was a
 
 Katsuhito's expression shifted slightly.
 
-Recognition? Confirmation? Something moved behind those intelligent eyes—a piece of information finding its place in a larger pattern.
+Recognition? Confirmation? Something moved behind those intelligent eyesâ€”a piece of information finding its place in a larger pattern.
 
 "Tsukino," he repeated. "Yes. The house near the shrine. It's been waiting."
 
@@ -2257,7 +2257,7 @@ More strange language. Houses remembering. Mountains having parts. This man spok
 **Time:** 15:57:46 JST  
 **Location:** Shrine grounds, conversation continues
 
-"I came on the bus," he said, uncertain why the detail mattered. "A woman—Tanaka Sachiko—asked me to give you her regards. And to tell you that the persimmons this year will be exceptional."
+"I came on the bus," he said, uncertain why the detail mattered. "A womanâ€”Tanaka Sachikoâ€”asked me to give you her regards. And to tell you that the persimmons this year will be exceptional."
 
 Katsuhito's smile deepened. "Haruko-san. A good woman. She would have recognized your mother in your face."
 
@@ -2273,7 +2273,7 @@ My mother. He had a mother in this constructed history. A woman named Yuki who h
 
 "I knew her." Katsuhito's voice gentled further. "She prayed at this shrine every week until she could no longer climb the steps. She was... a bright presence. The mountain misses her."
 
-The mountain misses her. Tanaka Sachiko had said something similar—the whole village expecting him. These people spoke of the mountain as if it were alive.
+The mountain misses her. Tanaka Sachiko had said something similarâ€”the whole village expecting him. These people spoke of the mountain as if it were alive.
 
 ---
 
@@ -2293,7 +2293,7 @@ Not a lie, exactly. He had no memories of Tsukino Yuki because he hadn't been Ts
 
 Katsuhito studied him again.
 
-The assessment was gentler now, less searching. Whatever he'd been looking for, he seemed to have found it—or decided it could wait for later discovery.
+The assessment was gentler now, less searching. Whatever he'd been looking for, he seemed to have found itâ€”or decided it could wait for later discovery.
 
 "You look tired," he said. "And you've climbed three hundred and twenty steps to reach a place you don't remember. That takes either courage or desperation."
 
@@ -2331,7 +2331,7 @@ Everything here was maintained. Cared for. Loved, perhaps.
 
 The tree. He looked up, scanning the forest edge.
 
-There—beyond the main building. A massive trunk rising above the surrounding cedars. Old. Impossibly old.
+Thereâ€”beyond the main building. A massive trunk rising above the surrounding cedars. Old. Impossibly old.
 
 ---
 
@@ -2365,7 +2365,7 @@ Katsuhito climbed the wooden steps to the elevated platform, his movements pract
 
 He removed his shoes at the threshold.
 
-The movement was automatic—Japanese courtesy internalized years ago during his Kyoto summers. Shoes placed together, facing outward, ready for departure. The floor inside was polished wood, warm beneath his socked feet.
+The movement was automaticâ€”Japanese courtesy internalized years ago during his Kyoto summers. Shoes placed together, facing outward, ready for departure. The floor inside was polished wood, warm beneath his socked feet.
 
 ---
 
@@ -2375,7 +2375,7 @@ The movement was automatic—Japanese courtesy internalized years ago during his
 
 The interior smelled of incense and age.
 
-Sandalwood, he identified. And something earthier beneath—the particular scent of old wood, maintained for centuries, absorbing the prayers and offerings of countless visitors. The space was larger than it appeared from outside, expanding into shadow and silence.
+Sandalwood, he identified. And something earthier beneathâ€”the particular scent of old wood, maintained for centuries, absorbing the prayers and offerings of countless visitors. The space was larger than it appeared from outside, expanding into shadow and silence.
 
 ---
 
@@ -2419,7 +2419,7 @@ Neither of them spoke during the preparation. The silence felt appropriate.
 
 A cup appeared before him on the table.
 
-Simple ceramic, gray-green glaze, the kind of everyday vessel that accumulated character over decades of use. Steam rose from the tea inside—hojicha, he identified from the smell. Roasted green tea.
+Simple ceramic, gray-green glaze, the kind of everyday vessel that accumulated character over decades of use. Steam rose from the tea insideâ€”hojicha, he identified from the smell. Roasted green tea.
 
 "Thank you." He lifted the cup carefully, both hands wrapped around its warmth.
 
@@ -2431,7 +2431,7 @@ Simple ceramic, gray-green glaze, the kind of everyday vessel that accumulated c
 
 The first sip burned slightly.
 
-Not unpleasantly—the particular warmth that spreading through the chest, settling somewhere between comfort and alert. The roasted notes of the tea were strong, nutty, grounding in a way that felt deliberate.
+Not unpleasantlyâ€”the particular warmth that spreading through the chest, settling somewhere between comfort and alert. The roasted notes of the tea were strong, nutty, grounding in a way that felt deliberate.
 
 Katsuhito had chosen this tea for a reason.
 
@@ -2481,7 +2481,7 @@ A home waiting.
 
 The concept settled into him with unexpected weight. He owned property. He had somewhere to go. Whatever else remained uncertain, he wouldn't be sleeping in a field tonight.
 
-"I have the deed," he said. "In my wallet. If you need to verify—"
+"I have the deed," he said. "In my wallet. If you need to verifyâ€”"
 
 Katsuhito waved the offer away. "I know who you are, Tsukino Sheldon. Papers are formalities."
 
@@ -2517,7 +2517,7 @@ He should have dismissed this as mysticism. Superstition. An old man's fantasy. 
 
 "I don't understand what's happening to me," he said quietly.
 
-The admission cost something—professional pride, perhaps, or the illusion of control he'd been maintaining since waking. But truth seemed appropriate here, in this room that smelled of incense and acceptance.
+The admission cost somethingâ€”professional pride, perhaps, or the illusion of control he'd been maintaining since waking. But truth seemed appropriate here, in this room that smelled of incense and acceptance.
 
 ---
 
@@ -2537,7 +2537,7 @@ Practical concerns. Immediate needs. The old man was offering shelter without de
 **Time:** 16:05:34 JST  
 **Location:** Shrine main building, tea room
 
-"Why would you help me?" The question emerged raw. "You don't know me. You have no reason to—"
+"Why would you help me?" The question emerged raw. "You don't know me. You have no reason toâ€”"
 
 "The shrine helps those who need help." Katsuhito's voice carried gentle correction. "This is what shrines are for. Not just prayers and offerings. Shelter. Welcome. Community."
 
@@ -2613,7 +2613,7 @@ The wind chimes sounded outside. Birds called. The kettle whispered steam.
 **Time:** 16:12:33 JST  
 **Location:** Shrine main building, tea room
 
-"Tell me about yourself," Katsuhito said eventually. "Not your history—I know enough of that. Tell me about who you are."
+"Tell me about yourself," Katsuhito said eventually. "Not your historyâ€”I know enough of that. Tell me about who you are."
 
 The question was impossible to answer.
 
@@ -2661,7 +2661,7 @@ A sound from outside. Running footsteps on the wooden platform.
 
 "Ojii-chan!" A child's voice, bright and carrying. "Ojii-chan, I'm home!"
 
-Katsuhito's face transformed—the measured calm giving way to undisguised affection. The expression of a grandfather hearing his grandchild's return.
+Katsuhito's face transformedâ€”the measured calm giving way to undisguised affection. The expression of a grandfather hearing his grandchild's return.
 
 ---
 
@@ -2671,7 +2671,7 @@ Katsuhito's face transformed—the measured calm giving way to undisguised affec
 
 The door slid open.
 
-A small figure stood in the doorway, silhouetted against the afternoon light. Short black hair, slightly messy. School uniform—navy shorts, white shirt, the yellow cap of a local kindergarten clutched in one hand.
+A small figure stood in the doorway, silhouetted against the afternoon light. Short black hair, slightly messy. School uniformâ€”navy shorts, white shirt, the yellow cap of a local kindergarten clutched in one hand.
 
 Brown eyes, wide and curious, fixed on the stranger sitting across from his grandfather.
 
@@ -2695,13 +2695,13 @@ Katsuhito smiled at the boy, then at him.
 **Time:** 16:16:32 JST  
 **Location:** Shrine main building, tea room
 
-The boy—Tenchi—stepped fully into the room.
+The boyâ€”Tenchiâ€”stepped fully into the room.
 
 Small. Serious expression despite his age. He studied Sheldon with the frank directness children possessed before society taught them to look away.
 
 "Hello," Tenchi said formally. "Welcome home."
 
-The words were clearly rehearsed—a greeting taught for visitors—but they landed with unexpected force.
+The words were clearly rehearsedâ€”a greeting taught for visitorsâ€”but they landed with unexpected force.
 
 Welcome home.
 
@@ -2713,12 +2713,12 @@ From a four-year-old boy who didn't know what those words could mean.
 
 **Word Count:** 3,987  
 **Cumulative Word Count:** 16,479  
-**Time Covered:** 15:54:22 — 16:16:32 JST (approximately 22 minutes)  
+**Time Covered:** 15:54:22 â€” 16:16:32 JST (approximately 22 minutes)  
 **Status:** Continuing to Part 5
 
 ---
 
-## SCENE VALIDATION CHECKLIST — PART 4
+## SCENE VALIDATION CHECKLIST â€” PART 4
 
 ### Forbidden Word Audit
 - [x] No "Cosmos"
@@ -2733,10 +2733,10 @@ From a four-year-old boy who didn't know what those words could mean.
 
 ### Canon Accuracy
 - [x] Katsuhito's dialogue style: Riddles, patience, teasing wisdom
-- [x] "The mountain accepted you" — correct language
+- [x] "The mountain accepted you" â€” correct language
 - [x] Step count confirmed: 320
 - [x] Yuki mentioned with warmth
-- [x] Tree reference (Funaho) — mysterious but not named
+- [x] Tree reference (Funaho) â€” mysterious but not named
 - [x] Tenchi's age: 4 years old
 - [x] Tenchi's appearance: short black hair, brown eyes, serious expression
 - [x] School uniform: kindergarten (navy shorts, white shirt, yellow cap)
@@ -2748,14 +2748,14 @@ From a four-year-old boy who didn't know what those words could mean.
 - [x] Katsuhito sees something in Sheldon (unspecified)
 - [x] "Understanding takes time" repeated
 - [x] Tenchi immediately curious, not afraid
-- [x] "Welcome home" from Tenchi — emotional weight
-# SON OF COSMOS — DAY 1 PROSE
+- [x] "Welcome home" from Tenchi â€” emotional weight
+# SON OF COSMOS â€” DAY 1 PROSE
 ## April 3, 1989 (Monday)
 ### Part 5: Scenes 201-250
 
 **POV:** Sheldon (exclusive)  
-**Timeline:** 16:16:32 JST — 18:30:00 JST  
-**Coverage:** Meeting Tenchi continued → Shrine Tour → Tsukino House Introduction
+**Timeline:** 16:16:32 JST â€” 18:30:00 JST  
+**Coverage:** Meeting Tenchi continued â†’ Shrine Tour â†’ Tsukino House Introduction
 
 ---
 
@@ -2767,7 +2767,7 @@ He returned the greeting with a slight bow from his seated position.
 
 "Thank you, Tenchi-kun. It's nice to meet you."
 
-The boy's eyes narrowed slightly—not suspicion, but evaluation. A four-year-old's assessment of whether an adult was worth his time.
+The boy's eyes narrowed slightlyâ€”not suspicion, but evaluation. A four-year-old's assessment of whether an adult was worth his time.
 
 Whatever criteria Tenchi used, Sheldon apparently passed.
 
@@ -2779,7 +2779,7 @@ Whatever criteria Tenchi used, Sheldon apparently passed.
 
 "You talk funny," Tenchi announced.
 
-Katsuhito made a small sound—not quite a laugh, not quite a cough. The old man's eyes glittered with amusement behind his glasses.
+Katsuhito made a small soundâ€”not quite a laugh, not quite a cough. The old man's eyes glittered with amusement behind his glasses.
 
 "My Japanese comes from Kyoto," Sheldon explained. "It sounds different from how people speak here."
 
@@ -2805,7 +2805,7 @@ Katsuhito made a small sound—not quite a laugh, not quite a cough. The old man
 
 Tenchi crossed the room with the confident stride of someone who owned the space.
 
-He stopped beside the table, close enough that Sheldon could smell the particular combination of child—grass stains and chalk dust and the faint sweetness of whatever snack he'd had at school.
+He stopped beside the table, close enough that Sheldon could smell the particular combination of childâ€”grass stains and chalk dust and the faint sweetness of whatever snack he'd had at school.
 
 "Can I see your hands?"
 
@@ -2881,7 +2881,7 @@ The question assumed permanence. Continuity. The kind of daily existence he coul
 
 The boy collected a cushion from the stack and placed it beside his grandfather.
 
-His movements were practiced—this was his spot, his routine, his place in the afternoon rhythm of shrine life. He settled into seiza without apparent discomfort, the flexibility of youth making the position easy.
+His movements were practicedâ€”this was his spot, his routine, his place in the afternoon rhythm of shrine life. He settled into seiza without apparent discomfort, the flexibility of youth making the position easy.
 
 ---
 
@@ -2903,9 +2903,9 @@ His movements were practiced—this was his spot, his routine, his place in the 
 **Time:** 16:19:56 JST  
 **Location:** Shrine main building, tea room
 
-The domestic exchange continued—small reports of the day, minor adventures, the details that constituted a four-year-old's universe.
+The domestic exchange continuedâ€”small reports of the day, minor adventures, the details that constituted a four-year-old's universe.
 
-He listened without intruding, watching the relationship unfold. Grandfather and grandson. The only family Tenchi had, apparently—no mention of parents, no photos visible in this room.
+He listened without intruding, watching the relationship unfold. Grandfather and grandson. The only family Tenchi had, apparentlyâ€”no mention of parents, no photos visible in this room.
 
 He wondered but didn't ask.
 
@@ -2943,7 +2943,7 @@ He was already moving toward the door before Sheldon could stand.
 
 He rose from the cushion, his legs protesting the shift from kneeling to standing.
 
-The body handled it better than his old one would have—no sharp pain, no extended recovery time—but the movement still registered. He'd been sitting for nearly half an hour.
+The body handled it better than his old one would haveâ€”no sharp pain, no extended recovery timeâ€”but the movement still registered. He'd been sitting for nearly half an hour.
 
 Tenchi waited at the door with visible impatience.
 
@@ -2979,7 +2979,7 @@ Tenchi led the way across the shrine grounds.
 
 The main hall's architecture revealed itself more clearly in the late light.
 
-Traditional construction, yes, but meticulously maintained. The wood showed no rot, no weathering beyond the acceptable patina of age. Someone—Katsuhito, presumably—had invested decades in preserving this building.
+Traditional construction, yes, but meticulously maintained. The wood showed no rot, no weathering beyond the acceptable patina of age. Someoneâ€”Katsuhito, presumablyâ€”had invested decades in preserving this building.
 
 ---
 
@@ -3013,7 +3013,7 @@ He didn't pursue the topic.
 
 "This way," Tenchi commanded, veering toward the forest edge.
 
-Katsuhito followed at a distance, his pace unhurried, allowing the boy to lead while maintaining quiet supervision. A practiced dynamic—independence within boundaries.
+Katsuhito followed at a distance, his pace unhurried, allowing the boy to lead while maintaining quiet supervision. A practiced dynamicâ€”independence within boundaries.
 
 ---
 
@@ -3023,7 +3023,7 @@ Katsuhito followed at a distance, his pace unhurried, allowing the boy to lead w
 
 The great tree loomed larger as they approached.
 
-He'd noticed it before, glimpsed from the tea room, but proximity revealed its true scale. The trunk was massive—not the widest he'd ever seen, but carrying a presence that exceeded mere measurement.
+He'd noticed it before, glimpsed from the tea room, but proximity revealed its true scale. The trunk was massiveâ€”not the widest he'd ever seen, but carrying a presence that exceeded mere measurement.
 
 ---
 
@@ -3045,7 +3045,7 @@ He'd noticed it before, glimpsed from the tea room, but proximity revealed its t
 
 He looked up at the canopy.
 
-The tree's branches spread wider than any cedar should manage, creating a secondary canopy above the surrounding forest. The leaves—if they were leaves—caught the sunset light in ways that didn't quite match the physics he expected.
+The tree's branches spread wider than any cedar should manage, creating a secondary canopy above the surrounding forest. The leavesâ€”if they were leavesâ€”caught the sunset light in ways that didn't quite match the physics he expected.
 
 Something about this tree was wrong. Or perhaps wrongness wasn't the right concept.
 
@@ -3083,7 +3083,7 @@ Another statement that should have sounded like superstition and didn't.
 
 Tenchi tugged his sleeve. "This way. You can see the lake."
 
-He allowed himself to be led to a gap in the trees—a natural viewpoint, perhaps deliberately maintained. Below and to the south, the lake he'd glimpsed from the bus spread across the valley floor.
+He allowed himself to be led to a gap in the treesâ€”a natural viewpoint, perhaps deliberately maintained. Below and to the south, the lake he'd glimpsed from the bus spread across the valley floor.
 
 ---
 
@@ -3093,7 +3093,7 @@ He allowed himself to be led to a gap in the trees—a natural viewpoint, perhap
 
 The view was startling in its beauty.
 
-The lake reflected the sunset sky—oranges and pinks and the deep blue of approaching evening. The water was still, mirror-perfect, capturing an inverted world in its surface.
+The lake reflected the sunset skyâ€”oranges and pinks and the deep blue of approaching evening. The water was still, mirror-perfect, capturing an inverted world in its surface.
 
 "Masaki Lake," Katsuhito said from behind him. "It's been here as long as the mountain."
 
@@ -3131,7 +3131,7 @@ Tenchi pressed against the viewpoint's edge, familiar enough with the spot to kn
 
 They circled back toward the shrine buildings.
 
-The tour had been brief but informative—main hall, residence, the great tree, the lake view. The shrine's world in miniature. His world now, presumably.
+The tour had been brief but informativeâ€”main hall, residence, the great tree, the lake view. The shrine's world in miniature. His world now, presumably.
 
 The path led past another building he hadn't noticed before.
 
@@ -3213,7 +3213,7 @@ The request was directed at Sheldon, but the boy's eyes flicked to his grandfath
 
 "Another time," Katsuhito said gently. "Let Tsukino-san have this evening alone."
 
-Disappointment flickered across Tenchi's face—there and gone, managed with a maturity beyond his years.
+Disappointment flickered across Tenchi's faceâ€”there and gone, managed with a maturity beyond his years.
 
 "Okay." He looked up at Sheldon. "But tomorrow you'll show me?"
 
@@ -3225,7 +3225,7 @@ Disappointment flickered across Tenchi's face—there and gone, managed with a m
 
 "Tomorrow," he agreed.
 
-The promise cost nothing and gained something—a thread of connection, a reason for the child to look forward to his continued presence. Small stakes, but real.
+The promise cost nothing and gained somethingâ€”a thread of connection, a reason for the child to look forward to his continued presence. Small stakes, but real.
 
 ---
 
@@ -3237,7 +3237,7 @@ He stepped onto the northward path.
 
 The stone gave way to packed earth after a few meters, the formal shrine grounds transitioning to the forest trail. Cedar branches arched overhead, filtering the last direct sunlight into scattered gold.
 
-Behind him, Tenchi called: "Remember—one hour!"
+Behind him, Tenchi called: "Rememberâ€”one hour!"
 
 ---
 
@@ -3259,7 +3259,7 @@ He walked in their footsteps now.
 
 The forest sounds enclosed him.
 
-Bird calls—different from the uguisu of the lower field, variations he couldn't name. Wind in the branches, the soft creak of wood moving. His own footsteps, muffled by the earth underfoot.
+Bird callsâ€”different from the uguisu of the lower field, variations he couldn't name. Wind in the branches, the soft creak of wood moving. His own footsteps, muffled by the earth underfoot.
 
 No human sounds except his breathing.
 
@@ -3283,7 +3283,7 @@ The stream continued down the slope, presumably joining other waters on its way 
 
 The forest thinned ahead.
 
-Through the gaps in the trees, he could see open sky, the beginning of a clearing. Something built—a roofline visible, the particular geometry of human construction.
+Through the gaps in the trees, he could see open sky, the beginning of a clearing. Something builtâ€”a roofline visible, the particular geometry of human construction.
 
 The house. His house.
 
@@ -3295,7 +3295,7 @@ The house. His house.
 
 He emerged from the forest into a small clearing.
 
-The house stood at its center—traditional construction, single story with an elevated foundation, the roof tiles showing the gray patina of age. A garden surrounded it, overgrown but not abandoned. Someone had cut back the worst of the vegetation recently.
+The house stood at its centerâ€”traditional construction, single story with an elevated foundation, the roof tiles showing the gray patina of age. A garden surrounded it, overgrown but not abandoned. Someone had cut back the worst of the vegetation recently.
 
 ---
 
@@ -3305,9 +3305,9 @@ The house stood at its center—traditional construction, single story with an e
 
 The house was modest in size.
 
-Not large by any standard—perhaps four rooms, maybe five. A well stood to one side, covered with a wooden cap. A stone path led from the forest trail to the genkan entrance.
+Not large by any standardâ€”perhaps four rooms, maybe five. A well stood to one side, covered with a wooden cap. A stone path led from the forest trail to the genkan entrance.
 
-This was what his mother—the mother he'd been given—had left him.
+This was what his motherâ€”the mother he'd been givenâ€”had left him.
 
 ---
 
@@ -3317,7 +3317,7 @@ This was what his mother—the mother he'd been given—had left him.
 
 He approached slowly.
 
-Not caution exactly—nothing about the house suggested danger. More a sense of occasion. Of approaching something that would matter. Whatever happened next would shape his understanding of this new existence.
+Not caution exactlyâ€”nothing about the house suggested danger. More a sense of occasion. Of approaching something that would matter. Whatever happened next would shape his understanding of this new existence.
 
 ---
 
@@ -3327,7 +3327,7 @@ Not caution exactly—nothing about the house suggested danger. More a sense of 
 
 The entrance was unlocked.
 
-The sliding door moved easily on its track, well-maintained despite the house's vacancy. Beyond it, the genkan waited—stone step, wooden floor, the traditional boundary between outside and in.
+The sliding door moved easily on its track, well-maintained despite the house's vacancy. Beyond it, the genkan waitedâ€”stone step, wooden floor, the traditional boundary between outside and in.
 
 He stepped out of his shoes and placed them pointing outward.
 
@@ -3365,12 +3365,12 @@ Home.
 
 **Word Count:** 3,742  
 **Cumulative Word Count:** 20,221  
-**Time Covered:** 16:16:32 — 16:40:42 JST (approximately 24 minutes)  
+**Time Covered:** 16:16:32 â€” 16:40:42 JST (approximately 24 minutes)  
 **Status:** Continuing to Part 6
 
 ---
 
-## SCENE VALIDATION CHECKLIST — PART 5
+## SCENE VALIDATION CHECKLIST â€” PART 5
 
 ### Forbidden Word Audit
 - [x] No "Cosmos"
@@ -3388,7 +3388,7 @@ Home.
 - [x] Tenchi's interests: beetles, nature
 - [x] Nobuyuki mentioned (works in city)
 - [x] Great tree (Funaho) described without naming
-- [x] "It watches" — Tenchi's observation
+- [x] "It watches" â€” Tenchi's observation
 - [x] Masaki Lake viewed from shrine
 - [x] Path to Tsukino house: 15 minutes
 - [x] House layout: modest, traditional
@@ -3396,17 +3396,17 @@ Home.
 
 ### Seeds Planted This Section
 - [x] Tenchi's beetle-hunting invitation (relationship building)
-- [x] "The tree watches" — cosmic significance
-- [x] Lake depths and "big ones" — future mystery
+- [x] "The tree watches" â€” cosmic significance
+- [x] Lake depths and "big ones" â€” future mystery
 - [x] Nobuyuki's absence explained minimally
 - [x] "Home" claimed emotionally
-# SON OF COSMOS — DAY 1 PROSE
+# SON OF COSMOS â€” DAY 1 PROSE
 ## April 3, 1989 (Monday)
 ### Part 6: Scenes 251-299
 
 **POV:** Sheldon (exclusive)  
-**Timeline:** 16:40:42 JST — 22:30:00 JST  
-**Coverage:** House Exploration → Return to Shrine → Dinner → Bath → First Night
+**Timeline:** 16:40:42 JST â€” 22:30:00 JST  
+**Coverage:** House Exploration â†’ Return to Shrine â†’ Dinner â†’ Bath â†’ First Night
 
 ---
 
@@ -3416,7 +3416,7 @@ Home.
 
 He explored the house systematically.
 
-Main room first—the space where life would center. Six tatami mats, slightly worn at their edges but recently replaced in the middle of the floor. Katsuhito's work, presumably. Preparing for an arrival he'd somehow anticipated.
+Main room firstâ€”the space where life would center. Six tatami mats, slightly worn at their edges but recently replaced in the middle of the floor. Katsuhito's work, presumably. Preparing for an arrival he'd somehow anticipated.
 
 ---
 
@@ -3426,7 +3426,7 @@ Main room first—the space where life would center. Six tatami mats, slightly w
 
 The kitchen occupied the house's northeast corner.
 
-Small gas stove, two burners. Sink with a single tap. Shelves holding basic supplies—rice in a lidded container, salt, oil, dried goods whose labels he read without recognition. A window above the sink overlooked the garden.
+Small gas stove, two burners. Sink with a single tap. Shelves holding basic suppliesâ€”rice in a lidded container, salt, oil, dried goods whose labels he read without recognition. A window above the sink overlooked the garden.
 
 Functional. Sparse. Adequate.
 
@@ -3438,7 +3438,7 @@ Functional. Sparse. Adequate.
 
 The bedroom held only a futon closet.
 
-He slid it open to find bedding rolled and stacked—futon, blanket, pillow. Clean, aired recently if the lack of musty smell was any indication. Someone had prepared this house for occupation in the days before his arrival.
+He slid it open to find bedding rolled and stackedâ€”futon, blanket, pillow. Clean, aired recently if the lack of musty smell was any indication. Someone had prepared this house for occupation in the days before his arrival.
 
 ---
 
@@ -3448,7 +3448,7 @@ He slid it open to find bedding rolled and stacked—futon, blanket, pillow. Cle
 
 The bathroom was traditional.
 
-Deep ofuro tub, wooden, designed for soaking rather than washing. The washing area sat separate—stool, bucket, showerhead connected to the wall. The arrangement assumed a particular order: wash outside, soak inside.
+Deep ofuro tub, wooden, designed for soaking rather than washing. The washing area sat separateâ€”stool, bucket, showerhead connected to the wall. The arrangement assumed a particular order: wash outside, soak inside.
 
 He tested the taps. Water ran, cold at first, then warming.
 
@@ -3460,7 +3460,7 @@ He tested the taps. Water ran, cold at first, then warming.
 
 He circled back to the main room and sat.
 
-The house was his now. Four rooms—main, kitchen, bedroom, bathroom—containing the infrastructure of a life. Not luxurious, not uncomfortable. A place where someone could exist.
+The house was his now. Four roomsâ€”main, kitchen, bedroom, bathroomâ€”containing the infrastructure of a life. Not luxurious, not uncomfortable. A place where someone could exist.
 
 Where he could exist.
 
@@ -3472,7 +3472,7 @@ Where he could exist.
 
 He pulled the letter from his wallet.
 
-The envelope still sealed, his name written in that trembling brushwork. The photograph showed an elderly man—weathered hands, quiet authority in his posture, the particular patience of someone who had learned to wait for things that mattered.
+The envelope still sealed, his name written in that trembling brushwork. The photograph showed an elderly manâ€”weathered hands, quiet authority in his posture, the particular patience of someone who had learned to wait for things that mattered.
 
 Uncle Kiyoshi. The name surfaced from somewhere, attached to the face without conscious effort.
 
@@ -3486,19 +3486,19 @@ He broke the seal.
 
 The letter was written in careful Japanese, the brushwork deliberate despite a slight tremor.
 
-*Sheldon—*
+*Sheldonâ€”*
 
 *Your mother carried that name her whole life, even in America, even after she married your father. She never stopped being a Tsukino in her heart. That you chose to honor her that way when you changed your name... it would have made her weep with happiness. It makes me proud to call you nephew.*
 
-*A man needs time to grieve properly, and you never took that time. After Yuki passed, you buried yourself in work. I understood—we all have our ways of surviving. But four years is long enough to run.*
+*A man needs time to grieve properly, and you never took that time. After Yuki passed, you buried yourself in work. I understoodâ€”we all have our ways of surviving. But four years is long enough to run.*
 
 *The house will give you quiet. The village will give you space. Masaki-san knows you're coming and will help you settle in. The mountain has always accepted our family.*
 
-*Haruko is already planning what to cook when we visit for Obon. You cannot escape her feeding you—I have tried for forty years and failed. Fumiko asks about you often. She barely remembers your visit in 1980, but she wants to meet you properly now that you're both adults.*
+*Haruko is already planning what to cook when we visit for Obon. You cannot escape her feeding youâ€”I have tried for forty years and failed. Fumiko asks about you often. She barely remembers your visit in 1980, but she wants to meet you properly now that you're both adults.*
 
 *Your mother used to say you were meticulous, like your father. She meant it as praise. Take that meticulousness and apply it to healing. The house is yours. Make it a home again.*
 
-*When you are ready—not before—come to Osaka. We will drink tea and I will tell you stories about your mother that she never told you herself.*
+*When you are readyâ€”not beforeâ€”come to Osaka. We will drink tea and I will tell you stories about your mother that she never told you herself.*
 
 *Your uncle,*
 *Kiyoshi*
@@ -3511,13 +3511,13 @@ The letter was written in careful Japanese, the brushwork deliberate despite a s
 
 He read the letter twice.
 
-The man who wrote it was alive. Waiting in Osaka with his wife, with stories about a mother Sheldon couldn't remember. The invitation carried no urgency—*when you are ready, not before*—but the expectation was clear. Family existed. Family wanted connection.
+The man who wrote it was alive. Waiting in Osaka with his wife, with stories about a mother Sheldon couldn't remember. The invitation carried no urgencyâ€”*when you are ready, not before*â€”but the expectation was clear. Family existed. Family wanted connection.
 
 The letter assumed shared history. References to a 1980 visit. To a name change he'd apparently chosen. To four years of grief he hadn't taken time to process.
 
 None of it matched his memories. All of it, according to his documents, was true.
 
-He folded the letter along its original creases and returned it to the envelope. The house around him held the silence of waiting—not for death, as he'd first assumed, but for life to return.
+He folded the letter along its original creases and returned it to the envelope. The house around him held the silence of waitingâ€”not for death, as he'd first assumed, but for life to return.
 
 His uncle was alive. His cousin wanted to meet him. His aunt was already planning meals.
 
@@ -3557,7 +3557,7 @@ The wallet went in his pocket. His shoes waited in the genkan. The house settled
 
 The forest path was darker now.
 
-The sun had dropped below the tree line, leaving the woods in gray-green shadow. His eyes adjusted quickly—the restored vision processing low light without difficulty.
+The sun had dropped below the tree line, leaving the woods in gray-green shadow. His eyes adjusted quicklyâ€”the restored vision processing low light without difficulty.
 
 The shrine waited fifteen minutes ahead. He walked without hurry.
 
@@ -3569,7 +3569,7 @@ The shrine waited fifteen minutes ahead. He walked without hurry.
 
 The shrine grounds glowed with paper lanterns.
 
-Someone—Tenchi, probably—had lit them in his absence. The warm light transformed the cleared space, softening the traditional buildings into something between sacred and domestic.
+Someoneâ€”Tenchi, probablyâ€”had lit them in his absence. The warm light transformed the cleared space, softening the traditional buildings into something between sacred and domestic.
 
 ---
 
@@ -3593,7 +3593,7 @@ The boy appeared at the residence door, silhouetted against interior light, then
 
 Tenchi grabbed his hand without hesitation.
 
-The gesture startled him—the easy intimacy of childhood, the assumption that physical contact was permitted. Small fingers wrapped around three of his, tugging him toward the residence.
+The gesture startled himâ€”the easy intimacy of childhood, the assumption that physical contact was permitted. Small fingers wrapped around three of his, tugging him toward the residence.
 
 "Ojii-chan made dinner. Come on."
 
@@ -3629,7 +3629,7 @@ Katsuhito's smile suggested understanding beyond the statement. "Good. Please, c
 
 The kitchen was larger than he'd expected.
 
-Domestic space rather than shrine facility—a table for three, gas stove with multiple burners, the accumulated equipment of years of feeding a family. Tenchi released his hand and climbed onto a cushion at the table.
+Domestic space rather than shrine facilityâ€”a table for three, gas stove with multiple burners, the accumulated equipment of years of feeding a family. Tenchi released his hand and climbed onto a cushion at the table.
 
 "Can I help with anything?" he asked.
 
@@ -3651,7 +3651,7 @@ He did. The task was familiar, comforting in its mundanity. He found the paddle,
 
 They assembled the meal together.
 
-Katsuhito handled the fish—saba, salt-grilled, the skin crisped and blistered. He served rice into three bowls. Tenchi, assigned the simple task of placing chopsticks, took the responsibility with visible seriousness.
+Katsuhito handled the fishâ€”saba, salt-grilled, the skin crisped and blistered. He served rice into three bowls. Tenchi, assigned the simple task of placing chopsticks, took the responsibility with visible seriousness.
 
 The rhythm felt natural. As if they'd done this before.
 
@@ -3663,7 +3663,7 @@ The rhythm felt natural. As if they'd done this before.
 
 The table was set.
 
-Rice in lacquered bowls. Miso soup steaming in wooden cups. The grilled mackerel arranged on a serving plate. Side dishes—pickled daikon, spinach with sesame, something he didn't recognize but smelled of ginger.
+Rice in lacquered bowls. Miso soup steaming in wooden cups. The grilled mackerel arranged on a serving plate. Side dishesâ€”pickled daikon, spinach with sesame, something he didn't recognize but smelled of ginger.
 
 "Itadakimasu," they said together, Tenchi's voice slightly ahead of the adults.
 
@@ -3675,7 +3675,7 @@ Rice in lacquered bowls. Miso soup steaming in wooden cups. The grilled mackerel
 
 The first bite of rice was revelation.
 
-Not the rice itself—simple short-grain, properly cooked—but his perception of it. Each grain distinct on his tongue. The subtle sweetness registering as if for the first time. His restored senses transforming ordinary food into something extraordinary.
+Not the rice itselfâ€”simple short-grain, properly cookedâ€”but his perception of it. Each grain distinct on his tongue. The subtle sweetness registering as if for the first time. His restored senses transforming ordinary food into something extraordinary.
 
 ---
 
@@ -3685,7 +3685,7 @@ Not the rice itself—simple short-grain, properly cooked—but his perception o
 
 Tenchi ate with the focused attention of childhood.
 
-No conversation during the meal—a rule enforced through habit rather than statement. The only sounds were chopsticks against ceramic, the soft click of bowls being set down, the occasional satisfied exhale.
+No conversation during the mealâ€”a rule enforced through habit rather than statement. The only sounds were chopsticks against ceramic, the soft click of bowls being set down, the occasional satisfied exhale.
 
 He followed the rhythm. His body was hungry, though he hadn't noticed until food appeared.
 
@@ -3753,7 +3753,7 @@ The meal concluded naturally.
 
 Tenchi echoed it, then immediately asked: "Can I show Sheldon-san my room?"
 
-The request used his name directly—progress, perhaps, from "the stranger" to "Sheldon-san" in the course of a single afternoon.
+The request used his name directlyâ€”progress, perhaps, from "the stranger" to "Sheldon-san" in the course of a single afternoon.
 
 ---
 
@@ -3763,7 +3763,7 @@ The request used his name directly—progress, perhaps, from "the stranger" to "
 
 Katsuhito nodded permission.
 
-Tenchi led the way through the residence—past the kitchen, down a short hallway, to a sliding door decorated with a child's drawings taped haphazardly to the frame.
+Tenchi led the way through the residenceâ€”past the kitchen, down a short hallway, to a sliding door decorated with a child's drawings taped haphazardly to the frame.
 
 "This is my room. I drew those. The dragon is best."
 
@@ -3803,7 +3803,7 @@ They returned to find Katsuhito washing dishes.
 
 The old man stepped aside without argument. "Tenchi should begin preparing for bed. Tomorrow is a school day."
 
-"But I want to stay up—"
+"But I want to stay upâ€”"
 
 "Tomorrow is a school day," Katsuhito repeated gently.
 
@@ -3815,7 +3815,7 @@ The old man stepped aside without argument. "Tenchi should begin preparing for b
 
 He washed. Katsuhito dried.
 
-The domestic rhythm continued—hot water, soap, the particular satisfaction of cleaning what had been used. His hands worked automatically while his mind processed the day's accumulated strangeness.
+The domestic rhythm continuedâ€”hot water, soap, the particular satisfaction of cleaning what had been used. His hands worked automatically while his mind processed the day's accumulated strangeness.
 
 "You have questions," Katsuhito said quietly.
 
@@ -3865,7 +3865,7 @@ But something in Katsuhito's tone suggested patience rather than evasion.
 
 The last dish was clean.
 
-He dried his hands on the towel Katsuhito offered, the domestic task complete. Through the wall, he could hear Tenchi preparing for bed—teeth brushing, the particular sounds of a child's nighttime routine.
+He dried his hands on the towel Katsuhito offered, the domestic task complete. Through the wall, he could hear Tenchi preparing for bedâ€”teeth brushing, the particular sounds of a child's nighttime routine.
 
 "You should take a bath before you return to the house," Katsuhito suggested. "The water is already heated."
 
@@ -3877,7 +3877,7 @@ He dried his hands on the towel Katsuhito offered, the domestic task complete. T
 
 The bathroom was larger than his house's.
 
-Same traditional arrangement—washing area separate from soaking tub—but scaled for shared use. The water in the ofuro steamed gently, heated by the gas system that served the residence.
+Same traditional arrangementâ€”washing area separate from soaking tubâ€”but scaled for shared use. The water in the ofuro steamed gently, heated by the gas system that served the residence.
 
 He understood the etiquette: guest bathed first, before family.
 
@@ -3889,7 +3889,7 @@ He understood the etiquette: guest bathed first, before family.
 
 He undressed methodically.
 
-Shirt, slacks, undershirt, socks—each item folded and placed in the basket provided. Standing naked in the bathroom, he confronted his body directly for the first time.
+Shirt, slacks, undershirt, socksâ€”each item folded and placed in the basket provided. Standing naked in the bathroom, he confronted his body directly for the first time.
 
 The mirror showed him: medium brown skin, lean muscle, unmarked perfection. A body that had never known damage.
 
@@ -3901,7 +3901,7 @@ The mirror showed him: medium brown skin, lean muscle, unmarked perfection. A bo
 
 His eyes in the mirror were brown.
 
-But something in them caught the light strangely—a flicker, almost silver, at the edges of the iris. He leaned closer, trying to identify the anomaly.
+But something in them caught the light strangelyâ€”a flicker, almost silver, at the edges of the iris. He leaned closer, trying to identify the anomaly.
 
 It vanished when he looked directly at it. Present only in peripheral vision.
 
@@ -3915,7 +3915,7 @@ He filed it away. Another data point for later analysis.
 
 He washed thoroughly.
 
-Stool, bucket, soap. The ritual of cleaning before entering shared water—removing the day's accumulation of sweat and dust and the residue of a life that had ended and begun again.
+Stool, bucket, soap. The ritual of cleaning before entering shared waterâ€”removing the day's accumulation of sweat and dust and the residue of a life that had ended and begun again.
 
 The water ran clear when he rinsed. He was clean.
 
@@ -3927,7 +3927,7 @@ The water ran clear when he rinsed. He was clean.
 
 The ofuro water was hot.
 
-He lowered himself slowly, inch by inch, letting his body adjust to the temperature. The heat penetrated deep—into muscle, into bone, into places he hadn't known were cold until warmth reached them.
+He lowered himself slowly, inch by inch, letting his body adjust to the temperature. The heat penetrated deepâ€”into muscle, into bone, into places he hadn't known were cold until warmth reached them.
 
 ---
 
@@ -3937,7 +3937,7 @@ He lowered himself slowly, inch by inch, letting his body adjust to the temperat
 
 He soaked in silence.
 
-The day's tension released in stages—the confusion of waking, the journey, the meetings, the revelations. The water held him, supported him, allowed him to simply exist without purpose for the first time since opening his eyes in that field.
+The day's tension released in stagesâ€”the confusion of waking, the journey, the meetings, the revelations. The water held him, supported him, allowed him to simply exist without purpose for the first time since opening his eyes in that field.
 
 He had survived his first day.
 
@@ -3949,7 +3949,7 @@ He had survived his first day.
 
 He emerged before the water cooled.
 
-Clean clothes had appeared outside the bathroom door—traditional sleeping yukata, the kind provided for guests. Someone, presumably Katsuhito, had anticipated his needs.
+Clean clothes had appeared outside the bathroom doorâ€”traditional sleeping yukata, the kind provided for guests. Someone, presumably Katsuhito, had anticipated his needs.
 
 He dressed in the soft cotton and felt more human than he had since dying.
 
@@ -3987,7 +3987,7 @@ Paper and bamboo, traditional design, a small candle within. The kind of light t
 
 The forest at night was different.
 
-Darker, obviously, but also fuller—alive with sounds the daylight hours suppressed. Insects, distant owls, the rustling of small creatures moving through underbrush.
+Darker, obviously, but also fullerâ€”alive with sounds the daylight hours suppressed. Insects, distant owls, the rustling of small creatures moving through underbrush.
 
 The lantern cast a sphere of warm light, just enough to see the path.
 
@@ -4011,14 +4011,14 @@ He unrolled the futon. Arranged the bedding. Lay down.
 
 The ceiling above him was shadow.
 
-His body pressed against the futon, comfortable in the way bodies become comfortable when exhaustion finally wins. His mind continued processing—questions, observations, the accumulated data of an impossible day.
+His body pressed against the futon, comfortable in the way bodies become comfortable when exhaustion finally wins. His mind continued processingâ€”questions, observations, the accumulated data of an impossible day.
 
 Sleep approached like a tide. He didn't resist.
 
 ---
 
 ## SCENE 299
-**Time:** 19:15:35 JST — Sleep  
+**Time:** 19:15:35 JST â€” Sleep  
 **Location:** Tsukino house, dreams
 
 In the space between waking and sleep, he saw her.
@@ -4027,7 +4027,7 @@ A figure in white, standing at the edge of perception. Tall, slender, features o
 
 *You did well today.*
 
-The words weren't sound. They were impression—meaning transferred without vibration.
+The words weren't sound. They were impressionâ€”meaning transferred without vibration.
 
 *Rest now. Tomorrow begins what today prepared.*
 
@@ -4045,7 +4045,7 @@ He would not remember the figure who stood guard through the night, silver hair 
 
 **Word Count:** 3,687  
 **Cumulative Word Count:** 23,908  
-**Time Covered:** 16:40:42 — 19:15:35+ JST (Sleep)  
+**Time Covered:** 16:40:42 â€” 19:15:35+ JST (Sleep)  
 **Status:** DAY 1 COMPLETE
 
 ---
@@ -4056,14 +4056,14 @@ He would not remember the figure who stood guard through the night, silver hair 
 |--------|-------|
 | **Total Scenes** | 299 |
 | **Total Word Count** | 23,908 |
-| **Time Span** | 14:47:23 JST — Sleep (~22:00+) |
+| **Time Span** | 14:47:23 JST â€” Sleep (~22:00+) |
 | **Waking Hours Covered** | ~7 hours |
 | **Average Words/Scene** | 80 words |
 | **POV** | Sheldon (exclusive) |
 
 ---
 
-## SCENE VALIDATION CHECKLIST — PART 6
+## SCENE VALIDATION CHECKLIST â€” PART 6
 
 ### Forbidden Word Audit
 - [x] No "Cosmos" (figure described but never named)
@@ -4082,22 +4082,22 @@ He would not remember the figure who stood guard through the night, silver hair 
 - [x] Dinner menu: rice, miso, grilled mackerel, pickled daikon, spinach
 - [x] Itadakimasu/Gochisousama protocol
 - [x] Bath etiquette: guest first
-- [x] Silver flecks in eyes — noticed but not understood
+- [x] Silver flecks in eyes â€” noticed but not understood
 - [x] Dream sequence: white figure (Cosmos), grandmother's kitchen
-- [x] "Too stubborn to stay dead" — grandmother's voice
-- [x] Figure watches through the night — reader knows, Sheldon doesn't
+- [x] "Too stubborn to stay dead" â€” grandmother's voice
+- [x] Figure watches through the night â€” reader knows, Sheldon doesn't
 
 ### Final Seeds Planted
 - [x] Uncle Kiyoshi's letter establishes "chosen before you were born"
 - [x] Katsuhito offers philosophical acceptance without full explanation
 - [x] Tenchi relationship solidified through room visit and bug promise
-- [x] Silver eye flecks — appearance progression seed
-- [x] Dream contact with Cosmos — ongoing presence established
+- [x] Silver eye flecks â€” appearance progression seed
+- [x] Dream contact with Cosmos â€” ongoing presence established
 - [x] Grandmother's influence persists across death
 
 ---
 
-## MASTER CHECKLIST — FULL DAY 1
+## MASTER CHECKLIST â€” FULL DAY 1
 
 ### Structural Requirements
 - [x] 299 scenes (as specified)

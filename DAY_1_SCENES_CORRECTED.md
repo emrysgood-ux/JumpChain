@@ -1,15 +1,15 @@
-# DAY 1 PROSE — CORRECTED SCENES 256-258
+# DAY 1 PROSE â€” CORRECTED SCENES 256-258
 
 ## Error Log
 
 **Errors Identified:**
 1. Scene 257: Killed Kiyoshi ("By the time you read this, I will have passed")
-2. Scene 257: Made Kiyoshi the intermediary owner (Yuki → Kiyoshi → Sheldon)
-3. Scenes 85-89 (Part 2): Named bus stop woman "Yamamoto Haruko" — that name belongs to Kiyoshi's wife in Osaka
+2. Scene 257: Made Kiyoshi the intermediary owner (Yuki â†’ Kiyoshi â†’ Sheldon)
+3. Scenes 85-89 (Part 2): Named bus stop woman "Yamamoto Haruko" â€” that name belongs to Kiyoshi's wife in Osaka
 
 **Corrections Applied:**
 1. Kiyoshi is ALIVE, age 67, living in Osaka
-2. Inheritance was DIRECT: Yuki → Sheldon (1985)
+2. Inheritance was DIRECT: Yuki â†’ Sheldon (1985)
 3. Bus stop woman renamed to "Tanaka Sachiko" (common surname, fits region)
 
 ---
@@ -20,7 +20,7 @@
 
 He pulled the letter from his wallet.
 
-The envelope still sealed, his name written in that trembling brushwork. The photograph showed an elderly man—weathered hands, quiet authority in his posture, the particular patience of someone who had learned to wait for things that mattered.
+The envelope still sealed, his name written in that trembling brushwork. The photograph showed an elderly manâ€”weathered hands, quiet authority in his posture, the particular patience of someone who had learned to wait for things that mattered.
 
 Uncle Kiyoshi. The name surfaced from somewhere, attached to the face without conscious effort.
 
@@ -34,19 +34,19 @@ He broke the seal.
 
 The letter was written in careful Japanese, the brushwork deliberate despite a slight tremor.
 
-*Sheldon—*
+*Sheldonâ€”*
 
 *Your mother carried that name her whole life, even in America, even after she married your father. She never stopped being a Tsukino in her heart. That you chose to honor her that way when you changed your name... it would have made her weep with happiness. It makes me proud to call you nephew.*
 
-*A man needs time to grieve properly, and you never took that time. After Yuki passed, you buried yourself in work. I understood—we all have our ways of surviving. But four years is long enough to run.*
+*A man needs time to grieve properly, and you never took that time. After Yuki passed, you buried yourself in work. I understoodâ€”we all have our ways of surviving. But four years is long enough to run.*
 
 *The house will give you quiet. The village will give you space. Masaki-san knows you're coming and will help you settle in. The mountain has always accepted our family.*
 
-*Haruko is already planning what to cook when we visit for Obon. You cannot escape her feeding you—I have tried for forty years and failed. Fumiko asks about you often. She barely remembers your visit in 1980, but she wants to meet you properly now that you're both adults.*
+*Haruko is already planning what to cook when we visit for Obon. You cannot escape her feeding youâ€”I have tried for forty years and failed. Fumiko asks about you often. She barely remembers your visit in 1980, but she wants to meet you properly now that you're both adults.*
 
 *Your mother used to say you were meticulous, like your father. She meant it as praise. Take that meticulousness and apply it to healing. The house is yours. Make it a home again.*
 
-*When you are ready—not before—come to Osaka. We will drink tea and I will tell you stories about your mother that she never told you herself.*
+*When you are readyâ€”not beforeâ€”come to Osaka. We will drink tea and I will tell you stories about your mother that she never told you herself.*
 
 *Your uncle,*  
 *Kiyoshi*
@@ -59,13 +59,13 @@ The letter was written in careful Japanese, the brushwork deliberate despite a s
 
 He read the letter twice.
 
-The man who wrote it was alive. Waiting in Osaka with his wife, with stories about a mother Sheldon couldn't remember. The invitation carried no urgency—*when you are ready, not before*—but the expectation was clear. Family existed. Family wanted connection.
+The man who wrote it was alive. Waiting in Osaka with his wife, with stories about a mother Sheldon couldn't remember. The invitation carried no urgencyâ€”*when you are ready, not before*â€”but the expectation was clear. Family existed. Family wanted connection.
 
 The letter assumed shared history. References to a 1980 visit. To a name change he'd apparently chosen. To four years of grief he hadn't taken time to process.
 
 None of it matched his memories. All of it, according to his documents, was true.
 
-He folded the letter along its original creases and returned it to the envelope. The house around him held the silence of waiting—not for death, as he'd assumed, but for life to return.
+He folded the letter along its original creases and returned it to the envelope. The house around him held the silence of waitingâ€”not for death, as he'd assumed, but for life to return.
 
 His uncle was alive. His cousin wanted to meet him. His aunt was already planning meals.
 
@@ -89,7 +89,7 @@ Neither option seemed simple.
 
 The woman entered the shelter and sat at the opposite end of the bench.
 
-She studied him openly—not rude, but curious. A foreigner at a rural bus stop warranted examination. He met her gaze without challenge, offering a small nod of acknowledgment.
+She studied him openlyâ€”not rude, but curious. A foreigner at a rural bus stop warranted examination. He met her gaze without challenge, offering a small nod of acknowledgment.
 
 "Konnichiwa," she said. Good afternoon.
 
@@ -105,7 +105,7 @@ Her eyebrows rose slightly. She hadn't expected fluent Japanese.
 
 "You speak well," she said. A statement, not a question.
 
-"Thank you." He kept his response simple. His Japanese was fluent—he'd learned it for academic purposes, spent summers in Kyoto improving his comprehension—but he didn't know how to explain that fluency to a stranger.
+"Thank you." He kept his response simple. His Japanese was fluentâ€”he'd learned it for academic purposes, spent summers in Kyoto improving his comprehensionâ€”but he didn't know how to explain that fluency to a stranger.
 
 "Where are you going?" Direct questions, the privilege of age.
 
@@ -119,7 +119,7 @@ Her eyebrows rose slightly. She hadn't expected fluent Japanese.
 
 Her expression changed.
 
-Recognition, perhaps. Or something else—a sharpening of attention, a reorganization of whatever assumptions she'd made about him.
+Recognition, perhaps. Or something elseâ€”a sharpening of attention, a reorganization of whatever assumptions she'd made about him.
 
 "Tsukino," she repeated. "The house by Masaki Shrine."
 
@@ -135,7 +135,7 @@ Recognition, perhaps. Or something else—a sharpening of attention, a reorganiz
 
 "She was my mother," he said, testing the words.
 
-The woman's face softened with something that might have been compassion. "I thought so. I'm Tanaka Sachiko. I knew Yuki-san when we were girls—before she left for America."
+The woman's face softened with something that might have been compassion. "I thought so. I'm Tanaka Sachiko. I knew Yuki-san when we were girlsâ€”before she left for America."
 
 A childhood friend of his mother's. Someone who had known the woman he was supposed to have lost.
 
@@ -151,7 +151,7 @@ A childhood friend of his mother's. Someone who had known the woman he was suppo
 
 "The shrine," he said, redirecting. "How far is it?"
 
-"The bus goes there. Last stop on the eastbound route." She gestured toward the schedule board. "Masaki Katsuhito tends the shrine. He's expecting you—the whole village has been expecting you since word came that Yuki-san's son would finally return."
+"The bus goes there. Last stop on the eastbound route." She gestured toward the schedule board. "Masaki Katsuhito tends the shrine. He's expecting youâ€”the whole village has been expecting you since word came that Yuki-san's son would finally return."
 
 Finally return. The phrase suggested delay, perhaps judgment. He'd been expected and had taken four years to arrive.
 
@@ -187,16 +187,16 @@ The name relay to Katsuhito must also be updated:
 
 | Element | Status | Source |
 |---------|--------|--------|
-| Kiyoshi alive (age 67) | ✓ CORRECTED | STRESS_TEST document |
-| Kiyoshi's wife = Yamamoto Haruko (Osaka) | ✓ VERIFIED | STRESS_TEST document |
-| Bus woman = Tanaka Sachiko (village) | ✓ CREATED | New name, no collision |
-| Inheritance: Yuki → Sheldon (direct) | ✓ CORRECTED | STRESS_TEST document |
-| Yuki died 1985 | ✓ VERIFIED | Multiple sources |
-| Letter quotes accurate | ✓ CORRECTED | STRESS_TEST Appendix A |
-| 1980 visit referenced | ✓ INCLUDED | STRESS_TEST timeline |
-| Fumiko = cousin (Kiyoshi's daughter) | ✓ VERIFIED | Family tree |
-| Obon visit planned | ✓ INCLUDED | Letter content |
-| Haruko planning to cook | ✓ INCLUDED | Character psychology |
+| Kiyoshi alive (age 67) | âœ“ CORRECTED | STRESS_TEST document |
+| Kiyoshi's wife = Yamamoto Haruko (Osaka) | âœ“ VERIFIED | STRESS_TEST document |
+| Bus woman = Tanaka Sachiko (village) | âœ“ CREATED | New name, no collision |
+| Inheritance: Yuki â†’ Sheldon (direct) | âœ“ CORRECTED | STRESS_TEST document |
+| Yuki died 1985 | âœ“ VERIFIED | Multiple sources |
+| Letter quotes accurate | âœ“ CORRECTED | STRESS_TEST Appendix A |
+| 1980 visit referenced | âœ“ INCLUDED | STRESS_TEST timeline |
+| Fumiko = cousin (Kiyoshi's daughter) | âœ“ VERIFIED | Family tree |
+| Obon visit planned | âœ“ INCLUDED | Letter content |
+| Haruko planning to cook | âœ“ INCLUDED | Character psychology |
 
 ---
 
