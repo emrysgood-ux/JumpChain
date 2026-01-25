@@ -1,206 +1,116 @@
-# Son of Cosmos — JumpChain Project
+# BOOK 1: FIRST SON
+## Son of Cosmos: JumpChain
 
-**A Multi-Million Word Epic Fiction Planning Toolkit**
-
----
-
-## Project Overview
-
-This repository contains the complete planning, documentation, and supporting materials for **"Son of Cosmos"** — a JumpChain fanfiction epic set in the Tenchi Muyo universe. The project spans a 1,000-year narrative following Sheldon Tsukino, a reincarnated scientist who finds healing through found family, cosmic connection, and the simple act of cooking with love.
+**Version:** Compiled January 21, 2026  
+**Timeline:** 1989-1993 (Years 1-4)  
+**Target Word Count:** 10,000,000 words
 
 ---
 
-## What is This Repository?
+## BOOK SYNOPSIS
 
-### Narrative Content
-- **40+ character profiles** with detailed backgrounds, voice guides, and relationship maps
-- **Complete timeline documentation** from Day 1 through Year 1000+
-- **Scene registry** tracking ~150,000 words of Chapter 1 (79% complete)
-- **Worldbuilding files** covering locations, relationships, and lore
-- **Story bible** maintaining continuity across the epic
+The story of Sheldon Carter's arrival and first years at Masaki Shrine. Beginning with his resurrection by Sailor Cosmos on April 3, 1989, the narrative follows his integration into the Masaki household, his relationship with four-year-old Tenchi Masaki, and his gradual discovery of his own transformed nature.
 
-### Writing Protocols
-- Quality assurance systems for voice, tone, theme, and pacing
-- Foreshadowing tracking (seed/harvest system)
-- Memory reinforcement protocols for long-form narrative
-- Discomfort flagging for emotionally difficult content
-
-### Supporting Tools
-- **Epic Fiction Architect** — TypeScript software for managing epic-scale projects
-- Reference spreadsheets, images, and source documents
+**Culmination:** Sheldon's revelation to Yosho; beginning of early training.
 
 ---
 
-## Quick Navigation
+## CRITICAL CANON LOCKS
 
-### Core Documents
-| Document | Path | Purpose |
-|----------|------|---------|
-| Character Index | `characters/_character_index.md` | Master list of all character profiles |
-| Scene Registry | `story-bible/scene_registry.md` | Complete scene tracking for Chapter 1 |
-| Seed Index | `story-bible/_seed_index.md` | Foreshadowing elements registry |
-| Corrections Log | `story-bible/_corrections_log.md` | Error tracking and resolution |
-
-### Key Characters (`characters/`)
-| Character | File | Role |
-|-----------|------|------|
-| Sheldon Tsukino | `sheldon.md` | Protagonist |
-| Katsuhito Masaki | `katsuhito.md` | Mentor (secretly Yosho) |
-| Tenchi Masaki | `tenchi.md` | Found son |
-| Sailor Cosmos | `cosmos.md` | Cosmic mother |
-| Rea Masaki | `rea.md` | Adopted sister |
-
-### Locations (`locations/`)
-| Document | Purpose |
-|----------|---------|
-| `masaki_village_complete.md` | Comprehensive deep dive with ASCII regional maps |
-| `locations_network.md` | Connected places, routes, travel times |
-| `masaki_shrine.md` | Shrine layout and details |
-| `village.md` | Kamogata village overview |
-
-### Writing Protocols (`protocols/`)
-| Protocol | Purpose |
-|----------|---------|
-| `voice_fidelity_protocol.md` | Character voice consistency |
-| `dialogue_texture_protocol.md` | Dialogue quality assurance |
-| `tone_drift_guard.md` | Emotional tone maintenance |
-| `theme_to_scene_enforcement.md` | Thematic coherence |
-| `truth_collapse_simulation.md` | Mystery and revelation pacing |
+| Element | Value | Status |
+|---------|-------|--------|
+| Story Start | April 3, 1989 | **LOCKED** |
+| Tenchi's Birth | April 24, 1984 | **LOCKED** |
+| Tenchi's Mother | Kiyone Masaki (NOT Achika) | **LOCKED** |
+| Masaki Shrine Steps | 320 (based on Tarojinja) | **LOCKED** |
+| Ryoko Release | August 13, 2001 | **LOCKED** |
+| Yosho's Age | ~730 years old | **LOCKED** |
 
 ---
 
-## Story Summary
+## SHELDON POV RESTRICTIONS
 
-### The Premise
-Sheldon Carter, a Black American physicist with four PhDs, dies in a particle accelerator accident in 2025. He awakens in rural Japan in 1989, in a new body with a new identity: Sheldon Tsukino. With no memory of how he arrived and only a wallet full of yen and convincing documentation, he finds his way to Masaki Shrine — where an elderly priest offers him a place to stay.
+Sheldon has **NO META-KNOWLEDGE**. He cannot use these terms until learned on-page:
 
-### The Core
-This is a **found family story**. Over the next 12 years, Sheldon becomes integral to the Masaki household: helping raise young Tenchi, assisting with shrine maintenance, and discovering that his cooking seems to carry something special — a warmth that heals more than hunger.
+**Forbidden Words:**
+- Cosmos, Sailor, Lambda, JumpChain, perk, Celestial, Grimoire, Forge
+- Ryoko, Washu, Tsunami, Kagato, Ayeka, Sasami
+- Jurai, Juraian, Royal Tree, Galaxy Police
+- Phase I, Phase II, Phase III, remade
 
-What Sheldon doesn't know is that he's been placed here by Sailor Cosmos, an eternal guardian who healed his dying star seed and accidentally formed a mother-son bond with him. What he also doesn't know is that the elderly priest is actually a 700-year-old Juraian prince, and that a space pirate is sealed in the cave he's been warned away from.
-
-### The Promise
-When Tenchi accidentally releases Ryoko in Year 13, the quiet life Sheldon has built will be shattered — but the family he's become part of will face the cosmic chaos together.
-
----
-
-## Project Statistics
-
-| Metric | Value |
-|--------|-------|
-| Target Word Count | 300+ million words |
-| Timeline Covered | 1,000 years |
-| Character Profiles | 40+ complete |
-| Chapter 1 Progress | 79% (~125,000 words) |
-| Seeds Planted | 5+ active |
-| Writing Protocols | 10 comprehensive |
+**Test for every Sheldon thought:** "Has he learned this on-page?"
 
 ---
 
-## Canon Sources
-
-This project draws from:
-- **Tenchi Muyo! OVA** (primary canon)
-- **Tenchi Muyo! GXP** (anime and novels)
-- **True Tenchi Muyo!** novels
-- **Tenchi Muyo! War on Geminar** (for Rea)
-- **Sailor Moon** (for Cosmos origin)
-
----
-
-## Repository Structure
+## FOLDER STRUCTURE
 
 ```
-/JumpChain
-├── characters/              # 36 character profiles
-│   ├── sheldon.md           # Protagonist
-│   ├── katsuhito.md         # Mentor (secretly Yosho)
-│   ├── tenchi.md            # Found son
-│   ├── _character_index.md  # Master index
-│   └── [32 more profiles]
-│
-├── locations/               # 9 location documents
-│   ├── masaki_village_complete.md  # Comprehensive deep dive with ASCII maps
-│   ├── locations_network.md        # Connected places & routes
-│   ├── masaki_shrine.md            # Shrine details
-│   ├── village.md                  # Village overview
-│   └── [5 more location files]
-│
-├── timeline/
-│   ├── days/                # 10 day-by-day files
-│   │   ├── day_001.md
-│   │   ├── daily_lives.md
-│   │   └── events_calendar.md
-│   └── gaps/                # 46 gap period documents
-│       ├── GapAB_Years1_3.md
-│       ├── GapG_Years26-100_Complete.md
-│       └── [44 more timeline files]
-│
-├── scenes/                  # 19 scene files
-│   ├── SCENE_1_1_THE_AWAKENING_FINAL.md
-│   └── [18 more scene files]
-│
-├── protocols/               # 17 writing protocols
-│   ├── voice_fidelity_protocol.md
-│   ├── dialogue_texture_protocol.md
-│   ├── tone_drift_guard.md
-│   └── [14 more protocols + JSON configs]
-│
-├── story-bible/             # 46 planning documents
-│   ├── scene_registry.md
-│   ├── _seed_index.md
-│   ├── _corrections_log.md
-│   ├── SON_OF_COSMOS_MASTER_TIMELINE_COMPILED.md
-│   └── [42 more planning files]
-│
-├── references/              # 82 source materials
-│   ├── *.xlsx (spreadsheets)
-│   ├── *.pdf (JumpChain docs)
-│   ├── *.docx (story bible versions)
-│   └── *.png, *.zip (images, archives)
-│
-├── epic_fiction_architect/  # TypeScript planning tool
-│   ├── src/
-│   ├── docs/
-│   └── package.json
-│
-└── README.md                # This file
+Book_1_First_Son/
+├── Chapter_1_Arrival/          # Days 1-28 (April 3-30, 1989)
+│   ├── 01_Prose/               # Final prose by day
+│   ├── 02_Structure/           # Scene breakdowns, timelines
+│   ├── 03_Corrections/         # Error logs, fixes
+│   ├── 04_Reference/           # Canon docs, worldbuilding
+│   └── 05_Canon_Data/          # TypeScript seed files
+├── Character_Profiles/         # Sheldon, Katsuhito, Tenchi, etc.
+├── Location_Profiles/          # Masaki Shrine, Tsukino House, etc.
+├── World_Building/             # 1989 Okayama, Tenchi Muyo canon
+├── Appendix/                   # Supplementary information
+├── Glossary/                   # Terminology definitions
+└── Index/                      # Character/location tracking
 ```
 
 ---
 
-## Key Themes
+## CHAPTER LIST
 
-1. **Found Family** — Chosen bonds exceeding biological obligation
-2. **Healing Through Connection** — Recovery from isolation via relationship
-3. **Love as Action** — Care demonstrated through deeds, not words
-4. **Hidden Depths** — Surface appearance concealing complex reality
-5. **Maternal Love (Unconventional)** — Mother-child bond transcending form
-6. **Second Chances** — Opportunity for new beginning after ending
+| Chapter | Title | Timeline | Days | Status |
+|---------|-------|----------|------|--------|
+| 1 | Arrival | April 3-30, 1989 | 1-28 | Day 1 COMPLETE |
+| 2 | [TBD] | May 1989 | 29+ | PLANNED |
 
 ---
 
-## Phase Structure
+## KEY CHARACTERS (BOOK 1)
 
-| Phase | Years | Focus |
-|-------|-------|-------|
-| Phase I | 1-3 | Establishment and healing |
-| Phase II | 4-12 | Deepening and "quiet years" |
-| Phase III | 13+ | Canon events and cosmic expansion |
-| Beyond | 26-1000 | Long-term evolution |
+### Primary
+- **Sheldon Tsukino** (né Carter) — Protagonist, resurrected physicist
+- **Masaki Katsuhito** (Yosho) — Shrine keeper, ~730 years old
+- **Tenchi Masaki** — 4 years old (turns 5 April 24), future hero
+- **Nobuyuki Masaki** — Tenchi's father, architect
 
----
+### Secondary
+- **Kiyone Masaki** — Tenchi's mother (deceased before 2001)
+- **Kiyoshi Tsukino** — Sheldon's uncle, living in Osaka
+- **Haruko Yamamoto** — Kiyoshi's wife
 
-## Contributing
-
-This is a personal creative project. The documentation and tools are shared for reference and inspiration for other epic fiction authors.
-
----
-
-## License
-
-Personal creative project. Tenchi Muyo and Sailor Moon elements belong to their respective creators.
+### Village NPCs
+- **Tanaka Sachiko** — Elderly woman, childhood friend of Yuki Tsukino
+- **Yamamoto Takeshi** — Farmer, first human contact
 
 ---
 
-**Last Updated:** 2026-01-25
+## PRODUCTION NOTES
+
+- **Scene Density Target:** 12-16 scenes per day
+- **Chapter 1 Scene Target:** 389 total scenes
+- **Words per Scene:** ~1,285 average
+- **POV:** Sheldon (exclusive) with Multi-POV (Chronological Interleaving) for key scenes
+
+---
+
+## TSUKINO FAMILY (LOCKED)
+
+| Relationship | Name | Status |
+|--------------|------|--------|
+| Mother | Yuki Tsukino (月野由紀) | Deceased (1985) |
+| First Husband | Takeo Chiba | Deceased (died young) |
+| Second Husband | James Carter | Status TBD |
+| Uncle | Kiyoshi Tsukino | Alive, age 67, Osaka |
+| Aunt | Haruko Yamamoto | Alive, Osaka |
+| Cousin | Fumiko | Alive, age 38 |
+
+---
+
+*Last Updated: January 21, 2026*
+*Compilation Version: 1.0*
