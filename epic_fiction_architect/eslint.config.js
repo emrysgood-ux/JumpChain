@@ -32,6 +32,19 @@ export default tseslint.config(
       '@typescript-eslint/no-unsafe-return': 'off',
       '@typescript-eslint/no-unsafe-argument': 'off',
       '@typescript-eslint/restrict-template-expressions': 'off',
+
+      // Database wrapper patterns (single-use generics for type inference)
+      '@typescript-eslint/no-unnecessary-type-parameters': 'off',
+
+      // Type checking edge cases
+      '@typescript-eslint/no-redundant-type-constituents': 'off',
+      '@typescript-eslint/restrict-plus-operands': 'off',
+
+      // Test file flexibility
+      '@typescript-eslint/no-non-null-assertion': 'warn',
+      '@typescript-eslint/use-unknown-in-catch-callback-variable': 'off',
+      '@typescript-eslint/await-thenable': 'warn',
+      '@typescript-eslint/no-confusing-void-expression': 'off',
     },
   },
   {

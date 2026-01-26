@@ -937,7 +937,7 @@ export class ProjectDashboard {
       'generation': HealthCategory.PRODUCTION,
     };
 
-    return mapping[engineType.toLowerCase()] || HealthCategory.CONSISTENCY;
+    return mapping[engineType.toLowerCase()] ?? HealthCategory.CONSISTENCY;
   }
 
   // ============================================================================

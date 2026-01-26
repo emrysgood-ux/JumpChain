@@ -557,10 +557,10 @@ async function aiTests(app: EpicFictionArchitect) {
       try {
         await app.embeddings.indexScene(scene);
         // Check that multiple chunks were created
-        const embeddings = app.database.all(
+        const embeddings = app.database.all<{count: number}>(
           'SELECT COUNT(*) as count FROM embeddings WHERE entity_id = ?',
           [sceneId]
-        ) as {count: number}[];
+        );
 
         if (embeddings[0].count < 10) {
           throw new Error(`BUG: Expected many chunks, got ${embeddings[0].count}`);

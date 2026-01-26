@@ -207,7 +207,7 @@ test('Supersede fact correctly', () => {
   // The old fact should be superseded by the new one
   const oldFact = checker.getFactsForEntity('char-001').find(f => f.id === fact1.id);
   assertDefined(oldFact);
-  assertEqual(oldFact.supersededBy, fact2!.id);
+  assertEqual(oldFact.supersededBy, fact2.id);
 });
 
 // Test 5: Preflight fact check - no conflicts
@@ -618,9 +618,9 @@ test('Violation has valid severity', () => {
 
   if (violations.length > 0) {
     const severity = violations[0].severity;
+    const validSeverities = ['critical', 'major', 'minor', 'nitpick'];
     assertTrue(
-      severity === 'critical' || severity === 'major' ||
-      severity === 'minor' || severity === 'nitpick',
+      validSeverities.includes(severity),
       'Severity must be valid enum value'
     );
   }
@@ -668,9 +668,9 @@ test('Violation has valid status', () => {
 
   if (violations.length > 0) {
     const status = violations[0].status;
+    const validStatuses = ['new', 'reviewed', 'dismissed', 'fixed'];
     assertTrue(
-      status === 'new' || status === 'reviewed' ||
-      status === 'dismissed' || status === 'fixed',
+      validStatuses.includes(status),
       'Status must be valid enum value'
     );
   }
