@@ -58,8 +58,16 @@ export class EmbeddingsEngine {
 
   /**
    * Generate embeddings for text
+   * Bug #11 fix: Validate text is not empty before generating
    */
   async generateEmbedding(text: string): Promise<number[]> {
+    // Bug #11 fix: Handle empty or whitespace-only content
+    if (!text || text.trim().length === 0) {
+      // Return zero vector for empty content instead of making API call
+      const dimensions = this.config.dimensions || 1536;
+      return new Array(dimensions).fill(0);
+    }
+
     switch (this.config.provider) {
       case 'openai':
         return this.generateOpenAIEmbedding(text);

@@ -90,13 +90,49 @@ export class ProductivityTracker {
   // ==========================================================================
 
   /**
+   * Check if there's an active session for a project
+   * Bug #10 fix: Added method to check for active sessions
+   */
+  hasActiveSession(projectId: string): boolean {
+    for (const session of this.activeSessions.values()) {
+      if (session.projectId === projectId) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  /**
+   * Get active session ID for a project, if any
+   * Bug #10 fix: Added method to get active session
+   */
+  getActiveSessionId(projectId: string): string | null {
+    for (const session of this.activeSessions.values()) {
+      if (session.projectId === projectId) {
+        return session.sessionId;
+      }
+    }
+    return null;
+  }
+
+  /**
    * Start a new writing session
+   * Bug #10 fix: Prevent multiple concurrent sessions for the same project
    */
   startSession(
     projectId: string,
     type: WritingSession['sessionType'] = 'freewrite',
     sprintDuration?: number
   ): string {
+    // Bug #10 fix: Check for existing active session
+    const existingSessionId = this.getActiveSessionId(projectId);
+    if (existingSessionId) {
+      throw new Error(
+        `Cannot start new session: project already has an active session (${existingSessionId}). ` +
+        `End the current session first using endSession().`
+      );
+    }
+
     const sessionId = this.db.startWritingSession(projectId, type);
 
     // Track current word counts for delta calculation

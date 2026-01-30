@@ -185,33 +185,51 @@ export class CompileEngine {
 
   /**
    * Get all scenes in reading order
+   * Bug #14 fix: Convert from recursive to iterative to prevent stack overflow
    */
   private getOrderedScenes(containers: Container[]): Scene[] {
     const scenes: Scene[] = [];
 
-    const traverse = (items: Container[]) => {
-      for (const container of items) {
-        // Get scenes in this container
-        const containerScenes = this.db.all<{id: string}>(
-          `SELECT id FROM scenes WHERE container_id = ? AND include_in_compile = 1 ORDER BY sort_order`,
-          [container.id]
-        );
+    // Bug #14 fix: Use explicit stack instead of recursion to handle deeply nested containers
+    const MAX_DEPTH = 100; // Safety limit to prevent infinite loops
+    const stack: Array<{container: Container; depth: number}> = [];
 
-        for (const {id} of containerScenes) {
-          const scene = this.db.getScene(id);
-          if (scene) {
-            scenes.push(scene);
-          }
-        }
+    // Initialize stack with root containers in reverse order (to maintain reading order)
+    for (let i = containers.length - 1; i >= 0; i--) {
+      stack.push({container: containers[i], depth: 0});
+    }
 
-        // Recurse to children
-        if (container.children) {
-          traverse(container.children as Container[]);
+    while (stack.length > 0) {
+      const {container, depth} = stack.pop()!;
+
+      // Safety check: prevent infinite loops from circular references
+      if (depth > MAX_DEPTH) {
+        console.warn(`Container nesting exceeded max depth of ${MAX_DEPTH}: ${container.id}`);
+        continue;
+      }
+
+      // Get scenes in this container
+      const containerScenes = this.db.all<{id: string}>(
+        `SELECT id FROM scenes WHERE container_id = ? AND include_in_compile = 1 ORDER BY sort_order`,
+        [container.id]
+      );
+
+      for (const {id} of containerScenes) {
+        const scene = this.db.getScene(id);
+        if (scene) {
+          scenes.push(scene);
         }
       }
-    };
 
-    traverse(containers);
+      // Add children to stack in reverse order (to maintain reading order)
+      if (container.children) {
+        const children = container.children as Container[];
+        for (let i = children.length - 1; i >= 0; i--) {
+          stack.push({container: children[i], depth: depth + 1});
+        }
+      }
+    }
+
     return scenes;
   }
 
@@ -765,8 +783,16 @@ ${bodyContent}
       .replace(/^[-*]\s+/gm, '• ');
   }
 
+  /**
+   * Convert markdown to HTML with proper escaping
+   * Bug #15 fix: Escape HTML entities BEFORE converting markdown to prevent XSS
+   */
   private markdownToHtml(text: string): string {
-    return text
+    // Bug #15 fix: First escape HTML to prevent injection attacks
+    const escaped = this.escapeHtml(text);
+
+    // Then convert markdown syntax to HTML
+    return escaped
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
       .replace(/`(.*?)`/g, '<code>$1</code>')

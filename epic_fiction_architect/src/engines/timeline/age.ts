@@ -218,6 +218,100 @@ export class AgeCalculator {
   }
 
   /**
+   * Calculate apparent age for a hybrid species character
+   * Bug #6 fix: Implement weighted interpolation for hybrid species
+   *
+   * @param chronologicalAge - The character's actual age in years
+   * @param parentSpeciesIds - Array of parent species IDs
+   * @param geneticRatios - Array of genetic ratios (must sum to 1.0)
+   * @param agingCalculation - How to blend aging curves ('average', 'dominant', 'custom')
+   * @param dominantSpeciesId - For 'dominant' mode, which species dominates
+   */
+  calculateHybridApparentAge(
+    chronologicalAge: number,
+    parentSpeciesIds: string[],
+    geneticRatios?: number[],
+    agingCalculation: 'average' | 'dominant' | 'custom' = 'average',
+    dominantSpeciesId?: string
+  ): number {
+    if (parentSpeciesIds.length === 0) {
+      return chronologicalAge; // No species = human aging
+    }
+
+    if (parentSpeciesIds.length === 1) {
+      // Single species - use regular calculation
+      const species = this.db.getSpecies(parentSpeciesIds[0]);
+      return this.calculateApparentAge(chronologicalAge, species);
+    }
+
+    // Default to equal ratios if not provided
+    const ratios = geneticRatios ?? parentSpeciesIds.map(() => 1 / parentSpeciesIds.length);
+
+    // Validate ratios sum to approximately 1.0
+    const ratioSum = ratios.reduce((sum, r) => sum + r, 0);
+    if (Math.abs(ratioSum - 1.0) > 0.01) {
+      // Normalize ratios
+      ratios.forEach((_, i) => ratios[i] /= ratioSum);
+    }
+
+    switch (agingCalculation) {
+      case 'dominant': {
+        // Use the dominant species' aging curve
+        const dominantId = dominantSpeciesId ?? parentSpeciesIds[0];
+        const dominantSpecies = this.db.getSpecies(dominantId);
+        return this.calculateApparentAge(chronologicalAge, dominantSpecies);
+      }
+
+      case 'average':
+      default: {
+        // Weighted average of apparent ages from each parent species
+        let weightedApparentAge = 0;
+
+        for (let i = 0; i < parentSpeciesIds.length; i++) {
+          const species = this.db.getSpecies(parentSpeciesIds[i]);
+          const apparentAge = this.calculateApparentAge(chronologicalAge, species);
+          weightedApparentAge += apparentAge * ratios[i];
+        }
+
+        return weightedApparentAge;
+      }
+    }
+  }
+
+  /**
+   * Get hybrid species info from database
+   * Bug #6 fix: Helper to retrieve hybrid species data
+   */
+  getHybridSpecies(hybridId: string): {
+    id: string;
+    name: string;
+    parentSpeciesIds: string[];
+    agingCalculation: 'average' | 'dominant' | 'custom';
+    dominantSpeciesId?: string;
+  } | null {
+    const row = this.db.get<{
+      id: string;
+      name: string;
+      parent_species_ids: string;
+      aging_calculation: string;
+      dominant_species_id: string | null;
+    }>(
+      'SELECT id, name, parent_species_ids, aging_calculation, dominant_species_id FROM species_hybrids WHERE id = ?',
+      [hybridId]
+    );
+
+    if (!row) return null;
+
+    return {
+      id: row.id,
+      name: row.name,
+      parentSpeciesIds: JSON.parse(row.parent_species_ids),
+      agingCalculation: row.aging_calculation as 'average' | 'dominant' | 'custom',
+      dominantSpeciesId: row.dominant_species_id ?? undefined
+    };
+  }
+
+  /**
    * Get age category from species curve labels or defaults
    */
   private getAgeCategory(

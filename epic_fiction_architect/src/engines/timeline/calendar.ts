@@ -55,24 +55,67 @@ export class CalendarEngine {
   // ==========================================================================
 
   /**
-   * Get total days in a year for a calendar
+   * Check if a year is a leap year (Gregorian rules)
+   * Bug #5 fix: Added leap year support
    */
-  getDaysInYear(calendarId: string): number {
-    const calendar = this.getCalendar(calendarId);
-    if (!calendar) return 365; // Default to Earth
+  isLeapYear(year: number, calendarId?: string): boolean {
+    const calendar = calendarId ? this.getCalendar(calendarId) : undefined;
 
-    return calendar.months.reduce((sum, month) => sum + month.days, 0);
+    // Only apply leap year rules to Gregorian-like calendars
+    // Fantasy calendars with custom month lengths don't need leap years
+    if (calendar && calendar.name !== 'Gregorian (Earth)') {
+      return false;
+    }
+
+    // Standard Gregorian leap year rules
+    return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+  }
+
+  /**
+   * Get total days in a year for a calendar
+   * Bug #5 fix: Account for leap years
+   */
+  getDaysInYear(calendarId: string, year?: number): number {
+    const calendar = this.getCalendar(calendarId);
+    if (!calendar) {
+      // Default to Earth with leap year support
+      const isLeap = year !== undefined && this.isLeapYear(year);
+      return isLeap ? 366 : 365;
+    }
+
+    let totalDays = calendar.months.reduce((sum, month) => sum + month.days, 0);
+
+    // Add leap day for Gregorian-like calendars
+    if (year !== undefined && this.isLeapYear(year, calendarId)) {
+      totalDays += 1;
+    }
+
+    return totalDays;
   }
 
   /**
    * Get days in a specific month
+   * Bug #5 fix: Account for leap years in February
    */
-  getDaysInMonth(calendarId: string, monthNumber: number): number {
+  getDaysInMonth(calendarId: string, monthNumber: number, year?: number): number {
     const calendar = this.getCalendar(calendarId);
-    if (!calendar) return 30;
+    if (!calendar) {
+      // Default Gregorian behavior
+      if (monthNumber === 2) {
+        return year !== undefined && this.isLeapYear(year) ? 29 : 28;
+      }
+      return 30;
+    }
 
     const month = calendar.months.find(m => m.order === monthNumber);
-    return month?.days ?? 30;
+    if (!month) return 30;
+
+    // Handle February leap year for Gregorian calendars
+    if (month.name === 'February' && year !== undefined && this.isLeapYear(year, calendarId)) {
+      return 29;
+    }
+
+    return month.days;
   }
 
   /**
@@ -171,15 +214,102 @@ export class CalendarEngine {
 
   /**
    * Calculate days between two dates
+   * Bug #9 fix: Support cross-calendar conversion using universal day numbers
    */
   daysBetween(date1: TimelineDate, date2: TimelineDate): number {
-    if (date1.calendarId !== date2.calendarId) {
-      throw new Error('Cannot calculate days between dates in different calendars');
+    if (date1.calendarId === date2.calendarId) {
+      // Same calendar - straightforward calculation
+      const day1 = this.dateToDayNumber(date1);
+      const day2 = this.dateToDayNumber(date2);
+      return day2 - day1;
     }
 
-    const day1 = this.dateToDayNumber(date1);
-    const day2 = this.dateToDayNumber(date2);
-    return day2 - day1;
+    // Different calendars - use universal day number (Julian Day Number approximation)
+    const udn1 = this.toUniversalDayNumber(date1);
+    const udn2 = this.toUniversalDayNumber(date2);
+
+    if (udn1 === null || udn2 === null) {
+      throw new Error('Cannot calculate days between dates in different calendars without real-world anchors');
+    }
+
+    return udn2 - udn1;
+  }
+
+  /**
+   * Convert a date to a universal day number (Julian Day Number approximation)
+   * Bug #9 fix: Enables cross-calendar date comparison
+   */
+  toUniversalDayNumber(date: TimelineDate): number | null {
+    const calendar = this.getCalendar(date.calendarId);
+
+    // If calendar has a real-world anchor, use it
+    if (calendar?.realWorldAnchor) {
+      const anchor = calendar.realWorldAnchor;
+      const anchorFantasy = this.parseDate(anchor.calendarDate, date.calendarId);
+      if (!anchorFantasy) return null;
+
+      const anchorReal = new Date(anchor.realWorldDate);
+      if (isNaN(anchorReal.getTime())) return null;
+
+      // Calculate days from fantasy anchor
+      const daysFromAnchor = this.dateToDayNumber(date) - this.dateToDayNumber(anchorFantasy);
+
+      // Convert to Julian Day Number (days since Jan 1, 4713 BCE)
+      // Using simplified calculation: JDN of Unix epoch (Jan 1, 1970) is 2440588
+      const unixEpochJdn = 2440588;
+      const msPerDay = 24 * 60 * 60 * 1000;
+      const anchorJdn = unixEpochJdn + Math.floor(anchorReal.getTime() / msPerDay);
+
+      return anchorJdn + daysFromAnchor;
+    }
+
+    // No anchor - return null (cannot convert)
+    return null;
+  }
+
+  /**
+   * Convert a universal day number back to a calendar date
+   * Bug #9 fix: Enables cross-calendar date conversion
+   */
+  fromUniversalDayNumber(udn: number, calendarId: string): TimelineDate | null {
+    const calendar = this.getCalendar(calendarId);
+
+    if (calendar?.realWorldAnchor) {
+      const anchor = calendar.realWorldAnchor;
+      const anchorFantasy = this.parseDate(anchor.calendarDate, calendarId);
+      if (!anchorFantasy) return null;
+
+      const anchorReal = new Date(anchor.realWorldDate);
+      if (isNaN(anchorReal.getTime())) return null;
+
+      // Calculate anchor's JDN
+      const unixEpochJdn = 2440588;
+      const msPerDay = 24 * 60 * 60 * 1000;
+      const anchorJdn = unixEpochJdn + Math.floor(anchorReal.getTime() / msPerDay);
+
+      // Calculate days from anchor in target calendar
+      const daysFromAnchor = udn - anchorJdn;
+      const anchorDayNumber = this.dateToDayNumber(anchorFantasy);
+
+      return this.dayNumberToDate(anchorDayNumber + daysFromAnchor, calendarId);
+    }
+
+    return null;
+  }
+
+  /**
+   * Convert a date from one calendar to another
+   * Bug #9 fix: Cross-calendar date conversion
+   */
+  convertCalendar(date: TimelineDate, targetCalendarId: string): TimelineDate | null {
+    if (date.calendarId === targetCalendarId) {
+      return date;
+    }
+
+    const udn = this.toUniversalDayNumber(date);
+    if (udn === null) return null;
+
+    return this.fromUniversalDayNumber(udn, targetCalendarId);
   }
 
   /**
@@ -346,8 +476,9 @@ export class CalendarEngine {
 
   /**
    * Get moon phase for a given date
+   * Bug #8 fix: Use floating-point arithmetic for accurate moon phase tracking
    */
-  getMoonPhase(date: TimelineDate, moonId: string): {phase: string; dayInCycle: number} | null {
+  getMoonPhase(date: TimelineDate, moonId: string): {phase: string; dayInCycle: number; exactCyclePosition: number} | null {
     const calendar = this.getCalendar(date.calendarId);
     if (!calendar?.moons) return null;
 
@@ -355,19 +486,28 @@ export class CalendarEngine {
     if (!moon) return null;
 
     const dayNumber = this.dateToDayNumber(date);
-    const dayInCycle = dayNumber % moon.cycleLength;
-    const phaseIndex = Math.floor((dayInCycle / moon.cycleLength) * moon.phases.length);
+
+    // Bug #8 fix: Use floating-point modulo for accurate cycle tracking
+    // This preserves fractional precision over long timespans
+    const cycleLength = moon.cycleLength; // e.g., 29.530588853 for Earth's moon
+    const exactCyclePosition = ((dayNumber % cycleLength) + cycleLength) % cycleLength;
+
+    // Calculate phase using floating-point arithmetic
+    const phasePosition = exactCyclePosition / cycleLength; // 0.0 to 1.0
+    const phaseIndex = Math.floor(phasePosition * moon.phases.length);
 
     return {
       phase: moon.phases[phaseIndex] ?? 'Unknown',
-      dayInCycle
+      dayInCycle: Math.floor(exactCyclePosition),
+      exactCyclePosition // Precise position for drift-free calculations
     };
   }
 
   /**
    * Get all moon phases for a date
+   * Bug #8 fix: Include exact cycle position for precision
    */
-  getAllMoonPhases(date: TimelineDate): {moonName: string; phase: string; dayInCycle: number}[] {
+  getAllMoonPhases(date: TimelineDate): {moonName: string; phase: string; dayInCycle: number; exactCyclePosition: number}[] {
     const calendar = this.getCalendar(date.calendarId);
     if (!calendar?.moons) return [];
 
@@ -376,7 +516,8 @@ export class CalendarEngine {
       return {
         moonName: moon.name,
         phase: phaseInfo?.phase ?? 'Unknown',
-        dayInCycle: phaseInfo?.dayInCycle ?? 0
+        dayInCycle: phaseInfo?.dayInCycle ?? 0,
+        exactCyclePosition: phaseInfo?.exactCyclePosition ?? 0
       };
     });
   }
