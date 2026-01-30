@@ -209,6 +209,25 @@ export class StoryBible {
 
       const currentState = states[states.length - 1];
 
+      // Bug #13 fix: Get character's death date if available
+      const deathDate = char.deathDate;
+      const characterStatus = currentState?.status ?? 'alive';
+
+      // Bug #13 fix: Check if character has died by this point in the story
+      if (deathDate) {
+        const deathDayNumber = this.calendar.dateToDayNumber(deathDate);
+        const queryDayNumber = this.calendar.dateToDayNumber(atDate);
+        if (deathDayNumber <= queryDayNumber) {
+          // Character is dead at this point - exclude from active characters
+          return null;
+        }
+      }
+
+      // Also exclude if status indicates dead
+      if (characterStatus === 'dead') {
+        return null;
+      }
+
       return {
         id: elem.id,
         name: char.name,
@@ -217,7 +236,7 @@ export class StoryBible {
           apparent: ageResult.apparentAge
         } : undefined,
         location: currentState?.locationId,
-        status: currentState?.status ?? 'alive'
+        status: characterStatus
       };
     }).filter((c): c is NonNullable<typeof c> => c !== null);
 
